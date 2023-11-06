@@ -33,19 +33,13 @@ transactionSelect.addEventListener("change", function () {
             const option = document.createElement("option");
             option.value = company;
             option.text = company;
-            option.style.background = getGradientColor(index);
+            option.style.background = `linear-gradient(to right, rgb(0, ${255 - (index * 20)}, 0), #FF0000)`;
             option.style.color = "white";
             companySelect.appendChild(option);
         });
     }
 });
 
-function getGradientColor(index) {
-    const red = 255;
-    const green = Math.floor((index / companies.length) * 255);
-    const blue = 0;
-    return `linear-gradient(90deg, rgb(${red}, ${green}, ${blue}), #FF0000)`;
-}
 
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;

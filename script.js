@@ -25,21 +25,18 @@ transactionSelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;
     const selectedTransaction = this.value;
     companySelect.disabled = false;
-    companySelect.innerHTML = "";
+    companySelect.innerHTML = "<option value='default'>Select the type of payment:</option>";
 
     if (selectedTransaction !== "default" && selectedCountry in companyOptions) {
         const companies = companyOptions[selectedCountry];
-        companies.forEach(function (company, index) {
+        companies.forEach(function (company) {
             const option = document.createElement("option");
             option.value = company;
             option.text = company;
-            option.style.background = `linear-gradient(to right, rgb(0, ${255 - (index * 20)}, 0), #FF0000)`;
-            option.style.color = "white";
             companySelect.appendChild(option);
         });
     }
 });
-
 
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;

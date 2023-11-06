@@ -35,6 +35,14 @@ countrySelect.addEventListener("change", function () {
 
 transactionToggle.addEventListener("click", function (event) {
     if (event.target.tagName === "BUTTON") {
+        const buttons = this.querySelectorAll("button");
+        buttons.forEach(function (button) {
+            button.classList.remove("active");
+        });
+
+        event.target.classList.add("active");
+
+        // Далее ваш код для обработки выбранного типа транзакции
         const selectedCountry = countrySelect.value;
         const selectedTransaction = event.target.getAttribute("data-value");
         companySelect.disabled = false;

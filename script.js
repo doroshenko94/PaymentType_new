@@ -23,10 +23,10 @@ countrySelect.addEventListener("change", function () {
     }
 });
 
-transactionToggle.addEventListener("click", function (event) { // Изменили обработчик событий
+transactionToggle.addEventListener("click", function (event) {
     if (event.target.tagName === "BUTTON") {
         const selectedCountry = countrySelect.value;
-        const selectedTransaction = event.target.getAttribute("data-value");
+        const selectedTransaction = event.target.getAttribute("data-value"); // Получаем значение из атрибута data-value
         companySelect.disabled = false;
         companySelect.innerHTML = "<option value='default'>Select the type of payment:</option>";
 

@@ -87,11 +87,10 @@
 
 <div class="container-fluid mt-4">
     <h3>Select the type of transaction:</h3>
-    <select class="custom-select" id="transactionSelect" disabled>
-        <option value="default">Select the type of transaction</option>
-        <option value="STD">STD</option>
-        <option value="Big deposit">Big deposit</option>
-    </select>
+    <div class="btn-group" role="group" id="transactionToggle"> <!-- Изменили идентификатор на "transactionToggle" -->
+        <button type="button" class="btn btn-secondary" data-value="STD">STD</button>
+        <button type="button" class="btn btn-secondary" data-value="Big deposit">Big deposit</button>
+    </div>
 </div>
 
 <div class="container-fluid mt-4">

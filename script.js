@@ -26,7 +26,11 @@ countrySelect.addEventListener("change", function () {
 transactionToggle.addEventListener("click", function (event) {
     if (event.target.tagName === "BUTTON") {
         const selectedCountry = countrySelect.value;
-        const selectedTransaction = event.target.getAttribute("data-value"); // Получаем значение из атрибута data-value
+        const selectedTransaction = event.target.getAttribute("data-value");
+
+        // Получите выбранную компанию из выпадающего списка
+        const selectedCompany = companySelect.value;
+
         companySelect.disabled = false;
         companySelect.innerHTML = "<option value='default'>Select the type of payment:</option>";
 
@@ -45,6 +49,7 @@ transactionToggle.addEventListener("click", function (event) {
         redBoxCompanyInfo.textContent = "";
     }
 });
+
 
 transactionSelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;

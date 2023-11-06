@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment System Selector</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        .background-container {
+            background-image: url('background.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            opacity: 0.2;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(5px);
+        }
+
+        .color-box {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+            display: inline-block;
+            border: 3px solid transparent;
+            border-radius: 25px;
+        }
+
+        .green-box {
+            border-color: #2E8B57;
+        }
+
+        .yellow-box {
+            border-color: #FF8C00;
+        }
+
+        .red-box {
+            border-color: #FA8072;
+        }
+
+        .select-payment {
+            background: linear-gradient(to bottom, #00FF00, #FF0000);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .select-payment::after {
+            border-top-color: white;
+        }
+
+        .panel-heading {
+            background-color: #f5f5f5;
+            border-radius: 15px;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .panel-body {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<li class="list-group-item list-group-item-dark">created by Dan Boiko © ver 0.1</li>
+<div class="background-container"></div>
+<div class="container-fluid mt-4">
+    <h3>Select a country:</h3>
+    <select class="custom-select" id="countrySelect">
+        <option value="default">Select a country</option>
+        <option value="UK">UK</option>
+        <option value="IRELAND">IRELAND</option>
+        <option value="DENMARK">DENMARK</option>
+        <option value="MALAYSIA">MALAYSIA</option>
+        <option value="CANADA">CANADA</option>
+        <option value="NEW_ZEALAND">NEW ZEALAND</option>
+        <option value="BERMUDA">BERMUDA</option>
+        <option value="ITALY">ITALY</option>
+        <option value="SWITZERLAND">SWITZERLAND</option>
+    </select>
+</div>
+
+<div class="container-fluid mt-4">
+    <h3>Select the type of transaction:</h3>
+    <select class="custom-select" id="transactionSelect" disabled>
+        <option value="default">Select the type of transaction</option>
+        <option value="STD">STD</option>
+        <option value="Big deposit">Big deposit</option>
+    </select>
+</div>
+
+<div class="container-fluid mt-4">
+    <h3>Select the type of payment:</h3>
+    <select class="custom-select" id="companySelect" disabled>
+        <option value="default">Select the type of payment:</option>
+    </select>
+</div>
+
+<div class="container-fluid mt-4">
+    <div class="color-box green-box" id="greenBox">
+        <div class="panel panel-default">
+            <div class="panel-heading">Information on the age and amount of the transaction</div>
+            <div class="panel-body" id="greenBoxInfo"></div>
+        </div>
+    </div>
+    <div class="color-box yellow-box" id="yellowBox">
+        <div class="panel panel-default">
+            <div class="panel-heading">More info</div>
+            <div class="panel-body" id="yellowBoxCompanyInfo"></div>
+        </div>
+    </div>
+    <div class="color-box red-box" id="redBox">
+        <div class="panel panel-default">
+            <div class="panel-heading">FYI</div>
+            <div class="panel-body" id="redBoxCompanyInfo"></div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+
+
+</body>
+</html>

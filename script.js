@@ -1,3 +1,5 @@
+import { companyOptions, companyInfo } from './data.js';
+
 const countrySelect = document.getElementById("countrySelect");
 const companySelect = document.getElementById("companySelect");
 const transactionSelect = document.getElementById("transactionSelect");

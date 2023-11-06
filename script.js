@@ -58,7 +58,7 @@ transactionToggle.addEventListener("click", function (event) {
 
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;
-    const selectedTransaction = transactionToggle.querySelector(".active").getAttribute("data-value");
+    const selectedTransaction = transactionToggle.querySelector("button.btn-secondary.active").getAttribute("data-value");
     const selectedCompany = this.value;
 
     if (selectedCountry !== "default" && selectedTransaction !== "default" && selectedCompany !== "default") {

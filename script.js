@@ -2,7 +2,6 @@ import { companyOptions, companyInfo } from './data.js';
 
 const countrySelect = document.getElementById("countrySelect");
 const companySelect = document.getElementById("companySelect");
-const transactionSelect = document.getElementById("transactionSelect");
 const transactionToggle = document.getElementById("transactionToggle"); // Изменили идентификатор
 
 const greenBoxInfo = document.getElementById("greenBoxInfo");
@@ -12,25 +11,33 @@ const redBoxCompanyInfo = document.getElementById("redBoxCompanyInfo");
 countrySelect.addEventListener("change", function () {
     const selectedCountry = this.value;
     transactionToggle.disabled = false; // Изменили элемент, чтобы учитывать кнопки-переключатели
-    transactionSelect.disabled = false; // Добавили, чтобы учитывать выпадающий список
+    companySelect.disabled = true; // Добавили, чтобы учитывать выпадающий список
+    transactionToggle.innerHTML = ""; // Очищаем кнопки-переключатели
+
     if (selectedCountry === "default") {
         transactionToggle.disabled = true;
-        transactionSelect.disabled = true;
         companySelect.disabled = true;
         greenBoxInfo.textContent = "";
         yellowBoxCompanyInfo.textContent = "";
         redBoxCompanyInfo.textContent = "";
+    } else {
+        // Создаем кнопки-переключатели для типа транзакции
+        const transactionTypes = Object.keys(companyInfo[selectedCountry]);
+        transactionTypes.forEach(function (type) {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "btn btn-secondary";
+            button.setAttribute("data-value", type);
+            button.textContent = type;
+            transactionToggle.appendChild(button);
+        });
     }
 });
 
-transactionToggle.addEventListener("click", function (event) {
+transactionToggle.addEventListener("click", function (event) { // Изменили обработчик событий
     if (event.target.tagName === "BUTTON") {
         const selectedCountry = countrySelect.value;
         const selectedTransaction = event.target.getAttribute("data-value");
-
-        // Получите выбранную компанию из выпадающего списка
-        const selectedCompany = companySelect.value;
-
         companySelect.disabled = false;
         companySelect.innerHTML = "<option value='default'>Select the type of payment:</option>";
 
@@ -50,11 +57,12 @@ transactionToggle.addEventListener("click", function (event) {
     }
 });
 
-
-transactionSelect.addEventListener("change", function () {
+companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;
-    const selectedTransaction = this.value;
-    if (selectedCountry !== "default" && selectedTransaction !== "default") {
+    const selectedTransaction = transactionToggle.querySelector(".active").getAttribute("data-value"); // Получите выбранный тип транзакции
+    const selectedCompany = this.value;
+
+    if (selectedCountry !== "default" && selectedTransaction !== "default" && selectedCompany !== "default") {
         const transactionInfo = companyInfo[selectedCountry][selectedTransaction][selectedCompany];
         greenBoxInfo.textContent = transactionInfo.greenBoxInfo;
         yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;

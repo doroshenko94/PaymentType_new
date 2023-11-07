@@ -39,23 +39,13 @@ const companyInfo = {
                 yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
                 redBoxInfo: "Commission for the agent: 8%"
             },
+            Gemini: {
+                greenBoxInfo: "-Name / -Email / -Address / -ID / -Selfie",
+                yellowBoxInfo: "Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer. You have a limit to 2k through easy bank transfer - If you want to do a larger amount you will need to do a manual bank transfer, make sure you include the REF number so the funds are credited to the correct account. Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours",
+                redBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24 hours up to 5 days for approval : If you are waiting longer than 2 days open a ticket with support."
+            },
         },
         "Big deposit": {
-            Revolut: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: ""
-            },
-            Curve: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Zen: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: ""
-            },
             Wirex: {
                 greenBoxInfo: "Need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12 hours to exodus.",
                 yellowBoxInfo: "Checking a larger amount. 5,000 easy bank transfer instant.",
@@ -101,6 +91,11 @@ Ireland: {
                 yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
                 redBoxInfo: "Commission for the agent: 8%"
             },
+             Gemini: {
+                greenBoxInfo: "-Name / -Email / -Address / -ID / -Selfie",
+                yellowBoxInfo: "Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer. You have a limit to 2k through easy bank transfer - If you want to do a larger amount you will need to do a manual bank transfer, make sure you include the REF number so the funds are credited to the correct account. Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours",
+                redBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24 hours up to 5 days for approval : If you are waiting longer than 2 days open a ticket with support."
+            },
         },
         "Big deposit": {
             Wirex: {
@@ -139,9 +134,9 @@ Ireland: {
                 redBoxInfo: ""
             },
             Wirex: {
-                greenBoxInfo: "0",
-                yellowBoxInfo: "0",
-                redBoxInfo: "0"
+                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie",
+                yellowBoxInfo: "Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours ",
+                redBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval"
             },
         },
         "Big deposit": {

@@ -73,10 +73,10 @@ Ireland: {
             },
         },
         "Big deposit": {
-            Revolut: {
-                greenBoxInfo: "Big deposit Revolut",
-                yellowBoxInfo: "Big deposit Revolut",
-                redBoxInfo: "Big deposit Revolut"
+            Wirex: {
+                greenBoxInfo: ": I need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12 hours to exodus.",
+                yellowBoxInfo: "Checking a larger amount. 5,000 easy bank transfer instant.",
+                redBoxInfo: "Barclays and HSBC worked."
             },
         },
     },

@@ -1,7 +1,7 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit"],
-    Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit"],
+    UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit","Gemini"],
+    Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","Wirex"],
     // Добавьте другие страны и компании по аналогии
 };
@@ -61,6 +61,16 @@ const companyInfo = {
                 yellowBoxInfo: "Checking a larger amount. 5,000 easy bank transfer instant.",
                 redBoxInfo: "Barclays and HSBC worked."
             },
+            Roobic: {
+                greenBoxInfo: "Up to $50.000",
+                yellowBoxInfo: "",
+                redBoxInfo: "Agents commission would be 7%"
+            },
+            Gemini: {
+                greenBoxInfo: "You need to verify the bank account, and leave the money there for five days.",
+                yellowBoxInfo: "",
+                redBoxInfo: "Agents commission would be 8%"
+            },
         },
     },
 
@@ -97,6 +107,16 @@ Ireland: {
                 greenBoxInfo: "Need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12 hours to exodus.",
                 yellowBoxInfo: "Checking a larger amount. 5,000 easy bank transfer instant.",
                 redBoxInfo: "Barclays and HSBC worked."
+            },
+            Roobic: {
+                greenBoxInfo: "Up to $50.000",
+                yellowBoxInfo: "",
+                redBoxInfo: "Agents commission would be 7%"
+            },
+            Gemini: {
+                greenBoxInfo: "You need to verify the bank account, and leave the money there for five days.",
+                yellowBoxInfo: "",
+                redBoxInfo: "Agents commission would be 8%"
             },
         },
     },

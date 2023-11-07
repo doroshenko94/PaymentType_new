@@ -32,14 +32,24 @@ const companyInfo = {
         },
         "Big deposit": {
             Revolut: {
-                greenBoxInfo: "Big deposit Revolut",
-                yellowBoxInfo: "Big deposit Revolut",
-                redBoxInfo: "Big deposit Revolut"
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: ""
             },
             Curve: {
-                greenBoxInfo: "ффффф",
-                yellowBoxInfo: "фывафывафыва",
-                redBoxInfo: "фываывафыв",
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Zen: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: ""
+            },
+            Wirex: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: ""
             },
         },
     },

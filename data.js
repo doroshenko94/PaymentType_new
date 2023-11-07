@@ -1,7 +1,7 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Wirex"],
-    Ireland: ["Revolut", "Zen","Wirex"],
+    UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit"],
+    Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","Wirex"],
     // Добавьте другие страны и компании по аналогии
 };
@@ -28,6 +28,16 @@ const companyInfo = {
                 greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie",
                 yellowBoxInfo: "Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours ",
                 redBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval"
+            },
+            Roobic: {
+                greenBoxInfo: "Roobic.io client needs to do on their side, they need to upload all docs, no recall and then they get bank details and make the transfer from their bank account to their Roobic local bank account.",
+                yellowBoxInfo: "Commission for the agent: 6%",
+                redBoxInfo: "**** FROM 69 TO 80 USE THIS SOLUTION*****"
+            },
+            Pockit: {
+                greenBoxInfo: "Pockit up to 2k and then moonpay:",
+                yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
+                redBoxInfo: "Commission for the agent: 8%"
             },
         },
         "Big deposit": {
@@ -70,6 +80,16 @@ Ireland: {
                 greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie",
                 yellowBoxInfo: "Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours ",
                 redBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval"
+            },
+            Roobic: {
+                greenBoxInfo: "Roobic.io client needs to do on their side, they need to upload all docs, no recall and then they get bank details and make the transfer from their bank account to their Roobic local bank account.",
+                yellowBoxInfo: "Commission for the agent: 6%",
+                redBoxInfo: "**** FROM 69 TO 80 USE THIS SOLUTION*****"
+            },
+            Pockit: {
+                greenBoxInfo: "Pockit up to 2k and then moonpay:",
+                yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
+                redBoxInfo: "Commission for the agent: 8%"
             },
         },
         "Big deposit": {

@@ -79,9 +79,18 @@ companySelect.addEventListener("change", function () {
 
     if (selectedCountry !== "default" && selectedTransaction !== "default" && selectedCompany !== "default") {
         const transactionInfo = companyInfo[selectedCountry][selectedTransaction][selectedCompany];
-        greenBoxInfo.textContent = transactionInfo.greenBoxInfo;
-        yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
-        redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
+
+        // Проверяем, есть ли информация о компании
+        if (transactionInfo) {
+            greenBoxInfo.textContent = transactionInfo.greenBoxInfo;
+            yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
+            redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
+        } else {
+            // Если информации нет, очищаем соответствующие блоки
+            greenBoxInfo.textContent = "";
+            yellowBoxCompanyInfo.textContent = "";
+            redBoxCompanyInfo.textContent = "";
+        }
     } else {
         greenBoxInfo.textContent = "";
         yellowBoxCompanyInfo.textContent = "";

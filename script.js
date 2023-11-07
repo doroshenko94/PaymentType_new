@@ -20,7 +20,7 @@ countrySelect.addEventListener("change", function () {
         greenBoxInfo.textContent = "";
         yellowBoxCompanyInfo.textContent = "";
         redBoxCompanyInfo.textContent = "";
-    } else if (selectedCountry in companyInfo) { // Проверяем, есть ли информация о стране
+    } else if (companyInfo[selectedCountry]) { // Проверяем, есть ли информация о стране
         const transactionTypes = Object.keys(companyInfo[selectedCountry]);
         transactionTypes.forEach(function (type) {
             const button = document.createElement("button");
@@ -39,6 +39,7 @@ countrySelect.addEventListener("change", function () {
         redBoxCompanyInfo.textContent = "";
     }
 });
+
 
 transactionToggle.addEventListener("click", function (event) {
     if (event.target.tagName === "BUTTON") {

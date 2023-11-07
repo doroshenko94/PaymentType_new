@@ -22,8 +22,10 @@
       z-index: 9999;
   }
   .main-interface {
-      display: none; /* Изначально скрываем основной интерфейс */
-    }
+    display: none;
+    opacity: 0; /* Изначально устанавливаем нулевую прозрачность */
+    transition: opacity 0.5s; /* Добавляем переход для свойства opacity */
+}
         
         .color-box {
             width: 100%;
@@ -149,6 +151,7 @@ In these cases I would credit the money to the trading account so you are not he
         splash.style.display = "none";
         // Отобразить основное содержание
         mainContent.style.display = "block";
+	mainContent.style.opacity = 1;
     }
 
     // Вызвать функцию hideSplash через 3 секунды (3000 миллисекунд)

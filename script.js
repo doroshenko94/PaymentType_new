@@ -25,7 +25,7 @@ countrySelect.addEventListener("change", function () {
         transactionTypes.forEach(function (type) {
             const button = document.createElement("button");
             button.type = "button";
-            button.className = "btn btn-outline-secondary";
+            button.className = "btn btn-outline-success";
             button.setAttribute("data-value", type);
             button.textContent = type;
             transactionToggle.appendChild(button);
@@ -66,7 +66,7 @@ transactionToggle.addEventListener("click", function (event) {
 
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;
-    const selectedTransaction = transactionToggle.querySelector(".btn.btn-outline-secondary.active").getAttribute("data-value");
+    const selectedTransaction = transactionToggle.querySelector(".btn.btn-outline-success.active").getAttribute("data-value");
     const selectedCompany = this.value;
 
     if (selectedCountry !== "default" && selectedTransaction !== "default" && selectedCompany !== "default") {

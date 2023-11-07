@@ -124,19 +124,19 @@ Ireland: {
     Italy: {
         STD: {
             Revolut: {
-                greenBoxInfo: "0",
-                yellowBoxInfo: "0",
-                redBoxInfo: "0"
+                greenBoxInfo: "If you have Revolut more than 6 months you can use normally meaning that you can add 10k immediately if not then you are restricted to 2k per day and 10k per month",
+                yellowBoxInfo: "",
+                redBoxInfo: "Who Revolut works with: Bintense, Simplex, Zen"
             },
             Bintence_Wire: {
-                greenBoxInfo: "0",
-                yellowBoxInfo: "0",
-                redBoxInfo: "0"
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "You can not use BINTENSE WIRE"
             },
             Zen: {
-                greenBoxInfo: "0",
-                yellowBoxInfo: "0",
-                redBoxInfo: "0"
+                greenBoxInfo: "Max you can do through Zen now is between 250$ - 10.000$ no more does not pass large amounts.",
+                yellowBoxInfo: "Italy can do 5k first transaction one go",
+                redBoxInfo: ""
             },
             Wirex: {
                 greenBoxInfo: "0",

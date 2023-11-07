@@ -47,7 +47,7 @@ const companyInfo = {
                 redBoxInfo: ""
             },
             Wirex: {
-                greenBoxInfo: ": I need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12 hours to exodus.",
+                greenBoxInfo: "Need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12 hours to exodus.",
                 yellowBoxInfo: "Checking a larger amount. 5,000 easy bank transfer instant.",
                 redBoxInfo: "Barclays and HSBC worked."
             },
@@ -74,7 +74,7 @@ Ireland: {
         },
         "Big deposit": {
             Wirex: {
-                greenBoxInfo: ": I need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12 hours to exodus.",
+                greenBoxInfo: "Need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12 hours to exodus.",
                 yellowBoxInfo: "Checking a larger amount. 5,000 easy bank transfer instant.",
                 redBoxInfo: "Barclays and HSBC worked."
             },

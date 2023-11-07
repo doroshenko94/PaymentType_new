@@ -2,7 +2,7 @@
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Wirex"],
     Ireland: ["Revolut", "Zen","Wirex"],
-    Italy: ["Revolut", "Bintence_Wire" "Zen","Wirex"],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","Wirex"],
     // Добавьте другие страны и компании по аналогии
 };
 

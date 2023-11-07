@@ -20,7 +20,7 @@ countrySelect.addEventListener("change", function () {
         greenBoxInfo.textContent = "";
         yellowBoxCompanyInfo.textContent = "";
         redBoxCompanyInfo.textContent = "";
-    } else {
+    } else if (selectedCountry in companyInfo) { // Проверяем, есть ли информация о стране
         const transactionTypes = Object.keys(companyInfo[selectedCountry]);
         transactionTypes.forEach(function (type) {
             const button = document.createElement("button");
@@ -30,6 +30,13 @@ countrySelect.addEventListener("change", function () {
             button.textContent = type;
             transactionToggle.appendChild(button);
         });
+    } else {
+        // Если информации о стране нет, вы можете отключить кнопки или выполнить другие действия по вашему усмотрению.
+        transactionToggle.disabled = true;
+        companySelect.disabled = true;
+        greenBoxInfo.textContent = "Transaction types are not available for this country.";
+        yellowBoxCompanyInfo.textContent = "";
+        redBoxCompanyInfo.textContent = "";
     }
 });
 

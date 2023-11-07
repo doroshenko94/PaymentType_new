@@ -25,7 +25,7 @@ countrySelect.addEventListener("change", function () {
         transactionTypes.forEach(function (type) {
             const button = document.createElement("button");
             button.type = "button";
-            button.className = "btn btn-secondary";
+            button.className = "btn btn-outline-secondary";
             button.setAttribute("data-value", type);
             button.textContent = type;
             transactionToggle.appendChild(button);

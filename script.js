@@ -80,8 +80,8 @@ companySelect.addEventListener("change", function () {
     if (selectedCountry !== "default" && selectedTransaction !== "default" && selectedCompany !== "default") {
         const transactionInfo = companyInfo[selectedCountry][selectedTransaction][selectedCompany];
 
-        // Проверяем, есть ли информация о компании
         if (transactionInfo) {
+            // Если есть информация для выбранной компании, отображаем ее
             greenBoxInfo.textContent = transactionInfo.greenBoxInfo;
             yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
             redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;

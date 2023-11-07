@@ -2,7 +2,7 @@
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit","Gemini"],
     Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini"],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","Wirex"],
+    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -141,14 +141,29 @@ Ireland: {
         },
         "Big deposit": {
             Revolut: {
-                greenBoxInfo: "Big deposit Revolut",
-                yellowBoxInfo: "Big deposit Revolut",
-                redBoxInfo: "Big deposit Revolut"
+                greenBoxInfo: "Revolut, you can not move more than 2k a day and 10k a month through crypto",
+                yellowBoxInfo: "You will need to convert the fiat to ETH and then transfer daily",
+                redBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step."
             },
             Curve: {
-                greenBoxInfo: "ффффф",
-                yellowBoxInfo: "фывафывафыва",
-                redBoxInfo: "фываывафыв",
+                greenBoxInfo: "CURVE it is like revolut you can use a virtual card.",
+                yellowBoxInfo: "You can top up with high street banks, you can use credit cards, and work with MOONPAY.",
+                redBoxInfo: ""
+            },
+            Bintence_Wire: {
+                greenBoxInfo: "2K up to 50k you can do wires to Bintense: The agent's commission and your commission will be lower here. So I would suggest using this solution for the STD up to 20k and then look at an exchange.",
+                yellowBoxInfo: "No amount will be held for risk",
+                redBoxInfo: "Agents commission 7% and for managers counts as wires",
+            },
+            Zen: {
+                greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds",
+                yellowBoxInfo: "",
+                redBoxInfo: ""
+            },
+            Wirex: {
+                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie",
+                yellowBoxInfo: "Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours ",
+                redBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval"
             },
         },
     },

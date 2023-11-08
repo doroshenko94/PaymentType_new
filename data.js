@@ -232,7 +232,7 @@ Ireland: {
             },
             Bit2me: {
                 greenBoxInfo: "",
-                yellowBoxInfo: "",,
+                yellowBoxInfo: "",
                 redBoxInfo: "",
             },
             BestWallet: {

@@ -507,7 +507,7 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
-            Bestwallet": {
+            Bestwallet: {
                 greenBoxInfo: "No information",
                 yellowBoxInfo: "",
                 redBoxInfo: "",

@@ -4,6 +4,10 @@ const companyOptions = {
     Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini"],
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
     Denmark: ["Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
+    Canada: ["Adv2","Advcash","W1tty","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
+    New_Zeland: ["Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
+    Bermuda: ["W1tty","Bestwallet","uphold",],
+    Switzerland: ["Revolut", "Zen", "Cryptocom", "AdvCash", "AdV2", "W1tty", "Bit2me", "Wise", "Bestwallet", "uphold"],
     // Добавьте другие страны и компании по аналогии
 };
 

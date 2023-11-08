@@ -176,52 +176,77 @@ Ireland: {
 
     Denmark: {
         STD: {
-            Revolut: {
-                greenBoxInfo: "If you have Revolut more than 6 months you can use normally meaning that you can add 10k immediately if not then you are restricted to 2k per day and 10k per month",
-                yellowBoxInfo: "",
-                redBoxInfo: "Who Revolut works with: Bintense, Simplex, Zen"
+            Adv2: {
+                greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",
+                yellowBoxInfo: "BUY CRYPTO: FROM BALANCE - TO ADV WALLET - $3000. FROM BALANCE - TO EXTERNAL WALLET - $6000. NO CC BUY OPTION AVAILABLE",
+                redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address"
             },
-            Bintence_Wire: {
+            Advcash: {
+                greenBoxInfo: "DEPOSIT LIMIT: CC - $9000 - per day",
+                yellowBoxInfo: "BUY CRYPTO: WITH CC - $10000 - per day. FROM BALANCE - $100.000",
+                redBoxInfo: "KYC:- Yes - Phone/ID/Selfie. / SEPA - not available in Cyprus to check"
+            },
+            W1tty: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
-                redBoxInfo: "You can not use BINTENSE WIRE"
-            },
-            Zen: {
-                greenBoxInfo: "Max you can do through Zen now is between 250$ - 10.000$ no more does not pass large amounts.",
-                yellowBoxInfo: "Italy can do 5k first transaction one go",
                 redBoxInfo: ""
             },
-            Wirex: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
-                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
+            Bit2me: {
+                greenBoxInfo: "DEPOSIT LIMIT: up to €999 no kyc with google pay, card or bank transfer €1000+ need kyc. Fiat deposit - wire transfer no limit - cc €5000/day. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
+                yellowBoxInfo: "BUY CRYPTO: with cc €5000/day - from fiat wallet no limit",
+                redBoxInfo: "KYC: yes for transaction €1000+"
+            },
+            BestWallet: {
+                greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
+                yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
+                redBoxInfo: "KYC: yes for transaction $1050+"
+            },
+            Wise: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: ""
+            },
+            uphold: {
+                greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
+                yellowBoxInfo: "WITHDRAWAL LIMIT: USDT - 3016 per trx BTC - 0.20 per trx",
+                redBoxInfo: "KYC: YES - ID/DL - SELFIE"
             },
         },
         "Big deposit": {
-            Revolut: {
-                greenBoxInfo: "Revolut, you can not move more than 2k a day and 10k a month through crypto",
-                yellowBoxInfo: "You will need to convert the fiat to ETH and then transfer daily",
-                redBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step."
-            },
-            Curve: {
-                greenBoxInfo: "CURVE it is like revolut you can use a virtual card.",
-                yellowBoxInfo: "You can top up with high street banks, you can use credit cards, and work with MOONPAY.",
-                redBoxInfo: ""
-            },
-            Bintence_Wire: {
-                greenBoxInfo: "2K up to 50k you can do wires to Bintense: The agent's commission and your commission will be lower here. So I would suggest using this solution for the STD up to 20k and then look at an exchange.",
-                yellowBoxInfo: "No amount will be held for risk",
-                redBoxInfo: "Agents commission 7% and for managers counts as wires",
-            },
-            Zen: {
-                greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds",
+            Adv2: {
+                greenBoxInfo: "",
                 yellowBoxInfo: "",
                 redBoxInfo: ""
             },
-            Wirex: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours.",
-                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
+            Advcash: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: ""
+            },
+            W1tty: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: ""
+            },
+            Bit2me: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",,
+                redBoxInfo: "",
+            },
+            BestWallet: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Wise: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         },
     },

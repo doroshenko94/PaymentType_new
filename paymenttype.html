@@ -141,23 +141,18 @@
 <script>
     // Функция для скрытия сплэш-картинки и отображения основного контента
     function hideSplash() {
-    var splash = document.getElementById("splash");
-    var mainContent = document.getElementById("main-content");
+        var splash = document.getElementById("splash");
+        var mainContent = document.getElementById("main-content");
 
-    // Установить прозрачность сплэш-картинки в 1 (плавное появление)
-    splash.style.opacity = 1;
-
-    // Затем через задержку скрыть сплэш-картинку
-    setTimeout(function () {
+        // Скрыть сплэш-картинку
         splash.style.display = "none";
         // Отобразить основное содержание
         mainContent.style.display = "block";
-        mainContent.style.opacity = 1;
-    }, 500); // 500 миллисекунд (0.5 секунды) задержки
-}
+	mainContent.style.opacity = 1;
+    }
 
-// Вызвать функцию hideSplash через 4.5 секунды (4500 миллисекунд)
-setTimeout(hideSplash, 4500);
+    // Вызвать функцию hideSplash через 4.5 секунды (4500 миллисекунд)
+    setTimeout(hideSplash, 4500);
 </script>
     
 </body>

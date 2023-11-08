@@ -179,54 +179,54 @@ Ireland: {
             Adv2: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",
                 yellowBoxInfo: "BUY CRYPTO: FROM BALANCE - TO ADV WALLET - $3000. FROM BALANCE - TO EXTERNAL WALLET - $6000. NO CC BUY OPTION AVAILABLE",
-                redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address"
+                redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address",
             },
             Advcash: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - $9000 - per day",
                 yellowBoxInfo: "BUY CRYPTO: WITH CC - $10000 - per day. FROM BALANCE - $100.000",
-                redBoxInfo: "KYC:- Yes - Phone/ID/Selfie. / SEPA - not available in Cyprus to check"
+                redBoxInfo: "KYC:- Yes - Phone/ID/Selfie. / SEPA - not available in Cyprus to check",
             },
             W1tty: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
-                redBoxInfo: ""
+                redBoxInfo: "",
             },
             Bit2me: {
                 greenBoxInfo: "DEPOSIT LIMIT: up to €999 no kyc with google pay, card or bank transfer €1000+ need kyc. Fiat deposit - wire transfer no limit - cc €5000/day. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
                 yellowBoxInfo: "BUY CRYPTO: with cc €5000/day - from fiat wallet no limit",
-                redBoxInfo: "KYC: yes for transaction €1000+"
+                redBoxInfo: "KYC: yes for transaction €1000+",
             },
             BestWallet: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
-                redBoxInfo: "KYC: yes for transaction $1050+"
+                redBoxInfo: "KYC: yes for transaction $1050+",
             },
             Wise: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
-                redBoxInfo: ""
+                redBoxInfo: "",
             },
             uphold: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
                 yellowBoxInfo: "WITHDRAWAL LIMIT: USDT - 3016 per trx BTC - 0.20 per trx",
-                redBoxInfo: "KYC: YES - ID/DL - SELFIE"
+                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
             },
         },
         "Big deposit": {
             Adv2: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
-                redBoxInfo: ""
+                redBoxInfo: "",
             },
             Advcash: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
-                redBoxInfo: ""
+                redBoxInfo: "",
             },
             W1tty: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
-                redBoxInfo: ""
+                redBoxInfo: "",
             },
             Bit2me: {
                 greenBoxInfo: "",

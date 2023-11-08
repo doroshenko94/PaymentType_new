@@ -8,18 +8,19 @@
     <style>
 
         #splash{
-	  width: 100%;
-      height: 100%;
-      background-color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      left: 0;
-	  
-      background-repeat: no-repeat;
-      z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    z-index: 9999;
+    opacity: 0; /* Установите начальную прозрачность в 0 */
+    transition: opacity 0.5s; /* Добавьте переход для свойства opacity */
   }
   .main-interface {
     display: none;
@@ -140,18 +141,23 @@
 <script>
     // Функция для скрытия сплэш-картинки и отображения основного контента
     function hideSplash() {
-        var splash = document.getElementById("splash");
-        var mainContent = document.getElementById("main-content");
+    var splash = document.getElementById("splash");
+    var mainContent = document.getElementById("main-content");
 
-        // Скрыть сплэш-картинку
+    // Установить прозрачность сплэш-картинки в 1 (плавное появление)
+    splash.style.opacity = 1;
+
+    // Затем через задержку скрыть сплэш-картинку
+    setTimeout(function () {
         splash.style.display = "none";
         // Отобразить основное содержание
         mainContent.style.display = "block";
-	mainContent.style.opacity = 1;
-    }
+        mainContent.style.opacity = 1;
+    }, 500); // 500 миллисекунд (0.5 секунды) задержки
+}
 
-    // Вызвать функцию hideSplash через 3 секунды (3000 миллисекунд)
-    setTimeout(hideSplash, 4500);
+// Вызвать функцию hideSplash через 4.5 секунды (4500 миллисекунд)
+setTimeout(hideSplash, 4500);
 </script>
     
 </body>

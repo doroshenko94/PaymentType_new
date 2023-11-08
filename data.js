@@ -319,6 +319,392 @@ Ireland: {
             },
         },
     },
+
+    Canada: {
+        STD: {
+            Adv2: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Advcash: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bit2me: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            BitBuy: {
+                 greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            MyBTC: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            ndax: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            BullBitcoin: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Wise: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+        "Big deposit": {
+           Adv2: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Advcash: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bit2me: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            BitBuy: {
+                 greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            MyBTC: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            ndax: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            BullBitcoin: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Wise: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+    },
+
+
+    New_Zeland: {
+        STD: {
+            Simplex: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Adv2: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Advcash: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bit2me: {
+                 greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet": {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Wise: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+        "Big deposit": {
+           Simplex: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Adv2: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Advcash: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bit2me: {
+                 greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet": {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Wise: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+    },
+
+     Bermuda: {
+        STD: {
+            W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+        "Big deposit": {
+           W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+    },
+
+    Switzerland: {
+        STD: {
+            Revolut: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Zen: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Cryptocom: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            AdvCash: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            AdV2: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bit2me: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Wise: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+        "Big deposit": {
+          Revolut: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Zen: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Cryptocom: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            AdvCash: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            AdV2: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bit2me: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Wise: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+    },
+
+    Australia : {
+        STD: {
+            W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+        "Big deposit": {
+           W1tty: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Bestwallet: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            uphold: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+    },
     
 };
 

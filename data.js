@@ -5,11 +5,11 @@ const companyOptions = {
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
     Denmark: ["Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
     Malasiya: ["Bybit", "Paybis","Moonpay","Invity", "Simplex", "Coinmama",],
-    Canada: ["Adv2","Advcash","W1tty","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
-    New_Zeland: ["Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
+    Canada: ["Roobic","Adv2","Advcash","W1tty","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
+    New_Zeland: ["Roobic","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
     Bermuda: ["W1tty","Bestwallet","uphold",],
     Switzerland: ["Revolut", "Zen", "Cryptocom", "AdvCash", "AdV2", "W1tty", "Bit2me", "Wise", "Bestwallet", "uphold"],
-    Australia:["W1tty","Bestwallet","uphold",],
+    Australia:["Roobic","W1tty","Bestwallet","uphold",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -322,6 +322,11 @@ Ireland: {
 
     Canada: {
         STD: {
+            Roobic: {
+                greenBoxInfo: "Create the wise account, do not connect with the client at all with any screen sharing, create a personal account, and fund the personal wise account, convert the funds into EUR. Once the account is funded then you create the Roobic.io account, create a SEPA order and then yousend the money from the wise account in EUR to your own account in Roobic in Malta in your name.",
+                yellowBoxInfo: "",
+                redBoxInfo: "NO RECALL!",
+            },
             Adv2: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",
                 yellowBoxInfo: "BUY CRYPTO: FROM BALANCE - TO ADV WALLET - $3000. FROM BALANCE - TO EXTERNAL WALLET - $6000. NO CC BUY OPTION AVAILABLE",
@@ -440,6 +445,11 @@ Ireland: {
 
     New_Zeland: {
         STD: {
+            Roobic: {
+                greenBoxInfo: "Create the wise account, do not connect with the client at all with any screen sharing, create a personal account, and fund the personal wise account, convert the funds into EUR. Once the account is funded then you create the Roobic.io account, create a SEPA order and then yousend the money from the wise account in EUR to your own account in Roobic in Malta in your name.",
+                yellowBoxInfo: "",
+                redBoxInfo: "NO RECALL!",
+            },
             Simplex: {
                 greenBoxInfo: "AGE: 18 - 65. Limits on the cards for revolut 2.000$ per day maximum 10.000$ per month",
                 yellowBoxInfo: "Works only with card. Maximum transactions here 250$ - 10.000$",
@@ -671,6 +681,11 @@ Ireland: {
 
     Australia : {
         STD: {
+            Roobic: {
+                greenBoxInfo: "Create the wise account, do not connect with the client at all with any screen sharing, create a personal account, and fund the personal wise account, convert the funds into EUR. Once the account is funded then you create the Roobic.io account, create a SEPA order and then yousend the money from the wise account in EUR to your own account in Roobic in Malta in your name.",
+                yellowBoxInfo: "",
+                redBoxInfo: "NO RECALL!",
+            },
             W1tty: {
                 greenBoxInfo: "No information",
                 yellowBoxInfo: "",

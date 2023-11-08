@@ -17,7 +17,7 @@ const companyInfo = {
     UK: {
         STD: {
             Revolut: {
-                greenBoxInfo: "AGE: 18 - 69. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily.",
+                greenBoxInfo: "AGE: 18 - 69. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
             },

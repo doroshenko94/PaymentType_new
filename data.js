@@ -25,9 +25,9 @@ const companyInfo = {
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs"
             },
             Wirex: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie",
-                yellowBoxInfo: "Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours ",
-                redBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval"
+                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
+                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
+                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
             Roobic: {
                 greenBoxInfo: "Roobic.io client needs to do on their side, they need to upload all docs, no recall and then they get bank details and make the transfer from their bank account to their Roobic local bank account.",
@@ -40,16 +40,16 @@ const companyInfo = {
                 redBoxInfo: "Commission for the agent: 8%"
             },
             Gemini: {
-                greenBoxInfo: "-Name / -Email / -Address / -ID / -Selfie",
-                yellowBoxInfo: "Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer. You have a limit to 2k through easy bank transfer - If you want to do a larger amount you will need to do a manual bank transfer, make sure you include the REF number so the funds are credited to the correct account. Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours",
-                redBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24 hours up to 5 days for approval : If you are waiting longer than 2 days open a ticket with support."
+                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
+                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
+                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
         },
         "Big deposit": {
             Wirex: {
-                greenBoxInfo: "Need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12 hours to exodus.",
-                yellowBoxInfo: "Checking a larger amount. 5,000 easy bank transfer instant.",
-                redBoxInfo: "Barclays and HSBC worked."
+                greenBoxInfo: "Need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12-24 hours to exodus. Checking a larger amount. 5,000 easy bank transfer instant.",
+                yellowBoxInfo: "Barclays and HSBC worked.",
+                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
             Roobic: {
                 greenBoxInfo: "Up to $50.000",
@@ -58,8 +58,8 @@ const companyInfo = {
             },
             Gemini: {
                 greenBoxInfo: "You need to verify the bank account, and leave the money there for five days.",
-                yellowBoxInfo: "",
-                redBoxInfo: "Agents commission would be 8%"
+                yellowBoxInfo: "Agents commission would be 8%",
+                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
         },
     },

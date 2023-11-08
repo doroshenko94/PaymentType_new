@@ -4,7 +4,7 @@ const companyOptions = {
     Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini"],
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
     Denmark: ["Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
-    Malasiya: ["W1tty","Bestwallet","uphold",],
+    Malasiya: ["Bybit", "Paybis","Moonpay","Invity", "Simplex", "Coinmama",],
     Canada: ["Adv2","Advcash","W1tty","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
     New_Zeland: ["Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
     Bermuda: ["W1tty","Bestwallet","uphold",],
@@ -19,17 +19,17 @@ const companyInfo = {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 69. If you have revolut more than 6 months you can use normally meaning that you can add 10k immediately if not then you are restricted to 2k per day and 10k per month",
                 yellowBoxInfo: "UK: First transfer through bank transfer max is 2k then you need to wait 24 hours and after you can do 10k per transaction",
-                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT."
+                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
             },
             Curve: {
                 greenBoxInfo: "Curve you can download and install, credit the account and use virtual card on moonpay, similar process to revolut.",
                 yellowBoxInfo: "You can use credit card to top up which is useful",
-                redBoxInfo: "Not sure of age limit."
+                redBoxInfo: "Not sure of age limit.",
             },
             Zen: {
                 greenBoxInfo: "Max you can do through Zen now is between 250$ - 10.000$ no more does not pass large amounts.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
-                redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs"
+                redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
             Wirex: {
                 greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
@@ -247,6 +247,73 @@ Ireland: {
             },
             uphold: {
                 greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+    },
+
+     Malasiya: {
+        STD: {
+            Bybit: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Paybis: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Moonpay: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Invity: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Simplex: {
+                 greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Coinmama: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+        },
+        "Big deposit": {
+           Bybit: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Paybis: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Moonpay: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Invity: {
+                greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Simplex: {
+                 greenBoxInfo: "No information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Coinmama: {
+                greenBoxInfo: "No information",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },

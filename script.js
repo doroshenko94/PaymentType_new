@@ -58,11 +58,15 @@ transactionToggle.addEventListener("click", function (event) {
 
         if (selectedTransaction !== "default" && selectedCountry in companyOptions) {
             const companies = companyOptions[selectedCountry];
+
+            // Проверяем, есть ли информация о компании для данного типа транзакции
             companies.forEach(function (company) {
-                const option = document.createElement("option");
-                option.value = company;
-                option.text = company;
-                companySelect.appendChild(option);
+                if (companyInfo[selectedCountry][selectedTransaction][company]) {
+                    const option = document.createElement("option");
+                    option.value = company;
+                    option.text = company;
+                    companySelect.appendChild(option);
+                }
             });
         }
 
@@ -71,6 +75,7 @@ transactionToggle.addEventListener("click", function (event) {
         redBoxCompanyInfo.textContent = "";
     }
 });
+
 
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;

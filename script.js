@@ -111,14 +111,15 @@ async function fetchCurrencyRates() {
                 // Извлекаем курсы валют из полученных данных
                 const btcPrice = data.bitcoin.usd;
                 const ethPrice = data.ethereum.usd;
-                const usdtPrice = data.tether.usd;
+                const solPrice = data.solana.usd;
+
 
                 // Отображаем курсы валют на веб-странице
                 document.getElementById("btcPrice").textContent = `BTC: $${btcPrice}`;
                 document.getElementById("ethPrice").textContent = `ETH: $${ethPrice}`;
-                document.getElementById("usdtPrice").textContent = `USDT: $${usdtPrice}`;
+                document.getElementById("solPrice").textContent = `SOL: $${solPrice}`;
             } catch (error) {
-                console.error("Ошибка при получении курсов валют: " + error);
+                console.error("Error when receiving exchange rates: " + error);
             }
         }
 

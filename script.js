@@ -104,24 +104,23 @@ companySelect.addEventListener("change", function () {
 });
 
 async function fetchCurrencyRates() {
-            try {
-                const response = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,tether&vs_currencies=usd");
-                const data = await response.json();
+    try {
+        const response = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd");
+        const data = await response.json();
 
-                // Извлекаем курсы валют из полученных данных
-                const btcPrice = data.bitcoin.usd;
-                const ethPrice = data.ethereum.usd;
-                const solPrice = data.solana.usd;
+        // Извлекаем курсы валют из полученных данных
+        const btcPrice = data.bitcoin.usd;
+        const ethPrice = data.ethereum.usd;
+        const solPrice = data.solana.usd;
 
+        // Отображаем курсы валют на веб-странице
+        document.getElementById("btcPrice").textContent = `BTC: $${btcPrice}`;
+        document.getElementById("ethPrice").textContent = `ETH: $${ethPrice}`;
+        document.getElementById("solPrice").textContent = `SOL: $${solPrice}`;
+    } catch (error) {
+        console.error("Error when receiving exchange rates: " + error);
+    }
+}
 
-                // Отображаем курсы валют на веб-странице
-                document.getElementById("btcPrice").textContent = `BTC: $${btcPrice}`;
-                document.getElementById("ethPrice").textContent = `ETH: $${ethPrice}`;
-                document.getElementById("solPrice").textContent = `SOL: $${solPrice}`;
-            } catch (error) {
-                console.error("Error when receiving exchange rates: " + error);
-            }
-        }
-
-        // Вызываем функцию для получения и отображения курсов валют
-        fetchCurrencyRates();
+// Вызываем функцию для получения и отображения курсов валют
+fetchCurrencyRates();

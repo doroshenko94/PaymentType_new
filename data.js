@@ -1,9 +1,9 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit","Gemini"],
-    Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini"],
+    Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini","Crypto_com",],
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
-    Denmark: ["Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
+    Denmark: ["Revolut", "Zen","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
     Malasiya: ["Bybit", "Paybis","Moonpay","Invity", "Simplex", "Coinmama",],
     Canada: ["Roobic","Adv2","Advcash","W1tty","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
     New_Zeland: ["Roobic","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
@@ -103,6 +103,11 @@ Ireland: {
                 yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
                 redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
+            Crypto_com: {
+                greenBoxInfo: "Wire transfer 1st time $1000, then you can move more.",
+                yellowBoxInfo: "No specific limits",
+                redBoxInfo: ""
+            },
         },
         "Big deposit": {
             Wirex: {
@@ -133,7 +138,7 @@ Ireland: {
             Bintence_Wire: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
-                redBoxInfo: "You can not use BINTENSE WIRE"
+                redBoxInfo: ""
             },
            Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
@@ -178,6 +183,16 @@ Ireland: {
 
     Denmark: {
         STD: {
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 69. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
+            },
+            Zen: {
+                greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
+                yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
+                redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
+            },
             Adv2: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",
                 yellowBoxInfo: "BUY CRYPTO: FROM BALANCE - TO ADV WALLET - $3000. FROM BALANCE - TO EXTERNAL WALLET - $6000. NO CC BUY OPTION AVAILABLE",

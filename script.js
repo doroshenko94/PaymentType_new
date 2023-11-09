@@ -102,3 +102,25 @@ companySelect.addEventListener("change", function () {
         redBoxCompanyInfo.textContent = "";
     }
 });
+
+async function fetchCurrencyRates() {
+            try {
+                const response = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,tether&vs_currencies=usd");
+                const data = await response.json();
+
+                // Извлекаем курсы валют из полученных данных
+                const btcPrice = data.bitcoin.usd;
+                const ethPrice = data.ethereum.usd;
+                const usdtPrice = data.tether.usd;
+
+                // Отображаем курсы валют на веб-странице
+                document.getElementById("btcPrice").textContent = `BTC: $${btcPrice}`;
+                document.getElementById("ethPrice").textContent = `ETH: $${ethPrice}`;
+                document.getElementById("usdtPrice").textContent = `USDT: $${usdtPrice}`;
+            } catch (error) {
+                console.error("Ошибка при получении курсов валют: " + error);
+            }
+        }
+
+        // Вызываем функцию для получения и отображения курсов валют
+        fetchCurrencyRates();

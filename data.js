@@ -4,7 +4,7 @@ const companyOptions = {
     Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini","Crypto_com",],
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
     Denmark: ["Revolut", "Zen","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
-    Malasiya: ["Bybit", "Paybis","Moonpay","Invity", "Simplex", "Coinmama",],
+    Malasiya: ["Bybit",],
     Canada: ["Roobic","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
     New_Zeland: ["Roobic","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
     Bermuda: ["W1tty","Bestwallet","uphold",],
@@ -221,7 +221,11 @@ Ireland: {
 
      Malasiya: {
         STD: {
-           
+           Bybit: {
+                greenBoxInfo: "Daily limit 10.000$",
+                yellowBoxInfo: "Work with credit cards",
+                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
+            },
         },
         "Big deposit": {
            

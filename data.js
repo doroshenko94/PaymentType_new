@@ -2,7 +2,7 @@
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit","Gemini"],
     Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini","Crypto_com",],
-    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
+    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex","MEXC",],
     Denmark: ["Revolut", "Zen","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
     Malasiya: ["Bybit",],
     Canada: ["Roobic","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
@@ -171,6 +171,11 @@ Ireland: {
                 greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours.",
                 yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
                 redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
+            },
+            MEXC: {
+                greenBoxInfo: "-Name / -Email / -Address / -ID / -Selfie. Limit 10.000 per day",
+                yellowBoxInfo: "Done 10.000$ trx with MEXC. We did in usdt ut later we find how to do also eth. you receive money, then change in crypto clicking on transfer then withdrawl and you have 2 options like revolut and the first one exchange crypto.",
+                redBoxInfo: "The first time you have to add 2FA and you can choose google auth or email much better.then you you can send and put OTP received on email and by sms. for USDT TRC20 you have 0.93 cent in transfers on 10k on ERC20 you have 3,74 eur. fee. 10/15 minutes before receive (its written on the app)"
             },
         },
     },

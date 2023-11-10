@@ -5,11 +5,10 @@ const companyOptions = {
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
     Denmark: ["Revolut", "Zen","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
     Malasiya: ["Bybit", "Paybis","Moonpay","Invity", "Simplex", "Coinmama",],
-    Canada: ["Roobic","Adv2","Advcash","W1tty","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
+    Canada: ["Roobic","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
     New_Zeland: ["Roobic","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
     Bermuda: ["W1tty","Bestwallet","uphold",],
     Switzerland: ["Revolut", "Zen", "Cryptocom", "AdvCash", "AdV2", "W1tty", "Bit2me", "Wise", "Bestwallet", "uphold"],
-    Australia:["Roobic","W1tty","Bestwallet","uphold",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -215,109 +214,14 @@ Ireland: {
             },
         },
         "Big deposit": {
-            Adv2: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Advcash: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            W1tty: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bit2me: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            BestWallet: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Wise: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            uphold: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-        },
+            
     },
 
      Malasiya: {
         STD: {
-            Bybit: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Paybis: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Moonpay: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Invity: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Simplex: {
-                 greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Coinmama: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
         },
+         
         "Big deposit": {
-           Bybit: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Paybis: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Moonpay: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Invity: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Simplex: {
-                 greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Coinmama: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-        },
     },
 
     Canada: {
@@ -337,45 +241,15 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: WITH CC - $10000 - per day. FROM BALANCE - $100.000",
                 redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address. / SEPA - not available in Cyprus to check",
             },
-            W1tty: {
-                greenBoxInfo: "Need testing",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             Bit2me: {
                 greenBoxInfo: "DEPOSIT LIMIT: Up to €999 no KYC with google pay, card or bank transfer. €1000+ need KYC. Fiat deposit - wire transfer no limit - cc €5000/day. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
                 yellowBoxInfo: "BUY CRYPTO - with cc €5000/day - from fiat wallet no limit",
                 redBoxInfo: "KYC: yes for transaction €1000+",
             },
-            BitBuy: {
-                 greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            MyBTC: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            ndax: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            BullBitcoin: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             Bestwallet: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: YES - ID/DL - SELFIE",
-            },
-            Wise: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
             },
             uphold: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT.",
@@ -384,62 +258,7 @@ Ireland: {
             },
         },
         "Big deposit": {
-           Adv2: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Advcash: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            W1tty: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bit2me: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            BitBuy: {
-                 greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            MyBTC: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            ndax: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            BullBitcoin: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bestwallet: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Wise: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            uphold: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-        },
+          
     },
 
 
@@ -480,11 +299,6 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
             },
-            Wise: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             uphold: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
                 yellowBoxInfo: "WITHDRAWAL LIMIT: USDT - 3016 per trx BTC - 0.20 per trx",
@@ -492,47 +306,6 @@ Ireland: {
             },
         },
         "Big deposit": {
-           Simplex: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Adv2: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Advcash: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            W1tty: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bit2me: {
-                 greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bestwallet: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Wise: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            uphold: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-        },
     },
 
      Bermuda: {
@@ -554,22 +327,6 @@ Ireland: {
             },
         },
         "Big deposit": {
-           W1tty: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bestwallet: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            uphold: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-        },
     },
 
     Switzerland: {
@@ -584,35 +341,10 @@ Ireland: {
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
-            Cryptocom: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            AdvCash: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            AdV2: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            W1tty: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             Bit2me: {
                 greenBoxInfo: "DEPOSIT LIMIT: up to €999 no kyc with google pay, card or bank. Fiat deposit - wire transfer no limit - cc €5000/day. / Buy crypto - with cc €5000/day - from fiat wallet no limit",
                 yellowBoxInfo: "WITHDRAWAL LIMIT: Crypto withdrawals no limit",
                 redBoxInfo: "KYC: yes for transaction €1000+",
-            },
-            Wise: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
             },
             Bestwallet: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050.",
@@ -625,102 +357,9 @@ Ireland: {
                 redBoxInfo: "KYC: YES - ID/DL - SELFIE",
             },
         },
+        
         "Big deposit": {
-          Revolut: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Zen: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Cryptocom: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            AdvCash: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            AdV2: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            W1tty: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bit2me: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Wise: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bestwallet: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            uphold: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-        },
     },
-
-    Australia : {
-        STD: {
-            Roobic: {
-                greenBoxInfo: "Create the wise account, do not connect with the client at all with any screen sharing, create a personal account, and fund the personal wise account, convert the funds into EUR. Once the account is funded then you create the Roobic.io account, create a SEPA order and then yousend the money from the wise account in EUR to your own account in Roobic in Malta in your name.",
-                yellowBoxInfo: "",
-                redBoxInfo: "NO RECALL!",
-            },
-            W1tty: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bestwallet: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            uphold: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-        },
-        "Big deposit": {
-           W1tty: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bestwallet: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            uphold: {
-                greenBoxInfo: "No information",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-        },
-    },
-    
 };
 
 export { companyOptions, companyInfo };

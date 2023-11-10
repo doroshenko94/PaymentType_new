@@ -307,7 +307,7 @@ Ireland: {
         },
         "Big deposit": {
     },
-
+    }
      Bermuda: {
         STD: {
             W1tty: {
@@ -328,7 +328,7 @@ Ireland: {
         },
         "Big deposit": {
     },
-
+     }
     Switzerland: {
         STD: {
             Revolut: {
@@ -360,6 +360,7 @@ Ireland: {
         
         "Big deposit": {
     },
+}
 };
 
 export { companyOptions, companyInfo };

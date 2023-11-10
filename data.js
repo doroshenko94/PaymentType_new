@@ -5,10 +5,10 @@ const companyOptions = {
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex"],
     Denmark: ["Revolut", "Zen","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
     Malasiya: ["Bybit", "Paybis","Moonpay","Invity", "Simplex", "Coinmama",],
-    Canada: ["Roobic","Adv2","Advcash","W1tty","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
+    Canada: ["Roobic","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
     New_Zeland: ["Roobic","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
     Bermuda: ["W1tty","Bestwallet","uphold",],
-    Switzerland: ["Revolut", "Zen", "Cryptocom", "AdvCash", "AdV2", "W1tty", "Bit2me", "Wise", "Bestwallet", "uphold"],
+    Switzerland: ["Zen", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet", "uphold"],
     Australia:["Roobic","W1tty","Bestwallet","uphold",],
     // Добавьте другие страны и компании по аналогии
 };
@@ -245,11 +245,6 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: WITH CC - $10000 - per day. FROM BALANCE - $100.000",
                 redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address. / SEPA - not available in Cyprus to check",
             },
-            W1tty: {
-                greenBoxInfo: "Need testing",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             Bit2me: {
                 greenBoxInfo: "DEPOSIT LIMIT: Up to €999 no KYC with google pay, card or bank transfer. €1000+ need KYC. Fiat deposit - wire transfer no limit - cc €5000/day. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
                 yellowBoxInfo: "BUY CRYPTO - with cc €5000/day - from fiat wallet no limit",
@@ -343,11 +338,6 @@ Ireland: {
 
     Switzerland: {
         STD: {
-            Revolut: {
-                greenBoxInfo: "AGE: 18 - 69. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
-                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
-            },
              Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",

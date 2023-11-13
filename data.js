@@ -8,7 +8,7 @@ const companyOptions = {
     Canada: ["Roobic","NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
     New_Zeland: ["Roobic", "Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
     Bermuda: ["Gemini","W1tty","Bestwallet","uphold",],
-    Switzerland: ["Zen", "Bintense", "Wirex","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet", "uphold"],
+    Switzerland: ["Zen", "Bintence", "Wirex","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet", "uphold"],
     Australia:["Roobic","W1tty","Bestwallet","uphold",],
     // Добавьте другие страны и компании по аналогии
 };
@@ -348,11 +348,26 @@ Ireland: {
             },
         },
         "Big deposit": {
+            Roobic: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            Zen: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
         },
     },
 
      Bermuda: {
         STD: {
+            Gemini: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
             W1tty: {
                 greenBoxInfo: "Need testing",
                 yellowBoxInfo: "",
@@ -370,6 +385,11 @@ Ireland: {
             },
         },
         "Big deposit": {
+            Gemini: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
         },
     },
 
@@ -379,6 +399,11 @@ Ireland: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
+            },
+            Bintence: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Bit2me: {
                 greenBoxInfo: "DEPOSIT LIMIT: up to €999 no kyc with google pay, card or bank. Fiat deposit - wire transfer no limit - cc €5000/day. / Buy crypto - with cc €5000/day - from fiat wallet no limit",
@@ -398,6 +423,16 @@ Ireland: {
             },
         },
         "Big deposit": {
+            Wirex: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+            MEXC: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
         },
     },
 

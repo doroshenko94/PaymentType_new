@@ -6,9 +6,9 @@ const companyOptions = {
     Denmark: ["Revolut", "Zen","Wirex","Gemini","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
     Malasiya: ["Bybit",],
     Canada: ["Roobic","NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
-    New_Zeland: ["Roobic","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
-    Bermuda: ["W1tty","Bestwallet","uphold",],
-    Switzerland: ["Zen", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet", "uphold"],
+    New_Zeland: ["Roobic", "Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
+    Bermuda: ["Gemini","W1tty","Bestwallet","uphold",],
+    Switzerland: ["Zen", "Bintense", "Wirex","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet", "uphold"],
     Australia:["Roobic","W1tty","Bestwallet","uphold",],
     // Добавьте другие страны и компании по аналогии
 };

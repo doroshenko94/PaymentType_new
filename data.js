@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex","MEXC",],
     Denmark: ["Revolut", "Zen","Wirex","Gemini","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
     Malasiya: ["Bybit",],
-    Canada: ["Roobic","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
+    Canada: ["Roobic","NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
     New_Zeland: ["Roobic","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
     Bermuda: ["W1tty","Bestwallet","uphold",],
     Switzerland: ["Zen", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet", "uphold"],
@@ -290,7 +290,16 @@ Ireland: {
             },
         },
         "Big deposit": {
-        
+            Roobic: {
+                    greenBoxInfo: "",
+                    yellowBoxInfo: "",
+                    redBoxInfo: "",
+                },
+                NDAX: {
+                    greenBoxInfo: "",
+                    yellowBoxInfo: "",
+                    redBoxInfo: "",
+                },
         },
     },
 

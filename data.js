@@ -1,13 +1,13 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit","Gemini"],
-    Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Gemini","Crypto_com",],
+    UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit",],
+    Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Crypto_com",],
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex","MEXC",],
-    Denmark: ["Revolut", "Zen","Wirex","Gemini","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
+    Denmark: ["Revolut", "Zen","Wirex","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
     Malasiya: ["Bybit",],
     Canada: ["Roobic","NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
     New_Zeland: ["Roobic", "Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
-    Bermuda: ["Gemini","W1tty","Bestwallet","uphold",],
+    Bermuda: ["W1tty","Bestwallet","uphold",],
     Switzerland: ["Zen", "Bintence", "Wirex","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet", "uphold"],
     Australia:["Roobic","W1tty","Bestwallet","uphold",],
     // Добавьте другие страны и компании по аналогии
@@ -46,11 +46,6 @@ const companyInfo = {
                 yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
                 redBoxInfo: "Commission for the agent: 8%"
             },
-            Gemini: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
-                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
-            },
         },
         "Big deposit": {
             Wirex: {
@@ -62,11 +57,6 @@ const companyInfo = {
                 greenBoxInfo: "Up to $50.000",
                 yellowBoxInfo: "",
                 redBoxInfo: "Agents commission would be 7%"
-            },
-            Gemini: {
-                greenBoxInfo: "You need to verify the bank account, and leave the money there for five days.",
-                yellowBoxInfo: "Agents commission would be 8%",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
         },
     },
@@ -98,11 +88,6 @@ Ireland: {
                 yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
                 redBoxInfo: "Commission for the agent: 8%"
             },
-             Gemini: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
-                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
-            },
             Crypto_com: {
                 greenBoxInfo: "Wire transfer 1st time $1000, then you can move more.",
                 yellowBoxInfo: "No specific limits",
@@ -119,11 +104,6 @@ Ireland: {
                 greenBoxInfo: "Up to $50.000",
                 yellowBoxInfo: "",
                 redBoxInfo: "Agents commission would be 7%"
-            },
-            Gemini: {
-                greenBoxInfo: "You need to verify the bank account, and leave the money there for five days.",
-                yellowBoxInfo: "Agents commission would be 8%",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
         },
     },
@@ -221,11 +201,6 @@ Ireland: {
         },
         "Big deposit": {
             Wirex: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Gemini: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
@@ -363,11 +338,6 @@ Ireland: {
 
      Bermuda: {
         STD: {
-            Gemini: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             W1tty: {
                 greenBoxInfo: "Need testing",
                 yellowBoxInfo: "",
@@ -385,11 +355,6 @@ Ireland: {
             },
         },
         "Big deposit": {
-            Gemini: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
         },
     },
 

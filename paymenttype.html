@@ -36,15 +36,15 @@
         }
 
         .green-box {
-            border-color: #2E8B57;
+            border-color: #778899;
         }
 
         .yellow-box {
-            border-color: #FF8C00;
+            border-color: #778899;
         }
 
         .red-box {
-            border-color: #FA8072;
+            border-color: #778899;
         }
 
         .select-payment {
@@ -92,6 +92,8 @@
 </div>
 	
 <div class="container-fluid mt-4">
+	<div class="row">
+        <div class="col-md-4">
     <h3>Select a country:</h3>
     <select class="custom-select" id="countrySelect">
         <option value="default">Select a country</option>
@@ -107,7 +109,7 @@
     </select>
 </div>
 
-<div class="container-fluid mt-4">
+<div class="col-md-4">
     <h3>Select the type of transaction:</h3>
     <div class="btn-group" role="group" id="transactionToggle">
         <button type="button" class="btn btn-outline-success" data-value="STD">STD</button>
@@ -115,11 +117,13 @@
     </div>
 </div>
 
-<div class="container-fluid mt-4">
+  <div class="col-md-4">
     <h3>Select the type of payment:</h3>
     <select class="custom-select" id="companySelect" disabled>
         <option value="default">Select the type of payment:</option>
     </select>
+	</div>
+  </div>
 </div>
 
 <div class="container-fluid mt-4">

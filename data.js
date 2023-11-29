@@ -1,15 +1,15 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Wirex","Roobic","Pockit",],
-    Ireland: ["Revolut", "Zen","Wirex","Roobic","Pockit","Crypto_com",],
-    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","Wirex","MEXC",],
-    Denmark: ["Revolut", "Zen","Wirex","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise", "uphold"],
+    UK: ["Revolut", "Curve", "Zen", "Roobic","Pockit",],
+    Ireland: ["Revolut", "Zen", "Roobic","Pockit","Crypto_com",],
+    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","MEXC",],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise",],
     Malasiya: ["Bybit",],
-    Canada: ["Roobic","NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","uphold",],
-    New_Zeland: ["Roobic", "Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","uphold",],
-    Bermuda: ["W1tty","Bestwallet","uphold",],
-    Switzerland: ["Zen", "Bintence", "Wirex","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet", "uphold"],
-    Australia:["Roobic","W1tty","Bestwallet","uphold",],
+    Canada: ["Roobic","NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise",],
+    New_Zeland: ["Roobic", "Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise",],
+    Bermuda: ["W1tty","Bestwallet",],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet",],
+    Australia:["Roobic","W1tty","Bestwallet",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -31,11 +31,7 @@ const companyInfo = {
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
-            Wirex: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie.  You have easy bank transfer, instantly lands, need to convert to ETH and leave for one day, withdrawals take 24-48 hours..         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
-                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
-            },
+            
             Roobic: {
                 greenBoxInfo: "Roobic.io client needs to do on their side, they need to upload all docs, no recall and then they get bank details and make the transfer from their bank account to their Roobic local bank account.",
                 yellowBoxInfo: "Commission for the agent: 6%",
@@ -48,11 +44,6 @@ const companyInfo = {
             },
         },
         "Big deposit": {
-            Wirex: {
-                greenBoxInfo: "Need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12-24 hours to exodus. Checking a larger amount. 5,000 easy bank transfer instant.",
-                yellowBoxInfo: "Barclays and HSBC worked.",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
-            },
             Roobic: {
                 greenBoxInfo: "Up to $50.000",
                 yellowBoxInfo: "",
@@ -73,11 +64,6 @@ Ireland: {
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
-            Wirex: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie.  You have easy bank transfer, instantly lands, need to convert to ETH and leave for one day, withdrawals take 24-48 hours..         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
-                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
-            },
             Roobic: {
                 greenBoxInfo: "Roobic.io client needs to do on their side, they need to upload all docs, no recall and then they get bank details and make the transfer from their bank account to their Roobic local bank account.",
                 yellowBoxInfo: "Commission for the agent: 6%",
@@ -95,11 +81,6 @@ Ireland: {
             },
         },
         "Big deposit": {
-            Wirex: {
-                greenBoxInfo: "Need to confirm, has easy bank transfer, seems to have bigger limits than Gemini, transferred in less than 12-24 hours to exodus. Checking a larger amount. 5,000 easy bank transfer instant.",
-                yellowBoxInfo: "Barclays and HSBC worked.",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
-            },
             Roobic: {
                 greenBoxInfo: "Up to $50.000",
                 yellowBoxInfo: "",
@@ -119,11 +100,6 @@ Ireland: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
-            },
-            Wirex: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie.  You have easy bank transfer, instantly lands, need to convert to ETH and leave for one day, withdrawals take 24-48 hours..         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours  ",
-                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
         },
         "Big deposit": {
@@ -146,11 +122,6 @@ Ireland: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds",
                 yellowBoxInfo: "",
                 redBoxInfo: ""
-            },
-            Wirex: {
-                greenBoxInfo: " -Name / -Email / -Address / -ID / -Selfie. Funding the account: - Easy bank transfer, put amount, select bank, prompts you to log into your online banking then you accept the transfer.         Changing from Fiat to crypto: - Only change to ETH OR BTC - Leave on the account for 24 hours.",
-                yellowBoxInfo: "Withdrawing: - You can withdraw to an exodus wallet / - Withdrawals take 24-48 hours to approval",
-                redBoxInfo: "PLEASE NOTE THAT FOR BOTH GEMINI AND WIREX WITHDRAWALS ARE NOT INSTANT, WIREX SEEMS LIKE 24 HOURS MAX AND GEMINI CAN BE 5 BUSINESS DAYS. In these cases I would credit the money to the trading account so you are not held up, trade carefully and then wait until money is in the trading account before you make your next move, this is only to be done on the 3rd deposit of the client."
             },
             MEXC: {
                 greenBoxInfo: "-Name / -Email / -Address / -ID / -Selfie. Limit 10.000 per day",
@@ -193,18 +164,8 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
             },
-            uphold: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
-                yellowBoxInfo: "WITHDRAWAL LIMIT: USDT - 3016 per trx BTC - 0.20 per trx",
-                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
-            },
         },
         "Big deposit": {
-            Wirex: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
              MEXC: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",
@@ -256,11 +217,6 @@ Ireland: {
             Bestwallet: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
-                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
-            },
-            uphold: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT.",
-                yellowBoxInfo: "WITHDRAWAL LIMIT: Crypto withdrawals no limit",
                 redBoxInfo: "KYC: YES - ID/DL - SELFIE",
             },
         },
@@ -316,11 +272,6 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
             },
-            uphold: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
-                yellowBoxInfo: "WITHDRAWAL LIMIT: USDT - 3016 per trx BTC - 0.20 per trx",
-                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
-            },
         },
         "Big deposit": {
             Roobic: {
@@ -347,11 +298,6 @@ Ireland: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
-            },
-            uphold: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
-                yellowBoxInfo: "WITHDRAWAL LIMIT: USDT - 3016 per trx BTC - 0.20 per trx",
-                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
             },
         },
         "Big deposit": {
@@ -381,18 +327,8 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
             },
-            uphold: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - €500/DAY - €3500/WEEK - €10000/MONTH. SEPA - NO LIMIT",
-                yellowBoxInfo: "WITHDRAWAL LIMIT: Crypto withdrawals no limit",
-                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
-            },
         },
         "Big deposit": {
-            Wirex: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             MEXC: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",

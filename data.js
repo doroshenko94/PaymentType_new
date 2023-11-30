@@ -68,6 +68,11 @@ Ireland: {
                 yellowBoxInfo: "No specific limits",
                 redBoxInfo: ""
             },
+            Woltbit: {
+                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
+                yellowBoxInfo: "Offers to Europe as well: Malta account.",
+                redBoxInfo: "Risk is 60 days.",
+            },
         },
         "Big deposit": {
         },
@@ -84,6 +89,11 @@ Ireland: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
+            },
+            Woltbit: {
+                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
+                yellowBoxInfo: "Offers to Europe as well: Malta account.",
+                redBoxInfo: "Risk is 60 days.",
             },
         },
         "Big deposit": {
@@ -198,6 +208,11 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: YES - ID/DL - SELFIE",
             },
+            Woltbit: {
+                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
+                yellowBoxInfo: "Offers to Europe as well: Malta account.Plus you have Canada and Newzeland through wise.",
+                redBoxInfo: "Risk is 60 days.",
+            },
         },
         "Big deposit": {
                 NDAX: {
@@ -240,6 +255,11 @@ Ireland: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
+            },
+            Woltbit: {
+                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
+                yellowBoxInfo: "Offers to Europe as well: Malta account.Plus you have Canada and Newzeland through wise.",
+                redBoxInfo: "Risk is 60 days.",
             },
         },
         "Big deposit": {
@@ -290,6 +310,11 @@ Ireland: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050.",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
+            },
+            Woltbit: {
+                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
+                yellowBoxInfo: "Offers to Europe as well: Malta account.",
+                redBoxInfo: "Risk is 60 days.",
             },
         },
         "Big deposit": {

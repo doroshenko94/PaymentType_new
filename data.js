@@ -1,14 +1,14 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit",],
-    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Woltbit",],
-    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","MEXC","Woltbit",],
+    UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit","Coinjar","Neteller",],
+    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com",],
+    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","MEXC",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise",],
     Malasiya: ["Bybit",],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Woltbit",],
-    New_Zeland: ["Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","Woltbit",],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise",],
+    New_Zeland: ["Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise",],
     Bermuda: ["W1tty","Bestwallet",],
-    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Woltbit",],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet",],
     Australia:["W1tty","Bestwallet",],
     // Добавьте другие страны и компании по аналогии
 };
@@ -37,12 +37,37 @@ const companyInfo = {
                 redBoxInfo: "Commission for the agent: 8%"
             },
             Woltbit: {
-                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
-                yellowBoxInfo: "Offers to Europe as well: Malta account.",
-                redBoxInfo: "Risk is 60 days.",
+                greenBoxInfo: "Transaction amount: 250$-50,000$. Permitted age: 18-65",
+                yellowBoxInfo: "Woltbit- like roobic and bintense conbimbed. Offers personal accounts local transfer to the UK. Risk is 60 days.You have a link from support, like bintense open the account, you register the cloent ",
+                redBoxInfo: "",
+            },
+            Coinjar: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
+                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT.",
+                redBoxInfo: "You can transfer to COLD wallets ",
+            },
+            Neteller: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
+                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
+                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
             },
         },
         "Big deposit": {
+            Woltbit: {
+                greenBoxInfo: "Transaction amount: 250$-50,000$. Permitted age: 18-65",
+                yellowBoxInfo: "Woltbit - like roobic and bintense conbimbed. Offers personal accounts local transfer to the UK. Risk is 60 days.You have a link from support, like bintense open the account, you register the cloent ",
+                redBoxInfo: "",
+            },
+            Coinjar: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
+                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT.",
+                redBoxInfo: "You can transfer to COLD wallets ",
+            },
+            Neteller: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
+                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
+                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
+            },
         },
     },
 
@@ -68,11 +93,7 @@ Ireland: {
                 yellowBoxInfo: "No specific limits",
                 redBoxInfo: ""
             },
-            Woltbit: {
-                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
-                yellowBoxInfo: "Offers to Europe as well: Malta account.",
-                redBoxInfo: "Risk is 60 days.",
-            },
+            
         },
         "Big deposit": {
         },
@@ -89,11 +110,6 @@ Ireland: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
-            },
-            Woltbit: {
-                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
-                yellowBoxInfo: "Offers to Europe as well: Malta account.",
-                redBoxInfo: "Risk is 60 days.",
             },
         },
         "Big deposit": {
@@ -208,11 +224,6 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: YES - ID/DL - SELFIE",
             },
-            Woltbit: {
-                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
-                yellowBoxInfo: "Offers to Europe as well: Malta account.Plus you have Canada and Newzeland through wise.",
-                redBoxInfo: "Risk is 60 days.",
-            },
         },
         "Big deposit": {
                 NDAX: {
@@ -255,11 +266,6 @@ Ireland: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
-            },
-            Woltbit: {
-                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
-                yellowBoxInfo: "Offers to Europe as well: Malta account.Plus you have Canada and Newzeland through wise.",
-                redBoxInfo: "Risk is 60 days.",
             },
         },
         "Big deposit": {
@@ -310,11 +316,6 @@ Ireland: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050.",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
                 redBoxInfo: "KYC: yes for transaction $1050+",
-            },
-            Woltbit: {
-                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
-                yellowBoxInfo: "Offers to Europe as well: Malta account.",
-                redBoxInfo: "Risk is 60 days.",
             },
         },
         "Big deposit": {

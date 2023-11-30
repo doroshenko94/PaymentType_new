@@ -1,14 +1,14 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Pockit",],
-    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com",],
-    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","MEXC",],
+    UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit",],
+    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Woltbit",],
+    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","MEXC","Woltbit",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise",],
     Malasiya: ["Bybit",],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise",],
-    New_Zeland: ["Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise",],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Woltbit",],
+    New_Zeland: ["Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","Woltbit",],
     Bermuda: ["W1tty","Bestwallet",],
-    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet",],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Woltbit",],
     Australia:["W1tty","Bestwallet",],
     // Добавьте другие страны и компании по аналогии
 };
@@ -35,6 +35,11 @@ const companyInfo = {
                 greenBoxInfo: "Pockit up to 2k and then moonpay:",
                 yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
                 redBoxInfo: "Commission for the agent: 8%"
+            },
+            Woltbit: {
+                greenBoxInfo: "Woltbit-like Roobic and Bintense conbimbed. Offers personal accounts local transfer to the UK. Age limit 75 but they are negotiable.",
+                yellowBoxInfo: "Offers to Europe as well: Malta account.",
+                redBoxInfo: "Risk is 60 days.",
             },
         },
         "Big deposit": {

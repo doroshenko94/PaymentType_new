@@ -1,15 +1,15 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen", "Roobic","Pockit",],
-    Ireland: ["Revolut", "Zen", "Roobic","Pockit","Crypto_com",],
+    UK: ["Revolut", "Curve", "Zen","Pockit",],
+    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com",],
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","MEXC",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise",],
     Malasiya: ["Bybit",],
-    Canada: ["Roobic","NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise",],
-    New_Zeland: ["Roobic", "Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise",],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise",],
+    New_Zeland: ["Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise",],
     Bermuda: ["W1tty","Bestwallet",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet",],
-    Australia:["Roobic","W1tty","Bestwallet",],
+    Australia:["W1tty","Bestwallet",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -31,12 +31,6 @@ const companyInfo = {
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
-            
-            Roobic: {
-                greenBoxInfo: "Roobic.io client needs to do on their side, they need to upload all docs, no recall and then they get bank details and make the transfer from their bank account to their Roobic local bank account.",
-                yellowBoxInfo: "Commission for the agent: 6%",
-                redBoxInfo: "**** FROM 69 TO 80 USE THIS SOLUTION*****"
-            },
             Pockit: {
                 greenBoxInfo: "Pockit up to 2k and then moonpay:",
                 yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
@@ -44,11 +38,6 @@ const companyInfo = {
             },
         },
         "Big deposit": {
-            Roobic: {
-                greenBoxInfo: "Up to $50.000",
-                yellowBoxInfo: "",
-                redBoxInfo: "Agents commission would be 7%"
-            },
         },
     },
 
@@ -64,11 +53,6 @@ Ireland: {
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
-            Roobic: {
-                greenBoxInfo: "Roobic.io client needs to do on their side, they need to upload all docs, no recall and then they get bank details and make the transfer from their bank account to their Roobic local bank account.",
-                yellowBoxInfo: "Commission for the agent: 6%",
-                redBoxInfo: "**** FROM 69 TO 80 USE THIS SOLUTION*****"
-            },
             Pockit: {
                 greenBoxInfo: "Pockit up to 2k and then moonpay:",
                 yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
@@ -81,11 +65,6 @@ Ireland: {
             },
         },
         "Big deposit": {
-            Roobic: {
-                greenBoxInfo: "Up to $50.000",
-                yellowBoxInfo: "",
-                redBoxInfo: "Agents commission would be 7%"
-            },
         },
     },
 
@@ -194,11 +173,6 @@ Ireland: {
 
     Canada: {
         STD: {
-            Roobic: {
-                greenBoxInfo: "Create the wise account, do not connect with the client at all with any screen sharing, create a personal account, and fund the personal wise account, convert the funds into EUR. Once the account is funded then you create the Roobic.io account, create a SEPA order and then yousend the money from the wise account in EUR to your own account in Roobic in Malta in your name.",
-                yellowBoxInfo: "",
-                redBoxInfo: "NO RECALL!",
-            },
             Adv2: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",
                 yellowBoxInfo: "BUY CRYPTO: FROM BALANCE - TO ADV WALLET - $3000. FROM BALANCE - TO EXTERNAL WALLET - $6000. NO CC BUY OPTION AVAILABLE",
@@ -221,11 +195,6 @@ Ireland: {
             },
         },
         "Big deposit": {
-            Roobic: {
-                    greenBoxInfo: "",
-                    yellowBoxInfo: "",
-                    redBoxInfo: "",
-                },
                 NDAX: {
                     greenBoxInfo: "",
                     yellowBoxInfo: "",
@@ -237,11 +206,6 @@ Ireland: {
 
     New_Zeland: {
         STD: {
-            Roobic: {
-                greenBoxInfo: "Create the wise account, do not connect with the client at all with any screen sharing, create a personal account, and fund the personal wise account, convert the funds into EUR. Once the account is funded then you create the Roobic.io account, create a SEPA order and then yousend the money from the wise account in EUR to your own account in Roobic in Malta in your name.",
-                yellowBoxInfo: "",
-                redBoxInfo: "NO RECALL!",
-            },
             Simplex: {
                 greenBoxInfo: "AGE: 18 - 65. Limits on the cards for revolut 2.000$ per day maximum 10.000$ per month",
                 yellowBoxInfo: "Works only with card. Maximum transactions here 250$ - 10.000$",
@@ -274,11 +238,6 @@ Ireland: {
             },
         },
         "Big deposit": {
-            Roobic: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             Zen: {
                 greenBoxInfo: "",
                 yellowBoxInfo: "",

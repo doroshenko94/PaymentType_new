@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment System Selector</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery --> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript --><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+	<style>
+	
+  .main-interface {
+    display: none;
+    opacity: 0; /* Изначально устанавливаем нулевую прозрачность */
+    transition: opacity 0.5s; /* Добавляем переход для свойства opacity */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 50px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.modal-content {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+
+<div id="main-content">
+
+  <nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="https://doroshenko94.github.io/PaymentType_new/paymenttype.html">
+    <img src="favicon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+    Bintense
+  </a>
+<a href="https://doroshenko94.github.io/PaymentType_new/paymenttype.html" class="btn btn-outline-success">Home</a>
+
+</nav>
+
+<div class="container-fluid mt-4">
+	<div id="currencyRates">
+        <p id="btcPrice" class="badge badge-success"></p>
+        <p id="ethPrice" class="badge badge-success"></p>
+        <p id="solPrice" class="badge badge-success"></p>
+        <!-- Добавьте другие элементы для других валют, например, euro, GBP и т.д. -->
+</div>
+</div>
+
+<div class="container-fluid mt-4">
+		<div class="gallery">
+			<div class="image">
+				<img src="1.jpg" alt="Описание изображения 1">
+			</div>
+			<div class="image">
+				<img src="2.jpg" alt="Описание изображения 2">
+			</div>
+			<div class="image">
+				<img src="3.jpg" alt="Описание изображения 2">
+			
+		</div>
+
+		<div class="modal-overlay">
+			<div class="modal">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="modalImg">
+			</div>
+    
+  </div>
+</div>
+</div>
+
+<div class="container-fluid mt-4">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">New information about Bintence</h1>
+    <p class="lead">1. They now have the option to send wires in the following countries: IRELAND, FRANCE, NETHERLANDS, SPAIN, CYPRUS AND LT.</br></br>
+					2. Bintense are now offering a new payment method this is relevant for the following countries: IRELAND, DENMARK, ITLAY & ICELAND. Its like interac for these countries, 
+					    what it means is that you can do a direct transfer from your bank account to your bintense account, by logging into your online banking directed through bintense and it 
+					    will automatically credited the funds. Same process as usual for opening bintense account through the referral link, 
+					    BTC wallet remains the same. Payment page you will see PAY WITH CLICK then you will select your bank account, log in and then complete the transfer. 
+					    I have sent you a file that goes through the steps you can upload this file to the app, plus a list of banks that work with this solution per country 
+					    it will be good to upload this as well so they know from the start if it will work for the client. AGE LIMIT 65. Min transaction amount 2.000$, NO MAX </br><br>
+					3. BINTENSE CARD- There is a new update that there is a 30.00$ limit monthly for all countries.</br></br>
+					4.BNTENSE UK only option is CARD there is a separate link for this I will send you the link and the wallet for this. There are two more extra steps that you need to do on 
+					    UK when they make the payment on card after the transaction is approved, this is an ASSESMENT FORM.
+</p>
+  </div>
+</div>
+</div>
+
+</div>
+
+<script type="module" src="script.js"></script>
+<script>
+
+		const images = document.querySelectorAll('.image img');
+const modalOverlay = document.querySelector('.modal-overlay');
+const modalImg = document.getElementById('modalImg');
+const closeModal = document.querySelector('.close');
+
+let currentIndex = 0;
+
+images.forEach((image, index) => {
+    image.addEventListener('click', () => {
+        currentIndex = index;
+        modalImg.src = image.src;
+        modalOverlay.style.display = 'flex';
+    });
+});
+
+modalOverlay.addEventListener('click', (event) => {
+    if (event.target === modalOverlay) {
+        modalOverlay.style.display = 'none';
+    }
+});
+
+closeModal.addEventListener('click', () => {
+    modalOverlay.style.display = 'none';
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowRight') {
+        currentIndex = (currentIndex + 1) % images.length;
+        modalImg.src = images[currentIndex].src;
+    } else if (event.key === 'ArrowLeft') {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        modalImg.src = images[currentIndex].src;
+    } else if (event.key === 'Escape') {
+        modalOverlay.style.display = 'none';
+    }
+});
+
+</script>
+    
+</body>
+</html>

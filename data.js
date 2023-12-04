@@ -39,7 +39,7 @@ const companyInfo = {
             Woltbit: {
                 greenBoxInfo: "Transaction amount: 250$-50,000$. Permitted age: 18-65",
                 yellowBoxInfo: "Woltbit- like roobic and bintense conbimbed. Offers personal accounts local transfer to the UK. Risk is 60 days.You have a link from support, like bintense open the account, you register the cloent ",
-                redBoxInfo: "",
+                redBoxInfo: "Does not work with Barclays bank",
             },
             Coinjar: {
                 greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",

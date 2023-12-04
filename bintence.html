@@ -1,84 +1,69 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment System Selector</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery --> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript --><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.png">
     
 	<style>
-        .main-interface {
-            display: none;
-            opacity: 0;
-            transition: opacity 0.5s;
-        }
+	
+  .main-interface {
+    display: none;
+    opacity: 0; /* Изначально устанавливаем нулевую прозрачность */
+    transition: opacity 0.5s; /* Добавляем переход для свойства opacity */
+}
 
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            grid-gap: 50px;
-        }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 50px;
+}
 
-        .image img {
-            width: 100%;
-            height: auto;
-            cursor: pointer;
-        }
+.image img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
 
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            z-index: 999;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
-            justify-content: center;
-            align-items: center;
-        }
+.modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
 
-        .modal {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            position: relative;
-        }
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
 
-        .modal-content {
-            max-width: 80%;
-            max-height: 80%;
-        }
+.modal-content {
+    max-width: 80%;
+    max-height: 80%;
+}
 
-        .close {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            color: #fff;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
-        .countries {
-            margin-top: 20px;
-        }
-
-        .country {
-            display: inline-block;
-            margin-right: 10px;
-            cursor: pointer;
-        }
-
-        .info {
-            margin-top: 20px;
-        }
-
-        .hidden {
-            display: none;
-        }
     </style>
 </head>
 <body>
@@ -90,60 +75,47 @@
     <img src="favicon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
     Bintense
   </a>
-
 <a href="https://doroshenko94.github.io/PaymentType_new/paymenttype.html" class="btn btn-outline-success">Home</a>
 
 </nav>
 
 <div class="container-fluid mt-4">
-	<div id="currencyRates">
-        <p id="btcPrice" class="badge badge-success"></p>
-        <p id="ethPrice" class="badge badge-success"></p>
-        <p id="solPrice" class="badge badge-success"></p>
-        <!-- Добавьте другие элементы для других валют, например, euro, GBP и т.д. -->
-</div>
-</div>
-
-<div class="container-fluid mt-4">
-		<div class="gallery">
-			<div class="image">
-				<img src="1.jpg" alt="">
-			</div>
-			<div class="image">
-				<img src="2.jpg" alt="">
-			</div>
-
-		<div class="modal-overlay">
-			<div class="modal">
-				<span class="close">&times;</span>
-				<img class="modal-content" id="modalImg">
-			</div>
-    
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Solution <b>1</b></a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Solution <b>2</b></a>
+    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Solution <b>3</b></a>
   </div>
-</div>
-</div>
+</nav>
 
-<div class="container-fluid mt-4">
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">New information about Bintense</h1>
-    <p class="lead">1. They now have the option to send wires in the following countries: IRELAND, FRANCE, NETHERLANDS, SPAIN, CYPRUS AND LT.</br></br>
-					2. Bintense are now offering a new payment method this is relevant for the following countries: IRELAND, DENMARK, ITLAY & ICELAND. Its like interac for these countries, 
-					    what it means is that you can do a direct transfer from your bank account to your bintense account, by logging into your online banking directed through bintense and it 
-					    will automatically credited the funds. Same process as usual for opening bintense account through the referral link, 
-					    BTC wallet remains the same. Payment page you will see PAY WITH CLICK then you will select your bank account, log in and then complete the transfer. 
-					    AGE LIMIT 65. Min transaction amount 2.000$, NO MAX </br><br>
-					3. BINTENSE CARD- There is a new update that there is a 30.00$ limit monthly for all countries.</br></br>
-					4.BINTENSE UK only option is CARD there is a separate link for this I will send you the link and the wallet for this. There are two more extra steps that you need to do on 
-					    UK when they make the payment on card after the transaction is approved, this is an ASSESMENT FORM.
-</p>
-	  <a href="Click Flow.pdf"> CUSTOMER JOURNEY </a></br></br>
-	  <a href="BINTENSE BLACKLISTED COUNTRIES.pptx.pdf"> BINTENSE BLACKLISTED COUNTRIES </a>
+<div class="tab-content" id="nav-tabContent">
+
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+			<div class="container-fluid mt-4">
+			<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+			<h1 class="display-4"><h2>Wire solution for all countries except:<a href="BINTENSE BLACKLISTED COUNTRIES.pptx.pdf"> BINTENSE BLACKLISTED COUNTRIES </a>
+		</h2></h1>
+			<p class="lead">They now have the option to send wires in the following countries: IRELAND, FRANCE, NETHERLANDS, SPAIN, CYPRUS AND LT.</p>	
+			</div>
+			</div>
+			</div>
+		
   </div>
-</div>
-</div>
-	
-	<div class="container-fluid mt-4">
+  
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+  
+		<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+			<div class="container-fluid mt-4">
+			<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+			<h1 class="display-4"><h2>EFT direct bank transfer</h2></h1>
+			<p class="lead">Bintense are now offering a new payment method this is relevant for the following countries: <b>IRELAND</b>, <b>DENMARK</b>, <b>ITLAY</b> & <b>ICELAND</b>. 
+			Its like interac for these countries, what it means is that you can do a direct transfer from your bank account to your bintense account, 
+			by logging into your online banking directed through bintense and it will automatically credited the funds. Same process as usual for opening bintense account 
+			through the referral link, BTC wallet remains the same. Payment page you will see PAY WITH CLICK then you will select your bank account, 
+			log in and then complete the transfer. AGE LIMIT 75. Min transaction amount 2.000$, NO MAX</p>
+						<div class="container-fluid mt-4">
 	<div class="row">
     <div class="col-4">
         <div class="list-group" id="list-tab" role="tablist">
@@ -159,7 +131,7 @@
             <div class="tab-pane fade show active" id="list-ireland" role="tabpanel" aria-labelledby="list-ireland-list">
                 <!-- Блок информации о Ирландии -->
                 <h3>Ireland</h3>
-                <p>Ireland<br>
+                <p>
 		AIB ROI Business<br>
 		AIB ROI Personal<br>
 		Bank of Ireland<br>
@@ -403,31 +375,121 @@
     </div>
 </div>
 	</div>
-<div class="container-fluid mt-4"></div>
+			</div>
+			</div>
+			</div>
+		
+  </div>
+  
+  </div>
+  
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+  
+		<nav>
+		<div class="nav nav-tabs" id="nav-tab" role="tablist">
+		<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-uk" role="tab" aria-controls="nav-uk" aria-selected="true"><h6>UK</h6></a>
+		<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-eu" role="tab" aria-controls="nav-eu" aria-selected="false"><h6>EU</h6></a>
+		<a class="nav-item nav-link" id="nav-non-tab" data-toggle="tab" href="#nav-non" role="tab" aria-controls="nav-non" aria-selected="false"><h6>NON EU</h6></a>
+		 </div>
+		</nav>
+        
+		
+		<div class="container-fluid mt-4">
+		<div class="tab-content" id="nav-tabContent">
+		
 			
+		<div class="tab-pane fade show active" id="nav-uk" role="tabpanel" aria-labelledby="nav-home-tab">
+		<p><b>Referral link</b>: <a href="https://app.bintense.io/referral_form?code=YVhseU1ZditxUT09">CLICK HERE</a> </br></br><b>Wallet address:</b> bc1qs9q2l2u5f4nfvcgkxpd2n6u07285vmnvfjpa8h</p>
+		
+		
+			
+			<div class="container-fluid mt-4">
+			<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<div class="row">
+                <div class="col-md-6">
+			<h1 class="display-4">Assessment</h1>
+				<p class="lead">Which of the following best defines cryptoassets? - Digital assets using cryptography for security<br>
+								In the UK, which body primarily regulates cryptoassets? - The Financial Conduct Authority.<br>
+								What is a known risk of investing in cryptoassets?  Complete loss of investment due to volatility.<br>
+								What does market volatility in cryptoassets refer to? Rapid and significant changes in value.<br> 
+								Which is a known risk in the cryptoasset space?  Cyber-attacks leading to loss of assets<br>
+								What can affect the ease of selling a cryptoasset? Market liquidity and operational issues</p><br>
+			</div>
+                <div class="col-md-6">
+			<h1 class="display-4">Restricted Investor Statement </h1>
+				<p class="lead">A - Yes<br>
+								mention any % below 10%<br><br>
+								B- Yes<br>
+								and mention any % below 10%</p>	
+								
+			<div class="gallery">
+			<div class="image">
+			<img src="1.jpg" alt="">
+			</div>
+			<div class="image">
+			<img src="2.jpg" alt="">
+			</div>
+			<div class="modal-overlay">
+			<div class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="modalImg">
+			</div>
+			</div>
+			</div>
+			</div>				
+			</div>
+			</div>
+			
+			</div>
+			</div>
+		
+		</div>
+		
+		
+		
+		<div class="tab-pane fade" id="nav-eu" role="tabpanel" aria-labelledby="nav-profile-tab">
+		<p><b>Referral link</b>: <a href="https://app.bintense.io/referral_form?trader[label]=CMP1479">CLICK HERE</a> </br></br><b>Wallet address:</b> bc1q2jyynm0lvwsw095e78n2rgheu4xp6g8xr3jvty</p>
+		
+			<div class="container-fluid mt-4">
+			<div class="jumbotron jumbotron-fluid">
+			<div class="container">	
+				<h1 class="display-4">Wire solution for EU countries:</h1>
+					<p class="lead">Denmark, Ireland, Iceland, Norway, Italy</p>
+			</div>
+			</div>
+			
+			</div>
+			</div>
+			
+		
+		
+		<div class="tab-pane fade" id="nav-non" role="tabpanel" aria-labelledby="nav-non-tab">
+			<div class="container-fluid mt-4">
+			<div class="jumbotron jumbotron-fluid">
+			<div class="container">	
+					<h1 class="display-4">Wire solution for NON EU countries:</h1>
+					<p class="lead">Hong Kong, Singapore, Malaysia, Japan, UAE</p>
+			</div>
+			</div>
+			
+			</div>
+		</div>
+		
+		</div>
+		</div>
+  
+  </div>
+  
 </div>
-</body>
+</div>
+
+</div>
+
 <script type="module" src="script.js"></script>
 <script>
 
-// Получаем элементы стран и их информацию
-    const countries = document.querySelectorAll('.country');
-    const countryInfo = document.querySelectorAll('.info div');
-
-    // Для каждой страны добавляем слушатель события клика
-    countries.forEach((country, index) => {
-        country.addEventListener('click', () => {
-            // Скрываем всю информацию
-            countryInfo.forEach(info => info.classList.add('hidden'));
-            
-            // Показываем информацию только для выбранной страны
-            countryInfo[index].classList.remove('hidden');
-        });
-    });
-
-	
-
-const images = document.querySelectorAll('.image img');
+		const images = document.querySelectorAll('.image img');
 const modalOverlay = document.querySelector('.modal-overlay');
 const modalImg = document.getElementById('modalImg');
 const closeModal = document.querySelector('.close');
@@ -464,6 +526,7 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-</script>   
+</script>
+    
 </body>
 </html>

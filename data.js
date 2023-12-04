@@ -43,7 +43,7 @@ const companyInfo = {
             },
             Coinjar: {
                 greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
-                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT.",
+                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / ",
                 redBoxInfo: "You can transfer to COLD wallets ",
             },
             Neteller: {
@@ -70,7 +70,7 @@ const companyInfo = {
             },
             Coinjar: {
                 greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
-                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT.",
+                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes /",
                 redBoxInfo: "You can transfer to COLD wallets ",
             },
             Neteller: {

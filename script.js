@@ -194,14 +194,15 @@ function displayImages(images) {
 }
 
 // Функция для отображения ссылок на PDF-файлы
-function displayPDFLinks(pdfFiles) {
-    const pdfContainer = document.getElementById("pdfFiles");
+function displayPDFLinks(pdfFiles, companyName) {
+    const pdfContainer = document.getElementById(`${companyName}-pdfFiles`);
     pdfContainer.innerHTML = "";
 
     pdfFiles.forEach(function (pdfUrl) {
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.textContent = "Download PDF";
+        const fileName = pdfUrl.split('/').pop(); // Получаем имя файла из URL
+        link.textContent = fileName; // Используем имя файла как текст ссылки
         link.classList.add("pdf-link");
         link.setAttribute("target", "_blank");
 

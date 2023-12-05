@@ -3,7 +3,7 @@ const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit","Coinjar","Neteller","Skrill",],
     Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill","Woltbit","Coinjar","MEXC",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill",],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill",],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar",],
     Malasiya: ["Bybit","Skrill",],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill",],
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay",],

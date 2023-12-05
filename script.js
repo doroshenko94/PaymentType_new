@@ -239,6 +239,10 @@ const pdfsData = {
         "PDFs/Countries in which it does not work Skrill.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+    Woltbit: [
+        "PDFs/Woltbit Guide.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     // Добавьте pdf файлы для каждой компании по аналогии
 };
 

@@ -299,8 +299,8 @@ Ireland: {
         STD: {
             Simplex: {
                 greenBoxInfo: "AGE: 18 - 65. Limits on the cards for revolut 2.000$ per day maximum 10.000$ per month",
-                yellowBoxInfo: "Works only with card. Maximum transactions here 250$ - 10.000$",
-                redBoxInfo: "Card Visa or Mastercard will not work with UK Highstreet banks or Ireland needs to be Revolut.",
+                yellowBoxInfo: "Works only with card. Card Visa or Mastercard will not work with UK Highstreet banks or Ireland needs to be Revol",
+                redBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
             },
             Adv2: {
                 greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",

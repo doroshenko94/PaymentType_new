@@ -2,7 +2,7 @@
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit","Coinjar","Neteller","Skrill",],
     Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill","Woltbit","Coinjar","MEXC",],
-    Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","MEXC","Skrill",],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill",],
     Malasiya: ["Bybit","Skrill",],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill",],
@@ -163,11 +163,6 @@ Ireland: {
                 greenBoxInfo: "Revolut, you can not move more than 2k a day and 10k a month through crypto",
                 yellowBoxInfo: "You will need to convert the fiat to ETH and then transfer daily",
                 redBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step."
-            },
-            Curve: {
-                greenBoxInfo: "CURVE it is like revolut you can use a virtual card.",
-                yellowBoxInfo: "You can top up with high street banks, you can use credit cards, and work with MOONPAY.",
-                redBoxInfo: ""
             },
             Bintence_Wire: {
                 greenBoxInfo: "2K up to 50k you can do wires to Bintense: The agent's commission and your commission will be lower here. So I would suggest using this solution for the STD up to 20k and then look at an exchange.",

@@ -115,8 +115,10 @@ companySelect.addEventListener("change", function () {
 
 const imagesData = {
     Coinjar: [
-        "1.jpg",
-        "2.jpg",
+        "/Coinjar_Images/coinjar1.jpg",
+        "/Coinjar_Images/coinjar2.jpg",
+        "/Coinjar_Images/coinjar3.jpg",
+        "/Coinjar_Images/coinjar4.jpg",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     // Добавьте изображения для каждой компании по аналогии

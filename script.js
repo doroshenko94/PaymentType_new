@@ -73,8 +73,8 @@ transactionToggle.addEventListener("click", function (event) {
     }
 });
 
-// Код до обработчика событий для выбора компании...
 
+// Код до обработчика событий для выбора компании...
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;
     const selectedTransaction = transactionToggle.querySelector(".btn.btn-outline-success.active").getAttribute("data-value");
@@ -98,11 +98,11 @@ companySelect.addEventListener("change", function () {
                 imageContainer.innerHTML = "";
             }
 
+            const pdfContainer = document.getElementById("pdfFiles");
+            pdfContainer.innerHTML = ""; // Очищаем контейнер перед добавлением новых ссылок
+
             if (pdfsForCompany) { // Отображение PDF ссылок, если они есть
                 displayPDFLinks(pdfsForCompany);
-            } else {
-                const pdfContainer = document.getElementById("pdfFiles");
-                pdfContainer.innerHTML = "";
             }
         } else {
             greenBoxInfo.textContent = "";

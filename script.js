@@ -73,7 +73,8 @@ transactionToggle.addEventListener("click", function (event) {
     }
 });
 
-// Обработчик события выбора компании
+// Код до обработчика событий для выбора компании...
+
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;
     const selectedTransaction = transactionToggle.querySelector(".btn.btn-outline-success.active").getAttribute("data-value");
@@ -88,12 +89,20 @@ companySelect.addEventListener("change", function () {
             redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
 
             const imagesForCompany = imagesData[selectedCompany];
+            const pdfsForCompany = pdfsData[selectedCompany]; // Добавлено для PDF файлов
 
             if (imagesForCompany) {
                 displayImages(imagesForCompany);
             } else {
                 const imageContainer = document.getElementById("paymentImages");
                 imageContainer.innerHTML = "";
+            }
+
+            if (pdfsForCompany) { // Отображение PDF ссылок, если они есть
+                displayPDFLinks(pdfsForCompany);
+            } else {
+                const pdfContainer = document.getElementById("pdfFiles");
+                pdfContainer.innerHTML = "";
             }
         } else {
             greenBoxInfo.textContent = "";
@@ -102,6 +111,9 @@ companySelect.addEventListener("change", function () {
 
             const imageContainer = document.getElementById("paymentImages");
             imageContainer.innerHTML = "";
+
+            const pdfContainer = document.getElementById("pdfFiles");
+            pdfContainer.innerHTML = "";
         }
     } else {
         greenBoxInfo.textContent = "";
@@ -110,8 +122,14 @@ companySelect.addEventListener("change", function () {
 
         const imageContainer = document.getElementById("paymentImages");
         imageContainer.innerHTML = "";
+
+        const pdfContainer = document.getElementById("pdfFiles");
+        pdfContainer.innerHTML = "";
     }
 });
+
+// Код после обработчика событий для выбора компании...
+
 
 const imagesData = {
     Coinjar: [

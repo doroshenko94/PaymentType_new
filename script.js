@@ -162,16 +162,4 @@ function displayImages(images) {
 document.querySelector(".close").addEventListener("click", function () {
     const modal = document.getElementById("imageModal");
     modal.style.display = "none";
-}
-
-// Добавь обработчик клика для изображений
-const paymentImages = document.querySelectorAll(".payment-image");
-
-paymentImages.forEach(function (img) {
-    img.addEventListener("click", function () {
-        const modal = document.getElementById("imageModal");
-        const modalImg = document.getElementById("modalImage");
-        modal.style.display = "block";
-        modalImg.src = this.src;
-    });
 });

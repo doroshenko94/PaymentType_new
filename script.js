@@ -166,6 +166,16 @@ function displayImages(images) {
                 modal.style.display = "none";
             };
 
+            const imageCounter = document.createElement("div");
+            imageCounter.classList.add("image-counter");
+            modal.appendChild(imageCounter);
+
+            const updateImageCounter = () => {
+                imageCounter.textContent = `${currentIndex + 1}/${imagesCount}`;
+            };
+
+            updateImageCounter();
+
             window.addEventListener("keydown", function (e) {
                 if (modal.style.display === "block") {
                     if (e.key === "ArrowRight") {
@@ -174,12 +184,14 @@ function displayImages(images) {
                         currentIndex = (currentIndex - 1 + imagesCount) % imagesCount;
                     }
                     modalImg.src = images[currentIndex];
+                    updateImageCounter();
                 }
             });
         });
         imageContainer.appendChild(img);
     });
 }
+
 
 
 document.querySelector(".close").addEventListener("click", function () {

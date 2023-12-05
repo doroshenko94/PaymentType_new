@@ -71,6 +71,17 @@
         .panel-body {
             padding: 10px;
         }
+
+	<!-- стиль для изображений -->
+	.payment-image {
+	    width: 200px; /* начальная ширина */
+	    height: auto; /* автоматическая высота */
+	    transition: transform 0.3s ease; /* добавление анимации при изменении размера */
+	}
+
+.payment-image:hover {
+    transform: scale(1.2); /* увеличение изображения при наведении */
+}
     </style>
 </head>
 <body>
@@ -153,7 +164,10 @@
         </div>
     </div>
 
-	<div class="image-container" id="paymentImages"></div>
+	<div class="image-container" id="paymentImages">
+		<img src="1.jpg" class="payment-image">
+		<img src="2.jpg" class="payment-image">
+	</div>
 
 		<!-- Модальное окно для изображений -->
 		<div class="modal" id="imageModal">

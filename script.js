@@ -80,31 +80,31 @@ transactionToggle.addEventListener("click", function (event) {
         const selectedTransaction = transactionToggle.querySelector(".btn.btn-outline-success.active").getAttribute("data-value");
         const selectedCompany = this.value;
 
-        if (selectedCountry !== "default" && selectedTransaction !== "default" && selectedCompany !== "default") {
-            const transactionInfo = companyInfo[selectedCountry][selectedTransaction][selectedCompany];
+     if (selectedCountry !== "default" && selectedTransaction !== "default" && selectedCompany !== "default") {
+    const transactionInfo = companyInfo[selectedCountry][selectedTransaction][selectedCompany];
 
-            if (transactionInfo) {
-                greenBoxInfo.textContent = transactionInfo.greenBoxInfo;
-                yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
-                redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
+    if (transactionInfo) {
+        greenBoxInfo.textContent = transactionInfo.greenBoxInfo;
+        yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
+        redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
 
-                const imagesForCompany = imagesData[selectedCompany];
+        const imagesForCompany = imagesData[selectedCompany];
 
-                if (imagesForCompany) {
-                    displayImages(imagesForCompany);
-                } else {
-                    const imageContainer = document.getElementById("paymentImages");
-                    imageContainer.innerHTML = "";
-                }
-            }
+        if (imagesForCompany) {
+            displayImages(imagesForCompany);
         } else {
-            greenBoxInfo.textContent = "";
-            yellowBoxCompanyInfo.textContent = "";
-            redBoxCompanyInfo.textContent = "";
-
             const imageContainer = document.getElementById("paymentImages");
             imageContainer.innerHTML = "";
         }
+    }
+} else {
+    greenBoxInfo.textContent = "";
+    yellowBoxCompanyInfo.textContent = "";
+    redBoxCompanyInfo.textContent = "";
+
+    const imageContainer = document.getElementById("paymentImages");
+    imageContainer.innerHTML = "";
+}
     });
 });
 

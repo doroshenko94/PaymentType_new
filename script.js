@@ -89,20 +89,27 @@ companySelect.addEventListener("change", function () {
         const transactionInfo = companyInfo[selectedCountry][selectedTransaction][selectedCompany];
 
         if (transactionInfo) {
-            // Если есть информация для выбранной компании, отображаем ее
-            greenBoxInfo.textContent = transactionInfo.greenBoxInfo;
-            yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
-            redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
+            // Ваша текущая логика отображения информации о компании
+
+            if (selectedCompany === "Coinjar") {
+                updateCoinjarImages(); // Вызываем функцию для обновления изображений для Coinjar
+            } else {
+                // Если выбрана другая компания, скрываем изображения
+                const imagesContainer = document.getElementById("greenBoxImages");
+                imagesContainer.innerHTML = "";
+                // Аналогично для остальных блоков (yellowBox и redBox), если нужно
+            }
         } else {
-            // Если информации нет, очищаем соответствующие блоки
-            greenBoxInfo.textContent = "";
-            yellowBoxCompanyInfo.textContent = "";
-            redBoxCompanyInfo.textContent = "";
+            // Если информации о выбранной компании нет, скрываем изображения
+            const imagesContainer = document.getElementById("greenBoxImages");
+            imagesContainer.innerHTML = "";
+            // Аналогично для остальных блоков (yellowBox и redBox), если нужно
         }
     } else {
-        greenBoxInfo.textContent = "";
-        yellowBoxCompanyInfo.textContent = "";
-        redBoxCompanyInfo.textContent = "";
+        // Если не выбрана страна, тип транзакции или компания, скрываем изображения
+        const imagesContainer = document.getElementById("greenBoxImages");
+        imagesContainer.innerHTML = "";
+        // Аналогично для остальных блоков (yellowBox и redBox), если нужно
     }
 });
 

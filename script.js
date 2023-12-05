@@ -150,16 +150,30 @@ function displayImages(images) {
     images.forEach(function (imageUrl) {
         const img = document.createElement("img");
         img.src = imageUrl;
-        img.classList.add("payment-image"); // Добавляем класс для обработки размеров
+        img.classList.add("payment-image");
         img.addEventListener("click", function () {
             const modal = document.getElementById("imageModal");
             const modalImg = document.getElementById("modalImage");
+            const modalClose = document.querySelector(".close");
+            const imagesCount = images.length;
+            let currentIndex = images.indexOf(imageUrl);
+
             modal.style.display = "block";
             modalImg.src = this.src;
+
+            modalClose.onclick = function () {
+                modal.style.display = "none";
+            };
+
+            modalImg.onclick = function () {
+                currentIndex = (currentIndex + 1) % imagesCount;
+                modalImg.src = images[currentIndex];
+            };
         });
         imageContainer.appendChild(img);
     });
 }
+
 
 document.querySelector(".close").addEventListener("click", function () {
     const modal = document.getElementById("imageModal");

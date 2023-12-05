@@ -6,7 +6,7 @@ const companyOptions = {
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill",],
     Malasiya: ["Bybit","Skrill",],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill",],
-    New_Zeland: ["Zen","Simplex","Adv2","Advcash","W1tty","Bit2me","Bestwallet","Wise","Skrill",],
+    New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay",],
     Bermuda: ["W1tty","Bestwallet","Skrill",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill",],
     Australia:["W1tty","Bestwallet","Skrill",],
@@ -312,11 +312,6 @@ Ireland: {
                 yellowBoxInfo: "BUY CRYPTO: WITH CC - $10000 - per day. FROM BALANCE - $100.000",
                 redBoxInfo: "KYC:- Yes - Phone/ID/Selfie. / SEPA - not available in Cyprus to check",
             },
-            W1tty: {
-                greenBoxInfo: "Need testing",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             Bit2me: {
                  greenBoxInfo: "DEPOSIT LIMIT: Up to €999 no kyc with google pay, card or bank transfer €1000+ need kyc. Fiat deposit - wire transfer no limit - cc €5000/day. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
                 yellowBoxInfo: "BUY CRYPTO: with cc €5000/day - from fiat wallet no limit",
@@ -332,13 +327,23 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
             },
+            Bybit: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
+                redBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+            },
+            Paybis: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
+                redBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+            },
+            MoonPay: {
+                greenBoxInfo: "",
+                yellowBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
+                redBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+            },
         },
         "Big deposit": {
-            Zen: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",

@@ -160,6 +160,7 @@ function displayImages(images) {
 
             modal.style.display = "block";
             modalImg.src = this.src;
+            modalImg.style.width = "auto"; // Адаптивный размер
 
             modalClose.onclick = function () {
                 modal.style.display = "none";
@@ -173,6 +174,7 @@ function displayImages(images) {
         imageContainer.appendChild(img);
     });
 }
+
 
 
 document.querySelector(".close").addEventListener("click", function () {

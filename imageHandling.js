@@ -1,5 +1,5 @@
 // Функция для обновления изображений для компании Coinjar
-function updateCoinjarImages() {
+export function updateCoinjarImages() {
     const imagesContainer = document.getElementById("greenBoxImages");
     imagesContainer.innerHTML = ""; // Очистим контейнер перед добавлением новых изображений
 

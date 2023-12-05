@@ -227,15 +227,15 @@ Ireland: {
             },
         },
         "Big deposit": {
-             MEXC: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
+             Woltbit: {
+                greenBoxInfo: "Transaction amount: 250$-50,000$. Permitted age: 18-65",
+                yellowBoxInfo: "Woltbit - like roobic and bintense conbimbed. Offers personal accounts local transfer to the UK. Risk is 60 days.You have a link from support, like bintense open the account, you register the cloent ",
                 redBoxInfo: "",
             },
-             Zen: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
+            Coinjar: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
+                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes /",
+                redBoxInfo: "You can transfer to COLD wallets ",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",

@@ -196,6 +196,11 @@ function displayImages(images) {
 // Функция для отображения ссылок на PDF-файлы
 function displayPDFLinks(pdfFiles, companyName) {
     const pdfContainer = document.getElementById(`${companyName}-pdfFiles`);
+    if (!pdfContainer) {
+        console.error(`PDF Container not found for ${companyName}`);
+        return;
+    }
+
     pdfContainer.innerHTML = "";
 
     pdfFiles.forEach(function (pdfUrl) {
@@ -209,6 +214,7 @@ function displayPDFLinks(pdfFiles, companyName) {
         pdfContainer.appendChild(link);
     });
 }
+
 
 // Обработчик события для выбора компании
 companySelect.addEventListener("change", function () {

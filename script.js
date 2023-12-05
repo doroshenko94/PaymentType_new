@@ -147,7 +147,7 @@ function displayImages(images) {
     const imageContainer = document.getElementById("paymentImages");
     imageContainer.innerHTML = "";
 
-    images.forEach(function (imageUrl) {
+    images.forEach(function (imageUrl, index) {
         const img = document.createElement("img");
         img.src = imageUrl;
         img.classList.add("payment-image");
@@ -156,7 +156,7 @@ function displayImages(images) {
             const modalImg = document.getElementById("modalImage");
             const modalClose = document.querySelector(".close");
             const imagesCount = images.length;
-            let currentIndex = images.indexOf(imageUrl);
+            let currentIndex = index;
 
             modal.style.display = "block";
             modalImg.src = this.src;
@@ -166,10 +166,16 @@ function displayImages(images) {
                 modal.style.display = "none";
             };
 
-            modalImg.onclick = function () {
-                currentIndex = (currentIndex + 1) % imagesCount;
-                modalImg.src = images[currentIndex];
-            };
+            window.addEventListener("keydown", function (e) {
+                if (modal.style.display === "block") {
+                    if (e.key === "ArrowRight") {
+                        currentIndex = (currentIndex + 1) % imagesCount;
+                    } else if (e.key === "ArrowLeft") {
+                        currentIndex = (currentIndex - 1 + imagesCount) % imagesCount;
+                    }
+                    modalImg.src = images[currentIndex];
+                }
+            });
         });
         imageContainer.appendChild(img);
     });

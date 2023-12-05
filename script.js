@@ -41,6 +41,7 @@ countrySelect.addEventListener("change", function () {
 });
 
 
+// Обработчик события выбора типа транзакции
 transactionToggle.addEventListener("click", function (event) {
     if (event.target.tagName === "BUTTON") {
         const buttons = this.querySelectorAll("button");
@@ -50,7 +51,6 @@ transactionToggle.addEventListener("click", function (event) {
 
         event.target.classList.add("active");
 
-        // Далее ваш код для обработки выбранного типа транзакции
         const selectedCountry = countrySelect.value;
         const selectedTransaction = event.target.getAttribute("data-value");
         companySelect.disabled = false;
@@ -59,7 +59,6 @@ transactionToggle.addEventListener("click", function (event) {
         if (selectedTransaction !== "default" && selectedCountry in companyOptions) {
             const companies = companyOptions[selectedCountry];
 
-            // Проверяем, есть ли информация о компании для данного типа транзакции
             companies.forEach(function (company) {
                 if (companyInfo[selectedCountry][selectedTransaction][company]) {
                     const option = document.createElement("option");
@@ -74,7 +73,41 @@ transactionToggle.addEventListener("click", function (event) {
         yellowBoxCompanyInfo.textContent = "";
         redBoxCompanyInfo.textContent = "";
     }
+    
+    // Обработчик события выбора компании
+    companySelect.addEventListener("change", function () {
+        const selectedCountry = countrySelect.value;
+        const selectedTransaction = transactionToggle.querySelector(".btn.btn-outline-success.active").getAttribute("data-value");
+        const selectedCompany = this.value;
+
+        if (selectedCountry !== "default" && selectedTransaction !== "default" && selectedCompany !== "default") {
+            const transactionInfo = companyInfo[selectedCountry][selectedTransaction][selectedCompany];
+
+            if (transactionInfo) {
+                greenBoxInfo.textContent = transactionInfo.greenBoxInfo;
+                yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
+                redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
+
+                const imagesForCompany = imagesData[selectedCompany];
+
+                if (imagesForCompany) {
+                    displayImages(imagesForCompany);
+                } else {
+                    const imageContainer = document.getElementById("paymentImages");
+                    imageContainer.innerHTML = "";
+                }
+            }
+        } else {
+            greenBoxInfo.textContent = "";
+            yellowBoxCompanyInfo.textContent = "";
+            redBoxCompanyInfo.textContent = "";
+
+            const imageContainer = document.getElementById("paymentImages");
+            imageContainer.innerHTML = "";
+        }
+    });
 });
+
 
 // Функция для отображения изображений в сетке
 function displayImages(images) {

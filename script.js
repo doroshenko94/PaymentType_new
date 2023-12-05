@@ -235,6 +235,10 @@ const pdfsData = {
         "PDFs/Countries in which it does not work.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+     Skrill: [
+        "PDFs/Countries in which it does not work Skrill.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     // Добавьте pdf файлы для каждой компании по аналогии
 };
 

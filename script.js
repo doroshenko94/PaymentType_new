@@ -128,16 +128,23 @@ companySelect.addEventListener("change", function () {
         redBoxCompanyInfo.textContent = "";
     }
 
- const selectedCompany = this.value;
-    const imagesForCompany = imagesData[selectedCompany]; // Получаем изображения для выбранной компании
+  const imagesForCompany = imagesData[selectedCompany];
 
-    if (imagesForCompany) {
-        displayImages(imagesForCompany); // Отображаем изображения для выбранной компании
+            if (imagesForCompany) {
+                displayImages(imagesForCompany);
+            } else {
+                const imageContainer = document.getElementById("paymentImages");
+                imageContainer.innerHTML = "";
+            }
+        }
     } else {
+        greenBoxInfo.textContent = "";
+        yellowBoxCompanyInfo.textContent = "";
+        redBoxCompanyInfo.textContent = "";
+
         const imageContainer = document.getElementById("paymentImages");
-        imageContainer.innerHTML = ""; // Очищаем контейнер, если изображения отсутствуют
+        imageContainer.innerHTML = "";
     }
-    
 });
 
 const imagesData = {

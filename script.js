@@ -1,8 +1,5 @@
 import { companyOptions, companyInfo } from './data.js';
 
-// Импорт функции из файла imageHandling.js
-import { updateCoinjarImages } from './imageHandling.js';
-
 const countrySelect = document.getElementById("countrySelect");
 const companySelect = document.getElementById("companySelect");
 const transactionToggle = document.getElementById("transactionToggle");

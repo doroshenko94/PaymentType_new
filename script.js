@@ -150,7 +150,7 @@ function displayImages(images) {
     images.forEach(function (imageUrl) {
         const img = document.createElement("img");
         img.src = imageUrl;
-        img.classList.add("payment-image");
+        img.classList.add("payment-image"); // Добавляем класс для обработки размеров
         img.addEventListener("click", function () {
             const modal = document.getElementById("imageModal");
             const modalImg = document.getElementById("modalImage");

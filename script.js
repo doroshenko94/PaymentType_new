@@ -76,7 +76,33 @@ transactionToggle.addEventListener("click", function (event) {
     }
 });
 
+// Функция для отображения изображений в сетке
+function displayImages(images) {
+    const imageContainer = document.getElementById("paymentImages");
+    imageContainer.innerHTML = ""; // Очищаем контейнер перед добавлением новых изображений
 
+    images.forEach(function (imageUrl) {
+        const img = document.createElement("img");
+        img.src = imageUrl;
+        img.classList.add("payment-image");
+        img.addEventListener("click", function () {
+            const modal = document.getElementById("imageModal");
+            const modalImg = document.getElementById("modalImage");
+            modal.style.display = "block";
+            modalImg.src = this.src;
+        });
+        imageContainer.appendChild(img);
+    });
+}
+
+// Функция для закрытия модального окна
+document.querySelector(".close").addEventListener("click", function () {
+    const modal = document.getElementById("imageModal");
+    modal.style.display = "none";
+});
+
+
+// Изменение обработчика события для выбора компании платежа
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;
     const selectedTransaction = transactionToggle.querySelector(".btn.btn-outline-success.active").getAttribute("data-value");
@@ -101,7 +127,27 @@ companySelect.addEventListener("change", function () {
         yellowBoxCompanyInfo.textContent = "";
         redBoxCompanyInfo.textContent = "";
     }
+
+ const selectedCompany = this.value;
+    const imagesForCompany = imagesData[selectedCompany]; // Получаем изображения для выбранной компании
+
+    if (imagesForCompany) {
+        displayImages(imagesForCompany); // Отображаем изображения для выбранной компании
+    } else {
+        const imageContainer = document.getElementById("paymentImages");
+        imageContainer.innerHTML = ""; // Очищаем контейнер, если изображения отсутствуют
+    }
+    
 });
+
+const imagesData = {
+    Coinjar: [
+        "1.jpg",
+        "2.jpg",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
+    // Добавьте изображения для каждой компании по аналогии
+};
 
 async function fetchCurrencyRates() {
     try {

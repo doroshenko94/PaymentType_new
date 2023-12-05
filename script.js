@@ -175,7 +175,44 @@ function displayImages(images) {
     });
 }
 
+// Функция для отображения ссылок на PDF-файлы
+function displayPDFLinks(pdfFiles) {
+    const pdfContainer = document.getElementById("pdfFiles");
+    pdfContainer.innerHTML = "";
 
+    pdfFiles.forEach(function (pdfUrl) {
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.textContent = "Download PDF";
+        link.classList.add("pdf-link");
+        link.setAttribute("target", "_blank");
+
+        pdfContainer.appendChild(link);
+    });
+}
+
+// Обработчик события для выбора компании
+companySelect.addEventListener("change", function () {
+    // Остальной ваш код для получения информации о компании и т.д.
+
+    const pdfsForCompany = pdfsData[selectedCompany];
+
+    if (pdfsForCompany) {
+        displayPDFLinks(pdfsForCompany);
+    } else {
+        const pdfContainer = document.getElementById("pdfFiles");
+        pdfContainer.innerHTML = "";
+    }
+});
+
+// Массив данных для pdf файлоы
+const pdfsData = {
+    Neteller: [
+        "Click Flow.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
+    // Добавьте pdf файлы для каждой компании по аналогии
+};
 
 document.querySelector(".close").addEventListener("click", function () {
     const modal = document.getElementById("imageModal");

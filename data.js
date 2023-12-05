@@ -201,24 +201,24 @@ Ireland: {
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
             Adv2: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",
-                yellowBoxInfo: "BUY CRYPTO: FROM BALANCE - TO ADV WALLET - $3000. FROM BALANCE - TO EXTERNAL WALLET - $6000. NO CC BUY OPTION AVAILABLE",
-                redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Advcash: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - $9000 - per day",
-                yellowBoxInfo: "BUY CRYPTO: WITH CC - $10000 - per day. FROM BALANCE - $100.000",
-                redBoxInfo: "KYC:- Yes - Phone/ID/Selfie. / SEPA - not available in Cyprus to check",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Bit2me: {
-                greenBoxInfo: "DEPOSIT LIMIT: up to €999 no kyc with google pay, card or bank transfer €1000+ need kyc. Fiat deposit - wire transfer no limit - cc €5000/day. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
-                yellowBoxInfo: "BUY CRYPTO: with cc €5000/day - from fiat wallet no limit",
-                redBoxInfo: "KYC: yes for transaction €1000+",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             BestWallet: {
-                greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
-                yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
-                redBoxInfo: "KYC: yes for transaction $1050+",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
@@ -241,6 +241,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            MEXC: {
+                greenBoxInfo: "-Name / -Email / -Address / -ID / -Selfie. Limit 10.000 per day",
+                yellowBoxInfo: "Done 10.000$ trx with MEXC. We did in usdt ut later we find how to do also eth. you receive money, then change in crypto clicking on transfer then withdrawl and you have 2 options like revolut and the first one exchange crypto.",
+                redBoxInfo: "The first time you have to add 2FA and you can choose google auth or email much better.then you you can send and put OTP received on email and by sms. for USDT TRC20 you have 0.93 cent in transfers on 10k on ERC20 you have 3,74 eur. fee. 10/15 minutes before receive (its written on the app) / NOT TESTED YET"
             },
         },
     },
@@ -270,7 +275,7 @@ Ireland: {
                 redBoxInfo: "",
             },
             Paybis: {
-                greenBoxInfo: "Need Information",
+                greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
@@ -280,24 +285,24 @@ Ireland: {
     Canada: {
         STD: {
             Adv2: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",
-                yellowBoxInfo: "BUY CRYPTO: FROM BALANCE - TO ADV WALLET - $3000. FROM BALANCE - TO EXTERNAL WALLET - $6000. NO CC BUY OPTION AVAILABLE",
-                redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Advcash: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - $9000 - per day",
-                yellowBoxInfo: "BUY CRYPTO: WITH CC - $10000 - per day. FROM BALANCE - $100.000",
-                redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address. / SEPA - not available in Cyprus to check",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Bit2me: {
-                greenBoxInfo: "DEPOSIT LIMIT: Up to €999 no KYC with google pay, card or bank transfer. €1000+ need KYC. Fiat deposit - wire transfer no limit - cc €5000/day. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
-                yellowBoxInfo: "BUY CRYPTO - with cc €5000/day - from fiat wallet no limit",
-                redBoxInfo: "KYC: yes for transaction €1000+",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Bestwallet: {
-                greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
-                yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
-                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
@@ -328,24 +333,24 @@ Ireland: {
                 redBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
             },
             Adv2: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - €4862 - fees 2.9% . SEPA - €4505 - fees €1-€5. / WITHDRAWAL LIMIT: USDT - 3016 per trx. BTC - 0.20 per trx",
-                yellowBoxInfo: "BUY CRYPTO: FROM BALANCE - TO ADV WALLET - $3000. FROM BALANCE - TO EXTERNAL WALLET - $6000. NO CC BUY OPTION AVAILABLE",
-                redBoxInfo: "KYC: Yes - Phone/ID/Selfie/Address. / Works only with Kiwi bank",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Advcash: {
-                greenBoxInfo: "DEPOSIT LIMIT: CC - $9000 - per day",
-                yellowBoxInfo: "BUY CRYPTO: WITH CC - $10000 - per day. FROM BALANCE - $100.000",
-                redBoxInfo: "KYC:- Yes - Phone/ID/Selfie. / SEPA - not available in Cyprus to check",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Bit2me: {
-                 greenBoxInfo: "DEPOSIT LIMIT: Up to €999 no kyc with google pay, card or bank transfer €1000+ need kyc. Fiat deposit - wire transfer no limit - cc €5000/day. / WITHDRAWAL LIMIT: Crypto withdrawals no limit",
-                yellowBoxInfo: "BUY CRYPTO: with cc €5000/day - from fiat wallet no limit",
-                redBoxInfo: "KYC: yes for transaction €1000+",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Bestwallet: {
-                greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
-                yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
-                redBoxInfo: "KYC: yes for transaction $1050+",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
@@ -385,9 +390,9 @@ Ireland: {
      Bermuda: {
         STD: {
             Bestwallet: {
-                greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
-                yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
-                redBoxInfo: "NOT TESTED YET, IF YOU USE - MAKE CRM AWARE OF SUCCESS ",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
@@ -417,20 +422,20 @@ Ireland: {
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
             Bintence: {
-                greenBoxInfo: "",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
             Bit2me: {
-                greenBoxInfo: "DEPOSIT LIMIT: up to €999 no kyc with google pay, card or bank. Fiat deposit - wire transfer no limit - cc €5000/day. / Buy crypto - with cc €5000/day - from fiat wallet no limit",
-                yellowBoxInfo: "WITHDRAWAL LIMIT: Crypto withdrawals no limit",
-                redBoxInfo: "KYC: yes for transaction €1000+",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         
             Bestwallet: {
-                greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050.",
-                yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
-                redBoxInfo: "KYC: yes for transaction $1050+",
+                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",

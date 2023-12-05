@@ -133,9 +133,9 @@ Ireland: {
                 redBoxInfo: "You can transfer to COLD wallets ",
             },
             MEXC: {
-                greenBoxInfo: "NOT TESTED YET",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
+                greenBoxInfo: "-Name / -Email / -Address / -ID / -Selfie. Limit 10.000 per day",
+                yellowBoxInfo: "Done 10.000$ trx with MEXC. We did in usdt ut later we find how to do also eth. you receive money, then change in crypto clicking on transfer then withdrawl and you have 2 options like revolut and the first one exchange crypto.",
+                redBoxInfo: "The first time you have to add 2FA and you can choose google auth or email much better.then you you can send and put OTP received on email and by sms. for USDT TRC20 you have 0.93 cent in transfers on 10k on ERC20 you have 3,74 eur. fee. 10/15 minutes before receive (its written on the app). / NOT TESTED YET"
             },
         },
     },

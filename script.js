@@ -176,7 +176,6 @@ function displayImages(images) {
 }
 
 
-
 document.querySelector(".close").addEventListener("click", function () {
     const modal = document.getElementById("imageModal");
     modal.style.display = "none";

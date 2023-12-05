@@ -7,7 +7,7 @@ const companyOptions = {
     Malasiya: ["Bybit","Skrill",],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill",],
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay",],
-    Bermuda: ["W1tty","Bestwallet","Skrill",],
+    Bermuda: ["Bestwallet","Skrill",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill",],
     Australia:["W1tty","Bestwallet","Skrill",],
     // Добавьте другие страны и компании по аналогии
@@ -354,15 +354,10 @@ Ireland: {
 
      Bermuda: {
         STD: {
-            W1tty: {
-                greenBoxInfo: "Need testing",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
             Bestwallet: {
                 greenBoxInfo: "TRANSACTION NO KYC: yes up to $1050",
                 yellowBoxInfo: "BUY CRYPTO: YES -up to $1050 no KYC",
-                redBoxInfo: "KYC: yes for transaction $1050+",
+                redBoxInfo: "NOT TESTED YET, IF YOU USE - MAKE CRM AWARE OF SUCCESS ",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",

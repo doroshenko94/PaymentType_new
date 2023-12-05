@@ -206,7 +206,7 @@ function displayPDFLinks(pdfFiles) {
         link.href = pdfUrl;
         const fileName = pdfUrl.split('/').pop(); // Получаем имя файла из URL
         link.textContent = fileName; // Используем имя файла как текст ссылки
-        link.classList.add("pdf-link");
+        link.classList.add("btn", "btn-primary", "mr-2", "mb-2");
         link.setAttribute("target", "_blank");
 
         pdfContainer.appendChild(link);

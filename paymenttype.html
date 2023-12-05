@@ -76,8 +76,13 @@
 	.payment-image {
 	    width: 100%; /* Адаптивная ширина изображений */
 	    height: auto;
-	    margin: 5px; /* Отступы между изображениями */
+	    margin: 10px; /* Отступы между изображениями */
 	    cursor: pointer;
+	    transition: transform 0.3s ease; /* Добавляем плавный переход */
+	}
+	
+	.payment-image:hover {
+	    transform: scale(1.1); /* Увеличиваем изображение при наведении */
 	}
 
 	    /* ... */

@@ -1,7 +1,7 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit","Coinjar","Neteller","Skrill",],
-    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill",],
+    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill","Woltbit","Coinjar","MEXC",],
     Italy: ["Revolut", "Curve", "Bintence_Wire", "Zen","MEXC","Skrill",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill",],
     Malasiya: ["Bybit","Skrill",],

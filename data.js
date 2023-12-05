@@ -7,7 +7,7 @@ const companyOptions = {
     Malasiya: ["Bybit","Skrill","Luno","Paybis",],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill",],
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit",],
-    Bermuda: ["Bestwallet","Skrill",],
+    Bermuda: ["Bestwallet","Skrill","Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill",],
     Australia:["W1tty","Bestwallet","Skrill",],
     // Добавьте другие страны и компании по аналогии
@@ -400,6 +400,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            Gemini: {
+                greenBoxInfo: "Need Information",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         },
     },

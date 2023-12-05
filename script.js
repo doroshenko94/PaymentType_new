@@ -227,7 +227,7 @@ companySelect.addEventListener("change", function () {
 // Массив данных для pdf файлоы
 const pdfsData = {
     Neteller: [
-        "Click Flow.pdf",
+        "PDFs/Countries in which it does not work.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     // Добавьте pdf файлы для каждой компании по аналогии

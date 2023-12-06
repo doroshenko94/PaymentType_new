@@ -8,13 +8,6 @@ const greenBoxInfo = document.getElementById("greenBoxInfo");
 const yellowBoxCompanyInfo = document.getElementById("yellowBoxCompanyInfo");
 const redBoxCompanyInfo = document.getElementById("redBoxCompanyInfo");
 
-// Добавление текста для каждой компании
-const textData = {
-    Simplex: "Текст для компании Coinjar. Можно использовать HTML-разметку для стилизации или форматирования текста.",
-    Adv2: "Текст для компании Coinjar. Можно использовать HTML-разметку для стилизации или форматирования текста.",
-    // Добавьте текст для каждой компании по аналогии
-};
-
 // Функция для отображения текста для каждой компании
 function displayText(text) {
     const textContainer = document.getElementById("textContainer"); // Замените "textContainer" на ваш ID контейнера для текста
@@ -108,8 +101,7 @@ companySelect.addEventListener("change", function () {
             if (textForCompany) {
                 displayText(textForCompany);
                 textContainer.classList.add("mt-3", "p-3", "bg-light");
-                textContainer.querySelector("h4").classList.add("text-info");
-                textContainer.querySelector("p").classList.add("text-muted");
+                textContainer.querySelector("p").classList.add("text-warning");
             } else {
                 textContainer.textContent = "";
                 textContainer.className = "d-none"; // Скрываем элемент, если нет текста
@@ -269,6 +261,13 @@ const pdfsData = {
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     // Добавьте pdf файлы для каждой компании по аналогии
+};
+
+// Добавление текста для каждой компании
+const textData = {
+    Simplex: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Adv2: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    // Добавьте текст для каждой компании по аналогии
 };
 
 document.querySelector(".close").addEventListener("click", function () {

@@ -100,11 +100,16 @@ companySelect.addEventListener("change", function () {
 
             if (textForCompany) {
                 displayText(textForCompany);
+                textContainer.textContent = textForCompany;
                 textContainer.classList.add("mt-3", "p-3", "bg-light");
-                textContainer.querySelector("p").classList.add("text-info");
+            
+                const paragraphElement = textContainer.querySelector("p");
+                if (paragraphElement) {
+                    paragraphElement.classList.add("text-warning");
+                }
             } else {
-                 const textContainer = document.getElementById("textContainer");
-                 textContainer.textContent = ""; // Очищаем содержимое контейнера перед установкой нового текста
+                textContainer.textContent = "";
+                textContainer.className = "d-none"; // Скрываем элемент, если нет текста
             }
 
             

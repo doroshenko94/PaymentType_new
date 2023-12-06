@@ -98,20 +98,13 @@ companySelect.addEventListener("change", function () {
             const pdfsForCompany = pdfsData[selectedCompany]; // Добавлено для PDF файлов
             const textForCompany = textData[selectedCompany]; // Добавлено для текста
 
-            // Очищаем контейнер перед установкой нового текста
-            const textContainer = document.getElementById("textContainer");
-            textContainer.textContent = "";
-
-            const textForCompany = textData[selectedCompany]; // Получаем текст для выбранной компании
-
-
             if (textForCompany) {
                 displayText(textForCompany);
                 textContainer.classList.add("mt-3", "p-3", "bg-light");
-                textContainer.querySelector("p").classList.add("text-warning");
+                textContainer.querySelector("p").classList.add("text-info");
             } else {
-                textContainer.textContent = "";
-                textContainer.className = "d-none"; // Скрываем элемент, если нет текста
+                 const textContainer = document.getElementById("textContainer");
+                 textContainer.textContent = ""; // Очищаем содержимое контейнера перед установкой нового текста
             }
 
             

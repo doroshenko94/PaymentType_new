@@ -272,6 +272,13 @@ const pdfsData = {
 const textData = {
     Simplex: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
     Adv2: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Advcash: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Bit2me: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Bestwallet: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Skrill: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Bybit: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Paybis: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    MoonPay: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
     // Добавьте текст для каждой компании по аналогии
 };
 

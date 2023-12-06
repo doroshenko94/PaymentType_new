@@ -330,27 +330,27 @@ Ireland: {
             Simplex: {
                 greenBoxInfo: "AGE: 18 - 65. Limits on the cards for revolut 2.000$ per day maximum 10.000$ per month",
                 yellowBoxInfo: "Works only with card. Card Visa or Mastercard will not work with UK Highstreet banks or Ireland needs to be Revol",
-                redBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
             Adv2: {
                 greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
                 yellowBoxInfo: "",
-                redBoxInfo: "",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
             Advcash: {
                 greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
                 yellowBoxInfo: "",
-                redBoxInfo: "",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
             Bit2me: {
                 greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
                 yellowBoxInfo: "",
-                redBoxInfo: "",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
             Bestwallet: {
                 greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
                 yellowBoxInfo: "",
-                redBoxInfo: "",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
@@ -358,19 +358,19 @@ Ireland: {
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
             },
             Bybit: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
-                redBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+                greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+                yellowBoxInfo: "",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
             Paybis: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
-                redBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+                greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+                yellowBoxInfo: "",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
             MoonPay: {
-                greenBoxInfo: "",
-                yellowBoxInfo: "YOU CAN ONLY USE THIS SOLUTION FOR NZ IF YOU HAVE KIWI BANK",
-                redBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+                greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
+                yellowBoxInfo: "",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
         },
         "Big deposit": {
@@ -382,7 +382,7 @@ Ireland: {
             Woltbit: {
                 greenBoxInfo: "Transaction amount: 250$-50,000$. Permitted age: 18-65",
                 yellowBoxInfo: "Woltbit - like roobic and bintense conbimbed. Offers personal accounts local transfer to the UK. Risk is 60 days.You have a link from support, like bintense open the account, you register the cloent ",
-                redBoxInfo: "",
+                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
         },
     },

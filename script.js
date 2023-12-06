@@ -8,6 +8,19 @@ const greenBoxInfo = document.getElementById("greenBoxInfo");
 const yellowBoxCompanyInfo = document.getElementById("yellowBoxCompanyInfo");
 const redBoxCompanyInfo = document.getElementById("redBoxCompanyInfo");
 
+// Добавление текста для каждой компании
+const textData = {
+    Simplex: "Текст для компании Coinjar. Можно использовать HTML-разметку для стилизации или форматирования текста.",
+    Adv2: "Текст для компании Coinjar. Можно использовать HTML-разметку для стилизации или форматирования текста.",
+    // Добавьте текст для каждой компании по аналогии
+};
+
+// Функция для отображения текста для каждой компании
+function displayText(text) {
+    const textContainer = document.getElementById("textContainer"); // Замените "textContainer" на ваш ID контейнера для текста
+    textContainer.textContent = text;
+}
+
 countrySelect.addEventListener("change", function () {
     const selectedCountry = this.value;
     transactionToggle.disabled = false;
@@ -39,7 +52,7 @@ countrySelect.addEventListener("change", function () {
     }
 });
 
-// Обработчик события выбора типа транзакции
+// Обработчик события для выбора типа транзакции
 transactionToggle.addEventListener("click", function (event) {
     if (event.target.tagName === "BUTTON") {
         const buttons = this.querySelectorAll("button");
@@ -90,7 +103,15 @@ companySelect.addEventListener("change", function () {
 
             const imagesForCompany = imagesData[selectedCompany];
             const pdfsForCompany = pdfsData[selectedCompany]; // Добавлено для PDF файлов
+            const textForCompany = textData[selectedCompany]; // Добавлено для текста
 
+            if (textForCompany) {
+                displayText(textForCompany);
+            } else {
+                textContainer.textContent = "";
+            }
+
+            
             if (imagesForCompany) {
                 displayImages(imagesForCompany);
             } else {

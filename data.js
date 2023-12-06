@@ -467,7 +467,7 @@ Ireland: {
             Binance: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
                 yellowBoxInfo: "Binance is a crypto wallet. They can use Revolut card to top up in Binance",
-                redBoxInfo: "",
+                redBoxInfo: "To use Revolut Card only, Bank transfer to be tested",
             },
             
         },
@@ -480,7 +480,7 @@ Ireland: {
             Binance: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
                 yellowBoxInfo: "Binance is a crypto wallet. They can use Revolut card to top up in Binance",
-                redBoxInfo: "",
+                redBoxInfo: "To use Revolut Card only, Bank transfer to be tested",
             },
         },
     },

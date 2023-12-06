@@ -9,8 +9,7 @@ const companyOptions = {
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit",],
     Bermuda: ["Bestwallet","Skrill","Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill",],
-    Australia:["W1tty","Bestwallet","Skrill",],
-    Norway:["Revolut","Binance",],
+    Norway: ["Revolut","Binance",],
     // Добавьте другие страны и компании по аналогии
 };
 

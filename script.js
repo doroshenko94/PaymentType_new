@@ -107,8 +107,12 @@ companySelect.addEventListener("change", function () {
 
             if (textForCompany) {
                 displayText(textForCompany);
+                textContainer.classList.add("mt-3", "p-3", "bg-light");
+                textContainer.querySelector("h4").classList.add("text-info");
+                textContainer.querySelector("p").classList.add("text-muted");
             } else {
                 textContainer.textContent = "";
+                textContainer.className = "d-none"; // Скрываем элемент, если нет текста
             }
 
             

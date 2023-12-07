@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar",],
     Malasiya: ["Bybit","Skrill","Luno","Paybis",],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill",],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple",],
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit",],
     Bermuda: ["Bestwallet","Skrill","Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill",],
@@ -309,6 +309,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
             },
+            Wealthsimple: {
+                greenBoxInfo: "Transaction amount: no minimum - Up to limit for transaction type. Permitted age: 19 and up to no age limit.",
+                yellowBoxInfo: "Deposit options: Linked Visa/Master Debit card $3.500 per day $35.000 per month. No limit for wire transfer deposit. Interac transaction limit CAD3.000 per transaction; Maximum CAD10,000 per week; CAD20,000 per month. Crypto WD limit of CAD10,000 a day/CAD25,000 a week. No limits on buying BTC and ETH",
+                redBoxInfo: "For account verification you need ID, POA and Selfie. / UNTESTED",
+            },
         },
         "Big deposit": {
                 NDAX: {
@@ -320,6 +325,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            Wealthsimple: {
+                greenBoxInfo: "Transaction amount: no minimum - Up to limit for transaction type. Permitted age: 19 and up to no age limit.",
+                yellowBoxInfo: "Deposit options: Linked Visa/Master Debit card $3.500 per day $35.000 per month. No limit for wire transfer deposit. Interac transaction limit CAD3.000 per transaction; Maximum CAD10,000 per week; CAD20,000 per month. Crypto WD limit of CAD10,000 a day/CAD25,000 a week. No limits on buying BTC and ETH",
+                redBoxInfo: "For account verification you need ID, POA and Selfie. / UNTESTED",
             },
         },
     },

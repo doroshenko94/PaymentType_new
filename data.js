@@ -66,8 +66,8 @@ const companyInfo = {
             },
             Coinjar: {
                 greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
-                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes /",
-                redBoxInfo: "You can transfer to COLD wallets ",
+                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT. ",
+                redBoxInfo: "You can transfer to COLD wallets.\n \n They might ask for a questionare: \nYour estimated monthly deposit and withdrawal volume (how much money you are looking to deposit into CoinJar each month)\nYour estimated monthly buy and sell volume in GBP (how much money you will be converting to and from digital currencies each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nThe nature of your business relationship with CoinJar (what you plan to use CoinJar for now and in the future)\nHas anyone asked you to create this CoinJar account for an investment opportunity?\nDoes anyone else have access to the device you use to access your CoinJar?\nDo you understand that digital currency transactions are impossible to reverse, and your bank and CoinJar have no way to reverse transactions if you discover you have fallen victim to a scam or have a change of mind at a later date?\nPlease provide a screenshot of your wallet displaying the receiving address ending in thztmwrz to verify ownership. ",
             },
             Neteller: {
                 greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
@@ -129,8 +129,8 @@ Ireland: {
             },
             Coinjar: {
                 greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
-                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / ",
-                redBoxInfo: "You can transfer to COLD wallets ",
+                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT. ",
+                redBoxInfo: "You can transfer to COLD wallets.\n \n They might ask for a questionare: \nYour estimated monthly deposit and withdrawal volume (how much money you are looking to deposit into CoinJar each month)\nYour estimated monthly buy and sell volume in GBP (how much money you will be converting to and from digital currencies each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nThe nature of your business relationship with CoinJar (what you plan to use CoinJar for now and in the future)\nHas anyone asked you to create this CoinJar account for an investment opportunity?\nDoes anyone else have access to the device you use to access your CoinJar?\nDo you understand that digital currency transactions are impossible to reverse, and your bank and CoinJar have no way to reverse transactions if you discover you have fallen victim to a scam or have a change of mind at a later date?\nPlease provide a screenshot of your wallet displaying the receiving address ending in thztmwrz to verify ownership. ",
             },
             MEXC: {
                 greenBoxInfo: "-Name / -Email / -Address / -ID / -Selfie. Limit 10.000 per day",
@@ -234,8 +234,8 @@ Ireland: {
             },
             Coinjar: {
                 greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
-                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes /",
-                redBoxInfo: "You can transfer to COLD wallets ",
+                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT. ",
+                redBoxInfo: "You can transfer to COLD wallets.\n \n They might ask for a questionare: \nYour estimated monthly deposit and withdrawal volume (how much money you are looking to deposit into CoinJar each month)\nYour estimated monthly buy and sell volume in GBP (how much money you will be converting to and from digital currencies each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nThe nature of your business relationship with CoinJar (what you plan to use CoinJar for now and in the future)\nHas anyone asked you to create this CoinJar account for an investment opportunity?\nDoes anyone else have access to the device you use to access your CoinJar?\nDo you understand that digital currency transactions are impossible to reverse, and your bank and CoinJar have no way to reverse transactions if you discover you have fallen victim to a scam or have a change of mind at a later date?\nPlease provide a screenshot of your wallet displaying the receiving address ending in thztmwrz to verify ownership. ",
             },
             Skrill: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",

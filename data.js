@@ -19,12 +19,12 @@ const companyInfo = {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
             },
             Curve: {
-                greenBoxInfo: "Curve you can download and install, credit the account and use virtual card on moonpay, similar process to revolut.",
+                greenBoxInfo: "Curve you can download and install, credit the account and use virtual card on moonpay, similar process to Revolut.",
                 yellowBoxInfo: "You can use credit card to top up which is useful. Not sure of age limit.",
-                redBoxInfo: "CURVE it is like revolut you can use a virtual card. You can top up with high street banks, you can use credit cards, and work with MOONPAY.",
+                redBoxInfo: "CURVE it is like Revolut you can use a virtual card. You can top up with high street banks, you can use credit cards, and work with MOONPAY.",
             },
             Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
@@ -87,7 +87,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
             },
             Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
@@ -145,7 +145,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
             },
            Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
@@ -193,7 +193,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
             },
             Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
@@ -338,7 +338,7 @@ Ireland: {
     New_Zeland: {
         STD: {
             Simplex: {
-                greenBoxInfo: "AGE: 18 - 75. Limits on the cards for revolut 2.000$ per day maximum 10.000$ per month",
+                greenBoxInfo: "AGE: 18 - 75. Limits on the cards for Revolut 2.000$ per day maximum 10.000$ per month",
                 yellowBoxInfo: "Works only with card. Card Visa or Mastercard will not work with UK Highstreet banks or Ireland needs to be Revol",
                 redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
@@ -472,7 +472,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
             },
             Binance: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
@@ -485,7 +485,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 69 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
             },
             Binance: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",

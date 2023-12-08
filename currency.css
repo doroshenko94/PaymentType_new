@@ -1,0 +1,26 @@
+ #cryptoTicker {
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      font-style: italic;
+      color: #333;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .green {
+      color: green;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .separator {
+      margin: 0 5px;
+      color: #999;
+    }

@@ -261,26 +261,35 @@
     var startX;
     var scrollLeft;
 
-    document.getElementById('cryptoTickerContainer').addEventListener('mousedown', function (e) {
-        isMouseDown = true;
-        startX = e.pageX - document.getElementById('cryptoTickerContainer').offsetLeft;
-        scrollLeft = document.getElementById('cryptoTicker').scrollLeft;
+    var ticker = document.getElementById('cryptoTicker');
+    var tickerContainer = document.getElementById('cryptoTickerContainer');
+
+    tickerContainer.addEventListener('mouseenter', function() {
+      ticker.stop(); // Останавливаем движущуюся строку при наведении курсора
     });
 
-    document.getElementById('cryptoTickerContainer').addEventListener('mouseleave', function () {
-        isMouseDown = false;
+    tickerContainer.addEventListener('mouseleave', function() {
+      ticker.start(); // Возобновляем движущуюся строку после того, как курсор убран
     });
 
-    document.getElementById('cryptoTickerContainer').addEventListener('mouseup', function () {
-        isMouseDown = false;
+    tickerContainer.addEventListener('mousedown', function(e) {
+      isMouseDown = true;
+      startX = e.pageX - tickerContainer.offsetLeft;
+      scrollLeft = ticker.scrollLeft;
+      ticker.stop(); // Останавливаем движущуюся строку при удержании левой кнопки мыши
     });
 
-    document.getElementById('cryptoTickerContainer').addEventListener('mousemove', function (e) {
-        if (!isMouseDown) return;
-        e.preventDefault();
-        const x = e.pageX - document.getElementById('cryptoTickerContainer').offsetLeft;
-        const walk = (x - startX) * 1; // You can adjust the scroll speed by changing the multiplier
-        document.getElementById('cryptoTicker').scrollLeft = scrollLeft - walk;
+    tickerContainer.addEventListener('mouseup', function() {
+      isMouseDown = false;
+      ticker.start(); // Возобновляем движущуюся строку после того, как левая кнопка мыши отпущена
+    });
+
+    tickerContainer.addEventListener('mousemove', function(e) {
+      if (!isMouseDown) return;
+      e.preventDefault();
+      const x = e.pageX - tickerContainer.offsetLeft;
+      const walk = (x - startX) * 1; // Можете настроить скорость скроллинга, меняя множитель
+      ticker.scrollLeft = scrollLeft - walk;
     });
   </script>
 <script type="module" src="script.js"></script> 

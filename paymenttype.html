@@ -149,8 +149,10 @@
     <img src="favicon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
     Payment Type
   </a>
-	  <div class="d-flex align-items-center">
-    <marquee id="cryptoTicker" behavior="scroll" direction="left" scrollamount="8"></marquee>
+  <div class="navbar-nav ml-auto">
+    <div id="cryptoTickerContainer" style="overflow: hidden;">
+      <marquee id="cryptoTicker" behavior="scroll" direction="left" scrollamount="8">This is a scrolling text. Move your mouse left or right inside this box to scroll.</marquee>
+    </div>
     <a href="https://doroshenko94.github.io/PaymentType_new/bintence.html" class="btn btn-outline-success ml-3">Bintense</a>
   </div>
 </nav>
@@ -255,14 +257,32 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script>
-  $(document).ready(function() {
-    $("#cryptoTickerContainer").on("mousemove", function(event) {
-      var delta = event.originalEvent.deltaX;
-      var ticker = document.getElementById("cryptoTicker");
-      ticker.scrollLeft += delta * 2;
+    var isMouseDown = false;
+    var startX;
+    var scrollLeft;
+
+    document.getElementById('cryptoTickerContainer').addEventListener('mousedown', function (e) {
+        isMouseDown = true;
+        startX = e.pageX - document.getElementById('cryptoTickerContainer').offsetLeft;
+        scrollLeft = document.getElementById('cryptoTicker').scrollLeft;
     });
-  });
-</script>
+
+    document.getElementById('cryptoTickerContainer').addEventListener('mouseleave', function () {
+        isMouseDown = false;
+    });
+
+    document.getElementById('cryptoTickerContainer').addEventListener('mouseup', function () {
+        isMouseDown = false;
+    });
+
+    document.getElementById('cryptoTickerContainer').addEventListener('mousemove', function (e) {
+        if (!isMouseDown) return;
+        e.preventDefault();
+        const x = e.pageX - document.getElementById('cryptoTickerContainer').offsetLeft;
+        const walk = (x - startX) * 1; // You can adjust the scroll speed by changing the multiplier
+        document.getElementById('cryptoTicker').scrollLeft = scrollLeft - walk;
+    });
+  </script>
 <script type="module" src="script.js"></script> 
 <script src="currency.js"></script>
     

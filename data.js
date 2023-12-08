@@ -19,7 +19,7 @@ const companyInfo = {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
             Curve: {
                 greenBoxInfo: "Curve you can download and install, credit the account and use virtual card on moonpay, similar process to Revolut.",
@@ -87,7 +87,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
             Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
@@ -145,7 +145,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
            Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
@@ -193,7 +193,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
             Zen: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
@@ -472,7 +472,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
             Binance: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
@@ -485,7 +485,7 @@ Ireland: {
             Revolut: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
-                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch, REVOLUT.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
             Binance: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",

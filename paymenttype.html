@@ -5,6 +5,7 @@
     <title>Payment System Selector</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- jQuery --> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap JavaScript --><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" type="text/css" href="currency.css">
@@ -251,6 +252,15 @@
 
     // Вызвать функцию hideSplash через 3.5 секунды (3500 миллисекунд)
     setTimeout(hideSplash, 3500);
+</script>
+	<script>
+  $(document).ready(function() {
+    $("#cryptoTickerContainer").on("mousemove", function(event) {
+      var delta = event.originalEvent.deltaX;
+      var ticker = document.getElementById("cryptoTicker");
+      ticker.scrollLeft += delta * 2;
+    });
+  });
 </script>
 <script type="module" src="script.js"></script> 
 <script src="currency.js"></script>

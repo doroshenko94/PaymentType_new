@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar",],
     Malasiya: ["Bybit","Skrill","Luno","Paybis",],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple",],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple","Newton",],
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit",],
     Bermuda: ["Bestwallet","Skrill","Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill",],
@@ -314,6 +314,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Linked Visa/Master Debit card $3.500 per day $35.000 per month. No limit for wire transfer deposit. Interac transaction limit CAD3.000 per transaction; Maximum CAD10,000 per week; CAD20,000 per month. Crypto WD limit of CAD10,000 a day/CAD25,000 a week. No limits on buying BTC and ETH",
                 redBoxInfo: "For account verification you need ID, POA and Selfie. / UNTESTED",
             },
+            Newton: {
+                greenBoxInfo: "Transaction amount: CAD10-CAD50.000. Permitted age: 19 and up to no age limit",
+                yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
+                redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
+            },
         },
         "Big deposit": {
                 NDAX: {
@@ -330,6 +335,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: no minimum - Up to limit for transaction type. Permitted age: 19 and up to no age limit.",
                 yellowBoxInfo: "Deposit options: Linked Visa/Master Debit card $3.500 per day $35.000 per month. No limit for wire transfer deposit. Interac transaction limit CAD3.000 per transaction; Maximum CAD10,000 per week; CAD20,000 per month. Crypto WD limit of CAD10,000 a day/CAD25,000 a week. No limits on buying BTC and ETH",
                 redBoxInfo: "For account verification you need ID, POA and Selfie. / UNTESTED",
+            },
+             Newton: {
+                greenBoxInfo: "Transaction amount: CAD10-CAD50.000. Permitted age: 19 and up to no age limit",
+                yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
+                redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
         },
     },

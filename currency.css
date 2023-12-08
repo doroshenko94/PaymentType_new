@@ -4,7 +4,6 @@
       font-style: italic;
       color: #ffffff;
       padding: 10px;
-      border: 1px solid #ccc;
       border-radius: 5px;
       background-color: #343a40;
       width: 100%;
@@ -13,11 +12,11 @@
     }
 
     .green {
-      color: green;
+      color: #11D728;
     }
 
     .red {
-      color: red;
+      color: #FF5252;
     }
 
     .separator {

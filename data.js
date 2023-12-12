@@ -320,7 +320,7 @@ Ireland: {
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
             Local_Wire_Solution: {
-                    greenBoxInfo: "In order to proceed the agent needs to ask the client the following informaiton: Age / Full name",
+                    greenBoxInfo: "In order to proceed the agent needs to ask the client the following informaiton: Age, Full name and with whom he is banking.",
                     yellowBoxInfo: "Amount cannot be over 10.000 Canadian in one shot you can do up to 100.000 in multiple transactions",
                     redBoxInfo: "Support will generate an invoice for them to go to the bank and make the payment or make the payment online. Risk on these transactions is three monthsCommision is 5% ",
                 },
@@ -347,7 +347,7 @@ Ireland: {
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
             Local_Wire_Solution: {
-                    greenBoxInfo: "In order to proceed the agent needs to ask the client the following informaiton: Age / Full name",
+                    greenBoxInfo: "In order to proceed the agent needs to ask the client the following informaiton: Age, Full name and with whom he is banking.",
                     yellowBoxInfo: "Amount cannot be over 10.000 Canadian in one shot you can do up to 100.000 in multiple transactions",
                     redBoxInfo: "Support will generate an invoice for them to go to the bank and make the payment or make the payment online. Risk on these transactions is three monthsCommision is 5% ",
                 },

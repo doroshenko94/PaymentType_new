@@ -10,6 +10,9 @@ const companyOptions = {
     Bermuda: ["Bestwallet","Skrill","Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill",],
     Norway: ["Revolut","Binance",],
+    Bahamas: ["Neteller","Skrill",],
+    Singapore: ["Revolut","Neteller","Skrill",],
+    Hong_Kong: ["Neteller","Skrill",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -511,6 +514,100 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
                 yellowBoxInfo: "Binance is a crypto wallet. They can use Revolut card to top up in Binance",
                 redBoxInfo: "To use Revolut Card only, Bank transfer to be tested",
+            },
+        },
+    },
+
+    Bahamas: {
+        STD: {
+             Neteller: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
+                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
+                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
+            },
+            Skrill: {
+                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
+                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            
+        },
+        "Big deposit": {
+             Neteller: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
+                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
+                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
+            },
+            Skrill: {
+                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
+                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+        },
+    },
+
+    Singapore: {
+        STD: {
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
+            },
+             Neteller: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
+                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
+                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
+            },
+            Skrill: {
+                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
+                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            
+        },
+        "Big deposit": {
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
+            },
+             Neteller: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
+                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
+                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
+            },
+            Skrill: {
+                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
+                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+        },
+    },
+
+    Hong_Kong: {
+        STD: {
+             Neteller: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
+                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
+                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
+            },
+            Skrill: {
+                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
+                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            
+        },
+        "Big deposit": {
+             Neteller: {
+                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
+                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
+                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
+            },
+            Skrill: {
+                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
+                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
             },
         },
     },

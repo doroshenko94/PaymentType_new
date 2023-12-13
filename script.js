@@ -167,6 +167,15 @@ const imagesData = {
         "Newton_Images/3.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    NDAX: [
+        "Ndax_Images/Ndax1.JPG",
+        "Ndax_Images/Ndax2.JPG",
+        "Ndax_Images/Ndax3.JPG",
+        "Ndax_Images/Ndax4.JPG",
+        "Ndax_Images/Ndax5.JPG",
+        "Ndax_Images/Ndax6.JPG",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     // Добавьте изображения для каждой компании по аналогии
 };
 

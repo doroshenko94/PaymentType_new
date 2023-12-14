@@ -176,6 +176,13 @@ const imagesData = {
         "Ndax_Images/Ndax6.JPG",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+       Wise: [
+        "Wise_Images/image.png",
+        "Wise_Images/image1.png",
+        "Wise_Images/image2.png",
+        "Wise_Images/image3.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     // Добавьте изображения для каждой компании по аналогии
 };
 

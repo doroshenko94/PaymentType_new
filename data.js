@@ -1,21 +1,26 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit","Coinjar","Neteller","Skrill",],
-    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill","Woltbit","Coinjar","MEXC",],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill",],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar",],
-    Malasiya: ["Bybit","Skrill","Luno","Paybis",],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple","Newton","Local_Wire_Solution",],
-    New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit",],
+    UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit","Coinjar","Neteller","Skrill","Banxa",],
+    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill","Woltbit","Coinjar","MEXC","Banxa",],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill","Banxa",],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar","Banxa",],
+    Malasiya: ["Bybit","Skrill","Luno","Paybis","Banxa",],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple","Newton","Local_Wire_Solution","Banxa",],
+    New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit","Banxa",],
     Bermuda: ["Bestwallet","Skrill","Gemini",],
-    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill",],
-    Norway: ["Revolut","Binance",],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill","Banxa",],
+    Norway: ["Revolut","Binance","Banxa",],
     Bahamas: ["Neteller","Skrill","Wise",],
     Singapore: ["Revolut","Neteller","Skrill",],
     Hong_Kong: ["Neteller","Skrill",],
-    Japan: ["Wise",],
-    UAE: ["Wise",],
+    Japan: ["Wise","Banxa",],
+    UAE: ["Wise","Banxa",],
     Oman: ["Wise",],
+    Saudi_Arabia:["Banxa",],
+    Iceland:["Banxa",],
+    Greenland:["Banxa",],
+    Sweeden:["Banxa",],
+    South_Africa:["Banxa",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -62,6 +67,11 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
 
         },
         "Big deposit": {
@@ -84,6 +94,11 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -115,6 +130,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
             
         },
         "Big deposit": {
@@ -143,6 +163,11 @@ Ireland: {
                 yellowBoxInfo: "Done 10.000$ trx with MEXC. We did in usdt ut later we find how to do also eth. you receive money, then change in crypto clicking on transfer then withdrawl and you have 2 options like revolut and the first one exchange crypto.",
                 redBoxInfo: "The first time you have to add 2FA and you can choose google auth or email much better.then you you can send and put OTP received on email and by sms. for USDT TRC20 you have 0.93 cent in transfers on 10k on ERC20 you have 3,74 eur. fee. 10/15 minutes before receive (its written on the app). / NOT TESTED YET"
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
         },
     },
 
@@ -162,6 +187,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
         "Big deposit": {
@@ -189,6 +219,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -236,6 +271,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
         },
         "Big deposit": {
              Woltbit: {
@@ -263,6 +303,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
         },
     },
 
@@ -277,6 +322,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
         "Big deposit": {
@@ -294,6 +344,11 @@ Ireland: {
                 greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -345,6 +400,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
         },
         "Big deposit": {
                 NDAX: {
@@ -376,6 +436,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -433,6 +498,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
         },
         "Big deposit": {
             Skrill: {
@@ -449,6 +519,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -508,6 +583,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -519,6 +599,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
                 redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -535,6 +620,11 @@ Ireland: {
                 yellowBoxInfo: "Binance is a crypto wallet. They can use Revolut card to top up in Binance",
                 redBoxInfo: "To use Revolut Card only, Bank transfer to be tested",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
             
         },
         "Big deposit": {
@@ -547,6 +637,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
                 yellowBoxInfo: "Binance is a crypto wallet. They can use Revolut card to top up in Binance",
                 redBoxInfo: "To use Revolut Card only, Bank transfer to be tested",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -662,12 +757,22 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
         },
         "Big deposit": {
            Wise: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -679,12 +784,22 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
         },
         "Big deposit": {
            Wise: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },
@@ -702,6 +817,86 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+        },
+    },
+    Saudi_Arabia: {
+        STD: {
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+        "Big deposit": {
+           Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+    },
+    Iceland: {
+        STD: {
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+        "Big deposit": {
+           Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+    },
+    Greenland: {
+        STD: {
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+        "Big deposit": {
+           Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+    },
+    Sweeden: {
+        STD: {
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+        "Big deposit": {
+           Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+    },
+    South_Africa: {
+        STD: {
+            Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
+            },
+        },
+        "Big deposit": {
+           Banxa: {
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 and up no age limit ",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
+                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours",
             },
         },
     },

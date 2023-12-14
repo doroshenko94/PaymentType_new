@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill","Banxa",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar","Banxa",],
     Malasiya: ["Bybit","Skrill","Luno","Paybis","Banxa",],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple","Newton","Local_Wire_Solution","Banxa",],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple","Newton","Banxa",],
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit","Banxa",],
     Bermuda: ["Bestwallet","Skrill","Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill","Banxa",],
@@ -390,11 +390,6 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
-            Local_Wire_Solution: {
-                    greenBoxInfo: "In order to proceed the agent needs to ask the client the following informaiton: Age, Full name and with whom he is banking.",
-                    yellowBoxInfo: "Amount cannot be over 10.000 Canadian in one shot you can do up to 100.000 in multiple transactions",
-                    redBoxInfo: "Support will generate an invoice for them to go to the bank and make the payment or make the payment online. Risk on these transactions is three monthsCommision is 5% ",
-                },
             Wise: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
@@ -427,11 +422,6 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
-            Local_Wire_Solution: {
-                    greenBoxInfo: "In order to proceed the agent needs to ask the client the following informaiton: Age, Full name and with whom he is banking.",
-                    yellowBoxInfo: "Amount cannot be over 10.000 Canadian in one shot you can do up to 100.000 in multiple transactions",
-                    redBoxInfo: "Support will generate an invoice for them to go to the bank and make the payment or make the payment online. Risk on these transactions is three monthsCommision is 5% ",
-                },
             Wise: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",

@@ -183,6 +183,17 @@ const imagesData = {
         "Wise_Images/image3.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    Banxa: [
+        "Banxa_Images/image.png",
+        "Banxa_Images/image1.png",
+        "Banxa_Images/image2.png",
+        "Banxa_Images/image3.png",
+        "Banxa_Images/image4.png",
+        "Banxa_Images/image5.png",
+        "Banxa_Images/image6.png",
+        "Banxa_Images/image7.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     // Добавьте изображения для каждой компании по аналогии
 };
 

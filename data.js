@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill","Banxa","Rampnetwork"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar","Banxa","Rampnetwork",],
     Malasiya: ["Bybit","Skrill","Luno","Paybis","Banxa","Rampnetwork"],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple","Newton","Banxa","Rampnetwork"],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple","Newton","Banxa","Rampnetwork", "Netcoin",],
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit","Banxa","Rampnetwork"],
     Bermuda: ["Bestwallet","Skrill","Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill","Banxa","Rampnetwork"],
@@ -445,6 +445,12 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
+            Netcoin: {
+                    greenBoxInfo: "Transaction amount: CAD10 - CAD1,000,000. Permitted age: 18 and up to not specified.",
+                    yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 - CAD3000. Bank transfer minimum USD500-USD1,000,000. Crypto withdrawal requers 2FA no crypto withdrawal will be alowed otherwise. Limits are not specified anywhere",
+                    redBoxInfo: "For account verification you need ID, POA and Selfie. / NOT TESTED ADDITIONAL INFO NEEDED",
+                },
+            
         },
         "Big deposit": {
                 NDAX: {
@@ -482,6 +488,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
+            Netcoin: {
+                    greenBoxInfo: "Transaction amount: CAD10 - CAD1,000,000. Permitted age: 18 and up to not specified.",
+                    yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 - CAD3000. Bank transfer minimum USD500-USD1,000,000. Crypto withdrawal requers 2FA no crypto withdrawal will be alowed otherwise. Limits are not specified anywhere",
+                    redBoxInfo: "For account verification you need ID, POA and Selfie. / NOT TESTED ADDITIONAL INFO NEEDED",
+                },
         },
     },
 

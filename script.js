@@ -152,6 +152,7 @@ companySelect.addEventListener("change", function () {
 
 // Код после обработчика событий для выбора компании...
 
+const countriesWithCommonWiseImages = ['UK', 'Ireland', 'Italy', 'Denmark', 'Malasiya','Canada','New_Zeland','Bermuda','Switzerland','Norway',' Bahamas','Singapore','Hong_Kong','Japan','UAE:','Oman','Saudi_Arabia','Greenland','Sweeden',' South_Africa',];
 
 const imagesData = {
     Bahamas: {
@@ -165,13 +166,6 @@ const imagesData = {
         "Wise_Images/image6.jpg",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],},
-    Wise: [
-        "WiseAll_Images/image.png",
-        "WiseAll_Images/image1.png",
-        "WiseAll_Images/image2.png",
-        "WiseAll_Images/image3.png",
-        // Добавьте пути к изображениям для каждой компании по аналогии
-    ],
     Coinjar: [
         "Coinjar_Images/coinjar1.jpg",
         "Coinjar_Images/coinjar2.jpg",
@@ -210,7 +204,22 @@ const imagesData = {
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     // Добавьте изображения для каждой компании по аналогии
+    
     };
+
+// Добавляем общий путь для стран с одинаковыми изображениями для Wise
+countriesWithCommonWiseImages.forEach(country => {
+    imagesData[country] = {
+        Wise: [
+        "WiseAll_Images/image.png",
+        "WiseAll_Images/image1.png",
+        "WiseAll_Images/image2.png",
+        "WiseAll_Images/image3.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
+        // другие компании для страны, если есть
+    };
+});
 
 async function fetchCurrencyRates() {
     try {
@@ -226,7 +235,7 @@ async function fetchCurrencyRates() {
         document.getElementById("solPrice").textContent = `SOL: $${solPrice}`;
     } catch (error) {
         console.error("Error when receiving exchange rates: " + error);
-    }
+    },
 }
 
 fetchCurrencyRates();

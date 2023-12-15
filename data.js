@@ -1,9 +1,9 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit","Coinjar","Neteller","Skrill","Banxa","Rampnetwork"],
-    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill","Woltbit","Coinjar","MEXC","Banxa",Rampnetwork],
+    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill","Woltbit","Coinjar","MEXC","Banxa","Rampnetwork"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill","Banxa","Rampnetwork"],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar","Banxa",Rampnetwork],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar","Banxa","Rampnetwork",],
     Malasiya: ["Bybit","Skrill","Luno","Paybis","Banxa","Rampnetwork"],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Skrill","Wealthsimple","Newton","Banxa","Rampnetwork"],
     New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit","Banxa","Rampnetwork"],
@@ -17,8 +17,8 @@ const companyOptions = {
     UAE: ["Wise","Banxa","Rampnetwork"],
     Oman: ["Wise",],
     Saudi_Arabia:["Banxa",],
-    Iceland:["Banxa",Rampnetwork],
-    Greenland:["Banxa",Rampnetwork],
+    Iceland:["Banxa","Rampnetwork",],
+    Greenland:["Banxa","Rampnetwork",],
     Sweeden:["Banxa","Rampnetwork"],
     South_Africa:["Banxa","Rampnetwork"],
     // Добавьте другие страны и компании по аналогии

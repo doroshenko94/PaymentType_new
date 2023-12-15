@@ -160,8 +160,18 @@ const imagesData = {
         "Wise_Images/image1.png",
         "Wise_Images/image2.png",
         "Wise_Images/image3.png",
+        "Wise_Images/image4.jpg",
+        "Wise_Images/image5.jpg",
+        "Wise_Images/image6.jpg",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],},
+    Wise: [
+        "WiseAll_Images/image.png",
+        "WiseAll_Images/image1.png",
+        "WiseAll_Images/image2.png",
+        "WiseAll_Images/image3.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     Coinjar: [
         "Coinjar_Images/coinjar1.jpg",
         "Coinjar_Images/coinjar2.jpg",

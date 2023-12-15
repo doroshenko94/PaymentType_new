@@ -176,6 +176,7 @@ const imagesData = {
         "Ndax_Images/Ndax6.JPG",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    Bahamas: {
        Wise: [
         "Wise_Images/image.png",
         "Wise_Images/image1.png",
@@ -199,6 +200,7 @@ const imagesData = {
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     // Добавьте изображения для каждой компании по аналогии
+    }
     };
 
 async function fetchCurrencyRates() {

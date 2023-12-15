@@ -152,7 +152,7 @@ companySelect.addEventListener("change", function () {
 
 // Код после обработчика событий для выбора компании...
 
-const countriesWithCommonWiseImages = ['UK', 'Ireland', 'Italy', 'Denmark', 'Malasiya','Canada','New_Zeland','Bermuda','Switzerland','Norway',' Bahamas','Singapore','Hong_Kong','Japan','UAE:','Oman','Saudi_Arabia','Greenland','Sweeden',' South_Africa',];
+const countriesWithCommonWiseImages = ['UK', 'Ireland', 'Italy', 'Denmark', 'Malasiya','Canada','New_Zeland','Bermuda','Switzerland','Norway',' Bahamas','Singapore','Hong_Kong','Japan','UAE','Oman','Saudi_Arabia','Greenland','Sweeden', 'South_Africa',];
 
 const imagesData = {
     Bahamas: {

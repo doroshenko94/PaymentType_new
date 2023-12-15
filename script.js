@@ -209,16 +209,17 @@ const imagesData = {
 
 // Добавляем общий путь для стран с одинаковыми изображениями для Wise
 countriesWithCommonWiseImages.forEach(country => {
-    imagesData[country] = {
-        Wise: [
+    if (!imagesData[country]) {
+        imagesData[country] = {};
+    }
+    
+    imagesData[country].Wise = [
         "WiseAll_Images/image.png",
         "WiseAll_Images/image1.png",
         "WiseAll_Images/image2.png",
         "WiseAll_Images/image3.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
-    ],
-        // другие компании для страны, если есть
-    };
+    ];
 });
 
 async function fetchCurrencyRates() {

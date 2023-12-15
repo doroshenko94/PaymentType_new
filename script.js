@@ -154,6 +154,14 @@ companySelect.addEventListener("change", function () {
 
 
 const imagesData = {
+    Bahamas: {
+        Wise: [
+        "Wise_Images/image.png",
+        "Wise_Images/image1.png",
+        "Wise_Images/image2.png",
+        "Wise_Images/image3.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],},
     Coinjar: [
         "Coinjar_Images/coinjar1.jpg",
         "Coinjar_Images/coinjar2.jpg",
@@ -174,13 +182,6 @@ const imagesData = {
         "Ndax_Images/Ndax4.JPG",
         "Ndax_Images/Ndax5.JPG",
         "Ndax_Images/Ndax6.JPG",
-        // Добавьте пути к изображениям для каждой компании по аналогии
-    ],
-       Wise: [
-        "Wise_Images/image.png",
-        "Wise_Images/image1.png",
-        "Wise_Images/image2.png",
-        "Wise_Images/image3.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     Banxa: [

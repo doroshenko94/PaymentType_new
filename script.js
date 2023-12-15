@@ -222,25 +222,6 @@ countriesWithCommonWiseImages.forEach(country => {
     ];
 });
 
-async function fetchCurrencyRates() {
-    try {
-        const response = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd");
-        const data = await response.json();
-
-        const btcPrice = data.bitcoin.usd;
-        const ethPrice = data.ethereum.usd;
-        const solPrice = data.solana.usd;
-
-        document.getElementById("btcPrice").textContent = `BTC: $${btcPrice}`;
-        document.getElementById("ethPrice").textContent = `ETH: $${ethPrice}`;
-        document.getElementById("solPrice").textContent = `SOL: $${solPrice}`;
-    } catch (error) {
-        console.error("Error when receiving exchange rates: " + error);
-    },
-}
-
-fetchCurrencyRates();
-
 function displayImages(images) {
     const imageContainer = document.getElementById("paymentImages");
     imageContainer.innerHTML = "";

@@ -183,6 +183,7 @@ const imagesData = {
         "Wise_Images/image3.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    Bahama: {
     Banxa: [
         "Banxa_Images/image.png",
         "Banxa_Images/image1.png",
@@ -199,7 +200,8 @@ const imagesData = {
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     // Добавьте изображения для каждой компании по аналогии
-};
+    }
+    };
 
 async function fetchCurrencyRates() {
     try {

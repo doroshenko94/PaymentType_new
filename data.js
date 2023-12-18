@@ -6,7 +6,7 @@ const companyOptions = {
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork",],
     Malasiya: ["Bybit","Luno","Paybis","Banxa","Rampnetwork", "Luno",],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Wealthsimple","Newton","Banxa","Rampnetwork", "Netcoin",],
-    New_Zeland: ["Zen","Simplex","Adv2","Advcash","Bit2me","Bestwallet","Wise","Skrill","Bybit","Paybis", "MoonPay","Woltbit","Banxa","Rampnetwork"],
+    New_Zeland: ["Revolut","Zen","Adv2","Advcash","Bit2me","Bestwallet","Wise","Bybit","Paybis","Banxa","Rampnetwork"],
     Bermuda: ["Bestwallet","Skrill","Gemini","Wise",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Skrill","Banxa","Rampnetwork","Wise",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork","Wise",],
@@ -394,10 +394,10 @@ Ireland: {
 
     New_Zeland: {
         STD: {
-            Simplex: {
-                greenBoxInfo: "AGE: 18 - 75. Limits on the cards for Revolut 2.000$ per day maximum 10.000$ per month",
-                yellowBoxInfo: "Works only with card. Card Visa or Mastercard will not work with UK Highstreet banks or Ireland needs to be Revol",
-                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
             Adv2: {
                 greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
@@ -419,22 +419,12 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
-            Skrill: {
-                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
-                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
-            },
             Bybit: {
                 greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
                 yellowBoxInfo: "",
                 redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
             Paybis: {
-                greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
-                yellowBoxInfo: "",
-                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
-            },
-            MoonPay: {
                 greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
                 yellowBoxInfo: "",
                 redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
@@ -456,15 +446,10 @@ Ireland: {
             },
         },
         "Big deposit": {
-            Skrill: {
-                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
-                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
-            },
-            Woltbit: {
-                greenBoxInfo: "Transaction amount: 250$-50,000$. Permitted age: 18-65",
-                yellowBoxInfo: "Woltbit - like roobic and bintense conbimbed. Offers personal accounts local transfer to the UK. Risk is 60 days.You have a link from support, like bintense open the account, you register the cloent ",
-                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
             Wise: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",

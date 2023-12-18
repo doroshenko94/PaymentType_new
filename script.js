@@ -165,7 +165,7 @@ const imagesData = {
         "Wise_Images/image5.jpg",
         "Wise_Images/image6.jpg",
         // Добавьте пути к изображениям для каждой компании по аналогии
-    ],},
+    ],
     Coinjar: [
         "Coinjar_Images/coinjar1.jpg",
         "Coinjar_Images/coinjar2.jpg",

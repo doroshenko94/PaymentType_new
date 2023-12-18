@@ -167,13 +167,13 @@ const imagesData = {
             // Добавьте пути к изображениям для каждой компании по аналогии
         ]
     },
-    Coinjar: [
-        "Coinjar_Images/coinjar1.jpg",
-        "Coinjar_Images/coinjar2.jpg",
-        "Coinjar_Images/coinjar3.jpg",
-        "Coinjar_Images/coinjar4.jpg",
+  //  Coinjar: [
+   //     "Coinjar_Images/coinjar1.jpg",
+   //     "Coinjar_Images/coinjar2.jpg",
+   //     "Coinjar_Images/coinjar3.jpg",
+    //    "Coinjar_Images/coinjar4.jpg",
         // Добавьте пути к изображениям для каждой компании по аналогии
-    ],
+  //  ],
     Newton: [
         "Newton_Images/1.png",
         "Newton_Images/2.png",
@@ -299,21 +299,21 @@ companySelect.addEventListener("change", function () {
 });
 
 // Массив данных для pdf файлоы
-const pdfsData = {
-    Neteller: [
-        "PDFs/Countries in which it does not work.pdf",
+//const pdfsData = {
+    //Neteller: [
+    //    "PDFs/Countries in which it does not work.pdf",
+    //    // Добавьте пути pdf файлам для каждой компании по аналогии
+   // ],
+   //  Skrill: [
+   //     "PDFs/Countries in which it does not work Skrill.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
-    ],
-     Skrill: [
-        "PDFs/Countries in which it does not work Skrill.pdf",
+   // ],
+  //  Woltbit: [
+  //      "PDFs/Woltbit Guide.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
-    ],
-    Woltbit: [
-        "PDFs/Woltbit Guide.pdf",
-        // Добавьте пути pdf файлам для каждой компании по аналогии
-    ],
+  //  ],
     // Добавьте pdf файлы для каждой компании по аналогии
-};
+//};
 
 // Добавление текста для каждой компании
 const textData = {

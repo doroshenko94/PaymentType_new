@@ -6,7 +6,7 @@ const companyOptions = {
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork",],
     Malasiya: ["Bybit","Luno","Paybis","Banxa","Rampnetwork", "Luno",],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Wealthsimple","Newton","Banxa","Rampnetwork", "Netcoin","Safewirepay",],
-    New_Zeland: ["Revolut","Zen","Adv2","Advcash","Bit2me","Bestwallet","Wise","Bybit","Paybis","Banxa","Rampnetwork""Safewirepay",],
+    New_Zeland: ["Revolut","Zen","Adv2","Advcash","Bit2me","Bestwallet","Wise","Bybit","Paybis","Banxa","Rampnetwork", "Safewirepay",],
     Bermuda: ["Bestwallet", "Gemini","Wise",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],

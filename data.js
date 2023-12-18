@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Pockit", "Woltbit","Coinjar","Neteller","Skrill","Banxa","Rampnetwork","Wise",],
+    UK: ["Revolut", "Curve", "Zen","Pockit","Banxa","Rampnetwork",],
     Ireland: ["Revolut", "Zen", "Pockit","Crypto_com","Skrill","Woltbit","Coinjar","MEXC","Banxa","Rampnetwork","Wise",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Skrill","Banxa","Rampnetwork","Wise",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Wise","Skrill","Woltbit","Coinjar","Banxa","Rampnetwork","Wise",],
@@ -47,26 +47,6 @@ const companyInfo = {
                 yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
                 redBoxInfo: "Commission for the agent: 8%"
             },
-            Woltbit: {
-                greenBoxInfo: "Transaction amount: 250$-50,000$. Permitted age: 18-65",
-                yellowBoxInfo: "Woltbit- like roobic and bintense conbimbed. Offers personal accounts local transfer to the UK. Risk is 60 days.You have a link from support, like bintense open the account, you register the cloent ",
-                redBoxInfo: "Does not work with Barclays bank",
-            },
-            Coinjar: {
-                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
-                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT. ",
-                redBoxInfo: "You can transfer to COLD wallets.\n \n They might ask for a questionare: \nYour estimated monthly deposit and withdrawal volume (how much money you are looking to deposit into CoinJar each month)\nYour estimated monthly buy and sell volume in GBP (how much money you will be converting to and from digital currencies each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nThe nature of your business relationship with CoinJar (what you plan to use CoinJar for now and in the future)\nHas anyone asked you to create this CoinJar account for an investment opportunity?\nDoes anyone else have access to the device you use to access your CoinJar?\nDo you understand that digital currency transactions are impossible to reverse, and your bank and CoinJar have no way to reverse transactions if you discover you have fallen victim to a scam or have a change of mind at a later date?\nPlease provide a screenshot of your wallet displaying the receiving address ending in thztmwrz to verify ownership. ",
-            },
-            Neteller: {
-                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
-                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
-                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
-            },
-            Skrill: {
-                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
-                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
-            },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
@@ -77,34 +57,9 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
 
         },
         "Big deposit": {
-            Woltbit: {
-                greenBoxInfo: "Transaction amount: 250$-50,000$. Permitted age: 18-65",
-                yellowBoxInfo: "Woltbit - like roobic and bintense conbimbed. Offers personal accounts local transfer to the UK. Risk is 60 days.You have a link from support, like bintense open the account, you register the cloent ",
-                redBoxInfo: "",
-            },
-            Coinjar: {
-                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18-75",
-                yellowBoxInfo: "Register with details: Confirm email / ID & Selfie / Verified within minutes / Deposit methods you have bank details which I have also sent you via tele so the agents can see how it looks, not in clients name but local account details. SO WHEN THEY CHOOSE TRANSFER ITS TO A BUISNESS ACCOUNT. ",
-                redBoxInfo: "You can transfer to COLD wallets.\n \n They might ask for a questionare: \nYour estimated monthly deposit and withdrawal volume (how much money you are looking to deposit into CoinJar each month)\nYour estimated monthly buy and sell volume in GBP (how much money you will be converting to and from digital currencies each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nYour estimated monthly send and receive volume in GBP (how much money you plan to send and receive with CoinJar each month)\nThe nature of your business relationship with CoinJar (what you plan to use CoinJar for now and in the future)\nHas anyone asked you to create this CoinJar account for an investment opportunity?\nDoes anyone else have access to the device you use to access your CoinJar?\nDo you understand that digital currency transactions are impossible to reverse, and your bank and CoinJar have no way to reverse transactions if you discover you have fallen victim to a scam or have a change of mind at a later date?\nPlease provide a screenshot of your wallet displaying the receiving address ending in thztmwrz to verify ownership. ",
-            },
-            Neteller: {
-                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
-                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
-                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
-            },
-            Skrill: {
-                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
-                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
-            },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
@@ -114,11 +69,6 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
-            },
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
         },
     },

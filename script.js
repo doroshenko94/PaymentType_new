@@ -199,6 +199,14 @@ const imagesData = {
         "Banxa_Images/image7.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    Safewirepay: [
+        "Safewirepay_Images/1.png",
+        "Safewirepay_Images/2.png",
+        "Safewirepay_Images/3.png",
+        "Safewirepay_Images/4.png",,
+        "Safewirepay_Images/5.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     Rampnetwork: [
         "Rampnetwork_Images/image.png",
         // Добавьте пути к изображениям для каждой компании по аналогии

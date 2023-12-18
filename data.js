@@ -13,7 +13,7 @@ const companyOptions = {
     Bahamas: ["Wise","Bintense",],
     Singapore: ["Revolut","Neteller","Skrill","Rampnetwork","Wise",],
     Hong_Kong: ["Rampnetwork", "Bintense",],
-    Japan: ["Wise","Banxa",],
+    Japan: ["Banxa",],
     UAE: ["Wise","Banxa","Rampnetwork"],
     Oman: ["Wise",],
     Saudi_Arabia:["Banxa","Wise",],
@@ -712,11 +712,6 @@ Ireland: {
 
      Japan: {
         STD: {
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
@@ -724,11 +719,6 @@ Ireland: {
             },
         },
         "Big deposit": {
-           Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",

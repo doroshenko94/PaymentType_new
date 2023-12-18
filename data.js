@@ -1,16 +1,16 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Pockit","Banxa","Rampnetwork","Bitget",],
+    UK: ["Revolut", "Curve", "Zen","Pockit","Banxa","Rampnetwork","Bitget","Safewirepay",],
     Ireland: ["Revolut", "Zen", "Pockit","Crypto_com", "MEXC","Banxa","Rampnetwork",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork",],
     Malasiya: ["Bybit","Luno","Paybis","Banxa","Rampnetwork", "Luno",],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Wealthsimple","Newton","Banxa","Rampnetwork", "Netcoin",],
-    New_Zeland: ["Revolut","Zen","Adv2","Advcash","Bit2me","Bestwallet","Wise","Bybit","Paybis","Banxa","Rampnetwork"],
+    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Wealthsimple","Newton","Banxa","Rampnetwork", "Netcoin","Safewirepay",],
+    New_Zeland: ["Revolut","Zen","Adv2","Advcash","Bit2me","Bestwallet","Wise","Bybit","Paybis","Banxa","Rampnetwork""Safewirepay",],
     Bermuda: ["Bestwallet", "Gemini","Wise",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
-    Bahamas: ["Wise","Bintense",],
+    Bahamas: ["Wise","Bintense","Safewirepay",],
     Singapore: ["Revolut","Neteller","Skrill","Rampnetwork","Wise",],
     Hong_Kong: ["Rampnetwork", "Bintense",],
     Japan: ["Banxa",],
@@ -62,6 +62,11 @@ const companyInfo = {
                 yellowBoxInfo: "WORKS WELL WITH REVOLU",
                 redBoxInfo: ""
             },
+            Safewirepay : {
+                greenBoxInfo: "This is a solution we have inhouse that you can open an account in their personal name, for the UK it will be a local account with sort code and account number, bank that this account is with is to be confirmed ",
+                yellowBoxInfo: "The process is the following way: Register the client / Selected that you will be doing crypto related transactions / Selected numbered account / Make payment / Submit documents / Compliance will email a document to print and sign. Then within 5 working days they will be issue a personal account with sort cod and account number ",
+                redBoxInfo: "First transaction from UK to this account should be $2.000 and then any amount"
+            },
 
         },
         "Big deposit": {
@@ -79,6 +84,11 @@ const companyInfo = {
                 greenBoxInfo: "LIMIT 8K PER DAY PLUS ACCEPTS COLD WALLETS ",
                 yellowBoxInfo: "WORKS WELL WITH REVOLU",
                 redBoxInfo: ""
+            },
+            Safewirepay : {
+                greenBoxInfo: "This is a solution we have inhouse that you can open an account in their personal name, for the UK it will be a local account with sort code and account number, bank that this account is with is to be confirmed ",
+                yellowBoxInfo: "The process is the following way: Register the client / Selected that you will be doing crypto related transactions / Selected numbered account / Make payment / Submit documents / Compliance will email a document to print and sign. Then within 5 working days they will be issue a personal account with sort cod and account number ",
+                redBoxInfo: "First transaction from UK to this account should be $2.000 and then any amount"
             },
         },
     },
@@ -350,6 +360,11 @@ Ireland: {
                     yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 - CAD3000. Bank transfer minimum USD500-USD1,000,000. Crypto withdrawal requers 2FA no crypto withdrawal will be alowed otherwise. Limits are not specified anywhere",
                     redBoxInfo: "For account verification you need ID, POA and Selfie. / NOT TESTED ADDITIONAL INFO NEEDED",
                 },
+             Safewirepay : {
+                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
+                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
+                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+            },
             
         },
         "Big deposit": {
@@ -388,6 +403,11 @@ Ireland: {
                     yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 - CAD3000. Bank transfer minimum USD500-USD1,000,000. Crypto withdrawal requers 2FA no crypto withdrawal will be alowed otherwise. Limits are not specified anywhere",
                     redBoxInfo: "For account verification you need ID, POA and Selfie. / NOT TESTED ADDITIONAL INFO NEEDED",
                 },
+             Safewirepay : {
+                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
+                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
+                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+            },
         },
     },
 
@@ -444,6 +464,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
+            Safewirepay : {
+                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
+                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
+                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -465,6 +490,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
+            },
+             Safewirepay : {
+                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
+                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
+                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
             },
         },
     },
@@ -608,6 +638,11 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
+             Safewirepay : {
+                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
+                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
+                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+            },
             
         },
         "Big deposit": {
@@ -620,6 +655,11 @@ Ireland: {
                 greenBoxInfo: "SEE BINTENSE SECTION",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
+            },
+             Safewirepay : {
+                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
+                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
+                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
             },
         },
     },

@@ -14,10 +14,10 @@ const companyOptions = {
     Singapore: ["Revolut","Neteller","Skrill","Rampnetwork","Wise",],
     Hong_Kong: ["Rampnetwork", "Bintense",],
     Japan: ["Banxa",],
-    UAE: ["Wise","Banxa","Rampnetwork"],
+    UAE: ["Banxa","Rampnetwork","Bintense",],
     Oman: ["Wise",],
     Saudi_Arabia:["Banxa","Wise",],
-    Iceland:["Banxa","Rampnetwork","Wise",],
+    Iceland:["Revolut","Banxa","Rampnetwork",],
     Greenland:["Banxa","Rampnetwork","Wise",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise",],
@@ -729,11 +729,6 @@ Ireland: {
 
     UAE: {
         STD: {
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
@@ -743,14 +738,14 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
+            },
+            Bintense: {
+                greenBoxInfo: "SEE BINTENSE SECTION",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         },
         "Big deposit": {
-           Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
@@ -760,6 +755,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
+            },
+            Bintense: {
+                greenBoxInfo: "SEE BINTENSE SECTION",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         },
     },
@@ -808,6 +808,11 @@ Ireland: {
     },
     Iceland: {
         STD: {
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
+            },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
@@ -818,13 +823,13 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
         },
         "Big deposit": {
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
+            },
            Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
@@ -834,11 +839,6 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
-            },
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
         },
     },

@@ -157,15 +157,16 @@ const countriesWithCommonWiseImages = ['UK', 'Ireland', 'Italy', 'Denmark', 'Mal
 const imagesData = {
     Bahamas: {
         Wise: [
-        "Wise_Images/image.png",
-        "Wise_Images/image1.png",
-        "Wise_Images/image2.png",
-        "Wise_Images/image3.png",
-        "Wise_Images/image4.jpg",
-        "Wise_Images/image5.jpg",
-        "Wise_Images/image6.jpg",
-        // Добавьте пути к изображениям для каждой компании по аналогии
-    ],
+            "Wise_Images/image.png",
+            "Wise_Images/image1.png",
+            "Wise_Images/image2.png",
+            "Wise_Images/image3.png",
+            "Wise_Images/image4.jpg",
+            "Wise_Images/image5.jpg",
+            "Wise_Images/image6.jpg",
+            // Добавьте пути к изображениям для каждой компании по аналогии
+        ]
+    },
     Coinjar: [
         "Coinjar_Images/coinjar1.jpg",
         "Coinjar_Images/coinjar2.jpg",
@@ -212,8 +213,7 @@ const imagesData = {
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     // Добавьте изображения для каждой компании по аналогии
-    
-    };
+};
 
 // Добавляем общий путь для стран с одинаковыми изображениями для Wise
 countriesWithCommonWiseImages.forEach(country => {

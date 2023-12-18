@@ -157,16 +157,22 @@ const countriesWithCommonWiseImages = ['UK', 'Ireland', 'Italy', 'Denmark', 'Mal
 const imagesData = {
     Bahamas: {
         Wise: [
-            "Wise_Images/image.png",
-            "Wise_Images/image1.png",
-            "Wise_Images/image2.png",
-            "Wise_Images/image3.png",
-            "Wise_Images/image4.jpg",
-            "Wise_Images/image5.jpg",
-            "Wise_Images/image6.jpg",
-            // Добавьте пути к изображениям для каждой компании по аналогии
-        ]
-    },
+        "Wise_Images/image.png",
+        "Wise_Images/image1.png",
+        "Wise_Images/image2.png",
+        "Wise_Images/image3.png",
+        "Wise_Images/image4.jpg",
+        "Wise_Images/image5.jpg",
+        "Wise_Images/image6.jpg",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],},
+    Coinjar: [
+        "Coinjar_Images/coinjar1.jpg",
+        "Coinjar_Images/coinjar2.jpg",
+        "Coinjar_Images/coinjar3.jpg",
+        "Coinjar_Images/coinjar4.jpg",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     Newton: [
         "Newton_Images/1.png",
         "Newton_Images/2.png",
@@ -193,20 +199,13 @@ const imagesData = {
         "Banxa_Images/image7.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
-    Safewirepay: [
-        "Safewirepay_Images/1.png",
-        "Safewirepay_Images/2.png",
-        "Safewirepay_Images/3.png",
-        "Safewirepay_Images/4.png",
-        "Safewirepay_Images/5.png",
-        // Добавьте пути к изображениям для каждой компании по аналогии
-    ],
     Rampnetwork: [
         "Rampnetwork_Images/image.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     // Добавьте изображения для каждой компании по аналогии
-};
+    
+    };
 
 // Добавляем общий путь для стран с одинаковыми изображениями для Wise
 countriesWithCommonWiseImages.forEach(country => {
@@ -255,11 +254,58 @@ function displayImages(images) {
     });
 }
 
+// Функция для отображения ссылок на PDF-файлы
+function displayPDFLinks(pdfFiles) {
+    const pdfContainer = document.getElementById("pdfFiles");
+    if (!pdfContainer) {
+        console.error("PDF Container not found");
+        return;
+    }
+
+    pdfFiles.forEach(function (pdfUrl) {
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        const fileName = pdfUrl.split('/').pop(); // Получаем имя файла из URL
+        link.textContent = fileName; // Используем имя файла как текст ссылки
+        link.classList.add("btn", "btn-outline-danger", "mr-2", "mb-2");
+        link.setAttribute("target", "_blank");
+
+        pdfContainer.appendChild(link);
+    });
+}
+
+
+
 // Обработчик события для выбора компании
 companySelect.addEventListener("change", function () {
     // Остальной ваш код для получения информации о компании и т.д.
 
-   
+    const pdfsForCompany = pdfsData[selectedCompany];
+
+    if (pdfsForCompany) {
+        displayPDFLinks(pdfsForCompany);
+    } else {
+        const pdfContainer = document.getElementById("pdfFiles");
+        pdfContainer.innerHTML = "";
+    }
+});
+
+// Массив данных для pdf файлоы
+const pdfsData = {
+    Neteller: [
+        "PDFs/Countries in which it does not work.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
+     Skrill: [
+        "PDFs/Countries in which it does not work Skrill.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
+    Woltbit: [
+        "PDFs/Woltbit Guide.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
+    // Добавьте pdf файлы для каждой компании по аналогии
+};
 
 // Добавление текста для каждой компании
 const textData = {

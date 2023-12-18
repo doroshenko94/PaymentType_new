@@ -10,7 +10,7 @@ const companyOptions = {
     Bermuda: ["Bestwallet", "Gemini","Wise",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
-    Bahamas: ["Neteller","Skrill","Wise",],
+    Bahamas: ["Wise","Bintense",],
     Singapore: ["Revolut","Neteller","Skrill","Rampnetwork","Wise",],
     Hong_Kong: ["Neteller","Skrill","Rampnetwork","Wise",],
     Japan: ["Wise","Banxa",],
@@ -598,38 +598,28 @@ Ireland: {
 
     Bahamas: {
         STD: {
-             Neteller: {
-                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
-                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
-                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
-            },
-            Skrill: {
-                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
-                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
-            },
             Wise: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+            Bintense: {
+                greenBoxInfo: "SEE BINTENSE SECTION",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
             
         },
         "Big deposit": {
-             Neteller: {
-                greenBoxInfo: "Transaction amount: Any amount. Permitted age: 18 and up no age limit",
-                yellowBoxInfo: "Deposit options: instant bank transfer, no limits / regular bank transfer, no limits / Card payment up to 5k a day / You can wd (once the money is in) in crypto (2k gbp limit per day) / Anyways you need to be smart and not wd everything in one day / Tested wd of crypto to exodus and binance, worked / Accepted 40+ countries / You can order physical card for 10$ or virtual card for free.",
-                redBoxInfo: "You can use it to deposit up to 500 eur with no kyc at all.",
-            },
-            Skrill: {
-                greenBoxInfo: "Transaction amount: Up to 5k by Card Or with no limits on easy bank transfer or bank transfer LOCAL. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: regular bank transfer, no limits €500,000.00  Fees 0%  Card Deposits (1% fee): Before adding any card it is showing max deposit 700-900 depends from the currency but as soon as you add a card then the limits are increasing up to 5k EUR & USD. For GBP is 4,300 the max deposit from card. ",
-                redBoxInfo: "Easy and simple steps: You need to verify (ID, POA and Selfie) - Verified in minutes. Just top-up the account, NOT needed to BUY any Crypto. You can get a virtual card for free if you have at least €0.01 on your Skrill account Tested wd of crypto to exodus and binance, worked",
-            },
             Wise: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+             Bintense: {
+                greenBoxInfo: "SEE BINTENSE SECTION",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         },
     },

@@ -94,8 +94,13 @@ companySelect.addEventListener("change", function () {
             yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
             redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
 
-            const imagesForCompany = imagesData[selectedCompany];
-            const imagesForCompany = imagesData[selectedCountry] && imagesData[selectedCountry][selectedCompany];
+           let imagesForCompany;
+
+if (imagesData[selectedCountry] && imagesData[selectedCountry][selectedCompany]) {
+    imagesForCompany = imagesData[selectedCountry][selectedCompany];
+} else {
+    imagesForCompany = imagesData[selectedCompany];
+}
             const pdfsForCompany = pdfsData[selectedCompany]; // Добавлено для PDF файлов
             const textForCompany = textData[selectedCompany]; // Добавлено для текста
 

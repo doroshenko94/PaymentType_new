@@ -186,6 +186,14 @@ const imagesData = {
         "Newton_Images/3.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    Safewirepay: [
+        "Safewirepay_Images/1.png",
+        "Safewirepay_Images/2.png",
+        "Safewirepay_Images/3.png",
+        "Safewirepay_Images/4.png",
+        "Safewirepay_Images/5.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     NDAX: [
         "Ndax_Images/Ndax1.JPG",
         "Ndax_Images/Ndax2.JPG",

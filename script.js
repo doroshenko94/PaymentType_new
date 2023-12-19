@@ -152,20 +152,21 @@ companySelect.addEventListener("change", function () {
 
 // Код после обработчика событий для выбора компании...
 
-const countriesWithCommonWiseImages = ['UK', 'Ireland', 'Italy', 'Denmark', 'Malasiya','Canada','New_Zeland','Bermuda','Switzerland','Norway','Singapore','Hong_Kong','Japan','UAE','Oman','Saudi_Arabia','Greenland','Sweeden', 'South_Africa',];
+const countriesWithCommonWiseImages = ['Canada','New_Zeland','Bermuda','Oman','Saudi_Arabia','Greenland','Sweeden', 'South_Africa'];
 
 const imagesData = {
     Bahamas: {
         Wise: [
-        "Wise_Images/image.png",
-        "Wise_Images/image1.png",
-        "Wise_Images/image2.png",
-        "Wise_Images/image3.png",
-        "Wise_Images/image4.jpg",
-        "Wise_Images/image5.jpg",
-        "Wise_Images/image6.jpg",
-        // Добавьте пути к изображениям для каждой компании по аналогии
-    ],},
+            "Wise_Images/image.png",
+            "Wise_Images/image1.png",
+            "Wise_Images/image2.png",
+            "Wise_Images/image3.png",
+            "Wise_Images/image4.jpg",
+            "Wise_Images/image5.jpg",
+            "Wise_Images/image6.jpg",
+            // Добавьте пути к изображениям для каждой компании по аналогии
+        ]
+    },
     Coinjar: [
         "Coinjar_Images/coinjar1.jpg",
         "Coinjar_Images/coinjar2.jpg",
@@ -204,22 +205,24 @@ const imagesData = {
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     // Добавьте изображения для каждой компании по аналогии
-    
-    };
+};
 
-// Добавляем общий путь для стран с одинаковыми изображениями для Wise
 countriesWithCommonWiseImages.forEach(country => {
     if (!imagesData[country]) {
         imagesData[country] = {};
     }
     
-    imagesData[country].Wise = [
+    if (!imagesData[country].Wise) {
+        imagesData[country].Wise = [];
+    }
+
+    imagesData[country].Wise.push(
         "WiseAll_Images/image.png",
         "WiseAll_Images/image1.png",
         "WiseAll_Images/image2.png",
-        "WiseAll_Images/image3.png",
+        "WiseAll_Images/image3.png"
         // Добавьте пути к изображениям для каждой компании по аналогии
-    ];
+    );
 });
 
 function displayImages(images) {

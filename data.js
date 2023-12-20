@@ -6,7 +6,7 @@ const companyOptions = {
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
     Malasiya: ["Bybit","Luno","Paybis","Banxa","Rampnetwork", "Luno","BitGet",],
     Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Wealthsimple","Newton","Banxa","Rampnetwork", "Netcoin","Safewirepay",],
-    New_Zeland: ["Revolut","Zen","Adv2","Advcash","Bit2me","Bestwallet","Wise","Bybit","Paybis","Banxa","Rampnetwork", "Safewirepay","BitGet",],
+    New_Zeland: ["Revolut","Zen","Adv2","Advcash","Bit2me","Bestwallet","Wise","Bybit","Paybis","Banxa","Rampnetwork", "Safewirepay",],
     Bermuda: ["Bestwallet", "Gemini","Wise",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
@@ -499,11 +499,6 @@ Ireland: {
                 yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
                 redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
             },
-            BitGet: {
-                greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay 14-9.100EUR/12-8.000GBP/15-10.000USD. They offer deposit with third-party procesors. They offer BankTransfer. Crypto WD limit without KYC $20,000 a day/$100,000 a month. WITH KYC daily limit goes to $3,000,000. SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP8,000",
-                redBoxInfo: "For account verification you need ID and a Selfie. They have photo and video instructions from KYC we can send to clients. They have their own ColdWallets. THEY ARE PARTNERED WITH METAMASK"
-            },
         },
         "Big deposit": {
             Revolut: {
@@ -530,11 +525,6 @@ Ireland: {
                 greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
                 yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
                 redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
-            },
-            BitGet: {
-                greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay 14-9.100EUR/12-8.000GBP/15-10.000USD. They offer deposit with third-party procesors. They offer BankTransfer. Crypto WD limit without KYC $20,000 a day/$100,000 a month. WITH KYC daily limit goes to $3,000,000. SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP8,000",
-                redBoxInfo: "For account verification you need ID and a Selfie. They have photo and video instructions from KYC we can send to clients. They have their own ColdWallets. THEY ARE PARTNERED WITH METAMASK"
             },
         },
     },

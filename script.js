@@ -326,6 +326,11 @@ const pdfsData = {
         "PDFs/Woltbit Guide.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+     Safewirepay: [
+        "PDFs/Private person KYC form.pdf",
+        "PDFs/KYC form  for legal entity.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     // Добавьте pdf файлы для каждой компании по аналогии
 };
 

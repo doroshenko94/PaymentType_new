@@ -10,7 +10,7 @@ const companyOptions = {
     Bermuda: ["Bestwallet", "Gemini","Wise",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
-    Bahamas: ["Wise","Bintense","Safewirepay",],
+    Bahamas: ["Safewirepay",],
     Singapore: ["Revolut","Neteller","Skrill","Rampnetwork","Wise",],
     Hong_Kong: ["Rampnetwork", "Bintense",],
     Japan: ["Banxa","BitGet",],
@@ -658,16 +658,6 @@ Ireland: {
 
     Bahamas: {
         STD: {
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
-            Bintense: {
-                greenBoxInfo: "SEE BINTENSE SECTION",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
              Safewirepay : {
                 greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
                 yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
@@ -676,16 +666,6 @@ Ireland: {
             
         },
         "Big deposit": {
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
-             Bintense: {
-                greenBoxInfo: "SEE BINTENSE SECTION",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
              Safewirepay : {
                 greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
                 yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",

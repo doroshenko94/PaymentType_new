@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
     Malasiya: ["Bybit","Luno","Paybis","Banxa","Rampnetwork", "Luno","BitGet",],
-    Canada: ["NDAX","Adv2","Advcash","Bit2me","BitBuy","MyBTC","ndax","BullBitcoin","Bestwallet","Wise","Wealthsimple","Newton","Banxa","Rampnetwork", "Netcoin","Safewirepay",],
+    Canada: ["NDAX","Newton","Safewirepay","Bintense",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet",],
     Bermuda: ["Bestwallet", "Gemini","Wise",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
@@ -340,103 +340,43 @@ Ireland: {
 
     Canada: {
         STD: {
-            Adv2: {
-                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Advcash: {
-                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bit2me: {
-                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Bestwallet: {
-                greenBoxInfo: "We have not tested this solution. Please try and update Victor ",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
-            },
-            Wealthsimple: {
-                greenBoxInfo: "Transaction amount: no minimum - Up to limit for transaction type. Permitted age: 19 and up to no age limit.",
-                yellowBoxInfo: "Deposit options: Linked Visa/Master Debit card $3.500 per day $35.000 per month. No limit for wire transfer deposit. Interac transaction limit CAD3.000 per transaction; Maximum CAD10,000 per week; CAD20,000 per month. Crypto WD limit of CAD10,000 a day/CAD25,000 a week. No limits on buying BTC and ETH",
-                redBoxInfo: "For account verification you need ID, POA and Selfie. / UNTESTED",
-            },
             Newton: {
                 greenBoxInfo: "Transaction amount: CAD10-CAD50.000. Permitted age: 19 and up to no age limit. NOT DO more than 3.000CAD for the first transaction. Open exodus and send the money there. / 72 HOURS TO VERIFY ",
                 yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
-            Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
-                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
-            },
-            Rampnetwork: {
-                greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
-                redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
-            },
-            Netcoin: {
-                    greenBoxInfo: "Transaction amount: CAD10 - CAD1,000,000. Permitted age: 18 and up to not specified.",
-                    yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 - CAD3000. Bank transfer minimum USD500-USD1,000,000. Crypto withdrawal requers 2FA no crypto withdrawal will be alowed otherwise. Limits are not specified anywhere",
-                    redBoxInfo: "For account verification you need ID, POA and Selfie. / NOT TESTED ADDITIONAL INFO NEEDED",
-                },
              Safewirepay : {
                 greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
                 yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
                 redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
             },
+            Bintense: {
+                greenBoxInfo: "SEE BINTENSE SECTION",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
             
         },
         "Big deposit": {
-                NDAX: {
+            NDAX: {
                     greenBoxInfo: "72 HOURS TO VERIFY ",
                     yellowBoxInfo: "",
                     redBoxInfo: "3.000 CAD limit per transaction per day. ",
                 },
-            Wealthsimple: {
-                greenBoxInfo: "Transaction amount: no minimum - Up to limit for transaction type. Permitted age: 19 and up to no age limit.",
-                yellowBoxInfo: "Deposit options: Linked Visa/Master Debit card $3.500 per day $35.000 per month. No limit for wire transfer deposit. Interac transaction limit CAD3.000 per transaction; Maximum CAD10,000 per week; CAD20,000 per month. Crypto WD limit of CAD10,000 a day/CAD25,000 a week. No limits on buying BTC and ETH",
-                redBoxInfo: "For account verification you need ID, POA and Selfie. / UNTESTED",
-            },
              Newton: {
                 greenBoxInfo: "Transaction amount: CAD10-CAD50.000. Permitted age: 19 and up to no age limit. NOT DO more than 3.000CAD for the first transaction. Open exodus and send the money there. / 72 HOURS TO VERIFY ",
                 yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
-            Wise: {
-                greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
-                yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
-                redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
-            },
-            Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
-                redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
-            },
-            Rampnetwork: {
-                greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
-                redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
-            },
-            Netcoin: {
-                    greenBoxInfo: "Transaction amount: CAD10 - CAD1,000,000. Permitted age: 18 and up to not specified.",
-                    yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 - CAD3000. Bank transfer minimum USD500-USD1,000,000. Crypto withdrawal requers 2FA no crypto withdrawal will be alowed otherwise. Limits are not specified anywhere",
-                    redBoxInfo: "For account verification you need ID, POA and Selfie. / NOT TESTED ADDITIONAL INFO NEEDED",
-                },
              Safewirepay : {
                 greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
                 yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
                 redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+            },
+            Bintense: {
+                greenBoxInfo: "SEE BINTENSE SECTION",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         },
     },

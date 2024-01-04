@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
     Malasiya: ["Bybit","Luno","Paybis","Banxa","Rampnetwork", "Luno","BitGet",],
-    Canada: ["NDAX","Newton","Safewirepay","Bintense",],
+    Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet",],
     Bermuda: ["Bestwallet", "Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
@@ -355,6 +355,11 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
+             Easypayments : {
+                greenBoxInfo: "There is no age limit. Up to 5.000 CAD it will be with them through interac and above 5.000 CAD it will be local bank transfer.",
+                yellowBoxInfo: "",
+                redBoxInfo: "This is not a crypto deposit its 5% commission and risk for 60 days so no payment on commission for 60 days.",
+            },
             
         },
         "Big deposit": {
@@ -377,6 +382,11 @@ Ireland: {
                 greenBoxInfo: "SEE BINTENSE SECTION",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
+            },
+             Easypayments : {
+                greenBoxInfo: "There is no age limit. Up to 5.000 CAD it will be with them through interac and above 5.000 CAD it will be local bank transfer.",
+                yellowBoxInfo: "",
+                redBoxInfo: "This is not a crypto deposit its 5% commission and risk for 60 days so no payment on commission for 60 days.",
             },
         },
     },

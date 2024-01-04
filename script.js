@@ -218,6 +218,10 @@ const imagesData = {
         "Rampnetwork_Images/image.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    Easypayments : [
+        "Easypayments_Images/1.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     BitGet: [
         "BitGet_Images/1.png",
         "BitGet_Images/2.png",

@@ -221,6 +221,8 @@ const imagesData = {
     BitGet: [
         "BitGet_Images/1.png",
         "BitGet_Images/2.png",
+        "BitGet_Images/3.png",
+        "BitGet_Images/4.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     // Добавьте изображения для каждой компании по аналогии

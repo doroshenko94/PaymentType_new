@@ -357,7 +357,7 @@ Ireland: {
             },
              Easypayments : {
                 greenBoxInfo: "There is no age limit. Up to 5.000 CAD it will be with them through interac and above 5.000 CAD it will be local bank transfer.",
-                yellowBoxInfo: "",
+                yellowBoxInfo: "Verification steps to include that the client needs: ID, POA and Live check",
                 redBoxInfo: "This is not a crypto deposit its 5% commission and risk for 60 days so no payment on commission for 60 days.",
             },
             
@@ -385,7 +385,7 @@ Ireland: {
             },
              Easypayments : {
                 greenBoxInfo: "There is no age limit. Up to 5.000 CAD it will be with them through interac and above 5.000 CAD it will be local bank transfer.",
-                yellowBoxInfo: "",
+                yellowBoxInfo: "Verification steps to include that the client needs: ID, POA and Live check",
                 redBoxInfo: "This is not a crypto deposit its 5% commission and risk for 60 days so no payment on commission for 60 days.",
             },
         },

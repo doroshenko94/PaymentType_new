@@ -411,7 +411,7 @@ Ireland: {
             },
             BitGet: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay 14-9.100EUR/12-8.000GBP/15-10.000USD. They offer deposit with third-party procesors. They offer BankTransfer. Crypto WD limit without KYC $20,000 a day/$100,000 a month. WITH KYC daily limit goes to $3,000,000. SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP8,000",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard. WD is not possible",
                 redBoxInfo: "For account verification you need ID and a Selfie. They have photo and video instructions from KYC we can send to clients. They have their own ColdWallets. THEY ARE PARTNERED WITH METAMASK"
             },
         },
@@ -428,7 +428,7 @@ Ireland: {
             },
             BitGet: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay 14-9.100EUR/12-8.000GBP/15-10.000USD. They offer deposit with third-party procesors. They offer BankTransfer. Crypto WD limit without KYC $20,000 a day/$100,000 a month. WITH KYC daily limit goes to $3,000,000. SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP8,000",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard. WD is not possible",
                 redBoxInfo: "For account verification you need ID and a Selfie. They have photo and video instructions from KYC we can send to clients. They have their own ColdWallets. THEY ARE PARTNERED WITH METAMASK"
             },
         },

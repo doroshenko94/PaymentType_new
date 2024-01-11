@@ -351,6 +351,7 @@ const textData = {
     Bybit: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
     Paybis: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
     MoonPay: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Safewirepay: "<a href='https://safewirepay.com/'>Visit Safewirepay website</a>",
     // Добавьте текст для каждой компании по аналогии
 };
 

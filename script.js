@@ -108,7 +108,7 @@ if (imagesData[selectedCountry] && imagesData[selectedCountry][selectedCompany])
 
             if (textForCompany) {
                 displayText(textForCompany);
-                textContainer.textContent = textForCompany;
+                textContainer.innerHTML = textForCompany;
                 textContainer.classList.add("mt-3", "p-3", "bg-light");
             
                 const paragraphElement = textContainer.querySelector("p");
@@ -356,20 +356,6 @@ const textData = {
     Safewirepay: "<a href='https://safewirepay.com/'>Visit Safewirepay website</a>",
     // Добавьте текст для каждой компании по аналогии
 };
-
-companySelect.addEventListener("change", function () {
-    // Остальной ваш код для получения информации о компании и т.д.
-
-    const pdfsForCompany = pdfsData[selectedCompany];
-
-    if (pdfsForCompany) {
-        displayPDFLinks(pdfsForCompany);
-    } else {
-        const pdfContainer = document.getElementById("pdfFiles");
-        pdfContainer.innerHTML = "";
-    }
-
-    // Добавим отображение текста в textContainer
    const textForCompany = textData[selectedCompany];
 if (textForCompany) {
     textContainer.innerHTML = textForCompany;

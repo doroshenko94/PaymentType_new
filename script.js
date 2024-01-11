@@ -356,11 +356,6 @@ const textData = {
     Safewirepay: "<a href='https://safewirepay.com/'>Visit Safewirepay website</a>",
     // Добавьте текст для каждой компании по аналогии
 };
-   const textForCompany = textData[selectedCompany];
-if (textForCompany) {
-    textContainer.innerHTML = textForCompany;
-}
-});
 
 document.querySelector(".close").addEventListener("click", function () {
     const modal = document.getElementById("imageModal");

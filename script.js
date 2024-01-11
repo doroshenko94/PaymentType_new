@@ -357,6 +357,25 @@ const textData = {
     // Добавьте текст для каждой компании по аналогии
 };
 
+companySelect.addEventListener("change", function () {
+    // Остальной ваш код для получения информации о компании и т.д.
+
+    const pdfsForCompany = pdfsData[selectedCompany];
+
+    if (pdfsForCompany) {
+        displayPDFLinks(pdfsForCompany);
+    } else {
+        const pdfContainer = document.getElementById("pdfFiles");
+        pdfContainer.innerHTML = "";
+    }
+
+    // Добавим отображение текста в textContainer
+    const textForCompany = textData[selectedCompany];
+    if (textForCompany) {
+        displayText(textForCompany);
+    }
+});
+
 document.querySelector(".close").addEventListener("click", function () {
     const modal = document.getElementById("imageModal");
     modal.style.display = "none";

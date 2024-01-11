@@ -370,10 +370,10 @@ companySelect.addEventListener("change", function () {
     }
 
     // Добавим отображение текста в textContainer
-    const textForCompany = textData[selectedCompany];
-    if (textForCompany) {
-        displayText(textForCompany);
-    }
+   const textForCompany = textData[selectedCompany];
+if (textForCompany) {
+    textContainer.innerHTML = textForCompany;
+}
 });
 
 document.querySelector(".close").addEventListener("click", function () {

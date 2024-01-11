@@ -11,8 +11,10 @@ const redBoxCompanyInfo = document.getElementById("redBoxCompanyInfo");
 // Функция для отображения текста для каждой компании
 function displayText(text) {
     const textContainer = document.getElementById("textContainer"); // Замените "textContainer" на ваш ID контейнера для текста
-    textContainer.textContent = text;
+    textContainer.innerHTML = text;
 }
+// Добавим переменную textContainer
+const textContainer = document.getElementById("textContainer");
 
 countrySelect.addEventListener("change", function () {
     const selectedCountry = this.value;

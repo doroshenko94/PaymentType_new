@@ -345,10 +345,10 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
-             Safewirepay : {
-                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
-                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
-                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+              Safewirepay : {
+                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             Bintense: {
                 greenBoxInfo: "SEE BINTENSE SECTION",
@@ -373,10 +373,10 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
-             Safewirepay : {
-                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
-                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
-                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+              Safewirepay : {
+                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             Bintense: {
                 greenBoxInfo: "SEE BINTENSE SECTION",
@@ -404,10 +404,10 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
-            Safewirepay : {
-                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
-                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
-                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+           Safewirepay : {
+                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer"
             },
             BitGet: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
@@ -421,10 +421,10 @@ Ireland: {
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
-             Safewirepay : {
-                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
-                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
-                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+            Safewirepay : {
+                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer"
             },
             BitGet: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
@@ -554,17 +554,17 @@ Ireland: {
     Bahamas: {
         STD: {
              Safewirepay : {
-                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
-                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
-                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             
         },
         "Big deposit": {
              Safewirepay : {
-                greenBoxInfo: "Flow is the same however it will be a personal SEPA account in EUROPE again bank and country to be confirmed.",
-                yellowBoxInfo: "No restrictions on amounts you can send to this account on first transaction",
-                redBoxInfo: "HOWEVER THEY NEED TO GO TO THE BANK TO MAKE THE TRANSFER IN BAHAMAS AND CANADA. "
+                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
         },
     },

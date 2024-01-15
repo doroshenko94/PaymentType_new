@@ -340,6 +340,10 @@ const pdfsData = {
          "PDFs/Private person KYC form - EXAMPLE.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+     Revolut: [
+        "PDFs/Revolut.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     // Добавьте pdf файлы для каждой компании по аналогии
 };
 

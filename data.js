@@ -888,7 +888,7 @@ Ireland: {
              VALR: {
                 greenBoxInfo: "Transaction amount: $0-depends on deposit method. Permitted age: 18 and up not specified",
                 yellowBoxInfo: "Deposit options: Visa/MaterCard, EFT and WireTransfer. Client can deposit in USD through WireTransfer. Crypto WD 0.2BTC/day. Crypto WD with 2FA 100BTC/day",
-                redBoxInfo: "For account verification: ID nad Selfie. Not confirmed: 24h withdrawal freez when depositing with card"
+                redBoxInfo: "For account verification: ID and Selfie. 24h withdrawal freez when depositing with card from the moment that you click on the WD button in app"
             },
         },
         "Big deposit": {
@@ -920,7 +920,7 @@ Ireland: {
             VALR: {
                 greenBoxInfo: "Transaction amount: $0-depends on deposit method. Permitted age: 18 and up not specified",
                 yellowBoxInfo: "Deposit options: Visa/MaterCard, EFT and WireTransfer. Client can deposit in USD through WireTransfer. Crypto WD 0.2BTC/day. Crypto WD with 2FA 100BTC/day",
-                redBoxInfo: "For account verification: ID nad Selfie. Not confirmed: 24h withdrawal freez when depositing with card"
+                redBoxInfo: "For account verification: ID nad Selfie. Not confirmed:  24h withdrawal freez when depositing with card from the moment that you click on the WD button in app"
             },
         },
     },

@@ -316,7 +316,7 @@ Ireland: {
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
               Safewirepay : {
-                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
                 yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
@@ -344,7 +344,7 @@ Ireland: {
                 redBoxInfo: "For accout verification you need ID, POA (sometimes) and Selfie. They might ask for the client to complete an investor questionare at a certain point in oreder to grant full services. / UNTESTED ",
             },
               Safewirepay : {
-                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
                 yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
@@ -375,7 +375,7 @@ Ireland: {
                 redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
             },
            Safewirepay : {
-                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
                 yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer"
             },
@@ -392,7 +392,7 @@ Ireland: {
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
             Safewirepay : {
-                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
                 yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer"
             },
@@ -524,7 +524,7 @@ Ireland: {
     Bahamas: {
         STD: {
              Safewirepay : {
-                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
                 yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
@@ -532,7 +532,7 @@ Ireland: {
         },
         "Big deposit": {
              Safewirepay : {
-                greenBoxInfo: "There is no limit on age or transaction the client needs to be over 18",
+                greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
                 yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },

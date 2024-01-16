@@ -37,10 +37,10 @@ const companyInfo = {
                 yellowBoxInfo: "You can use credit card to top up which is useful. Not sure of age limit.",
                 redBoxInfo: "CURVE it is like Revolut you can use a virtual card. You can top up with high street banks, you can use credit cards, and work with MOONPAY.",
             },
-            Zen: {
-                greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
+            : {
+                greenBoxInfo: ", you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
-                redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
+                redBoxInfo: " up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
@@ -95,10 +95,10 @@ Ireland: {
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
-            Zen: {
-                greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
+            : {
+                greenBoxInfo: ", you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
-                redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
+                redBoxInfo: " up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
             Crypto_com: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
@@ -158,10 +158,10 @@ Ireland: {
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
-           Zen: {
-                greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
+           : {
+                greenBoxInfo: ", you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
-                redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
+                redBoxInfo: " up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
@@ -180,8 +180,8 @@ Ireland: {
                 yellowBoxInfo: "No amount will be held for risk",
                 redBoxInfo: "Agents commission 7% and for managers counts as wires",
             },
-            Zen: {
-                greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds",
+            : {
+                greenBoxInfo: ", you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds",
                 yellowBoxInfo: "",
                 redBoxInfo: ""
             },

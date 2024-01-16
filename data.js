@@ -101,9 +101,9 @@ Ireland: {
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
             Crypto_com: {
-                greenBoxInfo: "Wire transfer 1st time $1000, then you can move more.",
-                yellowBoxInfo: "No specific limits",
-                redBoxInfo: ""
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
@@ -124,9 +124,9 @@ Ireland: {
         },
         "Big deposit": {
             Crypto_com: {
-                greenBoxInfo: "Wire transfer 1st time $1000, then you can move more.",
-                yellowBoxInfo: "No specific limits",
-                redBoxInfo: ""
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
             MEXC: {
                 greenBoxInfo: "DAILY transaction limit to be changed to 8,000EUR for BIG TRANSACTIONS",

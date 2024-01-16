@@ -13,7 +13,7 @@ const companyOptions = {
     Bahamas: ["Safewirepay",],
     Singapore: ["Revolut","Rampnetwork",],
     Hong_Kong: ["Rampnetwork", "Bintense",],
-    Japan: ["Banxa","BitGet",],
+    Japan: ["Banxa","BitGet","Revolut",],
     UAE: ["Banxa","Rampnetwork","Bintense",],
     Oman: ["Wise",],
     Saudi_Arabia:["Banxa","Wise",],
@@ -636,6 +636,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay 14-9.100EUR/12-8.000GBP/15-10.000USD. They offer deposit with third-party procesors. They offer BankTransfer. Crypto WD limit without KYC $20,000 a day/$100,000 a month. WITH KYC daily limit goes to $3,000,000. SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP8,000",
                 redBoxInfo: "For account verification you need ID and a Selfie. They have photo and video instructions from KYC we can send to clients. They have their own ColdWallets. THEY ARE PARTNERED WITH METAMASK. For a single transaction that is over 5.000 they will ask for a source of funds for UK"
             },
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -647,6 +652,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay 14-9.100EUR/12-8.000GBP/15-10.000USD. They offer deposit with third-party procesors. They offer BankTransfer. Crypto WD limit without KYC $20,000 a day/$100,000 a month. WITH KYC daily limit goes to $3,000,000. SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP8,000",
                 redBoxInfo: "For account verification you need ID and a Selfie. They have photo and video instructions from KYC we can send to clients. They have their own ColdWallets. THEY ARE PARTNERED WITH METAMASK. For a single transaction that is over 5.000 they will ask for a source of funds for UK"
+            },
+            Revolut: {
+                greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
+                yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
+                redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
         },
     },

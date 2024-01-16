@@ -4,7 +4,7 @@ const companyOptions = {
     Ireland: ["Revolut", "Zen", "Pockit","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
-    Malasiya: ["Bybit","Luno","Paybis","Rampnetwork", "Luno","BitGet",],
+    Malasiya: ["Bybit","Luno","Paybis","BitGet",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet",],
     Bermuda: ["Bestwallet", "Gemini",],
@@ -288,11 +288,6 @@ Ireland: {
                 yellowBoxInfo: "Work with credit cards",
                 redBoxInfo: "KYC: YES - ID/DL - SELFIE",
             },
-            Rampnetwork: {
-                greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
-                redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
-            },
             Luno: {
                 greenBoxInfo: "Transaction amount: LEVEL 1 - EUR1.000 / LEVEL 2 - EUR5.000 per month / LEVEL 3 - No Limit. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: ZA only instant bank transfer. Malaysia works the same way as Help2Pay. WD LIMIT IS BASED ON ACC LEVEL. LEVEL 1 - EUR1.000 Lifetime. LEVEL 2 - EUR5.000 per month. LEVEL 3 - No limit",
@@ -314,11 +309,6 @@ Ireland: {
                 greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
-            },
-            Rampnetwork: {
-                greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
-                redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
             BitGet: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",

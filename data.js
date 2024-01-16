@@ -1,7 +1,7 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Pockit","Banxa","Rampnetwork","BitGet","Safewirepay",],
-    Ireland: ["Revolut", "Zen", "Pockit","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet",],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay",],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
     Malasiya: ["Bybit","Luno","Paybis",],
@@ -41,11 +41,6 @@ const companyInfo = {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
-            },
-            Pockit: {
-                greenBoxInfo: "Pockit up to 2k and then moonpay:",
-                yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
-                redBoxInfo: "Commission for the agent: 8%"
             },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
@@ -104,11 +99,6 @@ Ireland: {
                 greenBoxInfo: "Zen, you transfer max 5k here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "ZEN up to 2k: BANK TRANSFER: INSTANT VERIFICATIONs",
-            },
-            Pockit: {
-                greenBoxInfo: "Pockit up to 2k and then moonpay:",
-                yellowBoxInfo: "Open with them before you pitch Pockit. Up to the age of 69",
-                redBoxInfo: "Commission for the agent: 8%"
             },
             Crypto_com: {
                 greenBoxInfo: "Wire transfer 1st time $1000, then you can move more.",

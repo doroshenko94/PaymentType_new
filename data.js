@@ -4,7 +4,7 @@ const companyOptions = {
     Ireland: ["Revolut", "Zen", "Pockit","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
-    Malasiya: ["Bybit","Luno","Paybis","BitGet",],
+    Malasiya: ["Bybit","Luno","Paybis",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet",],
     Bermuda: ["Bestwallet", "Gemini",],
@@ -293,11 +293,6 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: ZA only instant bank transfer. Malaysia works the same way as Help2Pay. WD LIMIT IS BASED ON ACC LEVEL. LEVEL 1 - EUR1.000 Lifetime. LEVEL 2 - EUR5.000 per month. LEVEL 3 - No limit",
                 redBoxInfo: "For account verification there are three levels: LEVEL 1 - Cofirm your mobile number + basic perosnal details / LEVEL 2 - Submit a photo of ID and a selfie / LEVEL 3 - Enter residential addres + emplyment status + SOF",
             },
-            BitGet: {
-                greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay 14-9.100EUR/12-8.000GBP/15-10.000USD. They offer deposit with third-party procesors. They offer BankTransfer. Crypto WD limit without KYC $20,000 a day/$100,000 a month. WITH KYC daily limit goes to $3,000,000. SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP8,000",
-                redBoxInfo: "For account verification you need ID and a Selfie. They have photo and video instructions from KYC we can send to clients. They have their own ColdWallets. THEY ARE PARTNERED WITH METAMASK. For a single transaction that is over 5.000 they will ask for a source of funds for UK"
-            },
         },
         "Big deposit": {
            Luno: {
@@ -309,11 +304,6 @@ Ireland: {
                 greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
-            },
-            BitGet: {
-                greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay 14-9.100EUR/12-8.000GBP/15-10.000USD. They offer deposit with third-party procesors. They offer BankTransfer. Crypto WD limit without KYC $20,000 a day/$100,000 a month. WITH KYC daily limit goes to $3,000,000. SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP8,000",
-                redBoxInfo: "For account verification you need ID and a Selfie. They have photo and video instructions from KYC we can send to clients. They have their own ColdWallets. THEY ARE PARTNERED WITH METAMASK. For a single transaction that is over 5.000 they will ask for a source of funds for UK"
             },
         },
     },

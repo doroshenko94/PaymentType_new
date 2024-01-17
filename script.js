@@ -336,7 +336,6 @@ const pdfsData = {
     ],
      Safewirepay: [
         "PDFs/Private person KYC form.pdf",
-        "PDFs/KYC form  for legal entity.pdf",
          "PDFs/Private person KYC form - EXAMPLE.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],

@@ -524,8 +524,8 @@ Ireland: {
             },
             Binance: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
-                yellowBoxInfo: "Binance is a crypto wallet. They can use Revolut card to top up in Binance",
-                redBoxInfo: "To use Revolut Card only, Bank transfer to be tested",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
@@ -544,10 +544,10 @@ Ireland: {
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
-            Binance: {
+             Binance: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
-                yellowBoxInfo: "Binance is a crypto wallet. They can use Revolut card to top up in Binance",
-                redBoxInfo: "To use Revolut Card only, Bank transfer to be tested",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",

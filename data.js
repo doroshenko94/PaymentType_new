@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay",],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis",],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
@@ -62,6 +62,12 @@ const companyInfo = {
                 yellowBoxInfo: "The process is the following way: Register the client / Selected that you will be doing crypto related transactions / Selected numbered account / Make payment / Submit documents / Compliance will email a document to print and sign. Then within 5 working days they will be issue a personal account with sort cod and account number ",
                 redBoxInfo: "First transaction from UK to this account should be $2.000 and then any amount"
             },
+            
+            Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
+            },
 
         },
         "Big deposit": {
@@ -84,6 +90,11 @@ const companyInfo = {
                 greenBoxInfo: "This is a solution we have inhouse that you can open an account in their personal name, for the UK it will be a local account with sort code and account number, bank that this account is with is to be confirmed ",
                 yellowBoxInfo: "The process is the following way: Register the client / Selected that you will be doing crypto related transactions / Selected numbered account / Make payment / Submit documents / Compliance will email a document to print and sign. Then within 5 working days they will be issue a personal account with sort cod and account number ",
                 redBoxInfo: "First transaction from UK to this account should be $2.000 and then any amount"
+            },
+             Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
         },
     },

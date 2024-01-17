@@ -295,6 +295,11 @@ Ireland: {
 
     Canada: {
         STD: {
+            NDAX: {
+                    greenBoxInfo: "Transaction amount: Not specified. Permitted age: 18 and up to not specified",
+                    yellowBoxInfo: "Deposit options: Interac E-transfer, WireTransfer. WDs requier 2FA to be enabeled and confirmed on email as well. Wallets need to be whitelisted so its sugested that client has EXODUS or METAMASK",
+                    redBoxInfo: "For account verification: ID and Selfie. They might ask for a Social Insurance Number but its optional most of the time",
+                },
             Newton: {
                 greenBoxInfo: "Transaction amount: CAD10-CAD50.000. Permitted age: 19 and up to no age limit. NOT DO more than 3.000CAD for the first transaction. Open exodus and send the money there. / 72 HOURS TO VERIFY ",
                 yellowBoxInfo: "Deposit options: Interac e-transfer minimum CAD10 maximum CAD10,000 per transaction; Weekly limit CAD50,000. Wire transfer Minimum CAD10,000 maximum CAD1,000,000. Crypto withdrawal limits: 5 transactions per day. ",
@@ -319,9 +324,9 @@ Ireland: {
         },
         "Big deposit": {
             NDAX: {
-                    greenBoxInfo: "72 HOURS TO VERIFY ",
-                    yellowBoxInfo: "",
-                    redBoxInfo: "3.000 CAD limit per transaction per day. ",
+                    greenBoxInfo: "Transaction amount: Not specified. Permitted age: 18 and up to not specified",
+                    yellowBoxInfo: "Deposit options: Interac E-transfer, WireTransfer. WDs requier 2FA to be enabeled and confirmed on email as well. Wallets need to be whitelisted so its sugested that client has EXODUS or METAMASK",
+                    redBoxInfo: "For account verification: ID and Selfie. They might ask for a Social Insurance Number but its optional most of the time",
                 },
              Newton: {
                 greenBoxInfo: "Transaction amount: CAD10-CAD50.000. Permitted age: 19 and up to no age limit. NOT DO more than 3.000CAD for the first transaction. Open exodus and send the money there. / 72 HOURS TO VERIFY ",

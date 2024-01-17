@@ -1,9 +1,9 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis",],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis",],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis",],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance",],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet",],
@@ -14,10 +14,10 @@ const companyOptions = {
     Singapore: ["Revolut","Rampnetwork",],
     Hong_Kong: ["Rampnetwork", "Bintense",],
     Japan: ["Banxa","BitGet","Revolut",],
-    UAE: ["Banxa","Rampnetwork","Bintense",],
-    Oman: ["Wise",],
-    Saudi_Arabia:["Banxa","Wise",],
-    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet",],
+    UAE: ["Banxa","Rampnetwork","Bintense","Binance",],
+    Oman: ["Wise","Binance",],
+    Saudi_Arabia:["Banxa","Wise","Binance",],
+    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance",],
     Greenland:["Banxa","Rampnetwork","Wise","BitGet",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR",],
@@ -136,6 +136,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
+            Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
             
         },
         "Big deposit": {
@@ -168,6 +173,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
+            },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
         },
     },
@@ -267,6 +277,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -293,6 +308,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
+            },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
         },
     },
@@ -689,6 +709,11 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -706,6 +731,11 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
         },
     },
     
@@ -716,12 +746,22 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
         },
         "Big deposit": {
            Wise: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
         },
     },
@@ -737,6 +777,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -748,6 +793,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
         },
     },
@@ -778,6 +828,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie. For iceland, they might ask for Source of Funds",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -799,6 +854,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
+            },
+             Binance: {
+                greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA & Selfie. For iceland, they might ask for Source of Funds",
             },
         },
     },

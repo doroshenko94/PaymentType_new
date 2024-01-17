@@ -4,7 +4,7 @@ const companyOptions = {
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
-    Malasiya: ["Bybit","Luno","Paybis",],
+    Malasiya: ["Bybit","Luno","Paybis","Help2Pay",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet",],
     Bermuda: ["Bestwallet", "Gemini",],
@@ -278,6 +278,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: ZA only instant bank transfer. Malaysia works the same way as Help2Pay. WD LIMIT IS BASED ON ACC LEVEL. LEVEL 1 - EUR1.000 Lifetime. LEVEL 2 - EUR5.000 per month. LEVEL 3 - No limit",
                 redBoxInfo: "For account verification there are three levels: LEVEL 1 - Cofirm your mobile number + basic perosnal details / LEVEL 2 - Submit a photo of ID and a selfie / LEVEL 3 - Enter residential addres + emplyment status + SOF",
             },
+             Help2Pay: {
+                greenBoxInfo: "Transaction amount: $250-$10.000. Permitted age: No limitation",
+                yellowBoxInfo: "This solution can be found by loging in to X-F24.com and selcting Banking in the My Account drop down, then sellecting deposit.This solution accepts Credit & Debit cards.The client needs to have one of the listed bank cards",
+                redBoxInfo: "After selecting Deposit amount, Currency, and Bank the client will be redirected to log in to his online banking and complete the transaction. This is treated as a bank transfer",
+            },
         },
         "Big deposit": {
            Luno: {
@@ -289,6 +294,11 @@ Ireland: {
                 greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
+            },
+            Help2Pay: {
+                greenBoxInfo: "Transaction amount: $250-$10.000. Permitted age: No limitation",
+                yellowBoxInfo: "This solution can be found by loging in to X-F24.com and selcting Banking in the My Account drop down, then sellecting deposit.This solution accepts Credit & Debit cards.The client needs to have one of the listed bank cards",
+                redBoxInfo: "After selecting Deposit amount, Currency, and Bank the client will be redirected to log in to his online banking and complete the transaction. This is treated as a bank transfer",
             },
         },
     },

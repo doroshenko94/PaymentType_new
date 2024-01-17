@@ -1,9 +1,9 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis",],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet",],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork",],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet",],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis",],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet",],
@@ -131,6 +131,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
+             Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
+            },
             
         },
         "Big deposit": {
@@ -158,6 +163,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
+            },
+             Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
         },
     },
@@ -252,6 +262,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
+             Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -274,6 +289,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
+             Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
+            },
         },
     },
 
@@ -294,6 +314,11 @@ Ireland: {
                 yellowBoxInfo: "This solution can be found by loging in to X-F24.com and selcting Banking in the My Account drop down, then sellecting deposit.This solution accepts Credit & Debit cards.The client needs to have one of the listed bank cards",
                 redBoxInfo: "After selecting Deposit amount, Currency, and Bank the client will be redirected to log in to his online banking and complete the transaction. This is treated as a bank transfer",
             },
+             Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
+            },
         },
         "Big deposit": {
            Luno: {
@@ -301,10 +326,10 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: ZA only instant bank transfer. Malaysia works the same way as Help2Pay. WD LIMIT IS BASED ON ACC LEVEL. LEVEL 1 - EUR1.000 Lifetime. LEVEL 2 - EUR5.000 per month. LEVEL 3 - No limit",
                 redBoxInfo: "For account verification there are three levels: LEVEL 1 - Cofirm your mobile number + basic perosnal details / LEVEL 2 - Submit a photo of ID and a selfie / LEVEL 3 - Enter residential addres + emplyment status + SOF",
             },
-            Paybis: {
-                greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
-                yellowBoxInfo: "",
-                redBoxInfo: "",
+            Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
             Help2Pay: {
                 greenBoxInfo: "Transaction amount: $250-$10.000. Permitted age: No limitation",
@@ -380,10 +405,10 @@ Ireland: {
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
-            Paybis: {
-                greenBoxInfo: "DV2 AND ADV2CASH AND BIT2ME AND BESTWALLET:  NOT TESTED YET IF YOU USE MAKE CRM AWARE OF SUCCESS",
-                yellowBoxInfo: "",
-                redBoxInfo: "All NZ banks have a 0 CRYPTO POLICY",
+             Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
            Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
@@ -411,6 +436,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard. WD is not possible",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
+            },
+             Paybis : {
+                greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
         },
     },

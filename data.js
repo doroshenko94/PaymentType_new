@@ -17,7 +17,7 @@ const companyOptions = {
     UAE: ["Banxa","Rampnetwork","Bintense",],
     Oman: ["Wise",],
     Saudi_Arabia:["Banxa","Wise",],
-    Iceland:["Revolut","Banxa","Rampnetwork","BitGet",],
+    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet",],
     Greenland:["Banxa","Rampnetwork","Wise","BitGet",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR",],
@@ -701,6 +701,11 @@ Ireland: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
+            },
+            Zen : {
+                greenBoxInfo: "Transaction amount: Up to $2000.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard. There is a 24h WD limit of $1000 for all users",
+                redBoxInfo: "For account verification: ID and Selfie. After completing the verification, keep the money in the account for 1 day before WD to avoid any issues",
             },
             Banxa: {
                 greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65",

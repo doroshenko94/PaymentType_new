@@ -57,10 +57,10 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
-            Safewirepay : {
-                greenBoxInfo: "This is a solution we have inhouse that you can open an account in their personal name, for the UK it will be a local account with sort code and account number, bank that this account is with is to be confirmed ",
-                yellowBoxInfo: "The process is the following way: Register the client / Selected that you will be doing crypto related transactions / Selected numbered account / Make payment / Submit documents / Compliance will email a document to print and sign. Then within 5 working days they will be issue a personal account with sort cod and account number ",
-                redBoxInfo: "First transaction from UK to this account should be $2.000 and then any amount"
+          Safewirepay : {
+                greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
+                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             
             Paybis : {
@@ -86,10 +86,10 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
-            Safewirepay : {
-                greenBoxInfo: "This is a solution we have inhouse that you can open an account in their personal name, for the UK it will be a local account with sort code and account number, bank that this account is with is to be confirmed ",
-                yellowBoxInfo: "The process is the following way: Register the client / Selected that you will be doing crypto related transactions / Selected numbered account / Make payment / Submit documents / Compliance will email a document to print and sign. Then within 5 working days they will be issue a personal account with sort cod and account number ",
-                redBoxInfo: "First transaction from UK to this account should be $2.000 and then any amount"
+           Safewirepay : {
+                greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
+                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
              Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",

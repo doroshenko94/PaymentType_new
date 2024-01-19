@@ -59,7 +59,7 @@ const companyInfo = {
             },
           Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
-                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             
@@ -88,7 +88,7 @@ const companyInfo = {
             },
            Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
-                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
              Paybis : {
@@ -373,7 +373,7 @@ Ireland: {
             },
               Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
-                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             Bintense: {
@@ -401,7 +401,7 @@ Ireland: {
             },
               Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
-                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             Bintense: {
@@ -432,7 +432,7 @@ Ireland: {
             },
            Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
-                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer"
             },
             BitGet: {
@@ -449,7 +449,7 @@ Ireland: {
             },
             Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
-                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer"
             },
             BitGet: {
@@ -586,7 +586,7 @@ Ireland: {
         STD: {
              Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
-                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             
@@ -594,7 +594,7 @@ Ireland: {
         "Big deposit": {
              Safewirepay : {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
-                yellowBoxInfo: "This will creat a SEPA account for the clinet in the chosen currency. When registering the clinet will need to select a NUMBERED ACCOUNT. The client will be charged 10EUR at this stage",
+                yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
         },

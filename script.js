@@ -337,6 +337,7 @@ const pdfsData = {
      Safewirepay: [
         "PDFs/Private person KYC form.pdf",
          "PDFs/Private person KYC form - EXAMPLE.pdf",
+         "PDFs/Safewirepay step by step guide.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
      Revolut: [

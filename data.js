@@ -6,13 +6,13 @@ const companyOptions = {
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance",],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments",],
-    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet",],
+    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic",],
     Bermuda: ["Bestwallet", "Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
     Bahamas: ["Safewirepay",],
-    Singapore: ["Revolut","Rampnetwork",],
-    Hong_Kong: ["Rampnetwork", "Bintense",],
+    Singapore: ["Revolut","Rampnetwork","Roobic",],
+    Hong_Kong: ["Rampnetwork", "Bintense","Roobic",],
     Japan: ["Banxa","BitGet","Revolut",],
     UAE: ["Banxa","Rampnetwork","Bintense","Binance",],
     Oman: ["Wise","Binance",],
@@ -450,6 +450,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard. WD is not possible",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
+            Roobic : {
+                greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -471,6 +476,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
+            },
+            Roobic : {
+                greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
     },
@@ -622,6 +632,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
+            Roobic : {
+                greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -633,6 +648,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
+            },
+            Roobic : {
+                greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
     },
@@ -649,6 +669,11 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
+            Roobic : {
+                greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
             
         },
         "Big deposit": {
@@ -661,6 +686,11 @@ Ireland: {
                 greenBoxInfo: "SEE BINTENSE SECTION",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
+            },
+            Roobic : {
+                greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
     },

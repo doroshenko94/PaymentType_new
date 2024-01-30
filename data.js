@@ -21,6 +21,7 @@ const companyOptions = {
     Greenland:["Banxa","Rampnetwork","Wise","BitGet",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR",],
+    Australia: ["Roobic",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -1047,6 +1048,22 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $0-depends on deposit method. Permitted age: 18 and up not specified",
                 yellowBoxInfo: "Deposit options: Visa/MaterCard, EFT and WireTransfer. Client can deposit in USD through WireTransfer. Crypto WD 0.2BTC/day. Crypto WD with 2FA 100BTC/day",
                 redBoxInfo: "For account verification: ID nad Selfie. Not confirmed:  24h withdrawal freez when depositing with card from the moment that you click on the WD button in app"
+            },
+        },
+    },
+      Australia: {
+        STD: {
+            Roobic : {
+                greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
+        },
+        "Big deposit": {
+            Roobic : {
+                greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
     },

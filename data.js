@@ -70,7 +70,7 @@ const companyInfo = {
             },
              Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
 

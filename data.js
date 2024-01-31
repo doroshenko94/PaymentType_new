@@ -453,7 +453,7 @@ Ireland: {
             },
             Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
@@ -480,7 +480,7 @@ Ireland: {
             },
             Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
@@ -635,7 +635,7 @@ Ireland: {
             },
             Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
@@ -650,9 +650,9 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
-            Roobic : {
+           Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
@@ -672,7 +672,7 @@ Ireland: {
             },
             Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
             
@@ -690,7 +690,7 @@ Ireland: {
             },
             Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
@@ -1055,14 +1055,14 @@ Ireland: {
         STD: {
             Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },
         "Big deposit": {
-            Roobic : {
+           Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
-                yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
+                yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
         },

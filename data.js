@@ -1,12 +1,12 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic",],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken",],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom",],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance",],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken",],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay",],
-    Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom",],
-    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom",],
+    Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom","Kraken",],
+    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken",],
     Bermuda: ["Bestwallet", "Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
@@ -21,7 +21,7 @@ const companyOptions = {
     Greenland:["Banxa","Rampnetwork","Wise","BitGet",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR",],
-    Australia: ["Roobic","Cryptocom",],
+    Australia: ["Roobic","Cryptocom","Kraken",],
     // Добавьте другие страны и компании по аналогии
 };
 

@@ -74,7 +74,12 @@ const companyInfo = {
                 yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
-
+            
+             Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -106,6 +111,11 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
                 yellowBoxInfo: "This is our solution that will give UK clients a local account with a sort code. For the first transaction to a new payee from a high street bank the maximum that can be transfered is 2000GBP. After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
         },
     },
@@ -313,6 +323,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -344,6 +359,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
         },
     },
@@ -422,6 +442,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
             
         },
         "Big deposit": {
@@ -454,6 +479,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
         },
     },
@@ -491,6 +521,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -522,6 +557,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
         },
     },
@@ -1113,6 +1153,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
         },
         "Big deposit": {
            Roobic : {
@@ -1124,6 +1169,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
+            Kraken : {
+                greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
+                redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
         },
     },

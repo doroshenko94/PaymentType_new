@@ -2,11 +2,11 @@
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic",],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance",],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet",],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance",],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay",],
-    Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments",],
-    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic",],
+    Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom",],
+    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom",],
     Bermuda: ["Bestwallet", "Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
@@ -21,7 +21,7 @@ const companyOptions = {
     Greenland:["Banxa","Rampnetwork","Wise","BitGet",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR",],
-    Australia: ["Roobic",],
+    Australia: ["Roobic","Cryptocom",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -215,6 +215,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -241,6 +246,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
+            },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
         },
     },
@@ -407,6 +417,11 @@ Ireland: {
                 yellowBoxInfo: "Verification steps to include that the client needs: ID, POA and Live check",
                 redBoxInfo: "This is not a crypto deposit its 5% commission and risk for 60 days so no payment on commission for 60 days.",
             },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
             
         },
         "Big deposit": {
@@ -434,6 +449,11 @@ Ireland: {
                 greenBoxInfo: "There is no age limit. Up to 5.000 CAD it will be with them through interac and above 5.000 CAD it will be local bank transfer.",
                 yellowBoxInfo: "Verification steps to include that the client needs: ID, POA and Live check",
                 redBoxInfo: "This is not a crypto deposit its 5% commission and risk for 60 days so no payment on commission for 60 days.",
+            },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
         },
     },
@@ -466,6 +486,11 @@ Ireland: {
                 yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -492,6 +517,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
                 yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
         },
     },
@@ -546,6 +576,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -562,6 +597,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
+            },
+             Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
         },
     },
@@ -1068,12 +1108,22 @@ Ireland: {
                 yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
         },
         "Big deposit": {
            Roobic : {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
                 yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
+            Cryptocom: {
+                greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
+                redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
         },
     },

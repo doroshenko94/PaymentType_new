@@ -231,6 +231,18 @@ const imagesData = {
         "BitGet_Images/4.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+     Kraken: [
+         "Kraken_Images/Kraken UK 1.png",
+         "Kraken_Images/Kraken UK 2.png",
+         "Kraken_Images/Kraken UK 3.png",
+         "Kraken_Images/Kraken UK 4.png",
+         "Kraken_Images/Kraken UK 5.png",
+         "Kraken_Images/Kraken UK 6.png",
+         "Kraken_Images/Kraken UK 7.png",
+         "Kraken_Images/Kraken UK 8.png",
+         "Kraken_Images/Kraken UK 9.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     // Добавьте изображения для каждой компании по аналогии
 };
 

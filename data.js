@@ -201,6 +201,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+             BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
             
         },
         "Big deposit": {
@@ -254,6 +259,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
         },
     },
 
@@ -298,6 +308,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
         "Big deposit": {
@@ -345,6 +360,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
     },
@@ -770,6 +790,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -801,6 +826,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
     },
@@ -1168,6 +1198,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -1199,6 +1234,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
     },
@@ -1239,6 +1279,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1275,6 +1320,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
     },
@@ -1449,6 +1499,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1460,6 +1515,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
     },
@@ -1481,6 +1541,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1497,6 +1562,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
     },
@@ -1518,6 +1588,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1534,6 +1609,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
     },
@@ -1555,6 +1635,11 @@ Denmark: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1571,6 +1656,11 @@ Denmark: {
                 greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
+            BTC_Direct : {
+                greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
+                redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
         },
     },

@@ -1272,6 +1272,23 @@ Ireland: {
         },
     },
 
+     Croatia: {
+        STD: {
+             Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+        },
+        "Big deposit": {
+           Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+        },
+    },
+
     
 };
 

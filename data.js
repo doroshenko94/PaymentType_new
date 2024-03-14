@@ -1,9 +1,9 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay","CashPlus",],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay",],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay",],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken",],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo",],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo",],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo",],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom","Kraken",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken","Bybit","Cryptopay",],
@@ -18,14 +18,14 @@ const companyOptions = {
     Oman: ["Wise","Binance",],
     Saudi_Arabia:["Banxa","Wise","Binance",],
     Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay",],
-    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay",],
+    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay",],
     Australia: ["Roobic","Cryptocom","Kraken",],
-    Croatia: ["Bybit",],
-    Czech: ["Bybit","Cryptopay",],
-    Slovakia: ["Bybit","Cryptopay",],
-    Denmark: ["Bybit","Cryptopay",],
+    Croatia: ["Bybit","Bitvavo",],
+    Czech: ["Bybit","Cryptopay","Bitvavo",],
+    Slovakia: ["Bybit","Cryptopay","Bitvavo",],
+    Denmark: ["Bybit","Cryptopay",]"Bitvavo",,
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -196,6 +196,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
             
         },
         "Big deposit": {
@@ -244,6 +249,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
         },
     },
 
@@ -283,6 +293,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
         },
         "Big deposit": {
@@ -325,6 +340,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
         },
     },
@@ -392,6 +412,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -428,6 +453,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
         },
     },
@@ -1204,6 +1234,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1235,6 +1270,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
         },
     },
@@ -1404,12 +1444,22 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
         },
         "Big deposit": {
            Bybit: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
         },
     },
@@ -1426,6 +1476,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1437,6 +1492,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
         },
     },
@@ -1453,6 +1513,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1464,6 +1529,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
         },
     },
@@ -1480,6 +1550,11 @@ Denmark: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1491,6 +1566,11 @@ Denmark: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+             Bitvavo : {
+                greenBoxInfo: "Transaction amount: 0-25.000 a day. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
+                redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
         },
     },

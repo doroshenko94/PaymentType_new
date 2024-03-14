@@ -228,6 +228,10 @@ const imagesData = {
         "ByBit_Images/image.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    Bybit : [
+        "CashPlus_Images/image.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     BitGet: [
         "BitGet_Images/1.png",
         "BitGet_Images/2.png",

@@ -20,7 +20,7 @@ const companyOptions = {
     Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay",],
     Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
-    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit",]"Cryptopay",,
+    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay",],
     Australia: ["Roobic","Cryptocom","Kraken",],
     Croatia: ["Bybit",],
     Czech: ["Bybit","Cryptopay",],

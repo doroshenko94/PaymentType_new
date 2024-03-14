@@ -1,31 +1,31 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex",],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit",],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit",],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay",],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay",],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken",],
-    Malasiya: ["Bybit","Luno","Paybis","Help2Pay",],
+    Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom","Kraken",],
-    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken","Bybit",],
+    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken","Bybit","Cryptopay",],
     Bermuda: ["Bestwallet", "Gemini",],
-    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit",],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay",],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
     Bahamas: ["Safewirepay",],
     Singapore: ["Revolut","Rampnetwork","Roobic",],
-    Hong_Kong: ["Rampnetwork", "Bintense","Roobic","Bybit",],
-    Japan: ["Banxa","BitGet","Revolut","Bybit",],
+    Hong_Kong: ["Rampnetwork", "Bintense","Roobic","Bybit","Cryptopay",],
+    Japan: ["Banxa","BitGet","Revolut","Bybit","Cryptopay",],
     UAE: ["Banxa","Rampnetwork","Bintense","Binance",],
     Oman: ["Wise","Binance",],
     Saudi_Arabia:["Banxa","Wise","Binance",],
-    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance",],
-    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit",],
+    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay",],
+    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
-    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit",],
+    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit",]"Cryptopay",,
     Australia: ["Roobic","Cryptocom","Kraken",],
     Croatia: ["Bybit",],
-    Czech: ["Bybit",],
-    Slovakia: ["Bybit",],
-    Denmark: ["Bybit",],
+    Czech: ["Bybit","Cryptopay",],
+    Slovakia: ["Bybit","Cryptopay",],
+    Denmark: ["Bybit","Cryptopay",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -84,6 +84,11 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -125,6 +130,11 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+                Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -176,6 +186,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+                Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
             
         },
         "Big deposit": {
@@ -219,6 +234,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
     },
 
@@ -253,6 +273,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
         "Big deposit": {
@@ -290,6 +315,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -419,6 +449,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
             Bybit: {
@@ -440,6 +475,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $250-$10.000. Permitted age: No limitation",
                 yellowBoxInfo: "This solution can be found by loging in to X-F24.com and selcting Banking in the My Account drop down, then sellecting deposit.This solution accepts Credit & Debit cards.The client needs to have one of the listed bank cards",
                 redBoxInfo: "After selecting Deposit amount, Currency, and Bank the client will be redirected to log in to his online banking and complete the transaction. This is treated as a bank transfer",
+            },
+                Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -481,6 +521,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
+                Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
             
         },
         "Big deposit": {
@@ -518,6 +563,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -565,6 +615,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -606,6 +661,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -670,6 +730,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+              Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -696,6 +761,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+              Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -824,6 +894,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
             
         },
         "Big deposit": {
@@ -846,6 +921,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+                    Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -872,6 +952,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+                Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -893,6 +978,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -1038,6 +1128,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie. For iceland, they might ask for Source of Funds",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -1064,6 +1159,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie. For iceland, they might ask for Source of Funds",
+            },
+                    Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -1094,6 +1194,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1120,6 +1225,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+                    Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -1196,6 +1306,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1232,6 +1347,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -1296,12 +1416,22 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+                    Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
            Bybit: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+                    Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -1313,12 +1443,22 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+              Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
            Bybit: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },
@@ -1330,12 +1470,22 @@ Denmark: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
         },
         "Big deposit": {
            Bybit: {
                 greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
                 redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
+            Cryptopay : {
+                greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
+                redBoxInfo: "For account verification: ID, Selfie and POA",
             },
         },
     },

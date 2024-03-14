@@ -171,6 +171,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
             
         },
         "Big deposit": {
@@ -209,6 +214,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
         },
     },
 
@@ -238,6 +248,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
         },
         "Big deposit": {
@@ -270,6 +285,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
         },
     },
@@ -380,9 +400,9 @@ Ireland: {
      Malasiya: {
         STD: {
            Bybit: {
-                greenBoxInfo: "Daily limit 10.000$",
-                yellowBoxInfo: "Work with credit cards",
-                redBoxInfo: "KYC: YES - ID/DL - SELFIE",
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
             Luno: {
                 greenBoxInfo: "Transaction amount: LEVEL 1 - EUR1.000 / LEVEL 2 - EUR5.000 per month / LEVEL 3 - No Limit. Permitted age: 18 and up to not specified",
@@ -401,6 +421,11 @@ Ireland: {
             },
         },
         "Big deposit": {
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
            Luno: {
                 greenBoxInfo: "Transaction amount: LEVEL 1 - EUR1.000 / LEVEL 2 - EUR5.000 per month / LEVEL 3 - No Limit. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: ZA only instant bank transfer. Malaysia works the same way as Help2Pay. WD LIMIT IS BASED ON ACC LEVEL. LEVEL 1 - EUR1.000 Lifetime. LEVEL 2 - EUR5.000 per month. LEVEL 3 - No limit",
@@ -535,6 +560,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -571,6 +601,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
         },
     },
@@ -630,6 +665,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -651,6 +691,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
+            },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
         },
     },
@@ -774,6 +819,11 @@ Ireland: {
                 yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
             
         },
         "Big deposit": {
@@ -791,6 +841,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
                 yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
         },
     },
@@ -812,6 +867,11 @@ Ireland: {
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -828,6 +888,11 @@ Ireland: {
                 greenBoxInfo: "AGE: 18 - 75. - Revolut, you can not move more than 2k a day and 10k a month through crypto. You will need to convert the fiat to ETH/BTC and then transfer daily / 24 hours",
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
+            },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
         },
     },
@@ -1024,6 +1089,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1045,6 +1115,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $15-$10.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, ApplePay, GPay  14-9.100EUR/12-8.000GBP/15-10.000USD They offer deposit with third-party procesors  They offer BankTransfer   Crypto WD limit without KYC $20,000 a day/$100,000 a month WITH KYC daily limit goes to $3,000,000   SUSPECTED THAT TRANSATION LIMIT IS ACTUALY AT GBP5.000",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
+            },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
         },
     },
@@ -1116,6 +1191,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MaterCard, EFT and WireTransfer. Client can deposit in USD through WireTransfer. Crypto WD 0.2BTC/day. Crypto WD with 2FA 100BTC/day",
                 redBoxInfo: "For account verification: ID and Selfie. 24h withdrawal freez when depositing with card from the moment that you click on the WD button in app"
             },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1147,6 +1227,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $0-depends on deposit method. Permitted age: 18 and up not specified",
                 yellowBoxInfo: "Deposit options: Visa/MaterCard, EFT and WireTransfer. Client can deposit in USD through WireTransfer. Crypto WD 0.2BTC/day. Crypto WD with 2FA 100BTC/day",
                 redBoxInfo: "For account verification: ID nad Selfie. Not confirmed:  24h withdrawal freez when depositing with card from the moment that you click on the WD button in app"
+            },
+            Bybit: {
+                greenBoxInfo: "Transaction amount: Card 2-46.500EUR / Wire 10-20.000EUR.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, iDEAL VBAN option by default. Withdrawal limits not specified",
+                redBoxInfo: "For account verification: ID, Selfie and POA. Need to link a phone number LIKE BITGET",
             },
         },
     },

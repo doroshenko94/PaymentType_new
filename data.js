@@ -1,9 +1,9 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay","CashPlus",],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct",],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct",],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct",],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX",],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom","Kraken",],
     New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken","Bybit","Cryptopay",],
@@ -20,12 +20,12 @@ const companyOptions = {
     Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay","BTC_Direct",],
     Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo","BTC_Direct",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
-    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay",],
-    Australia: ["Roobic","Cryptocom","Kraken",],
-    Croatia: ["Bybit","Bitvavo","BTC_Direct",],
-    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct",],
-    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct",],
-    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct",],
+    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay","OKX",],
+    Australia: ["Roobic","Cryptocom","Kraken","OKX",],
+    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX",],
+    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
+    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
+    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -206,6 +206,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
             
         },
         "Big deposit": {
@@ -264,6 +269,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
         },
     },
 
@@ -313,6 +323,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
         },
         "Big deposit": {
@@ -365,6 +380,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
         },
     },
@@ -1406,6 +1426,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1448,6 +1473,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
         },
     },
       Australia: {
@@ -1467,6 +1497,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
         },
         "Big deposit": {
            Roobic : {
@@ -1483,6 +1518,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Credit Card (7day limit) / AUD 14-7000 / CAD 12-6.500 / EUR 10-5.000 / GBP 8-4.000 / Bank Transfer 0-100.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, WireTransfer, Inteeaq and Instant bank transfer. In case of Card depost there is a 72h limit on making WDs of Crypto that is purchased. Interaq limit is 3000 CAD per transaction. Wire transfer, by linking accounts with Kraken for the UK is up to 100.000 a day",
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
+            },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
         },
     },
@@ -1504,6 +1544,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1520,6 +1565,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
         },
     },
@@ -1546,6 +1596,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1567,6 +1622,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
         },
     },
@@ -1593,6 +1653,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1614,6 +1679,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
         },
     },
@@ -1640,6 +1710,11 @@ Denmark: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1661,6 +1736,11 @@ Denmark: {
                 greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
+             OKX : {
+                greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
+                redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
         },
     },

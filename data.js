@@ -25,7 +25,7 @@ const companyOptions = {
     Croatia: ["Bybit","Bitvavo",],
     Czech: ["Bybit","Cryptopay","Bitvavo",],
     Slovakia: ["Bybit","Cryptopay","Bitvavo",],
-    Denmark: ["Bybit","Cryptopay",]"Bitvavo",,
+    Denmark: ["Bybit","Cryptopay","Bitvavo",],
     // Добавьте другие страны и компании по аналогии
 };
 

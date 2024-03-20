@@ -577,9 +577,9 @@ Ireland: {
                 redBoxInfo: "",
             },
              Easypayments : {
-                greenBoxInfo: "There is no age limit. Up to 5.000 CAD it will be with them through interac and above 5.000 CAD it will be local bank transfer.",
-                yellowBoxInfo: "Verification steps to include that the client needs: ID, POA and Live check",
-                redBoxInfo: "This is not a crypto deposit its 5% commission and risk for 60 days so no payment on commission for 60 days.",
+                greenBoxInfo: "Transaction amount:Interac: 2,000CAD - max bank limit. Wire: 40,000 CAD -  750,000CAD. Bill payment: 10,000CAD - 99,000CAD. Permitted age: 18 - 78",
+                yellowBoxInfo: "This is a BankTransfer that for now is being counted as crypto. The fee for the transfer is 17%. The client starts the process by sending an email to office@easypayments.ca The client then needs to follow the instruction that they recieve on email",
+                redBoxInfo: "For account verification: ID, POA, Selfie, Billing info, Phone verification, Email vertification: Need to sign a DOC CLIENT CAN NOT FORWARD ANY EMAIL HE GETS TO US AND CAN NOT FORWARD ANY EMAIL FROM US TO THEM THIS WILL CAUSE THEM TO BLOCK THE CLIENT IMEDIATELY",
             },
             Cryptocom: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
@@ -620,9 +620,9 @@ Ireland: {
                 redBoxInfo: "",
             },
              Easypayments : {
-                greenBoxInfo: "There is no age limit. Up to 5.000 CAD it will be with them through interac and above 5.000 CAD it will be local bank transfer.",
-                yellowBoxInfo: "Verification steps to include that the client needs: ID, POA and Live check",
-                redBoxInfo: "This is not a crypto deposit its 5% commission and risk for 60 days so no payment on commission for 60 days.",
+                greenBoxInfo: "Transaction amount:Interac: 2,000CAD - max bank limit. Wire: 40,000 CAD -  750,000CAD. Bill payment: 10,000CAD - 99,000CAD. Permitted age: 18 - 78",
+                yellowBoxInfo: "This is a BankTransfer that for now is being counted as crypto. The fee for the transfer is 17%. The client starts the process by sending an email to office@easypayments.ca The client then needs to follow the instruction that they recieve on email",
+                redBoxInfo: "For account verification: ID, POA, Selfie, Billing info, Phone verification, Email vertification: Need to sign a DOC CLIENT CAN NOT FORWARD ANY EMAIL HE GETS TO US AND CAN NOT FORWARD ANY EMAIL FROM US TO THEM THIS WILL CAUSE THEM TO BLOCK THE CLIENT IMEDIATELY",
             },
             Cryptocom: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",

@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay","CashPlus",],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay",],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX",],
@@ -88,11 +88,6 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
-            },
-            CashPlus : {
-                greenBoxInfo: "Transaction amount: 2-10.000GBP. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Balance Limit is up to 10.000 Pounds. International Transfers are being completed up to 1 business day. International payments countries supported are the following : Canada, CZ, Denmark, Iceland, Ireland, Italy, Japan, NZ, Norway, Singapore, Slovenia, Switzerland, USA. Faster payments are being completed up to 1-3 Business days. Good reviews from clients saying that they respond fast and they are fast generally in everything.",
-                redBoxInfo: "For account verification:ID & POA",
             },
         },
         "Big deposit": {

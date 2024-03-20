@@ -372,6 +372,10 @@ const pdfsData = {
         "PDFs/Paybis.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+    Easypayments: [
+        "PDFs/Easypayments.ca.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     Roobic: [
         "PDFs/Roobic Q&A.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии

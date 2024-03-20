@@ -1,15 +1,15 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay",],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX",],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay","TapBank"],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank"],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank"],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank"],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay",],
     Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom","Kraken",],
-    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken","Bybit","Cryptopay",],
+    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken","Bybit","Cryptopay","TapBank"],
     Bermuda: ["Bestwallet", "Gemini",],
-    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct",],
-    Norway: ["Revolut","Binance","Banxa","Rampnetwork",],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank"],
+    Norway: ["Revolut","Binance","Banxa","Rampnetwork","TapBank"],
     Bahamas: ["Safewirepay",],
     Singapore: ["Revolut","Rampnetwork","Roobic",],
     Hong_Kong: ["Rampnetwork", "Bintense","Roobic","Bybit","Cryptopay",],
@@ -20,11 +20,11 @@ const companyOptions = {
     Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay","BTC_Direct",],
     Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo","BTC_Direct",],
     Sweeden:["Banxa","Rampnetwork","Wise",],
-    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay","OKX",],
-    Australia: ["Roobic","Cryptocom","Kraken","OKX",],
-    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX",],
-    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
-    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
+    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay","OKX","TapBank"],
+    Australia: ["Roobic","Cryptocom","Kraken","OKX","TapBank"],
+    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank",],
+    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank"],
+    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank"],
     Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
     // Добавьте другие страны и компании по аналогии
 };
@@ -89,6 +89,11 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -135,6 +140,11 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+            TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },
@@ -206,6 +216,11 @@ Ireland: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
             
         },
         "Big deposit": {
@@ -269,6 +284,11 @@ Ireland: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
     },
 
@@ -323,6 +343,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
         "Big deposit": {
@@ -380,6 +405,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },
@@ -690,6 +720,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -736,6 +771,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },
@@ -810,6 +850,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -847,6 +892,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
     },
 
@@ -872,6 +922,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -893,6 +948,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1-$10.000+. Permitted age: 18 and up no age limit",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, GPay, ApplePay, SEPA, Revolut.",
                 redBoxInfo: "For account verification you need ID and potentialy a POA depending on where the clinet is from. Card purchase of more than EUR100 will requier ID Card purchase of more than EUR5,000 requiers a POA. Large transfers above EUR10,000 requiers a SOF / NOT PROPERLY TESTED"
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },
@@ -1426,6 +1486,11 @@ Ireland: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1473,6 +1538,11 @@ Ireland: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
     },
       Australia: {
@@ -1497,6 +1567,11 @@ Ireland: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
            Roobic : {
@@ -1518,6 +1593,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },
@@ -1544,6 +1624,11 @@ Ireland: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1565,6 +1650,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },
@@ -1596,6 +1686,11 @@ Ireland: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1622,6 +1717,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },
@@ -1653,6 +1753,11 @@ Ireland: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1679,6 +1784,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },
@@ -1710,6 +1820,11 @@ Denmark: {
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
             },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1736,6 +1851,11 @@ Denmark: {
                 greenBoxInfo: "Transaction amount: Not Specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Local deposit Method with EUR-SEPA is working after 2 working days",
                 redBoxInfo: "For account verification:Email & Phone Number verification, POA, ID",
+            },
+             TapBank : {
+                greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
+                yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
+                redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
         },
     },

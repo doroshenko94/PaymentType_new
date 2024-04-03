@@ -95,7 +95,7 @@ const companyInfo = {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -152,7 +152,7 @@ const companyInfo = {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -231,8 +231,8 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
-            Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+           Coingira : {
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -305,7 +305,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -370,7 +370,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -437,7 +437,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -513,7 +513,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -560,7 +560,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -595,7 +595,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -627,7 +627,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -677,7 +677,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -725,7 +725,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -786,7 +786,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -843,7 +843,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -858,7 +858,7 @@ Ireland: {
                 redBoxInfo: "",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -870,7 +870,7 @@ Ireland: {
                 redBoxInfo: "",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -936,7 +936,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -983,7 +983,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1018,7 +1018,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1050,7 +1050,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1065,7 +1065,7 @@ Ireland: {
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1078,7 +1078,7 @@ Ireland: {
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1103,7 +1103,7 @@ Ireland: {
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1125,7 +1125,7 @@ Ireland: {
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1160,7 +1160,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1193,7 +1193,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1228,7 +1228,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1260,7 +1260,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1290,7 +1290,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1317,7 +1317,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1337,7 +1337,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1354,7 +1354,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1378,7 +1378,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1400,7 +1400,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1449,7 +1449,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1491,7 +1491,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1540,7 +1540,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1587,7 +1587,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1611,7 +1611,7 @@ Ireland: {
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1633,7 +1633,7 @@ Ireland: {
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1692,7 +1692,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1749,7 +1749,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1783,7 +1783,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1815,7 +1815,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1850,7 +1850,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1882,7 +1882,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1922,7 +1922,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1959,7 +1959,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -1999,7 +1999,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -2036,7 +2036,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -2076,7 +2076,7 @@ Denmark: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
@@ -2113,7 +2113,7 @@ Denmark: {
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
             Coingira : {
-                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },

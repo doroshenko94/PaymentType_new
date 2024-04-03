@@ -1,31 +1,31 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay","TapBank"],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank"],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank"],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank"],
-    Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay",],
-    Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom","Kraken",],
-    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken","Bybit","Cryptopay","TapBank"],
-    Bermuda: ["Bestwallet", "Gemini",],
-    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank"],
-    Norway: ["Revolut","Binance","Banxa","Rampnetwork","TapBank"],
-    Bahamas: ["Safewirepay",],
-    Singapore: ["Revolut","Rampnetwork","Roobic",],
-    Hong_Kong: ["Rampnetwork", "Bintense","Roobic","Bybit","Cryptopay",],
-    Japan: ["Banxa","BitGet","Revolut","Bybit","Cryptopay",],
-    UAE: ["Banxa","Rampnetwork","Bintense","Binance",],
-    Oman: ["Wise","Binance",],
-    Saudi_Arabia:["Banxa","Wise","Binance",],
-    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay","BTC_Direct",],
-    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo","BTC_Direct",],
-    Sweeden:["Banxa","Rampnetwork","Wise",],
-    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay","OKX","TapBank"],
-    Australia: ["Roobic","Cryptocom","Kraken","OKX","TapBank"],
-    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank",],
-    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank"],
-    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank"],
-    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX",],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Safewirepay","Paybis","Roobic","Kraken","Inserex","Cryptopay","TapBank","Coingira"],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank""Coingira"],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank""Coingira"],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank""Coingira"],
+    Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay","Coingira"],
+    Canada: ["NDAX","Newton","Safewirepay","Bintense","Easypayments","Cryptocom","Kraken","Coingira"],
+    New_Zeland: ["Revolut","Paybis","Safewirepay","BitGet","Roobic","Cryptocom","Kraken","Bybit","Cryptopay","TapBank""Coingira"],
+    Bermuda: ["Bestwallet", "Gemini","Coingira"],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank""Coingira"],
+    Norway: ["Revolut","Binance","Banxa","Rampnetwork","TapBank""Coingira"],
+    Bahamas: ["Safewirepay","Coingira"],
+    Singapore: ["Revolut","Rampnetwork","Roobic","Coingira"],
+    Hong_Kong: ["Rampnetwork", "Bintense","Roobic","Bybit","Cryptopay","Coingira"],
+    Japan: ["Banxa","BitGet","Revolut","Bybit","Cryptopay","Coingira"],
+    UAE: ["Banxa","Rampnetwork","Bintense","Binance","Coingira"],
+    Oman: ["Wise","Binance","Coingira"],
+    Saudi_Arabia:["Banxa","Wise","Binance","Coingira"],
+    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay","BTC_Direct","Coingira"],
+    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo","BTC_Direct","Coingira"],
+    Sweeden:["Banxa","Rampnetwork","Wise","Coingira"],
+    South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay","OKX","TapBank""Coingira"],
+    Australia: ["Roobic","Cryptocom","Kraken","OKX","TapBank""Coingira"],
+    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
+    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank""Coingira"],
+    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank""Coingira"],
+    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","Coingira"],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -94,6 +94,11 @@ const companyInfo = {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -145,6 +150,11 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -221,6 +231,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
             
         },
         "Big deposit": {
@@ -289,6 +304,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
 
@@ -348,6 +368,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
         "Big deposit": {
@@ -410,6 +435,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -482,6 +512,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -524,6 +559,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. In order to complete Crypto withdrawals 2FA need to be enabeled",
                 redBoxInfo: "For account verification: ID, Selfie, Phone Number. There are multiple levels that will increse BUY and SELL limits SOF will be asked to increase the KYC level",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
 
@@ -554,6 +594,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Bybit: {
@@ -580,6 +625,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -626,6 +676,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
             
         },
         "Big deposit": {
@@ -668,6 +723,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -725,6 +785,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -777,6 +842,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
 
@@ -787,12 +857,22 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Gemini: {
                 greenBoxInfo: "Need Information",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -855,6 +935,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -897,6 +982,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
 
@@ -927,6 +1017,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -954,6 +1049,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
 
@@ -964,6 +1064,11 @@ Ireland: {
                 yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
             
         },
         "Big deposit": {
@@ -971,6 +1076,11 @@ Ireland: {
                 greenBoxInfo: "There is no age limit as it is a bank account, client needs to be 18+",
                 yellowBoxInfo: "This will creat a EUR SEPA account for the clinet in the chosen currency When registering the clinet will need to select a NUMBERED ACCOUNT  The client will be charged 10EUR at this stage",
                 redBoxInfo: "Client will need to provide paperwork on the intended use of the account. This is a wire transfer. Client will need to go to bank in order to complete the transfer."
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -992,6 +1102,11 @@ Ireland: {
                 yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -1008,6 +1123,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $2000 and up. Permitted age: 18 - 80.",
                 yellowBoxInfo: "This is a soultion that will give clients a account in their name in the chosen currency of USD. The minimum transaction amount is 2000$ (high street bank or Revolut select payment method Swift). If the transfer is done from the clients main bank don't transfer more than 2000$.After the trasaction is completed support will give you a link (wallet.roobic.io/wallets) and a wallet (34jXo1uwLwHh8ygSSbwffxpfTU86LMTn9v) to move the money to us. After that is done the account will be credited",
                 redBoxInfo: "For account verification: 0-5.000GBP ID and POA. / 5.000-30.000GBP DOD. / 30.000GBP+ SOF",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1039,6 +1159,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
             
         },
         "Big deposit": {
@@ -1066,6 +1191,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 10-not specified. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1097,6 +1227,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -1124,6 +1259,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA bank transfer, FasterPayments, WireTransfer (Interaq not mentioned). All WireTransfer weriants are on a Company name NO VBAN. Withdrawals up to 15.000EUR a month no mater the currency",
                 redBoxInfo: "For account verification: ID, Selfie and POA",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
 
@@ -1149,6 +1289,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -1171,6 +1316,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
     
@@ -1186,6 +1336,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Wise: {
@@ -1197,6 +1352,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1217,6 +1377,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1233,6 +1398,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: up to 5.000$ per transaction. Permitted age: from 18",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard & Crypto. Wallet adresses might need to be whitelisted depending on country.Preferable for client to have EXODUS or METAMASK",
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1278,6 +1448,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -1314,6 +1489,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Level 1 0-2.500EUR a day / Level 2 0-10.000EUR a day. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1359,6 +1539,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1401,6 +1586,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA. There is an option to link the bank account and in this way any transfer will arive instantly",
                 redBoxInfo: "For account verification: ID, Selfie, Email, Phone Number, KYC Questionmaire",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
     Sweeden: {
@@ -1420,6 +1610,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1436,6 +1631,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: $1 - $1.000.000. Permitted age: 18 and up no age limit ",
                 yellowBoxInfo: "Deposit options: Bank transfer and Debit card. For account verification you need ID Account verification for exotic countries might differ. For large transactions Wise will ask for source of funds. Different sources will requier different documentation",
                 redBoxInfo: "***NEVER to use AnyDesk when client is on WISE will block immediately the account",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1491,6 +1691,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1543,6 +1748,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
     },
       Australia: {
@@ -1572,6 +1782,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Roobic : {
@@ -1598,6 +1813,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1629,6 +1849,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1655,6 +1880,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1691,6 +1921,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1722,6 +1957,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1758,6 +1998,11 @@ Ireland: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1789,6 +2034,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },
@@ -1825,6 +2075,11 @@ Denmark: {
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
             },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1856,6 +2111,11 @@ Denmark: {
                 greenBoxInfo: "Transaction amount: Unlimited Deposit & WD. Permitted age: 18+/Not specified",
                 yellowBoxInfo: "Fees are only visible after you create and fully verify the account. As mentioned in the App there is Faster Payments solutions for Uk clinets. Supports Sepa Bank Transfer, Debit Deposit, Card Top Up",
                 redBoxInfo: "For account verification: ID,DL,PASSPORT & SELFIE or Utility Bill or Bank Statement",
+            },
+            Coingira : {
+                greenBoxInfo: "Transaction amount: ?. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
+                redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
         },
     },

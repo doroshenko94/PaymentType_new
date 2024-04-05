@@ -386,6 +386,8 @@ const pdfsData = {
     ],
     Coingira: [
         "PDFs/Coingira.pdf",
+        "PDFs/Coingira Regular KYC List.pdf",
+        "PDFs/Coingira Exception KYC List.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     Roobic: [

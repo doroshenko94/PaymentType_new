@@ -22,7 +22,7 @@ const companyOptions = {
     Sweeden:["Banxa","Rampnetwork","Wise","Coingira"],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay","OKX","TapBank","Coingira"],
     Australia: ["Cryptocom","Kraken","OKX","TapBank","Coingira"],
-    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
+    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank","Coingira","Zen"],
     Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
     Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
     Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","Coingira"],
@@ -42,8 +42,8 @@ const companyInfo = {
                 yellowBoxInfo: "You can use credit card to top up which is useful. Not sure of age limit.",
                 redBoxInfo: "CURVE it is like Revolut you can use a virtual card. You can top up with high street banks, you can use credit cards, and work with MOONPAY.",
             },
-            Zen : {
-                greenBoxInfo: " Zen, you transfer max $5.000 here, you need to convert to ETH and leave for one day before you transfer the funds.",
+             : {
+                greenBoxInfo: " , you transfer max $5.000 here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "Up to $2.000: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
@@ -166,7 +166,7 @@ Ireland: {
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
-           Zen : {
+            : {
                 greenBoxInfo: "Transaction amount: Up to $2000.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard. There is a 24h WD limit of $1000 for all users",
                 redBoxInfo: "For account verification: ID and Selfie. After completing the verification, keep the money in the account for 1 day before WD to avoid any issues",
@@ -1893,6 +1893,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Zen : {
+                greenBoxInfo: "Transaction amount: Up to $2000.  Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "Deposit options: Visa/MasterCard. There is a 24h WD limit of $1000 for all users",
+                redBoxInfo: "For account verification: ID and Selfie. After completing the verification, keep the money in the account for 1 day before WD to avoid any issues",
             },
         },
         "Big deposit": {

@@ -372,6 +372,10 @@ const pdfsData = {
         "PDFs/Interac Deposit Steps.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+    TapBank: [
+        "PDFs/Tap Questionaire.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     Paybis: [
         "PDFs/Paybis.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии

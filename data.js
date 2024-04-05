@@ -48,7 +48,7 @@ const companyInfo = {
                 redBoxInfo: "Up to $2.000: BANK TRANSFER: INSTANT VERIFICATIONs",
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -102,7 +102,7 @@ const companyInfo = {
         },
         "Big deposit": {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -177,7 +177,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA and Selfie. The client will first be asked for ID and Selfie, after that when trying to deposi he will be asked to provide a proof of address. IRISH client lack HOUSE NUMBER on their POA documents (Potential issue)"
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -250,7 +250,7 @@ Ireland: {
                 redBoxInfo: "The first time you have to add 2FA and you can choose google auth or email much better.then you you can send and put OTP received on email and by sms. for USDT TRC20 you have 0.93 cent in transfers on 10k on ERC20 you have 3,74 eur. fee. 10/15 minutes before receive (its written on the app). / NOT TESTED YET"
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -330,7 +330,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID and Selfie. After completing the verification, keep the money in the account for 1 day before WD to avoid any issues",
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -397,7 +397,7 @@ Ireland: {
                 redBoxInfo: "The first time you have to add 2FA and you can choose google auth or email much better.then you you can send and put OTP received on email and by sms. for USDT TRC20 you have 0.93 cent in transfers on 10k on ERC20 you have 3,74 eur. fee. 10/15 minutes before receive (its written on the app)"
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -488,7 +488,7 @@ Ireland: {
                 redBoxInfo: "",
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -535,7 +535,7 @@ Ireland: {
                 redBoxInfo: "The first time you have to add 2FA and you can choose google auth or email much better.then you you can send and put OTP received on email and by sms. for USDT TRC20 you have 0.93 cent in transfers on 10k on ERC20 you have 3,74 eur. fee. 10/15 minutes before receive (its written on the app) / NOT TESTED YET"
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -916,7 +916,7 @@ Ireland: {
                 redBoxInfo: "",
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -968,7 +968,7 @@ Ireland: {
                 redBoxInfo: "The first time you have to add 2FA and you can choose google auth or email much better.then you you can send and put OTP received on email and by sms. for USDT TRC20 you have 0.93 cent in transfers on 10k on ERC20 you have 3,74 eur. fee. 10/15 minutes before receive (its written on the app). / NOT TESTED YET"
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1023,7 +1023,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1055,7 +1055,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID, POA & Selfie.",
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1228,7 +1228,7 @@ Ireland: {
      Japan: {
         STD: {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1260,7 +1260,7 @@ Ireland: {
         },
         "Big deposit": {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1295,7 +1295,7 @@ Ireland: {
     UAE: {
         STD: {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1322,7 +1322,7 @@ Ireland: {
         },
         "Big deposit": {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1388,7 +1388,7 @@ Ireland: {
     Saudi_Arabia: {
         STD: {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1410,7 +1410,7 @@ Ireland: {
         },
         "Big deposit": {
            Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1444,7 +1444,7 @@ Ireland: {
                 redBoxInfo: "For account verification: ID and Selfie. After completing the verification, keep the money in the account for 1 day before WD to avoid any issues",
             },
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1486,7 +1486,7 @@ Ireland: {
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
            Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1530,7 +1530,7 @@ Ireland: {
     Greenland: {
         STD: {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1577,7 +1577,7 @@ Ireland: {
         },
         "Big deposit": {
            Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1631,7 +1631,7 @@ Ireland: {
     Sweeden: {
         STD: {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1653,7 +1653,7 @@ Ireland: {
         },
         "Big deposit": {
            Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1682,7 +1682,7 @@ Ireland: {
     South_Africa: {
         STD: {
             Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },
@@ -1739,7 +1739,7 @@ Ireland: {
         },
         "Big deposit": {
            Banxa: {
-                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 65 ",
+                greenBoxInfo: "Transaction amount: $1 - $70.000. Permitted age: 18 - 70 ",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, SEPA, iDeal, Interac, GPay, ApplePay, FasterPayments, Bank Transfer. Limits are dependan on the country and payment methood but in general stand at 70,000 a week",
                 redBoxInfo: "For account verification you need ID and potentialy a short video of you with the ID. Any additional steps will depend on the country and the amount. They might ask for you to confirm that a wallet adress in yours. NOT PROPERLY TESTED. NOT PROPERLY TESTED. NOT PROPERLY TESTED",
             },

@@ -166,7 +166,7 @@ Ireland: {
                 yellowBoxInfo: "You need to accept terms and conditions on conversion of crypto, this is a new step.",
                 redBoxInfo: "Revolut up to the age of 75 and then bintense: Open with them before you pitch. For new clients the Crypto withdrawal limit is 500 per day.",
             },
-            : {
+            Zen: {
                 greenBoxInfo: "Transaction amount: Up to $2000.  Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard. There is a 24h WD limit of $1000 for all users",
                 redBoxInfo: "For account verification: ID and Selfie. After completing the verification, keep the money in the account for 1 day before WD to avoid any issues",

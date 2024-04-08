@@ -42,7 +42,7 @@ const companyInfo = {
                 yellowBoxInfo: "You can use credit card to top up which is useful. Not sure of age limit.",
                 redBoxInfo: "CURVE it is like Revolut you can use a virtual card. You can top up with high street banks, you can use credit cards, and work with MOONPAY.",
             },
-             : {
+            Zen : {
                 greenBoxInfo: " , you transfer max $5.000 here, you need to convert to ETH and leave for one day before you transfer the funds.",
                 yellowBoxInfo: "First transaction UK via wire must be 1.000$ only. Then you can do total 5.000$ next day",
                 redBoxInfo: "Up to $2.000: BANK TRANSFER: INSTANT VERIFICATIONs",

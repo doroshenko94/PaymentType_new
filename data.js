@@ -6,7 +6,7 @@ const companyOptions = {
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay","Coingira"],
     Canada: ["NDAX","Newton","Bintense","Easypayments","Cryptocom","Kraken","Coingira"],
-    New_Zeland: ["Revolut","Paybis","BitGet","Cryptocom","Kraken","Bybit","Cryptopay","TapBank","Coingira"],
+    New_Zeland: ["Revolut","Paybis","BitGet","Cryptocom","Kraken","Bybit","Cryptopay","TapBank","Coingira","Inserex"],
     Bermuda: ["Bestwallet", "Gemini","Coingira"],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank","Coingira"],
     Norway: ["Revolut","Binance","Banxa","Rampnetwork","TapBank","Coingira"],
@@ -805,6 +805,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+             Inserex : {
+                greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
+                yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
+                redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -861,6 +866,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+             Inserex : {
+                greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
+                yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
+                redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
             },
         },
     },

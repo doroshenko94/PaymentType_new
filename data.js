@@ -1,15 +1,15 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","Coingira","AnyCoinDirect"],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira","AnyCoinDirect"],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira","AnyCoinDirect"],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","Coingira","AnyCoinDirect"],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay",],
     Canada: ["NDAX","Newton","Bintense","Easypayments","Cryptocom","Kraken",],
     New_Zeland: ["Revolut","Paybis","BitGet","Cryptocom","Kraken","Bybit","Cryptopay","TapBank","Inserex"],
     Bermuda: ["Bestwallet", "Gemini",],
-    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank","Coingira"],
-    Norway: ["Revolut","Binance","Banxa","Rampnetwork","TapBank","Coingira"],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank","Coingira","AnyCoinDirect"],
+    Norway: ["Revolut","Binance","Banxa","Rampnetwork","TapBank","Coingira","AnyCoinDirect"],
     Bahamas: ["Coingira"],
     Singapore: ["Revolut","Rampnetwork",],
     Hong_Kong: ["Rampnetwork", "Bintense","Bybit","Cryptopay",],
@@ -17,15 +17,15 @@ const companyOptions = {
     UAE: ["Banxa","Rampnetwork","Bintense","Binance",],
     Oman: ["Wise","Binance",],
     Saudi_Arabia:["Banxa","Wise","Binance",],
-    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay","BTC_Direct","Coingira"],
-    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo","BTC_Direct","Coingira"],
-    Sweeden:["Banxa","Rampnetwork","Wise","Coingira"],
+    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay","BTC_Direct","Coingira","AnyCoinDirect"],
+    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo","BTC_Direct","Coingira","AnyCoinDirect"],
+    Sweeden:["Banxa","Rampnetwork","Wise","Coingira","AnyCoinDirect"],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay","OKX","TapBank",],
     Australia: ["Cryptocom","Kraken","OKX","TapBank",],
-    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank","Coingira","Zen"],
-    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
-    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
-    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","Coingira"],
+    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank","Coingira","Zen","AnyCoinDirect"],
+    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira","AnyCoinDirect"],
+    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira","AnyCoinDirect"],
+    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","Coingira","AnyCoinDirect"],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -246,6 +246,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
             
         },
         "Big deposit": {
@@ -324,6 +329,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
     },
 
@@ -388,6 +398,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
         "Big deposit": {
@@ -460,6 +475,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },
@@ -537,6 +557,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -588,6 +613,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },
@@ -980,6 +1010,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -1027,6 +1062,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
     },
 
@@ -1061,6 +1101,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
         "Big deposit": {
@@ -1098,6 +1143,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },
@@ -1498,6 +1548,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -1544,6 +1599,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },
@@ -1594,6 +1654,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1646,6 +1711,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
     },
     Sweeden: {
@@ -1669,6 +1739,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
         "Big deposit": {
@@ -1696,6 +1771,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },
@@ -1919,6 +1999,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard. There is a 24h WD limit of $1000 for all users",
                 redBoxInfo: "For account verification: ID and Selfie. After completing the verification, keep the money in the account for 1 day before WD to avoid any issues",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -1955,6 +2040,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },
@@ -1996,6 +2086,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -2038,6 +2133,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
     },
 
@@ -2077,6 +2177,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
         "Big deposit": {
@@ -2119,6 +2224,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },
@@ -2160,6 +2270,11 @@ Denmark: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -2201,6 +2316,11 @@ Denmark: {
                 greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
+            },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },

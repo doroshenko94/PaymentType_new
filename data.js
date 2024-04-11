@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","Coingira"],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","Coingira","AnyCoinDirect"],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","Coingira"],
@@ -99,6 +99,11 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -155,6 +160,11 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+             AnyCoinDirect : {
+                greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
+                yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
+                redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
         },
     },

@@ -380,6 +380,10 @@ const pdfsData = {
         "PDFs/Paybis.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+    AnyCoinDirect: [
+        "PDFs/AnyCoinDirect Steps.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     Easypayments: [
         "PDFs/Easypayments.ca.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии

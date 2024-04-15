@@ -372,6 +372,10 @@ const pdfsData = {
         "PDFs/Interac Deposit Steps.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+    Inserex: [
+        "PDFs/Insirex step-by-step guide.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     TapBank: [
         "PDFs/Tap Questionaire.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии

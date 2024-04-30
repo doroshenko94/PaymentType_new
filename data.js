@@ -25,7 +25,7 @@ const companyOptions = {
     Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank","Zen","AnyCoinDirect"],
     Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect"],
     Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect"],
-    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX,"AnyCoinDirect"],
+    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","AnyCoinDirect"],
     // Добавьте другие страны и компании по аналогии
 };
 

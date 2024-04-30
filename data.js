@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect"],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay",],
-    Canada: ["NDAX","Newton","Bintense","Easypayments","Cryptocom","Kraken","MEW",],
+    Canada: ["NDAX","Newton","Bintense","Easypayments","Cryptocom","Kraken","MEW","Beaqonix",],
     New_Zeland: ["Revolut","Paybis","BitGet","Cryptocom","Kraken","Bybit","Cryptopay","TapBank","Inserex","MEW",],
     Bermuda: ["Bestwallet", "Gemini",],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank","AnyCoinDirect"],
@@ -741,6 +741,11 @@ Ireland: {
                 yellowBoxInfo: "Limits for ETH buy per day is 20000$ / Supports ERC20. There are no Fees for buying crypto. No Deposti & WD Limits",
                 redBoxInfo: "Similar to Invity.io",
             },
+            MEW : {
+                greenBoxInfo: "Interaq 3000CAD max. Certified Cheques 3000-50000. Permitted age: 18 - 75",
+                yellowBoxInfo: "The fee for the transfer is 13%. It will be credited as Net + Fees (cashback). The client starts the process by sending an email to support@beaqonx.com I would like to start the onboarding process and purchase cryptocurrency. For the amount of [amount], I am using [bank name]. The client then needs to follow the instruction that they recieve on email",
+                redBoxInfo: "Works the same way as Easypayments.ca",
+            },
             
         },
         "Big deposit": {
@@ -788,6 +793,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            MEW : {
+                greenBoxInfo: "Interaq 3000CAD max. Certified Cheques 3000-50000. Permitted age: 18 - 75",
+                yellowBoxInfo: "The fee for the transfer is 13%. It will be credited as Net + Fees (cashback). The client starts the process by sending an email to support@beaqonx.com I would like to start the onboarding process and purchase cryptocurrency. For the amount of [amount], I am using [bank name]. The client then needs to follow the instruction that they recieve on email",
+                redBoxInfo: "Works the same way as Easypayments.ca",
             },
         },
     },

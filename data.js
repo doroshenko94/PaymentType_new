@@ -741,11 +741,6 @@ Ireland: {
                 yellowBoxInfo: "Limits for ETH buy per day is 20000$ / Supports ERC20. There are no Fees for buying crypto. No Deposti & WD Limits",
                 redBoxInfo: "Similar to Invity.io",
             },
-            Beaqonix : {
-                greenBoxInfo: "Interaq 3000CAD max. Certified Cheques 3000-50000. Permitted age: 18 - 75",
-                yellowBoxInfo: "The fee for the transfer is 13%. It will be credited as Net + Fees (cashback). The client starts the process by sending an email to support@beaqonx.com I would like to start the onboarding process and purchase cryptocurrency. For the amount of [amount], I am using [bank name]. The client then needs to follow the instruction that they recieve on email",
-                redBoxInfo: "Works the same way as Easypayments.ca",
-            },
             
         },
         "Big deposit": {
@@ -795,7 +790,7 @@ Ireland: {
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
             Beaqonix : {
-                greenBoxInfo: "Interaq 3000CAD max. Certified Cheques 3000-50000. Permitted age: 18 - 75",
+                greenBoxInfo: "Bill Payment 10000 CAD+ / Wire Transfer 20000 CAD+ Permitted age: 18 - 75",
                 yellowBoxInfo: "The fee for the transfer is 13%. It will be credited as Net + Fees (cashback). The client starts the process by sending an email to support@beaqonx.com I would like to start the onboarding process and purchase cryptocurrency. For the amount of [amount], I am using [bank name]. The client then needs to follow the instruction that they recieve on email",
                 redBoxInfo: "Works the same way as Easypayments.ca",
             },

@@ -104,6 +104,11 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -165,6 +170,11 @@ const companyInfo = {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -251,6 +261,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
             
         },
         "Big deposit": {
@@ -334,6 +349,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
 
@@ -403,6 +423,11 @@ Ireland: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
         "Big deposit": {
@@ -480,6 +505,11 @@ Ireland: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -562,6 +592,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -619,6 +654,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
 
@@ -654,6 +694,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             Bybit: {
@@ -685,6 +730,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -741,6 +791,11 @@ Ireland: {
                 yellowBoxInfo: "Limits for ETH buy per day is 20000$ / Supports ERC20. There are no Fees for buying crypto. No Deposti & WD Limits",
                 redBoxInfo: "Similar to Invity.io",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
             
         },
         "Big deposit": {
@@ -793,6 +848,11 @@ Ireland: {
                 greenBoxInfo: "Bill Payment 10000 CAD+ / Wire Transfer 20000 CAD+ Permitted age: 18 - 75",
                 yellowBoxInfo: "The fee for the transfer is 13%. It will be credited as Net + Fees (cashback). The client starts the process by sending an email to support@beaqonx.com I would like to start the onboarding process and purchase cryptocurrency. For the amount of [amount], I am using [bank name]. The client then needs to follow the instruction that they recieve on email",
                 redBoxInfo: "Works the same way as Easypayments.ca",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -865,6 +925,11 @@ Ireland: {
                 yellowBoxInfo: "Limits for ETH buy per day is 20000$ / Supports ERC20. There are no Fees for buying crypto. No Deposti & WD Limits",
                 redBoxInfo: "Similar to Invity.io",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -927,6 +992,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
 
@@ -953,6 +1023,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -1030,6 +1105,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             MEXC: {
@@ -1082,6 +1162,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
 
@@ -1121,6 +1206,11 @@ Ireland: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
         "Big deposit": {
@@ -1164,6 +1254,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
 
@@ -1179,6 +1274,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
             
         },
         "Big deposit": {
@@ -1191,6 +1291,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -1217,6 +1322,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -1238,6 +1348,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -1274,6 +1389,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
             
         },
         "Big deposit": {
@@ -1306,6 +1426,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -1342,6 +1467,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -1374,6 +1504,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
 
@@ -1404,6 +1539,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -1431,6 +1571,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
     
@@ -1451,6 +1596,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
            Wise: {
@@ -1467,6 +1617,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -1492,6 +1647,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1513,6 +1673,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -1568,6 +1733,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
             Revolut: {
@@ -1619,6 +1789,11 @@ Ireland: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -1674,6 +1849,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1731,6 +1911,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
     Sweeden: {
@@ -1759,6 +1944,11 @@ Ireland: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
         "Big deposit": {
@@ -1791,6 +1981,11 @@ Ireland: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -1851,6 +2046,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
            Banxa: {
@@ -1908,6 +2108,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
       Australia: {
@@ -1942,6 +2147,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
            Roobic : {
@@ -1973,6 +2183,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: Card Limit: 250-2500 / Wire Limit: 250-25000. Permitted age: 18 - 70",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, BankTransfer, Google/Apple Pay. BankTransfer details are in a company name: SWIPELUX OU Reference is extremely important and must be included. Fee: 8%",
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -2106,6 +2321,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -2153,6 +2373,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
     },
 
@@ -2197,6 +2422,11 @@ Ireland: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
         "Big deposit": {
@@ -2244,6 +2474,11 @@ Ireland: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },
@@ -2290,6 +2525,11 @@ Denmark: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
+            },
         },
         "Big deposit": {
            Bybit: {
@@ -2336,6 +2576,11 @@ Denmark: {
                 greenBoxInfo: "SEPA/CreditCard Level 1:15.000/1.500 Level 2:25.000/1.500(7.500) Level 3:100.000/50.000. 18+/ not specified",
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
+            },
+            Voucher_Coupon : {
+                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
+                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
+                redBoxInfo: "If you want to use it ask S for approval",
             },
         },
     },

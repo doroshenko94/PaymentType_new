@@ -761,11 +761,6 @@ Ireland: {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
-             Easypayments : {
-                greenBoxInfo: "Transaction amount:Interac: 2,000CAD - max bank limit. Wire: 40,000 CAD -  750,000CAD. Bill payment: 10,000CAD - 99,000CAD. Permitted age: 18 - 78",
-                yellowBoxInfo: "This is a BankTransfer that for now is being counted as crypto. The fee for the transfer is 17%. The client starts the process by sending an email to office@easypayments.ca The client then needs to follow the instruction that they recieve on email",
-                redBoxInfo: "For account verification: ID, POA, Selfie, Billing info, Phone verification, Email vertification: Need to sign a DOC CLIENT CAN NOT FORWARD ANY EMAIL HE GETS TO US AND CAN NOT FORWARD ANY EMAIL FROM US TO THEM THIS WILL CAUSE THEM TO BLOCK THE CLIENT IMEDIATELY",
-            },
             Cryptocom: {
                 greenBoxInfo: "Transaction amount: Any ammount. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "Deposit options: Visa/MasterCard, BankTransfer. Client can deposit fiat in mulltiple currencies. There are no specific limits on WD ammounts. The client needs to have his own external wallet in order to avoid issues. EXODUS or METAMASK",
@@ -820,7 +815,7 @@ Ireland: {
                 redBoxInfo: "",
             },
              Easypayments : {
-                greenBoxInfo: "Transaction amount:Interac: 2,000CAD - max bank limit. Wire: 40,000 CAD -  750,000CAD. Bill payment: 10,000CAD - 99,000CAD. Permitted age: 18 - 78",
+                greenBoxInfo: "Wire: 20,000 CAD -  750,000CAD. Bill payment: 10,000CAD - 99,000CAD. Permitted age: 18 - 78",
                 yellowBoxInfo: "This is a BankTransfer that for now is being counted as crypto. The fee for the transfer is 17%. The client starts the process by sending an email to office@easypayments.ca The client then needs to follow the instruction that they recieve on email",
                 redBoxInfo: "For account verification: ID, POA, Selfie, Billing info, Phone verification, Email vertification: Need to sign a DOC CLIENT CAN NOT FORWARD ANY EMAIL HE GETS TO US AND CAN NOT FORWARD ANY EMAIL FROM US TO THEM THIS WILL CAUSE THEM TO BLOCK THE CLIENT IMEDIATELY",
             },

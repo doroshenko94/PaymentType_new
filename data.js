@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","Voucher_Coupon"],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon"],
@@ -175,6 +175,11 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
+            },
+            The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
             },
         },
     },

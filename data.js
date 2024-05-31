@@ -1,15 +1,15 @@
 // data.js
 const companyOptions = {
     UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
-    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon"],
-    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon"],
-    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon"],
+    Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
+    Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
+    Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay","Voucher_Coupon"],
     Canada: ["NDAX","Newton","Bintense","Easypayments","Cryptocom","Kraken","MEW","Beaqonix","Voucher_Coupon"],
     New_Zeland: ["Revolut","Paybis","BitGet","Cryptocom","Kraken","Bybit","Cryptopay","TapBank","Inserex","MEW","Voucher_Coupon"],
     Bermuda: ["Bestwallet", "Gemini","Voucher_Coupon"],
-    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank","AnyCoinDirect","Voucher_Coupon"],
-    Norway: ["Revolut","Binance","Banxa","Rampnetwork","TapBank","AnyCoinDirect","Voucher_Coupon"],
+    Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
+    Norway: ["Revolut","Binance","Banxa","Rampnetwork","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Bahamas: ["Voucher_Coupon"],
     Singapore: ["Revolut","Rampnetwork","Voucher_Coupon"],
     Hong_Kong: ["Rampnetwork", "Bintense","Bybit","Cryptopay","Voucher_Coupon"],
@@ -17,15 +17,15 @@ const companyOptions = {
     UAE: ["Banxa","Rampnetwork","Bintense","Binance","Voucher_Coupon"],
     Oman: ["Wise","Binance","Voucher_Coupon"],
     Saudi_Arabia:["Banxa","Wise","Binance","Voucher_Coupon"],
-    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay","BTC_Direct","AnyCoinDirect","Voucher_Coupon"],
-    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo","BTC_Direct","AnyCoinDirect","Voucher_Coupon"],
-    Sweeden:["Banxa","Rampnetwork","Wise","AnyCoinDirect","Voucher_Coupon"],
+    Iceland:["Revolut","Zen","Banxa","Rampnetwork","BitGet","Binance","Cryptopay","BTC_Direct","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
+    Greenland:["Banxa","Rampnetwork","Wise","BitGet","Bybit","Cryptopay","Bitvavo","BTC_Direct","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
+    Sweeden:["Banxa","Rampnetwork","Wise","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     South_Africa:["Banxa","Rampnetwork", "Luno","Wise","BitGet","VALR","Bybit","Cryptopay","OKX","TapBank","Voucher_Coupon"],
     Australia: ["Cryptocom","Kraken","OKX","TapBank","Voucher_Coupon"],
-    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank","Zen","AnyCoinDirect",],
-    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon"],
-    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon"],
-    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","AnyCoinDirect","Voucher_Coupon"],
+    Croatia: ["Bybit","Bitvavo","BTC_Direct","OKX","TapBank","Zen","AnyCoinDirect","The_Kingdom_Bank"],
+    Czech: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
+    Slovakia: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
+    Denmark: ["Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     // Добавьте другие страны и компании по аналогии
 };
 
@@ -359,6 +359,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
             },
+            The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
+            },
         },
     },
 
@@ -516,6 +521,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
             },
+            The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
+            },
         },
     },
 
@@ -663,6 +673,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
+            },
+            The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
             },
         },
     },
@@ -1167,6 +1182,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
             },
+            The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
+            },
         },
     },
 
@@ -1258,6 +1278,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
+            },
+            The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
             },
         },
     },
@@ -1795,6 +1820,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
             },
+                    The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
+            },
         },
     },
     Greenland: {
@@ -1916,6 +1946,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
             },
+                    The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
+            },
         },
     },
     Sweeden: {
@@ -1986,6 +2021,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
+            },
+                    The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
             },
         },
     },
@@ -2276,6 +2316,11 @@ Ireland: {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
+                    The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
+            },
         },
     },
 
@@ -2377,6 +2422,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
+            },
+                    The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
             },
         },
     },
@@ -2480,6 +2530,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
             },
+                    The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
+            },
         },
     },
 
@@ -2581,6 +2636,11 @@ Denmark: {
                 greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
+            },
+            The_Kingdom_Bank : {
+                greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
+                yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
+                redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
             },
         },
     },

@@ -378,6 +378,7 @@ const pdfsData = {
     ],
     TapBank: [
         "PDFs/Tap Questionaire.pdf",
+        "PDFs/Compliance SOW SOF Table.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     Paybis: [

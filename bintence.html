@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,61 +8,60 @@
     <!-- Bootstrap JavaScript --><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.png">
     
-	<style>
-	
-  .main-interface {
-    display: none;
-    opacity: 0; /* Изначально устанавливаем нулевую прозрачность */
-    transition: opacity 0.5s; /* Добавляем переход для свойства opacity */
-}
+    <style>
+    .main-interface {
+        display: none;
+        opacity: 0; /* Изначально устанавливаем нулевую прозрачность */
+        transition: opacity 0.5s; /* Добавляем переход для свойства opacity */
+    }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 50px;
-}
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 50px;
+    }
 
-.image img {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-}
+    .image img {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
 
-.modal-overlay {
-    display: none;
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    justify-content: center;
-    align-items: center;
-}
+    .modal-overlay {
+        display: none;
+        position: fixed;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        justify-content: center;
+        align-items: center;
+    }
 
-.modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-}
+    .modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
 
-.modal-content {
-    max-width: 80%;
-    max-height: 80%;
-}
+    .modal-content {
+        max-width: 80%;
+        max-height: 80%;
+    }
 
-.close {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: #fff;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
     </style>
 </head>
 <body>
@@ -85,51 +84,52 @@
     <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Solution <b>2</b></a>
     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Solution <b>3</b></a>
     <a class="nav-item nav-link" id="nav-contact-4-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4" aria-selected="false">Solution <b>4</b></a>
+    <a class="nav-item nav-link" id="nav-contact-5-tab" data-toggle="tab" href="#nav-5" role="tab" aria-controls="nav-5" aria-selected="false">Solution <b>5</b></a>
   </div>
 </nav>
 
 <div class="tab-content" id="nav-tabContent">
 
   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-			<div class="container-fluid mt-4">
-			<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-			<h1 class="display-4"><h2>Wire solution for all countries except:<a href="BINTENSE BLACKLISTED COUNTRIES.pptx.pdf"> BINTENSE BLACKLISTED COUNTRIES </a>
-		</h2></h1>
-			<p class="lead">They now have the option to send wires in the following countries: IRELAND, FRANCE, NETHERLANDS, SPAIN, CYPRUS AND LT.</br></br>
-			CreditCard deposits from joint accounts are not possible</p>
-			<b>PDF</b>: <a href="PDFs/SOF flow.pdf">SOF flow</a> </br></br><b></b>
-			</div>
-			</div>
-			</div>
-		
+      <div class="container-fluid mt-4">
+      <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+      <h1 class="display-4"><h2>Wire solution for all countries except:<a href="BINTENSE BLACKLISTED COUNTRIES.pptx.pdf"> BINTENSE BLACKLISTED COUNTRIES </a>
+    </h2></h1>
+      <p class="lead">They now have the option to send wires in the following countries: IRELAND, FRANCE, NETHERLANDS, SPAIN, CYPRUS AND LT.</br></br>
+      CreditCard deposits from joint accounts are not possible</p>
+      <b>PDF</b>: <a href="PDFs/SOF flow.pdf">SOF flow</a> </br></br><b></b>
+      </div>
+      </div>
+      </div>
+  
   </div>
   
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
   
-		<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-			<div class="container-fluid mt-4">
-			<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-			<h1 class="display-4"><h2>EFT direct bank transfer</h2></h1>
-			<p class="lead">Bintense are now offering a new payment method this is relevant for the following countries: <b>IRELAND</b>, <b>DENMARK</b>, <b>ITLAY</b>, <b>ICELAND</b> & <b>POLAND</b>. 
-			Its like interac for these countries, what it means is that you can do a direct transfer from your bank account to your bintense account, 
-			by logging into your online banking directed through bintense and it will automatically credited the funds. Same process as usual for opening bintense account 
-			through the referral link, BTC wallet remains the same. Payment page you will see PAY WITH CLICK then you will select your bank account, 
-			log in and then complete the transfer. AGE LIMIT 75. Min transaction amount 2.000$, NO MAX </br></br>
-			CreditCard deposits from joint accounts are not possible</p>
-			
-			<b>PDF</b>: <a href="PDFs/SOF flow.pdf">SOF flow</a> </br></br><b></b>
-						
-	<div class="container-fluid mt-4">
-	<div class="row">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <div class="container-fluid mt-4">
+      <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+      <h1 class="display-4"><h2>EFT direct bank transfer</h2></h1>
+      <p class="lead">Bintense are now offering a new payment method this is relevant for the following countries: <b>IRELAND</b>, <b>DENMARK</b>, <b>ITLAY</b>, <b>ICELAND</b> & <b>POLAND</b>. 
+      Its like interac for these countries, what it means is that you can do a direct transfer from your bank account to your bintense account, 
+      by logging into your online banking directed through bintense and it will automatically credited the funds. Same process as usual for opening bintense account 
+      through the referral link, BTC wallet remains the same. Payment page you will see PAY WITH CLICK then you will select your bank account, 
+      log in and then complete the transfer. AGE LIMIT 75. Min transaction amount 2.000$, NO MAX </br></br>
+      CreditCard deposits from joint accounts are not possible</p>
+      
+      <b>PDF</b>: <a href="PDFs/SOF flow.pdf">SOF flow</a> </br></br><b></b>
+            
+    <div class="container-fluid mt-4">
+    <div class="row">
     <div class="col-4">
         <div class="list-group" id="list-tab" role="tablist">
             <a class="list-group-item list-group-item-action list-group-item-dark" id="list-ireland-list" data-toggle="list" href="#list-ireland" role="tab" aria-controls="ireland">Ireland</a>
             <a class="list-group-item list-group-item-action list-group-item-dark" id="list-denmark-list" data-toggle="list" href="#list-denmark" role="tab" aria-controls="denmark">Denmark</a>
             <a class="list-group-item list-group-item-action list-group-item-dark" id="list-italy-list" data-toggle="list" href="#list-italy" role="tab" aria-controls="italy">Italy</a>
             <a class="list-group-item list-group-item-action list-group-item-dark" id="list-iceland-list" data-toggle="list" href="#list-iceland" role="tab" aria-controls="iceland">Iceland</a>
-	    <a class="list-group-item list-group-item-action list-group-item-dark" id="list-poland-list" data-toggle="list" href="#list-poland" role="tab" aria-controls="poland">Poland</a>
+        <a class="list-group-item list-group-item-action list-group-item-dark" id="list-poland-list" data-toggle="list" href="#list-poland" role="tab" aria-controls="poland">Poland</a>
             <!-- Добавьте другие вкладки -->
         </div>
     </div>
@@ -139,401 +139,413 @@
                 <!-- Блок информации о Ирландии -->
                 <h3>Ireland</h3>
                 <p>
-		AIB ROI Business<br>
-		AIB ROI Personal<br>
-		Bank of Ireland<br>
-		Bank of Ireland Business<br>
-		ING<br>
-		KBC Bank Ireland<br>
-		N26<br>
-		Revolut EU<br>
-		Ulster Bank (ROI / EIRE)<br>
-		Ulster Bank Business (ROI)<br>
-		Wise</p>
+        AIB ROI Business<br>
+        AIB ROI Personal<br>
+        Bank of Ireland<br>
+        Bank of Ireland Business<br>
+        ING<br>
+        KBC Bank Ireland<br>
+        N26<br>
+        Revolut EU<br>
+        Ulster Bank (ROI / EIRE)<br>
+        Ulster Bank Business (ROI)<br>
+        Wise</p>
             </div>
             <div class="tab-pane fade" id="list-denmark" role="tabpanel" aria-labelledby="list-denmark-list">
                 <!-- Блок информации о Дании -->
                 <h3>Denmark</h3>
                 <p>Danske Bank Denmark<br>
-		Danske Bank Denmark Business<br>
-		Danske Bank Norway Business<br>
-		Handelsbanken<br>
-		N26<br>
-		Nordea Business Denmark<br>
-		Nordea Personal Denmark<br>
-		Revolut EU<br>
-		Swedbank</p>
+        Danske Bank Denmark Business<br>
+        Danske Bank Norway Business<br>
+        Handelsbanken<br>
+        N26<br>
+        Nordea Business Denmark<br>
+        Nordea Personal Denmark<br>
+        Revolut EU<br>
+        Swedbank</p>
             </div>
             <div class="tab-pane fade" id="list-italy" role="tabpanel" aria-labelledby="list-italy-list" "overflow-auto">
                 <!-- Блок информации о Италии -->
-		<div class="row" style="max-height: 450px; overflow-y: auto;">
+        <div class="row" style="max-height: 450px; overflow-y: auto;">
                     <!-- Большой блок информации для Италии -->
                     <div class="col-md-4">
                         <h3>Italy</h3>
                        <p>ALPENBANK<br><br>
-			BCC Longi - Valle del Fitalia Soc. Coop. r.l.<br><br>
-			BCC Umbria Credito Cooperativo Società cooperativa<br><br>
-			BCC del Garda - Banca di Credito Cooperativo Colli Morenici del Garda - Società cooperativa<br><br>
-			BMPS - Personal - Sandbox<br><br>
-			BNL<br><br>
-			BPM Sandbox<br><br>
-			Banca Alpi Marittime Credito Cooperativo Carru - Societa cooperativa per azioni<br><br>
-			Banca Centropadana - Credito Cooperativo - Società cooperativa<br><br>
-			Banca Cremasca e Mantovana Credito Cooperativo<br><br>
-			Banca Don Rizzo- di Credito Cooperativo della Sicilia Occidentale Società cooperativa<br><br>
-			Banca Monte dei Paschi Business<br><br>
-			Banca Monte dei Paschi Personal<br><br>
-			Banca San Francesco - Credito Cooperativo - Società cooperativa-<br><br>
-			Banca Sviluppo spa<br><br>
-			Banca Valdichiana Credito Cooperativo di Chiusi e Montepulciano<br><br>
-			Banca Veronese Credito Cooperativo di Concamarise - Società cooperativa a responsabilità limitata<br><br>
-			Banca Versilia Lunigiana e Garfagnana - Credito Cooperativo - Società cooperativa<br><br>
-			Banca dei Sibillini Credito Cooperativo di Casavecchia - Societa Cooperativa<br><br>
-			Banca del Catanzarese Credito Cooperativo<br><br>
-			Banca del Crotonese - Credito Cooperativo - Società cooperativa<br><br>
-			Banca del Piceno Credito Cooperativo società cooperativa<br><br>
-			Banca del Valdarno Credito Cooperativo - Società cooperativa<br><br>
-			Banca dell Elba Credito Cooperativo - Soc. Coop.<br><br>
-			Banca della Marca Credito Cooperativo Società cooperativa<br><br>
-			Banca della Valsassina Credito Cooperativo Società cooperativa<br><br>
-			Banca delle Terre Venete - Credito Cooperativo - Società cooperativa<br><br>
-			Banca di Ancona e Falconara Marittima Credito Cooperativo<br><br>
-			Banca di Andria di Credito Cooperativo - Soc. coop. Per azioni a responsabilità limitata<br><br>
-			Banca di Anghiari e Stia - Credito Cooperativo - Società cooperativa<br><br>
-			Banca di Credito Cooperativo Abruzzese Cappelle sul Tavo - Società coperativa<br><br>
-			Banca di Credito Cooperativo Agrigentino - Società cooperativa<br><br>
-			Banca di Credito Cooperativo Bergamo e Valli -Società cooperativa<br><br>
-			Banca di Credito Cooperativo Brianza e Laghi - Società cooperativa a responsabilità limitata<br><br>
-			Banca di Credito Cooperativo G.Toniolo di San Cataldo - Società coperativa<br><br>
-			Banca di Credito Cooperativo Mutuo Soccorso di Gangi - Società cooperativa</p>
+            BCC Longi - Valle del Fitalia Soc. Coop. r.l.<br><br>
+            BCC Umbria Credito Cooperativo Società cooperativa<br><br>
+            BCC del Garda - Banca di Credito Cooperativo Colli Morenici del Garda - Società cooperativa<br><br>
+            BMPS - Personal - Sandbox<br><br>
+            BNL<br><br>
+            BPM Sandbox<br><br>
+            Banca Alpi Marittime Credito Cooperativo Carru - Societa cooperativa per azioni<br><br>
+            Banca Centropadana - Credito Cooperativo - Società cooperativa<br><br>
+            Banca Cremasca e Mantovana Credito Cooperativo<br><br>
+            Banca Don Rizzo- di Credito Cooperativo della Sicilia Occidentale Società cooperativa<br><br>
+            Banca Monte dei Paschi Business<br><br>
+            Banca Monte dei Paschi Personal<br><br>
+            Banca San Francesco - Credito Cooperativo - Società cooperativa-<br><br>
+            Banca Sviluppo spa<br><br>
+            Banca Valdichiana Credito Cooperativo di Chiusi e Montepulciano<br><br>
+            Banca Veronese Credito Cooperativo di Concamarise - Società cooperativa a responsabilità limitata<br><br>
+            Banca Versilia Lunigiana e Garfagnana - Credito Cooperativo - Società cooperativa<br><br>
+            Banca dei Sibillini Credito Cooperativo di Casavecchia - Societa Cooperativa<br><br>
+            Banca del Catanzarese Credito Cooperativo<br><br>
+            Banca del Crotonese - Credito Cooperativo - Società cooperativa<br><br>
+            Banca del Piceno Credito Cooperativo società cooperativa<br><br>
+            Banca del Valdarno Credito Cooperativo - Società cooperativa<br><br>
+            Banca dell Elba Credito Cooperativo - Soc. Coop.<br><br>
+            Banca della Marca Credito Cooperativo Società cooperativa<br><br>
+            Banca della Valsassina Credito Cooperativo Società cooperativa<br><br>
+            Banca delle Terre Venete - Credito Cooperativo - Società cooperativa<br><br>
+            Banca di Ancona e Falconara Marittima Credito Cooperativo<br><br>
+            Banca di Andria di Credito Cooperativo - Soc. coop. Per azioni a responsabilità limitata<br><br>
+            Banca di Anghiari e Stia - Credito Cooperativo - Società cooperativa<br><br>
+            Banca di Credito Cooperativo Abruzzese Cappelle sul Tavo - Società coperativa<br><br>
+            Banca di Credito Cooperativo Agrigentino - Società cooperativa<br><br>
+            Banca di Credito Cooperativo Bergamo e Valli -Società cooperativa<br><br>
+            Banca di Credito Cooperativo Brianza e Laghi - Società cooperativa a responsabilità limitata<br><br>
+            Banca di Credito Cooperativo G.Toniolo di San Cataldo - Società coperativa<br><br>
+            Banca di Credito Cooperativo Mutuo Soccorso di Gangi - Società cooperativa</p>
                         <p>Banca di Credito Cooperativo Pordenonese - Società cooperativa<br><br>
-			Banca di Credito Cooperativo S. Michele di Caltanissetta e Pietraperzia - Società cooperativa per azioni<br><br>
-			Banca di Credito Cooperativo San Giuseppe di Petralia Sottana - Società cooperativa<br><br>
-			Banca di Credito Cooperativo Terra di lavoro S. Vincenzo dé Paoli s.c.p.a.<br><br>
-			Banca di Credito Cooperativo Valle del Torto - Società cooperativa<br><br>
-			Banca di Credito Cooperativo Vicentino - Pojana Maggiore (Vicenza) - Società cooperativa<br><br>
-			Banca di Credito Cooperativo degli Ulivi - Terra di Bari - Società cooperativa<br><br>
-			Banca di Credito Cooperativo dei Colli Albani - Società Cooperativa<br><br>
-			Banca di Credito Cooperativo del Basso Sebino Società cooperativa<br><br>
-			Banca di Credito Cooperativo del Metauro Società cooperativa<br><br>
-			Banca di Credito Cooperativo dell Adriatico Teramano Società cooperativa<br><br>
-			Banca di Credito Cooperativo dell Agro Bresciano - Società cooperativa<br><br>
-			Banca di Credito Cooperativo dell Oglio e del Serio s.c.<br><br>
-			Banca di Credito Cooperativo della Valle del Trigno (Mafalda - San Salvo) - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Altofonte e Caccamo - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Arborea - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Avetrana (TA) - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Bari - Soc. Coop.<br><br>
-			Banca di Credito Cooperativo di Basciano (TE) - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Bellegra - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Borghetto Lodigiano (Lodi) - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Busto Garolfo e Buguggiate - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Cagliari - Società coop.<br><br>
-			Banca di Credito Cooperativo di Canosa-Loconia società cooperativa<br><br>
-			Banca di Credito Cooperativo di Capaccio Paestum - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Carate Brianza - Società cooperativa</p>
+            Banca di Credito Cooperativo S. Michele di Caltanissetta e Pietraperzia - Società cooperativa per azioni<br><br>
+            Banca di Credito Cooperativo San Giuseppe di Petralia Sottana - Società cooperativa<br><br>
+            Banca di Credito Cooperativo Terra di lavoro S. Vincenzo dé Paoli s.c.p.a.<br><br>
+            Banca di Credito Cooperativo Valle del Torto - Società cooperativa<br><br>
+            Banca di Credito Cooperativo Vicentino - Pojana Maggiore (Vicenza) - Società cooperativa<br><br>
+            Banca di Credito Cooperativo degli Ulivi - Terra di Bari - Società cooperativa<br><br>
+            Banca di Credito Cooperativo dei Colli Albani - Società Cooperativa<br><br>
+            Banca di Credito Cooperativo del Basso Sebino Società cooperativa<br><br>
+            Banca di Credito Cooperativo del Metauro Società cooperativa<br><br>
+            Banca di Credito Cooperativo dell Adriatico Teramano Società cooperativa<br><br>
+            Banca di Credito Cooperativo dell Agro Bresciano - Società cooperativa<br><br>
+            Banca di Credito Cooperativo dell Oglio e del Serio s.c.<br><br>
+            Banca di Credito Cooperativo della Valle del Trigno (Mafalda - San Salvo) - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Altofonte e Caccamo - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Arborea - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Avetrana (TA) - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Bari - Soc. Coop.<br><br>
+            Banca di Credito Cooperativo di Basciano (TE) - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Bellegra - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Borghetto Lodigiano (Lodi) - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Busto Garolfo e Buguggiate - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Cagliari - Società coop.<br><br>
+            Banca di Credito Cooperativo di Canosa-Loconia società cooperativa<br><br>
+            Banca di Credito Cooperativo di Capaccio Paestum - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Carate Brianza - Società cooperativa</p>
                     </div>
                     <div class="col-md-4">
                         <!-- Еще дополнительная информация о Италии -->
-                       <p>Banca di Credito Cooperativo di Castiglione Messer Raimondo e Pianella - Società cooperativa a responsabilità limitata<br><br>
-			Banca di Credito Cooperativo di Cittanova - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Fano Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Fornacette - Società cooperativa a responsabilità limitata<br><br>
-			Banca di Credito Cooperativo di Gambatesa società cooperativa<br><br>
-			Banca di Credito Cooperativo di Gaudiano di Lavello - società cooperativa<br><br>
-			Banca di Credito Cooperativo di Leverano (Lecce) Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Marina di Ginosa Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Massafra<br><br>
-			Banca di Credito Cooperativo di Milano - Societa cooperativa<br><br>
-			Banca di Credito Cooperativo di Montecatini Terme Bientina e San Pietro in Vincio s.c.<br><br>
-			Banca di Credito Cooperativo di Montepaone - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Mozzanica (Bergamo) - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Napoli Societa cooperativa per azioni (In Sigla B.C.C. Di Napoli)<br><br>
-			Banca di Credito Cooperativo di Nettuno - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Oppido Lucano e Ripacandida (Provincia di Potenza)<br><br>
-			Banca di Credito Cooperativo di Ostra Vetere -Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Ostra e Morro d Alba Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Ostuni - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Pachino Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Pergola e Corinaldo - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Piove di Sacco (Padova) -Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Pontassieve -Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Pratola Peligna (L Aquila) - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Putignano - Società Cooperativa<br><br>
-			Banca di Credito Cooperativo di Recanati e Colmurano - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Riano - Società cooperativa<br><br>
+                       <p>Banca di Credito Cooperativo di Castiglione Messer Raimondo e Pianella - Società cooperativa a responsabilità ограниченная<br><br>
+            Banca di Credito Cooperativo di Cittanova - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Fano Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Fornacette - Società cooperativa a responsabilità ограниченная<br><br>
+            Banca di Credito Cooperativo di Gambatesa società cooperativa<br><br>
+            Banca di Credito Cooperativo di Gaudiano di Lavello - società cooperativa<br><br>
+            Banca di Credito Cooperativo di Leverano (Lecce) Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Marina di Ginosa Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Massafra<br><br>
+            Banca di Credito Cooperativo di Milano - Societa cooperativa<br><br>
+            Banca di Credito Cooperativo di Montecatini Terme Bientina e San Pietro in Vincio s.c.<br><br>
+            Banca di Credito Cooperativo di Montepaone - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Mozzanica (Bergamo) - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Napoli Societa cooperativa per azioni (In Sigla B.C.C. Di Napoli)<br><br>
+            Banca di Credito Cooperativo di Nettuno - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Oppido Lucano e Ripacandida (Provincia di Potenza)<br><br>
+            Banca di Credito Cooperativo di Ostra Vetere -Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Ostra e Morro d Alba Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Ostuni - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Pachino Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Pergola e Corinaldo - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Piove di Sacco (Padova) -Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Pontassieve -Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Pratola Peligna (L Aquila) - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Putignano - Società Cooperativa<br><br>
+            Banca di Credito Cooperativo di Recanati e Colmurano - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Riano - Società cooperativa<br><br>
                         <!-- Еще дополнительная информация о Италии -->
-			Banca di Credito Cooperativo di Ripatransone e del Fermano - Provincia di Ascoli Piceno - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Roma - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di San Calogero e Maierato BCC del Vibonese - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Spinazzola (Bari) - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Staranzano e Villesse Societa cooperativa<br><br>
-			Banca di Credito Cooperativo di Terra d Otranto - Società cooperativa<br><br>
-			Banca di Credito Cooperativo di Triuggio e della Valle del Lambro Società cooperativa<br><br>
-			Banca di Filottrano - Credito Cooperativo di Filottrano e di Camerano - Società cooperativa<br><br>
-			Banca di Pesaro Credito Cooperativo - Società cooperativa<br><br>
-			Banca di Pescia e Cascina Credito Cooperativo - Società cooperativa<br><br>
-			Banca di Taranto - Banca di Credito Cooperativo - Società coop.<br><br>
-			Banca di Udine Credito Cooperativo - Societa cooperativa<br><br>
-			Banca di Verona e Vicenza - Credito Cooperativo - Società cooperativa<br><br>
-			Banca di credito cooperativo di Lezzeno (Como) società cooperativa<br><br>
-			Banca di credito cooperativo di buccino e dei comuni cilentani Società Cooperativa<br><br>
-			Banco BPM<br><br>
-			Banco BPM - Corporate<br><br>
-			Banco BPM - Private<br><br>
-			Banco Fiorentino Mugello Impruneta Signa Credito Cooperativo<br><br>
-			Banco di Sardegna<br><br>
-			BancoPosta</p>
+            Banca di Credito Cooperativo di Ripatransone e del Fermano - Provincia di Ascoli Piceno - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Roma - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di San Calogero e Maierato BCC del Vibonese - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Spinazzola (Bari) - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Staranzano e Villesse Societa cooperativa<br><br>
+            Banca di Credito Cooperativo di Terra d Otranto - Società cooperativa<br><br>
+            Banca di Credito Cooperativo di Triuggio e della Valle del Lambro Società cooperativa<br><br>
+            Banca di Filottrano - Credito Cooperativo di Filottrano e di Camerano - Società cooperativa<br><br>
+            Banca di Pesaro Credito Cooperativo - Società cooperativa<br><br>
+            Banca di Pescia e Cascina Credito Cooperativo - Società cooperativa<br><br>
+            Banca di Taranto - Banca di Credito Cooperativo - Società coop.<br><br>
+            Banca di Udine Credito Cooperativo - Societa cooperativa<br><br>
+            Banca di Verona e Vicenza - Credito Cooperativo - Società cooperativa<br><br>
+            Banca di credito cooperativo di Lezzeno (Como) società cooperativa<br><br>
+            Banca di credito cooperativo di buccino e dei comuni cilentani Società Cooperativa<br><br>
+            Banco BPM<br><br>
+            Banco BPM - Corporate<br><br>
+            Banco BPM - Private<br><br>
+            Banco Fiorentino Mugello Impruneta Signa Credito Cooperativo<br><br>
+            Banco di Sardegna<br><br>
+            BancoPosta</p>
                     </div>
-			<div class="col-md-4">
+            <div class="col-md-4">
                         <!-- Еще дополнительная информация о Италии -->
                         <p>CASSA CENTRALE RAIFFEISEN DELL ALTO ADIGE<br><br>
-			CASSA RAIFFEISEN ALTA PUSTERIA<br><br>
-			CASSA RAIFFEISEN ALTA VENOSTA<br><br>
-			CASSA RAIFFEISEN BASSA ATESINA<br><br>
-			CASSA RAIFFEISEN BASSA VENOSTA<br><br>
-			CASSA RAIFFEISEN CAMPO DI TRENS<br><br>
-			CASSA RAIFFEISEN CASTELROTTO-ORTISEI<br><br>
-			CASSA RAIFFEISEN DELLA VAL PASSIRIA<br><br>
-			CASSA RAIFFEISEN DELLA VALLE ISARCO<br><br>
-			CASSA RAIFFEISEN DI BRUNICO<br><br>
-			CASSA RAIFFEISEN DI DOBBIACO<br><br>
-			CASSA RAIFFEISEN DI FUNES<br><br>
-			CASSA RAIFFEISEN DI LAGUNDO<br><br>
-			CASSA RAIFFEISEN DI LASA<br><br>
-			CASSA RAIFFEISEN DI MARLENGO<br><br>
-			CASSA RAIFFEISEN DI MERANO<br><br>
-			CASSA RAIFFEISEN DI NOVA PONENTE ALDINO<br><br>
-			CASSA RAIFFEISEN DI PARCINES<br><br>
-			CASSA RAIFFEISEN DI SCENA<br><br>
-			CASSA RAIFFEISEN DI TESIMO<br><br>
-			CASSA RAIFFEISEN DI VILLABASSA<br><br>
-			CASSA RAIFFEISEN ETSCHTAL<br><br>
-			CASSA RAIFFEISEN GHERDEINA<br><br>
-			CASSA RAIFFEISEN LACES<br><br>
-			CASSA RAIFFEISEN LANA<br><br>
-			CASSA RAIFFEISEN MONGUELFO-CASIESTESIDO<br><br>
-			CASSA RAIFFEISEN OLTRADIGE<br><br>
-			CASSA RAIFFEISEN PRATO-TUBRE<br><br>
-			CASSA RAIFFEISEN SCHLERN-ROSENGARTEN<br><br>
-			CASSA RAIFFEISEN SILANDRO<br><br>
-			CASSA RAIFFEISEN TIROLO<br><br>
-			CASSA RAIFFEISEN TURES-AURINA<br><br>
-			CASSA RAIFFEISEN ULTIMO S.PANCRAZIO-LAUREGNO<br><br>
-			CASSA RAIFFEISEN VAL BADIA<br><br>
-			CASSA RAIFFEISEN VAL SARENTINO<br><br>
-			CASSA RAIFFEISEN VANDOIES<br><br>
-			CASSA RAIFFEISEN WIPPTAL<br><br>
-			CASSA RAIFFFEISEN BASSA VALL ISARCO<br><br>
-			CASSA RURALE DI BOLZANO<br><br>
-			CASSA RURALE DI SALORNO</p>
+            CASSA RAIFFEISEN ALTA PUSTERIA<br><br>
+            CASSA RAIFFEISEN ALTA VENOSTA<br><br>
+            CASSA RAIFFEISEN BASSA ATESINA<br><br>
+            CASSA RAIFFEISEN BASSA VENOSTA<br><br>
+            CASSA RAIFFEISEN CAMPO DI TRENS<br><br>
+            CASSA RAIFFEISEN CASTELROTTO-ORTISEI<br><br>
+            CASSA RAIFFEISEN DELLA VAL PASSIRIA<br><br>
+            CASSA RAIFFEISEN DELLA VALLE ISARCO<br><br>
+            CASSA RAIFFEISEN DI BRUNICO<br><br>
+            CASSA RAIFFEISEN DI DOBBIACO<br><br>
+            CASSA RAIFFEISEN DI FUNES<br><br>
+            CASSA RAIFFEISEN DI LAGUNDO<br><br>
+            CASSA RAIFFEISEN DI LASA<br><br>
+            CASSA RAIFFEISEN DI MARLENGO<br><br>
+            CASSA RAIFFEISEN DI MERANO<br><br>
+            CASSA RAIFFEISEN DI NOVA PONENTE ALDINO<br><br>
+            CASSA RAIFFEISEN DI PARCINES<br><br>
+            CASSA RAIFFEISEN DI SCENA<br><br>
+            CASSA RAIFFEISEN DI TESIMO<br><br>
+            CASSA RAIFFEISEN DI VILLABASSA<br><br>
+            CASSA RAIFFEISEN ETSCHTAL<br><br>
+            CASSA RAIFFEISEN GHERDEINA<br><br>
+            CASSA RAIFFEISEN LACES<br><br>
+            CASSA RAIFFEISEN LANA<br><br>
+            CASSA RAIFFEISEN MONGUELFO-CASIESTESIDO<br><br>
+            CASSA RAIFFEISEN OLTRADIGE<br><br>
+            CASSA RAIFFEISEN PRATO-TUBRE<br><br>
+            CASSA RAIFFEISEN SCHLERN-ROSENGARTEN<br><br>
+            CASSA RAIFFEISEN SILANDRO<br><br>
+            CASSA RAIFFEISEN TIROLO<br><br>
+            CASSA RAIFFEISEN TURES-AURINA<br><br>
+            CASSA RAIFFEISEN ULTIMO S.PANCRAZIO-LAUREGNO<br><br>
+            CASSA RAIFFEISEN VAL BADIA<br><br>
+            CASSA RAIFFEISEN VAL SARENTINO<br><br>
+            CASSA RAIFFEISEN VANDOIES<br><br>
+            CASSA RAIFFEISEN WIPPTAL<br><br>
+            CASSA RAIFFFEISEN BASSA VALL ISARCO<br><br>
+            CASSA RURALE DI BOLZANO<br><br>
+            CASSA RURALE DI SALORNO</p>
                         <!-- Еще дополнительная информация о Италии -->
                         <p>Cassa Rurale - Banca Alta Toscana Credito Cooperativo<br><br>
-			Cassa Rurale - Banca di Credito Cooperativo di Treviglio - Societa Cooperativa<br><br>
-			Cassa Rurale - Banca di Credito Cooperativo di Treviglio - Societa Cooperativa Sandbox<br><br>
-			Cassa Rurale ed Artigiana - Banca di Credito Cooperativo di Battipaglia e Montecorvino Rovella - Società cooperativa<br><br>
-			Cassa Rurale ed Artigiana dell Agro Pontino - Banca di Credito Cooperativo - Societa cooperativa<br><br>
-			Cassa Rurale ed Artigiana di Binasco - Credito Cooperativo - Società cooperativa<br><br>
-			Cassa Rurale ed Artigiana di Cantu Banca di Credito Cooperativo - Società cooperativa a responsabilità limitata<br><br>
-			Cassa Rurale ed Artigiana di Castellana Grotte - Credito Cooperativo - Società cooperativa<br><br>
-			Cassa Rurale ed Artigiana di Rivarolo Mantovano (Mantova)- Credito Cooperativo - Società cooperativa<br><br>
-			Cassa di Risparmio di Bolzano<br><br>
-			Centromarca Banca - Credito Cooperativo di Treviso - Società cooperativa<br><br>
-			Cereabanca 1897 Credito Cooperativo - Società cooperativa<br><br>
-			Credito Cooperativo - Cassa Rurale ed Artigiana di Paliano (Frosinone) - Società cooperativa<br><br>
-			Credito Cooperativo Cassa Rurale ed Artigiana di Erchie BR - Società cooperativa<br><br>
-			Credito Cooperativo Mediocrati- Società cooperativa a responsabilità limitata<br><br>
-			Credito Cooperativo Valdarno Fiorentino Banca di Cascia - Società cooperativa<br><br>
-			Credito Cooperativo del Cilento, Vallo di Diano e Lucania<br><br>
-			Credito Cooperativo di Caravaggio Adda e Cremasco Cassa Rurale Società Cooperativa<br><br>
-			Credito Emiliano S.p.A. Sandbox<br><br>
-			Credito Padano Banca di Credito Cooperativo Società Cooperativa<br><br>
-			FinecoBank<br><br>
-			Hello Bank!<br><br>
-			ING<br><br>
-			Iccrea Banca<br><br>
-			Intesa Sanpaolo<br><br>
-			N26<br><br>
-			Revolut EU<br><br>
-			Terre Etrusche e di Maremma - Credito Cooperativo - Società Cooperativa<br><br>
-			UniCredit<br><br>
-			Valpolicella Benaco Banca Credito Cooperativo (Verona) - Societa Cooperativa<br><br>
-			Volksbank Personal<br><br>
-			Widiba<br><br>
-			Wise</p>
+            Cassa Rurale - Banca di Credito Cooperativo di Treviglio - Societa Cooperativa<br><br>
+            Cassa Rurale - Banca di Credito Cooperativo di Treviglio - Societa Cooperativa Sandbox<br><br>
+            Cassa Rurale ed Artigiana - Banca di Credito Cooperativo di Battipaglia e Montecorvino Rovella - Società cooperativa<br><br>
+            Cassa Rurale ed Artigiana dell Agro Pontino - Banca di Credito Cooperativo - Societa cooperativa<br><br>
+            Cassa Rurale ed Artigiana di Binasco - Credito Cooperativo - Società cooperativa<br><br>
+            Cassa Rurale ed Artigiana di Cantu Banca di Credito Cooperativo - Società cooperativa a responsabilità ограниченная<br><br>
+            Cassa Rurale ed Artigiana di Castellana Grotte - Credito Cooperativo - Società cooperativa<br><br>
+            Cassa Rurale ed Artigiana di Rivarolo Mantovano (Mantova)- Credito Cooperativo - Società cooperativa<br><br>
+            Cassa di Risparmio di Bolzano<br><br>
+            Centromarca Banca - Credito Cooperativo di Treviso - Società cooperativa<br><br>
+            Cereabanca 1897 Credito Cooperativo - Società cooperativa<br><br>
+            Credito Cooperativo - Cassa Rurale ed Artigiana di Paliano (Frosinone) - Società cooperativa<br><br>
+            Credito Cooperativo Cassa Rurale ed Artigiana di Erchie BR - Società cooperativa<br><br>
+            Credito Cooperativo Mediocrati- Società cooperativa a responsabilità ограниченная<br><br>
+            Credito Cooperativo Valdarno Fiorentino Banca di Cascia - Società cooperativa<br><br>
+            Credito Cooperativo del Cilento, Vallo di Diano e Lucania<br><br>
+            Credito Cooperativo di Caravaggio Adda e Cremasco Cassa Rurale Società Cooperativa<br><br>
+            Credito Emiliano S.p.A. Sandbox<br><br>
+            Credito Padano Banca di Credito Cooperativo Società Cooperativa<br><br>
+            FinecoBank<br><br>
+            Hello Bank!<br><br>
+            ING<br><br>
+            Iccrea Banca<br><br>
+            Intesa Sanpaolo<br><br>
+            N26<br><br>
+            Revolut EU<br><br>
+            Terre Etrusche e di Maremma - Credito Cooperativo - Società Cooperativa<br><br>
+            UniCredit<br><br>
+            Valpolicella Benaco Banca Credito Cooperativo (Verona) - Societa Cooperativa<br><br>
+            Volksbank Personal<br><br>
+            Widiba<br><br>
+            Wise</p>
                     </div>
-		</div>
+        </div>
             </div>
             <div class="tab-pane fade" id="list-iceland" role="tabpanel" aria-labelledby="list-iceland-list">
                 <!-- Блок информации об Исландии -->
                 <h3>Iceland</h3>
                 <p>N26<br>
-		Revolut EU</p>
+        Revolut EU</p>
             </div>
-		<div class="tab-pane fade" id="list-poland" role="tabpanel" aria-labelledby="list-poland-list">
+        <div class="tab-pane fade" id="list-poland" role="tabpanel" aria-labelledby="list-poland-list">
                 <!-- Блок информации об Исландии -->
                 <h3>Poland</h3>
                 <p>Danske Bank Poland Business<br>
-		   MBANK Corpo Poland<br>
-		   MBANK Retail<br>
-		   Millennium<br>
-		   Millennium Sandbox<br>
-		   N26<br>
-		   PKO<br>
-		   Wise</p>
+           MBANK Corpo Poland<br>
+           MBANK Retail<br>
+           Millennium<br>
+           Millennium Sandbox<br>
+           N26<br>
+           PKO<br>
+           Wise</p>
             </div>
             <!-- Добавьте другие вкладки -->
         </div>
     </div>
 </div>
-	</div>
-			</div>
-			</div>
-			</div>
-		
+    </div>
+      </div>
+      </div>
+  
   </div>
   
   </div>
   
   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
   
-		<nav>
-		<div class="nav nav-tabs" id="nav-tab" role="tablist">
-		<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-uk" role="tab" aria-controls="nav-uk" aria-selected="true"><h6>UK</h6></a>
-		<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-eu" role="tab" aria-controls="nav-eu" aria-selected="false"><h6>EU</h6></a>
-		<a class="nav-item nav-link" id="nav-non-tab" data-toggle="tab" href="#nav-non" role="tab" aria-controls="nav-non" aria-selected="false"><h6>NON EU</h6></a>
-		 </div>
-		</nav>
+    <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-uk" role="tab" aria-controls="nav-uk" aria-selected="true"><h6>UK</h6></a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-eu" role="tab" aria-controls="nav-eu" aria-selected="false"><h6>EU</h6></a>
+    <a class="nav-item nav-link" id="nav-non-tab" data-toggle="tab" href="#nav-non" role="tab" aria-controls="nav-non" aria-selected="false"><h6>NON EU</h6></a>
+     </div>
+    </nav>
         
-		
-		<div class="container-fluid mt-4">
-		<div class="tab-content" id="nav-tabContent">
-		
-			
-		<div class="tab-pane fade show active" id="nav-uk" role="tabpanel" aria-labelledby="nav-home-tab">
-		<p><b>Referral link</b>: <a href="https://app.bintense.io/en/referral_form?code=YVhseU1ZdjdwZz09">CLICK HERE</a> </br></br><b>Wallet address:</b> bc1q2ddk3uld4x2mq4t6zwj4lvw5wp03nhqwhx5s52</p>
-		
-		
-			
-			<div class="container-fluid mt-4">
-			<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<div class="row">
+    
+    <div class="container-fluid mt-4">
+    <div class="tab-content" id="nav-tabContent">
+    
+        
+    <div class="tab-pane fade show active" id="nav-uk" role="tabpanel" aria-labelledby="nav-home-tab">
+    <p><b>Referral link</b>: <a href="https://app.bintense.io/en/referral_form?code=YVhseU1ZdjdwZz09">CLICK HERE</a> </br></br><b>Wallet address:</b> bc1q2ddk3uld4x2mq4t6zwj4lvw5wp03nhqwhx5s52</p>
+    
+    
+      
+      <div class="container-fluid mt-4">
+      <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
                 <div class="col-md-6">
-			<h1 class="display-4">Assessment</h1>
-				                <p class="lead">1.Is Bintense liable for your losses? - No, I trade at my own risk<br>
-								2.What type of risk is associated with cryptoasset investments? - Risk of rapid devaluation and loss of all capital.<br>
-								3.What does legal ownership of a cryptoasset imply? - Having control over the asset, often through possession of private keys.<br>
-								4.What is a risk of financial crime associated with cryptoassets? - Money laundering or fraudulent schemes.<br> 
-								5.What happens if a firm holding your cryptoassets becomes insolvent? - You may lose your investment without recourse.<br>
-								6.What can affect the ease of selling a cryptoasset? - Market liquidity and operational issues.<br>
-								7.Which of the following is a characteristic of a 'utility token' in the context of cryptoassets?  - A token that provides access to a specific product or service.<br>
-								8.What is important to know about the tax treatment of cryptoassets in the UK?  - Gains or losses from cryptoassets may be subject to Capital Gains Tax.<br>
-								9.Which statement is true about the treatment of cryptoassets under the Financial Services Compensation Scheme (FSCS)? - The FSCS does not protect losses in cryptoasset investments.<br>
-								10. What is the recommended maximum percentage of net assets that retail clients should invest in high-risk products like qualifying cryptoassets? - 10%.</p><br>
-			</div>
+      <h1 class="display-4">Assessment</h1>
+                                <p class="lead">1.Is Bintense liable for your losses? - No, I trade at my own risk<br>
+                                2.What type of risk is associated with cryptoasset investments? - Risk of rapid devaluation and loss of all capital.<br>
+                                3.What does legal ownership of a cryptoasset imply? - Having control over the asset, often through possession of private keys.<br>
+                                4.What is a risk of financial crime associated with cryptoassets? - Money laundering or fraudulent schemes.<br> 
+                                5.What happens if a firm holding your cryptoassets becomes insolvent? - You may lose your investment without recourse.<br>
+                                6.What can affect the ease of selling a cryptoasset? - Market liquidity and operational issues.<br>
+                                7.Which of the following is a characteristic of a 'utility token' in the context of cryptoassets?  - A token that provides access to a specific product or service.<br>
+                                8.What is important to know about the tax treatment of cryptoassets in the UK?  - Gains or losses from cryptoassets may be subject to Capital Gains Tax.<br>
+                                9.Which statement is true about the treatment of cryptoassets under the Financial Services Compensation Scheme (FSCS)? - The FSCS does not protect losses in cryptoasset investments.<br>
+                                10. What is the recommended maximum percentage of net assets that retail clients should invest in high-risk products like qualifying cryptoassets? - 10%.</p><br>
+      </div>
                 <div class="col-md-6">
-			<h1 class="display-4">Restricted Investor Statement </h1>
-				<p class="lead">A - Yes<br>
-								mention any % below 10%<br><br>
-								B- Yes<br>
-								and mention any % below 10%</p>	
-								
-			<div class="gallery">
-			<div class="image">
-			<img src="1.jpg" alt="">
-			</div>
-			<div class="image">
-			<img src="2.jpg" alt="">
-			</div>
-			<div class="modal-overlay">
-			<div class="modal">
-			<span class="close">&times;</span>
-			<img class="modal-content" id="modalImg">
-			</div>
-			</div>
-			</div>
-			</div>				
-			</div>
-			</div>
-			
-			</div>
-			</div>
-		
-		</div>
-		
-		
-		
-		<div class="tab-pane fade" id="nav-eu" role="tabpanel" aria-labelledby="nav-profile-tab">
-		<p><b>Referral link</b>: <a href="https://app.bintense.io/referral_form?trader[label]=CMP1479">CLICK HERE</a> </br></br><b>Wallet address:</b> bc1q2jyynm0lvwsw095e78n2rgheu4xp6g8xr3jvty</p>
-		
-			<div class="container-fluid mt-4">
-			<div class="jumbotron jumbotron-fluid">
-			<div class="container">	
-				<h1 class="display-4">Wire solution for EU countries:</h1>
-					<p class="lead">Denmark, Ireland, Iceland, Norway, Italy </br></br>
-			CreditCard deposits from joint accounts are not possible</p>
-					<h6>The limit is $30,000 per month</h6>
-			</div>
-			</div>
-			
-			</div>
-			</div>
-			
-		
-		
-		<div class="tab-pane fade" id="nav-non" role="tabpanel" aria-labelledby="nav-non-tab">
-			<div class="container-fluid mt-4">
-			<div class="jumbotron jumbotron-fluid">
-			<div class="container">	
-					<h1 class="display-4">Wire solution for NON EU countries:</h1>
-					<p class="lead">Hong Kong, Singapore, Malaysia, Japan, UAE </br></br>
-			CreditCard deposits from joint accounts are not possible</p>
-					<h6>The limit is $30,000 per month</h6>
-			</div>
-			</div>
-			
-			</div>
-		</div>
+      <h1 class="display-4">Restricted Investor Statement </h1>
+                <p class="lead">A - Yes<br>
+                                mention any % below 10%<br><br>
+                                B- Yes<br>
+                                and mention any % below 10%</p>  
+                                
+      <div class="gallery">
+      <div class="image">
+      <img src="1.jpg" alt="">
+      </div>
+      <div class="image">
+      <img src="2.jpg" alt="">
+      </div>
+      <div class="modal-overlay">
+      <div class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImg">
+      </div>
+      </div>
+      </div>
+      </div>        
+      </div>
+      </div>
+      
+      </div>
+      </div>
+    
+    </div>
+    
+    
+    
+    <div class="tab-pane fade" id="nav-eu" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <p><b>Referral link</b>: <a href="https://app.bintense.io/referral_form?trader[label]=CMP1479">CLICK HERE</a> </br></br><b>Wallet address:</b> bc1q2jyynm0lvwsw095e78n2rgheu4xp6g8xr3jvty</p>
+    
+      <div class="container-fluid mt-4">
+      <div class="jumbotron jumbotron-fluid">
+      <div class="container"> 
+        <h1 class="display-4">Wire solution for EU countries:</h1>
+          <p class="lead">Denmark, Ireland, Iceland, Norway, Italy </br></br>
+      CreditCard deposits from joint accounts are not possible</p>
+          <h6>The limit is $30,000 per month</h6>
+      </div>
+      </div>
+      
+      </div>
+      </div>
+      
+    
+    
+    <div class="tab-pane fade" id="nav-non" role="tabpanel" aria-labelledby="nav-non-tab">
+      <div class="container-fluid mt-4">
+      <div class="jumbotron jumbotron-fluid">
+      <div class="container"> 
+          <h1 class="display-4">Wire solution for NON EU countries:</h1>
+          <p class="lead">Hong Kong, Singapore, Malaysia, Japan, UAE </br></br>
+      CreditCard deposits from joint accounts are not possible</p>
+          <h6>The limit is $30,000 per month</h6>
+      </div>
+      </div>
+      
+      </div>
+    </div>
 
-		</div>
+    </div>
   
   </div>  
 </div>
 
 <div class="tab-pane fade show" id="nav-4" role="tabpanel" aria-labelledby="nav-contact-4-tab">
-	<div class="container-fluid mt-4">
-	<div class="jumbotron jumbotron-fluid">
-	<div class="container">
-	<h1 class="display-4"><h2>Bintense Solution for UK clients with deposits from $2000-$100000 (available for ages 18 to 74) </a>
+  <div class="container-fluid mt-4">
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  <h1 class="display-4"><h2>Bintense Solution for UK clients with deposits from $2000-$100000 (available for ages 18 to 74) </a>
 </h2></h1>
-	<p class="lead">This is a wire solution for all UK clients that will dive the client a local account in a Business name to which they can transfer from their 
-		bank directly via an Account Number & Sort Code<br><br>
+  <p class="lead">This is a wire solution for all UK clients that will dive the client a local account in a Business name to which they can transfer from their 
+    bank directly via an Account Number & Sort Code<br><br>
 
-		Bintense is running this under the banner of Archax<br>
-		There are plans to have it be an account in the clients in the near future </p>	<br><br>
-		<b>PDF</b>: <a href="PDFs/Bintense UK Q&A.pdf">Bintense UK Q&A</a> </br></br><b></b>
-		<b>PDF</b>: <a href="PDFs/SOF flow.pdf">SOF flow</a> </br></br><b></b>
-	</div>
-	</div>
-	</div>
+    Bintense is running this under the banner of Archax<br>
+    There are plans to have it be an account in the clients in the near future </p>  <br><br>
+    <b>PDF</b>: <a href="PDFs/Bintense UK Q&A.pdf">Bintense UK Q&A</a> </br></br><b></b>
+    <b>PDF</b>: <a href="PDFs/SOF flow.pdf">SOF flow</a> </br></br><b></b>
+  </div>
+  </div>
+  </div>
+
+</div>
+
+<div class="tab-pane fade show" id="nav-5" role="tabpanel" aria-labelledby="nav-contact-5-tab">
+  <div class="container-fluid mt-4">
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  <h1 class="display-4"><h2>Solution 5 Title</h2></h1>
+  <p class="lead">Content for Solution 5 goes here. Describe the solution, its benefits, and any relevant details that users should know. You can include links, images, or any other information that will help users understand this solution better.</p>
+  <b>PDF</b>: <a href="PDFs/solution5.pdf">Solution 5 PDF</a> </br></br><b></b>
+  </div>
+  </div>
+  </div>
 
 </div>
 </div>
 
-	<!-- Footer -->
-	<footer class="footer bg-dark text-white fixed-bottom">
+<!-- Footer -->
+<footer class="footer bg-dark text-white fixed-bottom">
         <div class="container">
-		<span class="text-muted"> ©2023. Payment Type. All Rights Reserved. </span>
+    <span class="text-muted"> ©2023. Payment Type. All Rights Reserved. </span>
         </div>
-  	</footer>
+    </footer>
 
 </div>
 
 <script type="module" src="script.js"></script>
 <script>
 
-		const images = document.querySelectorAll('.image img');
+        const images = document.querySelectorAll('.image img');
 const modalOverlay = document.querySelector('.modal-overlay');
 const modalImg = document.getElementById('modalImg');
 const closeModal = document.querySelector('.close');

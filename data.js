@@ -70,7 +70,7 @@ const companyInfo = {
             
             Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
              Roobic : {
@@ -133,7 +133,7 @@ const companyInfo = {
             },
              Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
             Roobic : {
@@ -218,7 +218,7 @@ Ireland: {
             },
              Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
             Binance: {
@@ -301,7 +301,7 @@ Ireland: {
             },
              Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
              Binance: {
@@ -579,7 +579,7 @@ Ireland: {
             },
              Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
              Binance: {
@@ -636,7 +636,7 @@ Ireland: {
             },
              Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
              Binance: {
@@ -701,7 +701,7 @@ Ireland: {
             },
              Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
             Cryptopay : {
@@ -733,7 +733,7 @@ Ireland: {
             },
             Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
             Help2Pay: {
@@ -882,7 +882,7 @@ Ireland: {
             },
              Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
            Safewirepay : {
@@ -962,9 +962,9 @@ Ireland: {
                 yellowBoxInfo: "Deposit options: Visa/MasterCard. WD is not possible",
                 redBoxInfo: "For account verification you need ID and a Selfie They have photo and video instructions from KYC we can send to clients  They have their own ColdWallets THEY ARE PARTNERED WITH METAMASK  For a single transaction that is over 5.000 they will ask for a source of funds for UK  In Ireland the the maximum deposit is EUR5.000"
             },
-             Paybis : {
+           Paybis : {
                 greenBoxInfo: "Transaction amount: $0 - $5000. Permitted age: 18 and up to not specified",
-                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard. There is a 24h cooling off period after completing the verification",
+                yellowBoxInfo: "Deposit options: Revolut virtual cards, Visa & MasterCard, FPX (for Malaysia)There is a 24h cooling off period after completing the verification",
                 redBoxInfo: "For account verification: ID, Selfie, Phone and Email verification. After the firs couple of transaction they might give the client a call, and ask questions, the last qustion will be what platform are you using they need to answer PAYBIS. Additionaly they might ask you to prove the ownership of the cards that the client used if they are from REVOLUT it can be optained by going to Profile -> Account -> Documents -> Card Confirmation",
             },
             Roobic : {

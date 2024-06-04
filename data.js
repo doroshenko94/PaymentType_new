@@ -147,7 +147,7 @@ const companyInfo = {
                 redBoxInfo: "For account verification: ID, Selfie, and Cofirming billing adress. FCA regulated / CAD regulated / ASIC regulated",
             },
              Inserex : {
-                greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
+                greenBoxInfo: "3000-100.000 For clients with limit for new payees, they will take 2000+1000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
             },
@@ -931,7 +931,7 @@ Ireland: {
                 redBoxInfo: "For account verification:ID, POA, Live Check. Additional documentation might differ depending on the country",
             },
              Inserex : {
-                greenBoxInfo: "Transaction amount: 3000-100.000. Permitted age: 18-75.",
+                greenBoxInfo: "3000-100.000 For clients with limit for new payees, they will take 2000+1000. Permitted age: 18-75.",
                 yellowBoxInfo: "This is a wire solution that will give UK clients a local account with a sort code and account number. Referal link: ttps://app.insirex.com/referral_form?trader[label]=IOFX. / Wallet: bc1qcv8en23j5payjz5ndrg4fmlr44cpxn3z3040ma",
                 redBoxInfo: "For account verification: / 3.000-10.000 ID, POA, POP / 10.000-20.000 Selfie, Bank Statement, DOD / 20.000+ SOF, Updated BS, Secondary ID",
             },

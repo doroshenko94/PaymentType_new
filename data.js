@@ -5,7 +5,7 @@ const companyOptions = {
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Malasiya: ["Bybit","Luno","Paybis","Help2Pay","Cryptopay","Cryptopay","Voucher_Coupon"],
-    Canada: ["NDAX","Newton","Bintense","Easypayments","Cryptocom","Kraken","MEW","Beaqonix","Voucher_Coupon"],
+    Canada: ["NDAX","Newton","Bintense","Easypayments","Cryptocom","Kraken","MEW","Beaqonix","Voucher_Coupon","CoinPAPA"],
     New_Zeland: ["Revolut","Paybis","BitGet","Cryptocom","Kraken","Bybit","Cryptopay","TapBank","Inserex","MEW","Voucher_Coupon"],
     Bermuda: ["Bestwallet", "Gemini","Voucher_Coupon"],
     Switzerland: ["Zen", "Bintence","MEXC", "Cryptocom", "AdvCash", "AdV2", "Bit2me", "Bestwallet","Banxa","Rampnetwork","Bybit","Cryptopay","BTC_Direct","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
@@ -811,6 +811,11 @@ Ireland: {
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
             },
+            CoinPAPA : {
+                greenBoxInfo: "Interaq: Limit depending on client bank Bill Payment: max 700.000 WireTransfer: 20.000 minimum to unlimited EFT: max 50.000. Permitted age: 18-85",
+                yellowBoxInfo: "The client has many options for deposit all of them excep WireTransfer have no minimum amount requierment. Clients 70-85 need to do a video call of 1 minute explaining that they are not being guided  Compliance officers have the discretion to contact old clients and high volume clients at any time Fee is 16%",
+                redBoxInfo: "For account verification: Registration form Selfie Upload ID and POA Sign the Service Agreement Call with their support for Data verification",
+            },
             
         },
         "Big deposit": {
@@ -868,6 +873,11 @@ Ireland: {
                 greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
                 yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
                 redBoxInfo: "If you want to use it ask S for approval",
+            },
+             CoinPAPA : {
+                greenBoxInfo: "Interaq: Limit depending on client bank Bill Payment: max 700.000 WireTransfer: 20.000 minimum to unlimited EFT: max 50.000. Permitted age: 18-85",
+                yellowBoxInfo: "The client has many options for deposit all of them excep WireTransfer have no minimum amount requierment. Clients 70-85 need to do a video call of 1 minute explaining that they are not being guided  Compliance officers have the discretion to contact old clients and high volume clients at any time Fee is 16%",
+                redBoxInfo: "For account verification: Registration form Selfie Upload ID and POA Sign the Service Agreement Call with their support for Data verification",
             },
         },
     },

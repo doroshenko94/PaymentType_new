@@ -372,7 +372,7 @@ const pdfsData = {
         "PDFs/Interac Deposit Steps.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
-    NDAX: [
+    CoinPAPA: [
         "PDFs/CoinPAPA questions for Video Call.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],

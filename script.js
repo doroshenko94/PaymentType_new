@@ -397,7 +397,7 @@ const pdfsData = {
         "PDFs/Easypayments.ca.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
-     Easypayments: [
+     TheVoucher: [
         "PDFs/TheVoucher.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],

@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","The_Voucher","The_Kingdom_Bank"],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
@@ -104,10 +104,10 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
-            Voucher_Coupon : {
-                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
-                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
-                redBoxInfo: "If you want to use it ask S for approval",
+            The_Voucher : {
+                greenBoxInfo: "Transaction amount: from $500+. Permitted age: not specified",
+                yellowBoxInfo: "Very, very important *** always to write beneficiary CICO DIGITAL SOLUTIONS*** otherwise, funds go back to the client in the next day.",
+                redBoxInfo: "*KYC up to 50k is ID, POA and POP, above 50k also  BS of one month and once reached 100k SOF needed. Once wire is received, client gets Voucher redeem code on his email from provider. We send him redeem page, where he enters the code on the bottom and fills again the details like on this page. Provider will confirm that Voucher was successfully redeemed.",
             },
         },
         "Big deposit": {
@@ -171,10 +171,10 @@ const companyInfo = {
                 yellowBoxInfo: "Deposit methods: Visa/MasterCard, SEPA, iDeal, Sofort Limits depend on payment method and verification level",
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
-            Voucher_Coupon : {
-                greenBoxInfo: "Transaction amount: 1000-50.000. Permitted age: not specified",
-                yellowBoxInfo: "This is a wire transfer that looks like the clinet is purchasing and redeming a voucher",
-                redBoxInfo: "If you want to use it ask S for approval",
+            The_Voucher : {
+                greenBoxInfo: "Transaction amount: from $500+. Permitted age: not specified",
+                yellowBoxInfo: "Very, very important *** always to write beneficiary CICO DIGITAL SOLUTIONS*** otherwise, funds go back to the client in the next day.",
+                redBoxInfo: "*KYC up to 50k is ID, POA and POP, above 50k also  BS of one month and once reached 100k SOF needed. Once wire is received, client gets Voucher redeem code on his email from provider. We send him redeem page, where he enters the code on the bottom and fills again the details like on this page. Provider will confirm that Voucher was successfully redeemed.",
             },
             The_Kingdom_Bank : {
                 greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",

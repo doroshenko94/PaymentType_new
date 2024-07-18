@@ -422,6 +422,7 @@ const textData = {
     Paybis: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
     MoonPay: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
     Safewirepay: "<a href='https://safewirepay.com/'>Visit Safewirepay website</a>",
+    The_Voucher: "<a href='https://uiservices.vouchers-shops.com/(S(3gpp3a1iy3vg2stjkzltg5vn))/public/voucher/Product.aspx?merchantId=9412929&Item=7&Order=&Brand=J24001&AIID=10&VoucherType=&HPP=K+qscHXoDyaqDml5t+akLH1XlOpgjcoP0xHXMX9KSYM='>Visit TheVoucher website</a>",
     // Добавьте текст для каждой компании по аналогии
 };
 

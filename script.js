@@ -8,6 +8,12 @@ const greenBoxInfo = document.getElementById("greenBoxInfo");
 const yellowBoxCompanyInfo = document.getElementById("yellowBoxCompanyInfo");
 const redBoxCompanyInfo = document.getElementById("redBoxCompanyInfo");
 
+// Функция для отображения текста для каждой компании
+function displayText(text) {
+    const textContainer = document.getElementById("textContainer"); // Замените "textContainer" на ваш ID контейнера для текста
+    textContainer.innerHTML = text;
+}
+// Добавим переменную textContainer
 const textContainer = document.getElementById("textContainer");
 
 countrySelect.addEventListener("change", function () {
@@ -41,6 +47,7 @@ countrySelect.addEventListener("change", function () {
     }
 });
 
+// Обработчик события для выбора типа транзакции
 transactionToggle.addEventListener("click", function (event) {
     if (event.target.tagName === "BUTTON") {
         const buttons = this.querySelectorAll("button");
@@ -74,6 +81,8 @@ transactionToggle.addEventListener("click", function (event) {
     }
 });
 
+
+// Код до обработчика событий для выбора компании...
 companySelect.addEventListener("change", function () {
     const selectedCountry = countrySelect.value;
     const selectedTransaction = transactionToggle.querySelector(".btn.btn-outline-success.active").getAttribute("data-value");
@@ -87,16 +96,15 @@ companySelect.addEventListener("change", function () {
             yellowBoxCompanyInfo.textContent = transactionInfo.yellowBoxInfo;
             redBoxCompanyInfo.textContent = transactionInfo.redBoxInfo;
 
-            let imagesForCompany;
+           let imagesForCompany;
 
-            if (imagesData[selectedCountry] && imagesData[selectedCountry][selectedCompany]) {
-                imagesForCompany = imagesData[selectedCountry][selectedCompany];
-            } else {
-                imagesForCompany = imagesData[selectedCompany];
-            }
-
-            const pdfsForCompany = pdfsData[selectedCompany];
-            const textForCompany = textData[selectedCompany];
+if (imagesData[selectedCountry] && imagesData[selectedCountry][selectedCompany]) {
+    imagesForCompany = imagesData[selectedCountry][selectedCompany];
+} else {
+    imagesForCompany = imagesData[selectedCompany];
+}
+            const pdfsForCompany = pdfsData[selectedCompany]; // Добавлено для PDF файлов
+            const textForCompany = textData[selectedCompany]; // Добавлено для текста
 
             if (textForCompany) {
                 displayText(textForCompany);
@@ -109,9 +117,10 @@ companySelect.addEventListener("change", function () {
                 }
             } else {
                 textContainer.textContent = "";
-                textContainer.className = "d-none";
+                textContainer.className = "d-none"; // Скрываем элемент, если нет текста
             }
 
+            
             if (imagesForCompany) {
                 displayImages(imagesForCompany);
             } else {
@@ -120,9 +129,9 @@ companySelect.addEventListener("change", function () {
             }
 
             const pdfContainer = document.getElementById("pdfFiles");
-            pdfContainer.innerHTML = "";
+            pdfContainer.innerHTML = ""; // Очищаем контейнер перед добавлением новых ссылок
 
-            if (pdfsForCompany) {
+            if (pdfsForCompany) { // Отображение PDF ссылок, если они есть
                 displayPDFLinks(pdfsForCompany);
             }
         } else {
@@ -149,7 +158,9 @@ companySelect.addEventListener("change", function () {
     }
 });
 
-const countriesWithCommonWiseImages = ['Canada', 'New_Zeland', 'Bermuda', 'Oman', 'Saudi_Arabia', 'Greenland', 'Sweeden', 'South_Africa'];
+// Код после обработчика событий для выбора компании...
+
+const countriesWithCommonWiseImages = ['Canada','New_Zeland','Bermuda','Oman','Saudi_Arabia','Greenland','Sweeden', 'South_Africa'];
 
 const imagesData = {
     Bahamas: {
@@ -161,6 +172,7 @@ const imagesData = {
             "Wise_Images/image4.jpg",
             "Wise_Images/image5.jpg",
             "Wise_Images/image6.jpg",
+            // Добавьте пути к изображениям для каждой компании по аналогии
         ]
     },
     Coinjar: [
@@ -168,11 +180,13 @@ const imagesData = {
         "Coinjar_Images/coinjar2.jpg",
         "Coinjar_Images/coinjar3.jpg",
         "Coinjar_Images/coinjar4.jpg",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     Newton: [
         "Newton_Images/1.png",
         "Newton_Images/2.png",
         "Newton_Images/3.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     Safewirepay: [
         "Safewirepay_Images/1.png",
@@ -180,6 +194,7 @@ const imagesData = {
         "Safewirepay_Images/3.png",
         "Safewirepay_Images/4.png",
         "Safewirepay_Images/5.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     NDAX: [
         "Ndax_Images/Ndax1.JPG",
@@ -188,6 +203,7 @@ const imagesData = {
         "Ndax_Images/Ndax4.JPG",
         "Ndax_Images/Ndax5.JPG",
         "Ndax_Images/Ndax6.JPG",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     Banxa: [
         "Banxa_Images/image.png",
@@ -198,46 +214,55 @@ const imagesData = {
         "Banxa_Images/image5.png",
         "Banxa_Images/image6.png",
         "Banxa_Images/image7.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     Rampnetwork: [
         "Rampnetwork_Images/image.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
-    Easypayments: [
+    Easypayments : [
         "Easypayments_Images/1.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
-    Bybit: [
+     Bybit : [
         "ByBit_Images/image.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
-    CashPlus: [
+    Bybit : [
         "CashPlus_Images/image.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
-    Coingira: [
+    Coingira : [
         "Coingira_Images/Coingira.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     BitGet: [
         "BitGet_Images/1.png",
         "BitGet_Images/2.png",
         "BitGet_Images/3.png",
         "BitGet_Images/4.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
-    Kraken: [
-        "Kraken_Images/Kraken UK 1.png",
-        "Kraken_Images/Kraken UK 2.png",
-        "Kraken_Images/Kraken UK 3.png",
-        "Kraken_Images/Kraken UK 4.png",
-        "Kraken_Images/Kraken UK 5.png",
-        "Kraken_Images/Kraken UK 6.png",
-        "Kraken_Images/Kraken UK 7.png",
-        "Kraken_Images/Kraken UK 8.png",
-        "Kraken_Images/Kraken UK 9.png",
+     Kraken: [
+         "Kraken_Images/Kraken UK 1.png",
+         "Kraken_Images/Kraken UK 2.png",
+         "Kraken_Images/Kraken UK 3.png",
+         "Kraken_Images/Kraken UK 4.png",
+         "Kraken_Images/Kraken UK 5.png",
+         "Kraken_Images/Kraken UK 6.png",
+         "Kraken_Images/Kraken UK 7.png",
+         "Kraken_Images/Kraken UK 8.png",
+         "Kraken_Images/Kraken UK 9.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    // Добавьте изображения для каждой компании по аналогии
 };
 
 countriesWithCommonWiseImages.forEach(country => {
     if (!imagesData[country]) {
         imagesData[country] = {};
     }
-
+    
     if (!imagesData[country].Wise) {
         imagesData[country].Wise = [];
     }
@@ -247,6 +272,7 @@ countriesWithCommonWiseImages.forEach(country => {
         "WiseAll_Images/image1.png",
         "WiseAll_Images/image2.png",
         "WiseAll_Images/image3.png"
+        // Добавьте пути к изображениям для каждой компании по аналогии
     );
 });
 
@@ -267,7 +293,7 @@ function displayImages(images) {
 
             modal.style.display = "block";
             modalImg.src = this.src;
-            modalImg.style.width = "auto";
+            modalImg.style.width = "auto"; // Адаптивный размер
 
             modalClose.onclick = function () {
                 modal.style.display = "none";
@@ -282,6 +308,7 @@ function displayImages(images) {
     });
 }
 
+// Функция для отображения ссылок на PDF-файлы
 function displayPDFLinks(pdfFiles) {
     const pdfContainer = document.getElementById("pdfFiles");
     if (!pdfContainer) {
@@ -292,8 +319,8 @@ function displayPDFLinks(pdfFiles) {
     pdfFiles.forEach(function (pdfUrl) {
         const link = document.createElement("a");
         link.href = pdfUrl;
-        const fileName = pdfUrl.split('/').pop();
-        link.textContent = fileName;
+        const fileName = pdfUrl.split('/').pop(); // Получаем имя файла из URL
+        link.textContent = fileName; // Используем имя файла как текст ссылки
         link.classList.add("btn", "btn-outline-danger", "mr-2", "mb-2");
         link.setAttribute("target", "_blank");
 
@@ -301,69 +328,106 @@ function displayPDFLinks(pdfFiles) {
     });
 }
 
+
+
+// Обработчик события для выбора компании
+companySelect.addEventListener("change", function () {
+    // Остальной ваш код для получения информации о компании и т.д.
+
+    const pdfsForCompany = pdfsData[selectedCompany];
+
+    if (pdfsForCompany) {
+        displayPDFLinks(pdfsForCompany);
+    } else {
+        const pdfContainer = document.getElementById("pdfFiles");
+        pdfContainer.innerHTML = "";
+    }
+});
+
+// Массив данных для pdf файлоы
 const pdfsData = {
     Neteller: [
         "PDFs/Countries in which it does not work.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
-    Skrill: [
+     Skrill: [
         "PDFs/Countries in which it does not work Skrill.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     Woltbit: [
         "PDFs/Woltbit Guide.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
-    Safewirepay: [
+     Safewirepay: [
         "PDFs/Private person KYC form.pdf",
-        "PDFs/Private person KYC form - EXAMPLE.pdf",
-        "PDFs/Safewirepay step by step guide.pdf",
+         "PDFs/Private person KYC form - EXAMPLE.pdf",
+         "PDFs/Safewirepay step by step guide.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
-    Revolut: [
+     Revolut: [
         "PDFs/Revolut.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     NDAX: [
         "PDFs/Interac Deposit Steps.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     CoinPAPA: [
         "PDFs/CoinPAPA questions for Video Call.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     Inserex: [
         "PDFs/Insirex step-by-step guide.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     TapBank: [
         "PDFs/Tap Questionaire.pdf",
         "PDFs/Compliance SOW SOF Table.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     Paybis: [
         "PDFs/Paybis.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     AnyCoinDirect: [
         "PDFs/AnyCoinDirect Steps.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     Easypayments: [
         "PDFs/Easypayments.ca.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
+     Easypayments: [
         "PDFs/TheVoucher.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     Coingira: [
         "PDFs/Coingira.pdf",
         "PDFs/Coingira Regular KYC List.pdf",
         "PDFs/Coingira Exception KYC List.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     Roobic: [
         "PDFs/Roobic Q&A.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+    // Добавьте pdf файлы для каждой компании по аналогии
 };
 
+// Добавление текста для каждой компании
 const textData = {
-    Simplex: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
-    Adv2: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
-    Advcash: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
-    Bit2me: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
-    Bestwallet: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
-    Skrill: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
-    Bybit: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
-    Paybis: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
-    MoonPay: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed.",
+    Simplex: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Adv2: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Advcash: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Bit2me: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Bestwallet: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Skrill: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Bybit: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    Paybis: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
+    MoonPay: "The only way to try these solutions - is to open WISE account personally, fund it in EUR and then use the virtual card on the payment solutions listed. ",
     Safewirepay: "<a href='https://safewirepay.com/'>Visit Safewirepay website</a>",
     The_Voucher: "<a href='https://uiservices.vouchers-shops.com/(S(3gpp3a1iy3vg2stjkzltg5vn))/public/voucher/Product.aspx?merchantId=9412929&Item=7&Order=&Brand=J24001&AIID=10&VoucherType=&HPP=K+qscHXoDyaqDml5t+akLH1XlOpgjcoP0xHXMX9KSYM='>Visit TheVoucher website</a>",
+    // Добавьте текст для каждой компании по аналогии
 };
 
 document.querySelector(".close").addEventListener("click", function () {

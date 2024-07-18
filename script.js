@@ -397,6 +397,10 @@ const pdfsData = {
         "PDFs/Easypayments.ca.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+     Easypayments: [
+        "PDFs/TheVoucher.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     Coingira: [
         "PDFs/Coingira.pdf",
         "PDFs/Coingira Regular KYC List.pdf",

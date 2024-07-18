@@ -105,7 +105,7 @@ const companyInfo = {
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
             The_Voucher : {
-                greenBoxInfo: "Transaction amount: from $500+. Permitted age: not specified",
+                greenBoxInfo: "Transaction amount: from $500+. Permitted age: age limit 75 yo",
                 yellowBoxInfo: "Very, very important *** always to write beneficiary CICO DIGITAL SOLUTIONS*** otherwise, funds go back to the client in the next day.",
                 redBoxInfo: "*KYC up to 50k is ID, POA and POP, above 50k also  BS of one month and once reached 100k SOF needed. Once wire is received, client gets Voucher redeem code on his email from provider. We send him redeem page, where he enters the code on the bottom and fills again the details like on this page. Provider will confirm that Voucher was successfully redeemed.",
             },
@@ -172,7 +172,7 @@ const companyInfo = {
                 redBoxInfo: "For account verification: Level 1: Phone & ID Level 2: POA Level 3: Video",
             },
             The_Voucher : {
-                greenBoxInfo: "Transaction amount: from $500+. Permitted age: not specified",
+                greenBoxInfo: "Transaction amount: from $500+. Permitted age: age limit 75 yo",
                 yellowBoxInfo: "Very, very important *** always to write beneficiary CICO DIGITAL SOLUTIONS*** otherwise, funds go back to the client in the next day.",
                 redBoxInfo: "*KYC up to 50k is ID, POA and POP, above 50k also  BS of one month and once reached 100k SOF needed. Once wire is received, client gets Voucher redeem code on his email from provider. We send him redeem page, where he enters the code on the bottom and fills again the details like on this page. Provider will confirm that Voucher was successfully redeemed.",
             },

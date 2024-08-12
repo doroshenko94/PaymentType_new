@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","The_Voucher","The_Kingdom_Bank"],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","The_Voucher","The_Kingdom_Bank", "Sepa_Swift_Sortcode"],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
@@ -109,6 +109,11 @@ const companyInfo = {
                 yellowBoxInfo: "Very, very important *** always to write beneficiary CICO DIGITAL SOLUTIONS*** otherwise, funds go back to the client in the next day.",
                 redBoxInfo: "*KYC up to 50k is ID, POA and POP, above 50k also  BS of one month and once reached 100k SOF needed. Once wire is received, client gets Voucher redeem code on his email from provider. We send him redeem page, where he enters the code on the bottom and fills again the details like on this page. Provider will confirm that Voucher was successfully redeemed.",
             },
+             Sepa_Swift_Sortcode : {
+                greenBoxInfo: "Most of the process is automated. We provide you with wallets to give to your clients. *Client must understand it's his/her wallet address at your platform",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -180,6 +185,11 @@ const companyInfo = {
                 greenBoxInfo: "Transaction amount: 100-100.000. Permitted age: 18 and up to not specified",
                 yellowBoxInfo: "The client opens an Individual account: SWIFT and SEPA bank transfers are available. The clinet can pay 50EUR to have a VBAN",
                 redBoxInfo: "For account verification: ID, POA, LC, Questions about expected volume and source of wealth (no DOCs for SOF needed)",
+            },
+            Sepa_Swift_Sortcode : {
+                greenBoxInfo: "Most of the process is automated. We provide you with wallets to give to your clients. *Client must understand it's his/her wallet address at your platform",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         },
     },

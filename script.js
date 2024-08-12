@@ -401,6 +401,10 @@ const pdfsData = {
         "PDFs/TheVoucher.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
+    Sepa_Swift_Sortcode: [
+        "PDFs/SEPA_SWIFT_SORTCODE.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
     Coingira: [
         "PDFs/Coingira.pdf",
         "PDFs/Coingira Regular KYC List.pdf",

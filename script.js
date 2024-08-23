@@ -182,6 +182,13 @@ const imagesData = {
         "Coinjar_Images/coinjar4.jpg",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+     First_direct_bank: [
+        "First_direct_bank/1.jpg",
+        "First_direct_bank/2.jpg",
+        "First_direct_bank/3.jpg",
+        "First_direct_bank/4.jpg",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     Newton: [
         "Newton_Images/1.png",
         "Newton_Images/2.png",

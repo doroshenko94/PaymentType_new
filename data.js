@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","The_Voucher","The_Kingdom_Bank", "Sepa_Swift_Sortcode","First_direct_bank"],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","The_Voucher","The_Kingdom_Bank", "Sepa_Swift_Sortcode","First_direct_bank","Xapo",],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
@@ -198,6 +198,11 @@ const companyInfo = {
             },
             First_direct_bank : {
                 greenBoxInfo: "",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
+              Xapo : {
+                greenBoxInfo: "FEE IS $1000 USD ON FIRST TRANSACTION ",
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },

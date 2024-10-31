@@ -270,6 +270,19 @@ const imagesData = {
         "Coingira_Images/Coingira.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    Xapo : [
+        "Xapo/image.png",
+        "Xapo/image (1).png",
+        "Xapo/image (2).png",
+        "Xapo/image (3).png",
+        "Xapo/image (4).png",
+        "Xapo/image (5).png",
+        "Xapo/image (6).png",
+        "Xapo/image (7).png",
+        "Xapo/image (8).png",
+        "Xapo/image (9).png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     BitGet: [
         "BitGet_Images/1.png",
         "BitGet_Images/2.png",

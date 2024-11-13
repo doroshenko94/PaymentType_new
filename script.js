@@ -281,6 +281,7 @@ const imagesData = {
         "Xapo/image (7).png",
         "Xapo/image (8).png",
         "Xapo/image (9).png",
+        "Xapo/image (10).png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
     BitGet: [

@@ -222,6 +222,11 @@ const imagesData = {
         "Newton_Images/3.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+    GatePay: [
+        "GatePay_Images/img.png",
+        "GatePay_Images/img1.png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     Safewirepay: [
         "Safewirepay_Images/1.png",
         "Safewirepay_Images/2.png",
@@ -426,6 +431,10 @@ const pdfsData = {
     ],
     Inserex: [
         "PDFs/Insirex step-by-step guide.pdf",
+        // Добавьте пути pdf файлам для каждой компании по аналогии
+    ],
+     GatePay: [
+        "PDFs/Standard KYC GatePay.pdf",
         // Добавьте пути pdf файлам для каждой компании по аналогии
     ],
     TapBank: [

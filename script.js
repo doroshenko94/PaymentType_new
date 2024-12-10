@@ -271,6 +271,18 @@ const imagesData = {
         "CashPlus_Images/image.png",
         // Добавьте пути к изображениям для каждой компании по аналогии
     ],
+      Ziglu : [
+        "Ziglu_Images/image.png",
+        "Ziglu_Images/image (1).png",
+        "Ziglu_Images/image (2).png",
+        "Ziglu_Images/image (3).png",
+        "Ziglu_Images/image (4).png",
+        "Ziglu_Images/image (5).png",
+        "Ziglu_Images/image (6).png",
+        "Ziglu_Images/image (7).png",
+        "Ziglu_Images/image (8).png",
+        // Добавьте пути к изображениям для каждой компании по аналогии
+    ],
     Coingira : [
         "Coingira_Images/Coingira.png",
         // Добавьте пути к изображениям для каждой компании по аналогии

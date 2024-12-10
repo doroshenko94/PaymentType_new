@@ -1,6 +1,6 @@
 // data.js
 const companyOptions = {
-    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","The_Voucher","The_Kingdom_Bank", "Sepa_Swift_Sortcode","First_direct_bank","Xapo","GatePay",],
+    UK: ["Revolut", "Curve", "Zen","Banxa","Rampnetwork","BitGet","Paybis","Kraken","Inserex","Cryptopay","TapBank","AnyCoinDirect","The_Voucher","The_Kingdom_Bank", "Sepa_Swift_Sortcode","First_direct_bank","Xapo","GatePay","Ziglu",],
     Ireland: ["Revolut", "Zen","Crypto_com", "MEXC","Banxa","Rampnetwork","BitGet","Paybis","Binance","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Italy: ["Revolut", "Bintence_Wire", "Zen","MEXC","Banxa","Rampnetwork","BitGet","Cryptocom","Bybit","Cryptopay","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
     Denmark: ["Revolut", "Zen","MEXC","Adv2", "Advcash", "W1tty", "Bit2me","BestWallet", "Banxa","Rampnetwork","BitGet","Paybis","Binance","Kraken","Bitvavo","BTC_Direct","OKX","TapBank","AnyCoinDirect","Voucher_Coupon","The_Kingdom_Bank"],
@@ -119,6 +119,11 @@ const companyInfo = {
                 yellowBoxInfo: "",
                 redBoxInfo: "",
             },
+            Ziglu : {
+                greenBoxInfo: "You need to be off the phone and screen once it comes to the stage to verify the face with video, otherwise it would not allow to continue",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
+            },
         },
         "Big deposit": {
             Banxa: {
@@ -210,6 +215,11 @@ const companyInfo = {
                 greenBoxInfo: "Bank transfer to USDC. Support SEPA, SEPA Instant and for UK individuals Faster Payments. Support EEA countries (accept Bulgaria) and UK. Processing - Euro or GBP ",
                 yellowBoxInfo: "KYC: Up to 10,000 Euro accumulated - Standard KYC Email verification, Upload passport and liveness check. More than 10,000 Euro accumulated - Enhanced KYC -  Email verification, Upload passport, liveness check , Upload Proof of Address. bank statement and Source of funds documents.Maximum daily - 25.000 Euro. Maximum monthly  150,000 Euro. Maximum yearly 300,000 Euro. Minimum trx 2.000 Euro",
                 redBoxInfo: "You will get the USDC in the platform and can do withdrawal request T+1",
+            },
+            Ziglu : {
+                greenBoxInfo: "You need to be off the phone and screen once it comes to the stage to verify the face with video, otherwise it would not allow to continue",
+                yellowBoxInfo: "",
+                redBoxInfo: "",
             },
         },
     },

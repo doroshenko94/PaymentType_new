@@ -2696,5 +2696,3 @@ Denmark: {
     },
     
 };
-
-export { companyOptions, companyInfo };

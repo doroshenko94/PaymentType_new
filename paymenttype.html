@@ -4,35 +4,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment System Selector</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- jQuery --> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Bootstrap JavaScript --><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- jQuery --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" type="text/css" href="currency.css">
+    <script src="data.js"></script>
     <style>
-
-   #splash{
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-repeat: no-repeat;
-      z-index: 9999;
-  }
-  .main-interface {
-    display: none;
-    opacity: 0; /* Изначально устанавливаем нулевую прозрачность */
-    transition: opacity 0.5s; /* Добавляем переход для свойства opacity */
-}
-
-	    body {
-            padding-bottom: 60px; /* Размер отступа для футера */
+        #splash {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-repeat: no-repeat;
+            z-index: 9999;
         }
-        
+
+        .main-interface {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        body {
+            padding-bottom: 60px; /* Отступ под футер */
+        }
+
         .color-box {
             width: 100%;
             height: auto;
@@ -54,18 +57,6 @@
             border-color: #778899;
         }
 
-        .select-payment {
-            background: linear-gradient(to bottom, #00FF00, #FF0000);
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .select-payment::after {
-            border-top-color: white;
-        }
-
         .panel-heading {
             background-color: #f5f5f5;
             border-radius: 15px;
@@ -77,185 +68,316 @@
             padding: 10px;
         }
 
+        .payment-image {
+            width: 200px;
+            height: auto;
+            margin: 5px;
+            padding: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            filter: brightness(80%);
+            border-radius: 25px;
+        }
 
-	.payment-image {
-	    width: 200px; /* Адаптивная ширина изображений */
-	    height: auto;
-	    margin: 5px; /* Отступы между изображениями */
-	    padding: 5px;
-	    cursor: pointer;
-	    transition: transform 0.3s ease; /* Добавляем плавный переход */
-	    filter: brightness(80%); /* Применяем фильтр для изменения яркости изображения */
-	    border-radius: 25px;
-	}
-	
-	.payment-image:hover {
-	    transform: scale(1.1); /* Увеличиваем изображение при наведении */
-	    filter: brightness(100%); /* Применяем фильтр для изменения яркости изображения */
-	    border-radius: 25px;
-	}
+        .payment-image:hover {
+            transform: scale(1.1);
+            filter: brightness(100%);
+            border-radius: 25px;
+        }
 
-	    /* ... */
-	.modal {
-	    display: none;
-	    position: fixed;
-	    z-index: 1000;
-	    padding-top: 50px;
-	    left: 0;
-	    top: 0;
-	    width: 100%;
-	    height: 100%;
-	    overflow: auto;
-	    background-color: rgba(0, 0, 0, 0.9);
-	}
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
 
-	.modal-content {
-	    margin: auto;
-	    display: block;
-	    max-width: 90%; /* Ограничиваем ширину модального окна */
-	    max-height: 90vh; /* Ограничиваем высоту модального окна */
-	}
-	
-	.close {
-	    position: absolute;
-	    top: 15px;
-	    right: 35px;
-	    color: #f1f1f1;
-	    font-size: 40px;
-	    font-weight: bold;
-	    transition: 0.3s;
-	    cursor: pointer;
-	}
-	
-	.close:hover,
-	.close:focus {
-	    color: #bbb;
-	    text-decoration: none;
-	    cursor: pointer;
-	}
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90vh;
+        }
 
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Стили для кастомных дропдаунов (страны и типы платежей) */
+        .custom-dropdown {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .custom-dropdown-toggle {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        .custom-dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+            padding: 10px;
+            z-index: 9999; /* Повышаем z-index для предотвращения перекрытия */
+            width: 100%;
+        }
+
+        .custom-dropdown.open .custom-dropdown-menu {
+            display: block;
+        }
+
+        /* Сетка для стран */
+        .country-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .country-item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .country-item:hover {
+            background-color: #f0f0f0;
+        }
+
+        .country-flag {
+            width: 24px;
+            height: auto;
+            margin-right: 5px;
+        }
+
+        /* Сетка для типов платежей (динамически генерируем) */
+        .payment-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .payment-item {
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+
+        .payment-item:hover {
+            opacity: 0.8;
+        }
+
+        /* Раскрасим ряды по приоритетам: 
+           первые 3 зеленые, следующие 3 желтые, следующие 3 красные */
+        .payment-item.green-priority {
+            background-color: #d4edda;
+        }
+        .payment-item.yellow-priority {
+            background-color: #fff3cd;
+        }
+        .payment-item.red-priority {
+            background-color: #f8d7da;
+        }
+
+        /* Блоки с информацией в одну линию */
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap; /* Чтобы не переносились на другую строку */
+        }
+
+        .info-block {
+            flex: 0 0 32%;
+            margin-bottom: 10px;
+        }
+
+        @media(max-width: 768px) {
+            .info-block {
+                flex: 0 0 100%;
+                margin-bottom: 10px;
+            }
+            .info-row {
+                flex-wrap: wrap;
+            }
+        }
     </style>
 </head>
 <body>
 
 <div id="splash">
-        <img src="splash.gif" alt="splash">
+    <img src="splash.gif" alt="splash">
 </div>
-	
+
 <div id="main-content">
 
   <nav class="navbar navbar-dark bg-dark">
-	  <nav class="d-flex align-items-center">
-  <a class="navbar-brand" href="https://doroshenko94.github.io/PaymentType_new/paymenttype.html">
-    <img src="favicon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-    Payment Type
-  </a>
-    <div id="cryptoTickerContainer" style="overflow: hidden;">
-      <marquee id="cryptoTicker" behavior="scroll" direction="left" scrollamount="8"></marquee>
-    </div>
-    <a href="https://billing.keyphrase.info/client.html" class="btn btn-outline-info ml-3">Billing</a>
-    <a href="https://doroshenko94.github.io/PaymentType_new/bintence.html" class="btn btn-outline-success ml-3">Bintense</a>
+      <nav class="d-flex align-items-center">
+          <a class="navbar-brand" href="https://doroshenko94.github.io/PaymentType_new/paymenttype.html">
+            <img src="favicon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Payment Type
+          </a>
+          <div id="cryptoTickerContainer" style="overflow: hidden;">
+            <marquee id="cryptoTicker" behavior="scroll" direction="left" scrollamount="8"></marquee>
+          </div>
+          <a href="https://billing.keyphrase.info/client.html" class="btn btn-outline-info ml-3">Billing</a>
+          <a href="https://doroshenko94.github.io/PaymentType_new/bintence.html" class="btn btn-outline-success ml-3">Bintense</a>
+      </nav>
   </nav>
-</nav>
 
-
-	
 <div class="container-fluid mt-4">
-	<div class="row">
+    <div class="row">
+        <!-- Выбор страны -->
         <div class="col-md-4">
-    <h3>Select a country:</h3>
-    <select class="custom-select" id="countrySelect">
-        <option value="default">Select a country</option>
-        <option value="UK">UK</option>
-        <option value="Ireland">Ireland</option>
-        <option value="Italy">Italy</option>
-        <option value="Denmark">Denmark</option>
-        <option value="Malasiya">Malasiya</option>
-        <option value="Canada">Canada</option>
-        <option value="New_Zeland">New_Zeland</option>
-        <option value="Bermuda">Bermuda</option>
-        <option value="Switzerland">Switzerland</option>
-	<option value="Norway">Norway</option>
-	<option value="Bahamas">Bahamas</option>
-	<option value="Singapore">Singapore</option>
-	<option value="Hong_Kong">Hong_Kong</option>
-	<option value="Japan">Japan</option>
-	<option value="UAE">UAE</option>
-	<option value="Oman">Oman</option>
-	<option value="Saudi_Arabia">Saudi_Arabia</option>
-	<option value="Iceland">Iceland</option>
-	<option value="Greenland">Greenland</option>
-	<option value="Sweeden">Sweeden</option>
-	<option value="South_Africa">South_Africa</option>
-	<option value="Australia">Australia</option>
-	<option value="Croatia">Croatia</option>
-	<option value="Czech">Czech</option>
-	<option value="Slovakia">Slovakia</option>
-	<option value="Denmark">Denmark</option>
-    </select>
-</div>
+            <h3>Select a country:</h3>
+            <div class="custom-dropdown" id="countryDropdown">
+                <div class="custom-dropdown-toggle" id="selectedCountry">Select a country</div>
+                <div class="custom-dropdown-menu">
+                    <div class="country-grid">
+                        <div class="country-item" data-value="UK"><img class="country-flag" src="https://flagcdn.com/gb.svg" alt="UK">UK</div>
+                        <div class="country-item" data-value="Ireland"><img class="country-flag" src="https://flagcdn.com/ie.svg" alt="Ireland">Ireland</div>
+                        <div class="country-item" data-value="Italy"><img class="country-flag" src="https://flagcdn.com/it.svg" alt="Italy">Italy</div>
 
-<div class="col-md-4">
-    <h3>Select the type of transaction:</h3>
-    <div class="btn-group" role="group" id="transactionToggle">
-        <button type="button" class="btn btn-outline-success" data-value="STD">STD</button>
-        <button type="button" class="btn btn-outline-success" data-value="BIG DEPOSIT">BIG DEPOSIT</button>
+                        <div class="country-item" data-value="Denmark"><img class="country-flag" src="https://flagcdn.com/dk.svg" alt="Denmark">Denmark</div>
+                        <div class="country-item" data-value="Malasiya"><img class="country-flag" src="https://flagcdn.com/my.svg" alt="Malaysia">Malasiya</div>
+                        <div class="country-item" data-value="Canada"><img class="country-flag" src="https://flagcdn.com/ca.svg" alt="Canada">Canada</div>
+
+                        <div class="country-item" data-value="New_Zeland"><img class="country-flag" src="https://flagcdn.com/nz.svg" alt="New Zeland">New_Zeland</div>
+                        <div class="country-item" data-value="Bermuda"><img class="country-flag" src="https://flagcdn.com/bm.svg" alt="Bermuda">Bermuda</div>
+                        <div class="country-item" data-value="Switzerland"><img class="country-flag" src="https://flagcdn.com/ch.svg" alt="Switzerland">Switzerland</div>
+
+                        <div class="country-item" data-value="Norway"><img class="country-flag" src="https://flagcdn.com/no.svg" alt="Norway">Norway</div>
+                        <div class="country-item" data-value="Bahamas"><img class="country-flag" src="https://flagcdn.com/bs.svg" alt="Bahamas">Bahamas</div>
+                        <div class="country-item" data-value="Singapore"><img class="country-flag" src="https://flagcdn.com/sg.svg" alt="Singapore">Singapore</div>
+
+                        <div class="country-item" data-value="Hong_Kong"><img class="country-flag" src="https://flagcdn.com/hk.svg" alt="Hong Kong">Hong_Kong</div>
+                        <div class="country-item" data-value="Japan"><img class="country-flag" src="https://flagcdn.com/jp.svg" alt="Japan">Japan</div>
+                        <div class="country-item" data-value="UAE"><img class="country-flag" src="https://flagcdn.com/ae.svg" alt="UAE">UAE</div>
+
+                        <div class="country-item" data-value="Oman"><img class="country-flag" src="https://flagcdn.com/om.svg" alt="Oman">Oman</div>
+                        <div class="country-item" data-value="Saudi_Arabia"><img class="country-flag" src="https://flagcdn.com/sa.svg" alt="Saudi Arabia">Saudi_Arabia</div>
+                        <div class="country-item" data-value="Iceland"><img class="country-flag" src="https://flagcdn.com/is.svg" alt="Iceland">Iceland</div>
+
+                        <div class="country-item" data-value="Greenland"><img class="country-flag" src="https://flagcdn.com/gl.svg" alt="Greenland">Greenland</div>
+                        <div class="country-item" data-value="Sweeden"><img class="country-flag" src="https://flagcdn.com/se.svg" alt="Sweden">Sweeden</div>
+                        <div class="country-item" data-value="South_Africa"><img class="country-flag" src="https://flagcdn.com/za.svg" alt="South Africa">South_Africa</div>
+
+                        <div class="country-item" data-value="Australia"><img class="country-flag" src="https://flagcdn.com/au.svg" alt="Australia">Australia</div>
+                        <div class="country-item" data-value="Croatia"><img class="country-flag" src="https://flagcdn.com/hr.svg" alt="Croatia">Croatia</div>
+                        <div class="country-item" data-value="Czech"><img class="country-flag" src="https://flagcdn.com/cz.svg" alt="Czech">Czech</div>
+
+                        <div class="country-item" data-value="Slovakia"><img class="country-flag" src="https://flagcdn.com/sk.svg" alt="Slovakia">Slovakia</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Select the type of transaction:</h3>
+            <div class="btn-group" role="group" id="transactionToggle">
+                <button type="button" class="btn btn-outline-success" data-value="STD">STD</button>
+                <button type="button" class="btn btn-outline-success" data-value="Big deposit">BIG DEPOSIT</button>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Select the type of payment:</h3>
+            <div class="custom-dropdown" id="paymentDropdown">
+                <div class="custom-dropdown-toggle" id="selectedPayment">Select the type of payment</div>
+                <div class="custom-dropdown-menu" id="paymentMenu">
+                    <!-- Динамическое наполнение из data.js -->
+                    <div class="payment-grid" id="paymentGrid"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-  <div class="col-md-4">
-    <h3>Select the type of payment:</h3>
-    <select class="custom-select" id="companySelect" disabled>
-        <option value="default">Select the type of payment:</option>
-    </select>
-	</div>
-  </div>
-</div>
-
+<!-- Блоки информации в линию -->
 <div class="container-fluid mt-4">
-    <div class="color-box green-box" id="greenBox">
-        <div class="panel panel-default">
-            <div class="panel-heading">Information on the age and of the transaction</div>
-            <div class="panel-body" id="greenBoxInfo"></div>
+    <div class="info-row">
+        <div class="info-block">
+            <div class="color-box green-box" id="greenBox">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Information on the age and of the transaction</div>
+                    <div class="panel-body" id="greenBoxInfo"></div>
+                </div>
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="color-box yellow-box" id="yellowBox">
+                <div class="panel panel-default">
+                    <div class="panel-heading">More info</div>
+                    <div class="panel-body" id="yellowBoxCompanyInfo"></div>
+                </div>
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="color-box red-box" id="redBox">
+                <div class="panel panel-default">
+                    <div class="panel-heading">FYI</div>
+                    <div class="panel-body" id="redBoxCompanyInfo"></div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="color-box yellow-box" id="yellowBox">
-        <div class="panel panel-default">
-            <div class="panel-heading">More info</div>
-            <div class="panel-body" id="yellowBoxCompanyInfo"></div>
-        </div>
+
+    <!-- PDF Block -->
+    <div class="pdf-container" id="pdfFiles"></div>
+
+    <!-- Img`s Block -->
+    <div class="image-container" id="paymentImages"></div>
+
+    <!-- Модальное окно для изображений -->
+    <div class="modal" id="imageModal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
     </div>
-    <div class="color-box red-box" id="redBox">
-        <div class="panel panel-default">
-            <div class="panel-heading">FYI</div>
-            <div class="panel-body" id="redBoxCompanyInfo"></div>
-        </div>
-    </div>
 
-	<!-- PDF Block -->
-	<div class="pdf-container" id="pdfFiles"></div>
-
-	<!-- Img``s Block -->
-	<div class="image-container" id="paymentImages"></div>
-
-		<!-- Модальное окно для изображений -->
-		<div class="modal" id="imageModal">
-		<span class="close">&times;</span>
-		<img class="modal-content" id="modalImage">
-		</div>
-
-	<!-- Text Block -->
-	<div id="textContainer"></div>
-	
+    <!-- Text Block -->
+    <div id="textContainer"></div>
 </div>
 
-	<!-- Footer -->
-	<footer class="footer bg-dark text-white fixed-bottom">
-      <div class="container">
-          <span class="text-muted"> ©2023-2024. Payment Type. All Rights Reserved. </span>
-      </div>
-  </footer>
-</div>  
+<!-- Footer -->
+<footer class="footer bg-dark text-white fixed-bottom">
+  <div class="container">
+      <span class="text-muted"> ©2023-2024. Payment Type. All Rights Reserved. </span>
+  </div>
+</footer>
 
 <script>
     // Функция для скрытия сплэш-картинки и отображения основного контента
@@ -263,19 +385,17 @@
         var splash = document.getElementById("splash");
         var mainContent = document.getElementById("main-content");
 
-        // Скрыть сплэш-картинку
         splash.style.display = "none";
-        // Отобразить основное содержание
         mainContent.style.display = "block";
-	mainContent.style.opacity = 1;
+        mainContent.style.opacity = 1;
     }
 
-    // Вызвать функцию hideSplash через 3.5 секунды (3500 миллисекунд)
+    // Вызвать функцию hideSplash через 3.5 секунды
     setTimeout(hideSplash, 3500);
 </script>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script>
+<script>
+    // Скрипт для тикара крипты (остается как был)
     var isMouseDown = false;
     var startX;
     var scrollLeft;
@@ -284,35 +404,160 @@
     var tickerContainer = document.getElementById('cryptoTickerContainer');
 
     tickerContainer.addEventListener('mouseenter', function() {
-      ticker.stop(); // Останавливаем движущуюся строку при наведении курсора
+      ticker.stop();
     });
 
     tickerContainer.addEventListener('mouseleave', function() {
-      ticker.start(); // Возобновляем движущуюся строку после того, как курсор убран
+      ticker.start();
     });
 
     tickerContainer.addEventListener('mousedown', function(e) {
       isMouseDown = true;
       startX = e.pageX - tickerContainer.offsetLeft;
       scrollLeft = ticker.scrollLeft;
-      ticker.stop(); // Останавливаем движущуюся строку при удержании левой кнопки мыши
+      ticker.stop();
     });
 
     tickerContainer.addEventListener('mouseup', function() {
       isMouseDown = false;
-      ticker.start(); // Возобновляем движущуюся строку после того, как левая кнопка мыши отпущена
+      ticker.start();
     });
 
     tickerContainer.addEventListener('mousemove', function(e) {
       if (!isMouseDown) return;
       e.preventDefault();
       const x = e.pageX - tickerContainer.offsetLeft;
-      const walk = (x - startX) * 1; // Можете настроить скорость скроллинга, меняя множитель
+      const walk = (x - startX) * 1;
       ticker.scrollLeft = scrollLeft - walk;
     });
-  </script>
-<script type="module" src="script.js"></script> 
+</script>
+<script>
+    // Подключаем данные из data.js: companyOptions и companyInfo
+    // companyOptions[country] = [companies...]
+    // companyInfo[country][transactionType][company]
+
+    let selectedCountry = null;
+    let selectedTransactionType = null;
+
+    const countryDropdown = document.getElementById('countryDropdown');
+    const selectedCountryEl = document.getElementById('selectedCountry');
+
+    countryDropdown.addEventListener('click', function(e) {
+        // Клик по toggle или внутри меню
+        if(e.target.classList.contains('country-item')){
+            const country = e.target.getAttribute('data-value');
+            selectedCountryEl.textContent = country;
+            selectedCountry = country;
+            countryDropdown.classList.remove('open');
+            // После выбора страны сбросим Payment
+            populatePaymentOptions();
+        } else {
+            countryDropdown.classList.toggle('open');
+        }
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!countryDropdown.contains(e.target) && countryDropdown.classList.contains('open')) {
+            countryDropdown.classList.remove('open');
+        }
+    });
+
+    // Выбор транзакции
+    const transactionButtons = document.querySelectorAll('#transactionToggle button');
+    transactionButtons.forEach(btn => {
+        btn.addEventListener('click', function(){
+            selectedTransactionType = this.getAttribute('data-value');
+            // После выбора транзакции обновим список платежей
+            populatePaymentOptions();
+        });
+    });
+
+    const paymentDropdown = document.getElementById('paymentDropdown');
+    const selectedPaymentEl = document.getElementById('selectedPayment');
+    const paymentMenu = document.getElementById('paymentMenu');
+    const paymentGrid = document.getElementById('paymentGrid');
+
+    paymentDropdown.addEventListener('click', function(e) {
+        if(e.target.classList.contains('payment-item')){
+            const paymentType = e.target.getAttribute('data-value');
+            selectedPaymentEl.textContent = paymentType;
+            paymentDropdown.classList.remove('open');
+            // Здесь можно вызвать функцию отображения информации о выбранной компании
+            showCompanyInfo(paymentType);
+        } else {
+            paymentDropdown.classList.toggle('open');
+        }
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!paymentDropdown.contains(e.target) && paymentDropdown.classList.contains('open')) {
+            paymentDropdown.classList.remove('open');
+        }
+    });
+
+    function populatePaymentOptions() {
+        paymentGrid.innerHTML = '';
+        selectedPaymentEl.textContent = "Select the type of payment";
+        if(!selectedCountry || !selectedTransactionType) {
+            return; // Нужны и страна, и тип транзакции
+        }
+
+        // Получим список компаний для этой страны
+        const companies = companyOptions[selectedCountry];
+        if(!companies) return;
+
+        // Разобъем компании по приоритетным рядам
+        // Первые 3 - зеленые, следующие 3 - желтые, следующие 3 - красные
+        // Если компаний больше - продолжаем ротацию по цветам: green, yellow, red
+        companies.forEach((comp, i) => {
+            let className = '';
+            if(i < 3) className = 'green-priority';
+            else if(i < 6) className = 'yellow-priority';
+            else className = 'red-priority';
+
+            const item = document.createElement('div');
+            item.classList.add('payment-item', className);
+            item.setAttribute('data-value', comp);
+            item.textContent = comp;
+            paymentGrid.appendChild(item);
+        });
+    }
+
+    function showCompanyInfo(company) {
+        // Покажем информацию о компании из companyInfo
+        // Структура: companyInfo[country][transactionType][company]
+        if(!selectedCountry || !selectedTransactionType || !companyInfo[selectedCountry] || !companyInfo[selectedCountry][selectedTransactionType] || !companyInfo[selectedCountry][selectedTransactionType][company]) {
+            // Нет данных
+            document.getElementById('greenBoxInfo').textContent = '';
+            document.getElementById('yellowBoxCompanyInfo').textContent = '';
+            document.getElementById('redBoxCompanyInfo').textContent = '';
+            return;
+        }
+
+        const info = companyInfo[selectedCountry][selectedTransactionType][company];
+        document.getElementById('greenBoxInfo').textContent = info.greenBoxInfo || '';
+        document.getElementById('yellowBoxCompanyInfo').textContent = info.yellowBoxInfo || '';
+        document.getElementById('redBoxCompanyInfo').textContent = info.redBoxInfo || '';
+    }
+
+    // Модальное окно для изображения
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImage");
+    var closeBtn = document.getElementsByClassName("close")[0];
+
+    if(closeBtn) {
+        closeBtn.onclick = function() {
+          modal.style.display = "none";
+        }
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+</script>
 <script src="currency.js"></script>
-    
 </body>
 </html>

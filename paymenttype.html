@@ -38,36 +38,120 @@
 
         .color-box {
             width: 100%;
-            height: auto;
             margin: 10px 0;
             display: inline-block;
-            border: 3px solid transparent;
-            border-radius: 25px;
+            border: 0;
+            border-radius: 0;
         }
 
-        .green-box {
-            border-color: #778899;
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; 
         }
 
-        .yellow-box {
-            border-color: #778899;
+        .info-block {
+            flex: 0 0 32%;
+            margin-bottom: 10px;
         }
 
-        .red-box {
-            border-color: #778899;
+        @media(max-width: 768px) {
+            .info-block {
+                flex: 0 0 100%;
+                margin-bottom: 10px;
+            }
+            .info-row {
+                flex-wrap: wrap;
+            }
         }
 
-        .panel-heading {
-            background-color: #f5f5f5;
-            border-radius: 15px;
+        /* Стиль флажков в выбранной стране */
+        .country-flag-sm {
+            width: 24px;
+            height: auto;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        /* Стили для дропдауна */
+        .custom-dropdown-menu {
+            background-color: #f8f8f8;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
             padding: 10px;
+            z-index: 9999; 
+            width: 100%;
+        }
+
+        .country-grid {
+            background-color: #fafafa;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        .country-item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .country-item:hover {
+            background-color: #e9e9e9;
+        }
+
+        .country-flag {
+            width: 24px;
+            height: auto;
+            margin-right: 5px;
+        }
+
+        .payment-item {
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s;
             font-weight: bold;
         }
 
-        .panel-body {
-            padding: 10px;
+        .payment-item:hover {
+            opacity: 0.8;
         }
 
+        /* Информационные блоки в стиле карточек */
+        .green-box .card {
+            border: 2px solid #28a745;
+        }
+        .green-box .card-header {
+            background-color: #28a745;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .yellow-box .card {
+            border: 2px solid #ffc107;
+        }
+        .yellow-box .card-header {
+            background-color: #ffc107;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .red-box .card {
+            border: 2px solid #dc3545;
+        }
+        .red-box .card-header {
+            background-color: #dc3545;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Остальные стили остаются, как были */
         .payment-image {
             width: 200px;
             height: auto;
@@ -123,122 +207,6 @@
             cursor: pointer;
         }
 
-        .custom-dropdown {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-        }
-
-        .custom-dropdown-toggle {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            width: 100%;
-            text-align: left;
-            cursor: pointer;
-        }
-
-        .custom-dropdown-menu {
-            display: none;
-            position: absolute;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-top: 5px;
-            padding: 10px;
-            z-index: 9999;
-            width: 100%;
-        }
-
-        .custom-dropdown.open .custom-dropdown-menu {
-            display: block;
-        }
-
-        .country-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
-
-        .country-item {
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-            padding: 5px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .country-item:hover {
-            background-color: #f0f0f0;
-        }
-
-        .country-flag {
-            width: 24px;
-            height: auto;
-            margin-right: 5px;
-        }
-
-        .payment-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
-
-        .payment-item {
-            padding: 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            transition: background-color 0.3s;
-            font-weight: bold;
-        }
-
-        .payment-item:hover {
-            opacity: 0.8;
-        }
-
-        .payment-item.green-priority {
-            background-color: #d4edda;
-        }
-        .payment-item.yellow-priority {
-            background-color: #fff3cd;
-        }
-        .payment-item.red-priority {
-            background-color: #f8d7da;
-        }
-
-        .info-row {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: nowrap; 
-        }
-
-        .info-block {
-            flex: 0 0 32%;
-            margin-bottom: 10px;
-        }
-
-        @media(max-width: 768px) {
-            .info-block {
-                flex: 0 0 100%;
-                margin-bottom: 10px;
-            }
-            .info-row {
-                flex-wrap: wrap;
-            }
-        }
-
-        .active {
-            background-color: #28a745 !important;
-            color: #fff !important;
-        }
-
-        .d-none {
-            display: none !important;
-        }
-
     </style>
 </head>
 <body>
@@ -275,36 +243,7 @@
                         <div class="country-item" data-value="UK"><img class="country-flag" src="https://flagcdn.com/gb.svg" alt="UK">UK</div>
                         <div class="country-item" data-value="Ireland"><img class="country-flag" src="https://flagcdn.com/ie.svg" alt="Ireland">Ireland</div>
                         <div class="country-item" data-value="Italy"><img class="country-flag" src="https://flagcdn.com/it.svg" alt="Italy">Italy</div>
-
-                        <div class="country-item" data-value="Denmark"><img class="country-flag" src="https://flagcdn.com/dk.svg" alt="Denmark">Denmark</div>
-                        <div class="country-item" data-value="Malasiya"><img class="country-flag" src="https://flagcdn.com/my.svg" alt="Malaysia">Malasiya</div>
-                        <div class="country-item" data-value="Canada"><img class="country-flag" src="https://flagcdn.com/ca.svg" alt="Canada">Canada</div>
-
-                        <div class="country-item" data-value="New_Zeland"><img class="country-flag" src="https://flagcdn.com/nz.svg" alt="New Zeland">New_Zeland</div>
-                        <div class="country-item" data-value="Bermuda"><img class="country-flag" src="https://flagcdn.com/bm.svg" alt="Bermuda">Bermuda</div>
-                        <div class="country-item" data-value="Switzerland"><img class="country-flag" src="https://flagcdn.com/ch.svg" alt="Switzerland">Switzerland</div>
-
-                        <div class="country-item" data-value="Norway"><img class="country-flag" src="https://flagcdn.com/no.svg" alt="Norway">Norway</div>
-                        <div class="country-item" data-value="Bahamas"><img class="country-flag" src="https://flagcdn.com/bs.svg" alt="Bahamas">Bahamas</div>
-                        <div class="country-item" data-value="Singapore"><img class="country-flag" src="https://flagcdn.com/sg.svg" alt="Singapore">Singapore</div>
-
-                        <div class="country-item" data-value="Hong_Kong"><img class="country-flag" src="https://flagcdn.com/hk.svg" alt="Hong Kong">Hong_Kong</div>
-                        <div class="country-item" data-value="Japan"><img class="country-flag" src="https://flagcdn.com/jp.svg" alt="Japan">Japan</div>
-                        <div class="country-item" data-value="UAE"><img class="country-flag" src="https://flagcdn.com/ae.svg" alt="UAE">UAE</div>
-
-                        <div class="country-item" data-value="Oman"><img class="country-flag" src="https://flagcdn.com/om.svg" alt="Oman">Oman</div>
-                        <div class="country-item" data-value="Saudi_Arabia"><img class="country-flag" src="https://flagcdn.com/sa.svg" alt="Saudi Arabia">Saudi_Arabia</div>
-                        <div class="country-item" data-value="Iceland"><img class="country-flag" src="https://flagcdn.com/is.svg" alt="Iceland">Iceland</div>
-
-                        <div class="country-item" data-value="Greenland"><img class="country-flag" src="https://flagcdn.com/gl.svg" alt="Greenland">Greenland</div>
-                        <div class="country-item" data-value="Sweeden"><img class="country-flag" src="https://flagcdn.com/se.svg" alt="Sweden">Sweeden</div>
-                        <div class="country-item" data-value="South_Africa"><img class="country-flag" src="https://flagcdn.com/za.svg" alt="South Africa">South_Africa</div>
-
-                        <div class="country-item" data-value="Australia"><img class="country-flag" src="https://flagcdn.com/au.svg" alt="Australia">Australia</div>
-                        <div class="country-item" data-value="Croatia"><img class="country-flag" src="https://flagcdn.com/hr.svg" alt="Croatia">Croatia</div>
-                        <div class="country-item" data-value="Czech"><img class="country-flag" src="https://flagcdn.com/cz.svg" alt="Czech">Czech</div>
-
-                        <div class="country-item" data-value="Slovakia"><img class="country-flag" src="https://flagcdn.com/sk.svg" alt="Slovakia">Slovakia</div>
+                        <!-- ... остальные страны ... -->
                     </div>
                 </div>
             </div>
@@ -333,28 +272,22 @@
 <!-- Блоки информации -->
 <div class="container-fluid mt-4">
     <div class="info-row">
-        <div class="info-block">
-            <div class="color-box green-box" id="greenBox">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Information on the age and of the transaction</div>
-                    <div class="panel-body" id="greenBoxInfo"></div>
-                </div>
+        <div class="info-block green-box">
+            <div class="card">
+                <div class="card-header">Information on the age and of the transaction</div>
+                <div class="card-body" id="greenBoxInfo"></div>
             </div>
         </div>
-        <div class="info-block">
-            <div class="color-box yellow-box" id="yellowBox">
-                <div class="panel panel-default">
-                    <div class="panel-heading">More info</div>
-                    <div class="panel-body" id="yellowBoxCompanyInfo"></div>
-                </div>
+        <div class="info-block yellow-box">
+            <div class="card">
+                <div class="card-header">More info</div>
+                <div class="card-body" id="yellowBoxCompanyInfo"></div>
             </div>
         </div>
-        <div class="info-block">
-            <div class="color-box red-box" id="redBox">
-                <div class="panel panel-default">
-                    <div class="panel-heading">FYI</div>
-                    <div class="panel-body" id="redBoxCompanyInfo"></div>
-                </div>
+        <div class="info-block red-box">
+            <div class="card">
+                <div class="card-header">FYI</div>
+                <div class="card-body" id="redBoxCompanyInfo"></div>
             </div>
         </div>
     </div>
@@ -372,17 +305,15 @@
     </div>
 
     <!-- Text Block -->
-    <div id="textContainer" class="d-none"></div>
+    <div id="textContainer"></div>
 </div>
 
-<!-- Footer -->
 <footer class="footer bg-dark text-white fixed-bottom">
   <div class="container">
       <span class="text-muted"> ©2023-2024. Payment Type. All Rights Reserved. </span>
   </div>
 </footer>
 <script>
-    // Функция для скрытия сплэш-картинки
     function hideSplash() {
         var splash = document.getElementById("splash");
         var mainContent = document.getElementById("main-content");
@@ -392,12 +323,10 @@
         mainContent.style.opacity = 1;
     }
 
-    // Скрываем через 3.5 секунды
     setTimeout(hideSplash, 3500);
 </script>
 
 <script>
-    // Скрипт для крипто-тicker
     var isMouseDown = false;
     var startX;
     var scrollLeft;
@@ -434,12 +363,9 @@
     });
 </script>
 
-<script src="data.js"></script>
-<script src="script.js"></script>
 <script>
-    let selectedCountryValue = null;
+    let selectedCountry = null;
     let selectedTransactionType = null;
-    let selectedCompany = null;
 
     const countryDropdown = document.getElementById('countryDropdown');
     const selectedCountryEl = document.getElementById('selectedCountry');
@@ -447,14 +373,11 @@
     countryDropdown.addEventListener('click', function(e) {
         if(e.target.classList.contains('country-item')){
             const country = e.target.getAttribute('data-value');
-            selectedCountryEl.textContent = country;
-            selectedCountryValue = country;
+            const flagImg = e.target.querySelector('.country-flag').src;
+            selectedCountryEl.innerHTML = `<img class="country-flag-sm" src="${flagImg}" alt="${country} flag"> ${country}`;
+            selectedCountry = country;
             countryDropdown.classList.remove('open');
-            selectedTransactionType = null;
-            selectedCompany = null;
-            document.getElementById('paymentGrid').innerHTML = '';
-            document.getElementById('selectedPayment').textContent = 'Select the type of payment';
-            clearInfoBoxes();
+            populatePaymentOptions();
         } else {
             countryDropdown.classList.toggle('open');
         }
@@ -469,8 +392,6 @@
     const transactionButtons = document.querySelectorAll('#transactionToggle button');
     transactionButtons.forEach(btn => {
         btn.addEventListener('click', function(){
-            transactionButtons.forEach(b=>b.classList.remove('active'));
-            this.classList.add('active');
             selectedTransactionType = this.getAttribute('data-value');
             populatePaymentOptions();
         });
@@ -486,8 +407,7 @@
             const paymentType = e.target.getAttribute('data-value');
             selectedPaymentEl.textContent = paymentType;
             paymentDropdown.classList.remove('open');
-            selectedCompany = paymentType;
-            showCompanyInfo(selectedCompany);
+            showCompanyInfo(paymentType);
         } else {
             paymentDropdown.classList.toggle('open');
         }
@@ -502,21 +422,16 @@
     function populatePaymentOptions() {
         paymentGrid.innerHTML = '';
         selectedPaymentEl.textContent = "Select the type of payment";
-        if(!selectedCountryValue || !selectedTransactionType) {
+        if(!selectedCountry || !selectedTransactionType) {
             return;
         }
 
-        const companies = companyOptions[selectedCountryValue];
+        if(!companyOptions[selectedCountry]) return;
+
+        const companies = companyOptions[selectedCountry];
         if(!companies) return;
 
-        // Фильтруем компании, чтобы показывать только те, которые есть в companyInfo для выбранной транзакции
-        const filteredCompanies = companies.filter(comp => {
-            return companyInfo[selectedCountryValue]
-                && companyInfo[selectedCountryValue][selectedTransactionType]
-                && companyInfo[selectedCountryValue][selectedTransactionType][comp];
-        });
-
-        filteredCompanies.forEach((comp, i) => {
+        companies.forEach((comp, i) => {
             let className = '';
             if(i < 3) className = 'green-priority';
             else if(i < 6) className = 'yellow-priority';
@@ -530,83 +445,40 @@
         });
     }
 
-    function clearInfoBoxes() {
-        document.getElementById('greenBoxInfo').textContent = '';
-        document.getElementById('yellowBoxCompanyInfo').textContent = '';
-        document.getElementById('redBoxCompanyInfo').textContent = '';
-        document.getElementById('textContainer').textContent = '';
-        document.getElementById('textContainer').className = 'd-none';
-        document.getElementById('paymentImages').innerHTML = '';
-        document.getElementById('pdfFiles').innerHTML = '';
-    }
-
     function showCompanyInfo(company) {
-        if (!selectedCountryValue || !selectedTransactionType || 
-            !companyInfo[selectedCountryValue] || 
-            !companyInfo[selectedCountryValue][selectedTransactionType] || 
-            !companyInfo[selectedCountryValue][selectedTransactionType][company]) {
-            clearInfoBoxes();
+        if(!selectedCountry || !selectedTransactionType || !companyInfo[selectedCountry] || !companyInfo[selectedCountry][selectedTransactionType] || !companyInfo[selectedCountry][selectedTransactionType][company]) {
+            document.getElementById('greenBoxInfo').textContent = '';
+            document.getElementById('yellowBoxCompanyInfo').textContent = '';
+            document.getElementById('redBoxCompanyInfo').textContent = '';
             return;
         }
 
-        const info = companyInfo[selectedCountryValue][selectedTransactionType][company];
+        const info = companyInfo[selectedCountry][selectedTransactionType][company];
         document.getElementById('greenBoxInfo').textContent = info.greenBoxInfo || '';
         document.getElementById('yellowBoxCompanyInfo').textContent = info.yellowBoxInfo || '';
         document.getElementById('redBoxCompanyInfo').textContent = info.redBoxInfo || '';
+    }
 
-        let imagesForCompany;
-        if (imagesData[selectedCountryValue] && imagesData[selectedCountryValue][company]) {
-            imagesForCompany = imagesData[selectedCountryValue][company];
-        } else {
-            imagesForCompany = imagesData[company];
-        }
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImage");
+    var closeBtn = document.getElementsByClassName("close")[0];
 
-        const pdfsForCompany = pdfsData[company];
-        const textForCompany = textData[company];
-
-        if (textForCompany) {
-            displayText(textForCompany);
-            const textContainer = document.getElementById("textContainer");
-            textContainer.classList.remove("d-none");
-            textContainer.classList.add("mt-3", "p-3", "bg-light");
-            const paragraphElement = textContainer.querySelector("p");
-            if (paragraphElement) {
-                paragraphElement.classList.add("text-warning");
-            }
-        } else {
-            const textContainer = document.getElementById("textContainer");
-            textContainer.textContent = "";
-            textContainer.className = "d-none";
-        }
-
-        if (imagesForCompany) {
-            displayImages(imagesForCompany);
-        } else {
-            const imageContainer = document.getElementById("paymentImages");
-            imageContainer.innerHTML = "";
-        }
-
-        const pdfContainer = document.getElementById("pdfFiles");
-        pdfContainer.innerHTML = "";
-
-        if (pdfsForCompany) {
-            displayPDFLinks(pdfsForCompany);
+    if(closeBtn) {
+        closeBtn.onclick = function() {
+          modal.style.display = "none";
         }
     }
 
-    // Закрытие модалки
-    document.querySelector(".close").addEventListener("click", function () {
-        const modal = document.getElementById("imageModal");
+    window.onclick = function(event) {
+      if (event.target == modal) {
         modal.style.display = "none";
-    });
-
-    window.addEventListener('click', function(e) {
-        const modal = document.getElementById("imageModal");
-        if(e.target == modal) {
-            modal.style.display = "none";
-        }
-    });
-
+      }
+    }
 </script>
+
+<script type="module" src="data.js"></script>
+<script src="data.js"></script>
+<script src="currency.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

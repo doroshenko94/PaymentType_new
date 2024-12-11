@@ -10,7 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" type="text/css" href="currency.css">
-    <script src="data.js"></script>
+
     <style>
         #splash {
             width: 100%;
@@ -202,8 +202,7 @@
             opacity: 0.8;
         }
 
-        /* Раскрасим ряды по приоритетам: 
-           первые 3 зеленые, следующие 3 желтые, следующие 3 красные */
+        /* Раскрасим ряды по приоритетам */
         .payment-item.green-priority {
             background-color: #d4edda;
         }
@@ -218,7 +217,7 @@
         .info-row {
             display: flex;
             justify-content: space-between;
-            flex-wrap: nowrap; /* Чтобы не переносились на другую строку */
+            flex-wrap: nowrap; 
         }
 
         .info-block {
@@ -319,7 +318,6 @@
             <div class="custom-dropdown" id="paymentDropdown">
                 <div class="custom-dropdown-toggle" id="selectedPayment">Select the type of payment</div>
                 <div class="custom-dropdown-menu" id="paymentMenu">
-                    <!-- Динамическое наполнение из data.js -->
                     <div class="payment-grid" id="paymentGrid"></div>
                 </div>
             </div>
@@ -379,6 +377,11 @@
   </div>
 </footer>
 
+<!-- Подключаем сначала data.js -->
+<script type="module" src="data.js"></script>
+<!-- Затем currency.js -->
+<script src="currency.js"></script>
+
 <script>
     // Функция для скрытия сплэш-картинки и отображения основного контента
     function hideSplash() {
@@ -395,7 +398,7 @@
 </script>
 
 <script>
-    // Скрипт для тикара крипты (остается как был)
+    // Скрипт для тикара крипты
     var isMouseDown = false;
     var startX;
     var scrollLeft;
@@ -431,10 +434,14 @@
       ticker.scrollLeft = scrollLeft - walk;
     });
 </script>
+
+<!-- Основной скрипт, который использует companyOptions и companyInfo -->
 <script>
-    // Подключаем данные из data.js: companyOptions и companyInfo
-    // companyOptions[country] = [companies...]
-    // companyInfo[country][transactionType][company]
+    // Предполагается, что data.js экспортирует companyOptions, companyInfo в глобальную область (или через type=module).
+    // Если через module экспорт, нужно импортировать.
+    // Но по условию у пользователя data.js просто объявляет глобальные переменные.
+    // Убедитесь, что data.js объявляет companyOptions и companyInfo без export. 
+    // В таком случае они будут доступны глобально.
 
     let selectedCountry = null;
     let selectedTransactionType = null;
@@ -443,7 +450,6 @@
     const selectedCountryEl = document.getElementById('selectedCountry');
 
     countryDropdown.addEventListener('click', function(e) {
-        // Клик по toggle или внутри меню
         if(e.target.classList.contains('country-item')){
             const country = e.target.getAttribute('data-value');
             selectedCountryEl.textContent = country;
@@ -462,12 +468,10 @@
         }
     });
 
-    // Выбор транзакции
     const transactionButtons = document.querySelectorAll('#transactionToggle button');
     transactionButtons.forEach(btn => {
         btn.addEventListener('click', function(){
             selectedTransactionType = this.getAttribute('data-value');
-            // После выбора транзакции обновим список платежей
             populatePaymentOptions();
         });
     });
@@ -482,7 +486,6 @@
             const paymentType = e.target.getAttribute('data-value');
             selectedPaymentEl.textContent = paymentType;
             paymentDropdown.classList.remove('open');
-            // Здесь можно вызвать функцию отображения информации о выбранной компании
             showCompanyInfo(paymentType);
         } else {
             paymentDropdown.classList.toggle('open');
@@ -499,16 +502,12 @@
         paymentGrid.innerHTML = '';
         selectedPaymentEl.textContent = "Select the type of payment";
         if(!selectedCountry || !selectedTransactionType) {
-            return; // Нужны и страна, и тип транзакции
+            return;
         }
 
-        // Получим список компаний для этой страны
         const companies = companyOptions[selectedCountry];
         if(!companies) return;
 
-        // Разобъем компании по приоритетным рядам
-        // Первые 3 - зеленые, следующие 3 - желтые, следующие 3 - красные
-        // Если компаний больше - продолжаем ротацию по цветам: green, yellow, red
         companies.forEach((comp, i) => {
             let className = '';
             if(i < 3) className = 'green-priority';
@@ -524,10 +523,7 @@
     }
 
     function showCompanyInfo(company) {
-        // Покажем информацию о компании из companyInfo
-        // Структура: companyInfo[country][transactionType][company]
         if(!selectedCountry || !selectedTransactionType || !companyInfo[selectedCountry] || !companyInfo[selectedCountry][selectedTransactionType] || !companyInfo[selectedCountry][selectedTransactionType][company]) {
-            // Нет данных
             document.getElementById('greenBoxInfo').textContent = '';
             document.getElementById('yellowBoxCompanyInfo').textContent = '';
             document.getElementById('redBoxCompanyInfo').textContent = '';
@@ -540,7 +536,6 @@
         document.getElementById('redBoxCompanyInfo').textContent = info.redBoxInfo || '';
     }
 
-    // Модальное окно для изображения
     var modal = document.getElementById("imageModal");
     var modalImg = document.getElementById("modalImage");
     var closeBtn = document.getElementsByClassName("close")[0];
@@ -556,8 +551,7 @@
         modal.style.display = "none";
       }
     }
-
 </script>
-<script src="currency.js"></script>
+
 </body>
 </html>

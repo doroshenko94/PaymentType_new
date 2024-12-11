@@ -66,7 +66,7 @@
             border-top-right-radius: 15px;
         }
 
-        /* Иконки платежей */
+        /* Изображения платежей */
         .payment-image {
             width: 150px;
             height: 150px;
@@ -251,7 +251,7 @@
             display: none !important;
         }
 
-        /* Блок для изображений и PDF */
+        /* Блоки для изображений и PDF */
         .section-title {
             font-weight: bold;
             margin-top: 30px;
@@ -270,32 +270,6 @@
             justify-content: start;
             align-items: start;
         }
-
-        /* Стили для бегущей строки без marquee */
-        #cryptoTickerContainer {
-            width: 200px;
-            overflow: hidden;
-            position: relative;
-            height: 30px;
-            line-height: 30px;
-            color: #fff;
-            margin-left: 20px;
-        }
-
-        #cryptoTicker {
-            position: absolute;
-            white-space: nowrap;
-            animation: tickerScroll 10s linear infinite;
-        }
-
-        @keyframes tickerScroll {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(-100%);
-            }
-        }
     </style>
 </head>
 <body>
@@ -308,13 +282,20 @@
 <div id="main-content" style="display:none; opacity:0;">
   <!-- Шапка -->
   <nav class="navbar navbar-dark bg-dark">
-      <nav class="d-flex align-items-center">
+      <nav class="d-flex align-items-center w-100">
           <a class="navbar-brand" href="paymenttype.html">
             <img src="favicon.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" loading="lazy">
             Payment Type
           </a>
-          <div id="cryptoTickerContainer">
-            <div id="cryptoTicker">BTC: $30,000 | ETH: $1,900 | LTC: $100 ...</div>
+          <div id="cryptoTickerContainer" style="flex:1; overflow:hidden; margin:0 20px;">
+            <!-- Возвращаем бегущую строку (marquee) на всю доступную ширину -->
+            <marquee id="cryptoTicker" behavior="scroll" direction="left" scrollamount="8">
+              <span style="color:#ff0000;">BTC: $30,000</span> | 
+              <span style="color:#00ff00;">ETH: $1,900</span> | 
+              <span style="color:#0000ff;">LTC: $100</span> | 
+              <span style="color:#ffff00;">XRP: $0.50</span> | 
+              <span style="color:#ff00ff;">BCH: $250</span>
+            </marquee>
           </div>
           <a href="https://billing.keyphrase.info/client.html" class="btn btn-outline-info ml-3">Billing</a>
           <a href="bintence.html" class="btn btn-outline-success ml-3">Bintense</a>
@@ -351,7 +332,70 @@
                         <div class="country-item" data-value="Canada" data-flag="https://flagcdn.com/ca.svg">
                             <img class="country-flag" src="https://flagcdn.com/ca.svg" alt="Canada">Canada
                         </div>
-                        <!-- При необходимости добавляйте остальные страны аналогично -->
+
+                        <div class="country-item" data-value="New_Zeland" data-flag="https://flagcdn.com/nz.svg">
+                            <img class="country-flag" src="https://flagcdn.com/nz.svg" alt="New Zeland">New_Zeland
+                        </div>
+                        <div class="country-item" data-value="Bermuda" data-flag="https://flagcdn.com/bm.svg">
+                            <img class="country-flag" src="https://flagcdn.com/bm.svg" alt="Bermuda">Bermuda
+                        </div>
+                        <div class="country-item" data-value="Switzerland" data-flag="https://flagcdn.com/ch.svg">
+                            <img class="country-flag" src="https://flagcdn.com/ch.svg" alt="Switzerland">Switzerland
+                        </div>
+
+                        <div class="country-item" data-value="Norway" data-flag="https://flagcdn.com/no.svg">
+                            <img class="country-flag" src="https://flagcdn.com/no.svg" alt="Norway">Norway
+                        </div>
+                        <div class="country-item" data-value="Bahamas" data-flag="https://flagcdn.com/bs.svg">
+                            <img class="country-flag" src="https://flagcdn.com/bs.svg" alt="Bahamas">Bahamas
+                        </div>
+                        <div class="country-item" data-value="Singapore" data-flag="https://flagcdn.com/sg.svg">
+                            <img class="country-flag" src="https://flagcdn.com/sg.svg" alt="Singapore">Singapore
+                        </div>
+
+                        <div class="country-item" data-value="Hong_Kong" data-flag="https://flagcdn.com/hk.svg">
+                            <img class="country-flag" src="https://flagcdn.com/hk.svg" alt="Hong Kong">Hong_Kong
+                        </div>
+                        <div class="country-item" data-value="Japan" data-flag="https://flagcdn.com/jp.svg">
+                            <img class="country-flag" src="https://flagcdn.com/jp.svg" alt="Japan">Japan
+                        </div>
+                        <div class="country-item" data-value="UAE" data-flag="https://flagcdn.com/ae.svg">
+                            <img class="country-flag" src="https://flagcdn.com/ae.svg" alt="UAE">UAE
+                        </div>
+
+                        <div class="country-item" data-value="Oman" data-flag="https://flagcdn.com/om.svg">
+                            <img class="country-flag" src="https://flagcdn.com/om.svg" alt="Oman">Oman
+                        </div>
+                        <div class="country-item" data-value="Saudi_Arabia" data-flag="https://flagcdn.com/sa.svg">
+                            <img class="country-flag" src="https://flagcdn.com/sa.svg" alt="Saudi Arabia">Saudi_Arabia
+                        </div>
+                        <div class="country-item" data-value="Iceland" data-flag="https://flagcdn.com/is.svg">
+                            <img class="country-flag" src="https://flagcdn.com/is.svg" alt="Iceland">Iceland
+                        </div>
+
+                        <div class="country-item" data-value="Greenland" data-flag="https://flagcdn.com/gl.svg">
+                            <img class="country-flag" src="https://flagcdn.com/gl.svg" alt="Greenland">Greenland
+                        </div>
+                        <div class="country-item" data-value="Sweeden" data-flag="https://flagcdn.com/se.svg">
+                            <img class="country-flag" src="https://flagcdn.com/se.svg" alt="Sweden">Sweeden
+                        </div>
+                        <div class="country-item" data-value="South_Africa" data-flag="https://flagcdn.com/za.svg">
+                            <img class="country-flag" src="https://flagcdn.com/za.svg" alt="South Africa">South_Africa
+                        </div>
+
+                        <div class="country-item" data-value="Australia" data-flag="https://flagcdn.com/au.svg">
+                            <img class="country-flag" src="https://flagcdn.com/au.svg" alt="Australia">Australia
+                        </div>
+                        <div class="country-item" data-value="Croatia" data-flag="https://flagcdn.com/hr.svg">
+                            <img class="country-flag" src="https://flagcdn.com/hr.svg" alt="Croatia">Croatia
+                        </div>
+                        <div class="country-item" data-value="Czech" data-flag="https://flagcdn.com/cz.svg">
+                            <img class="country-flag" src="https://flagcdn.com/cz.svg" alt="Czech">Czech
+                        </div>
+
+                        <div class="country-item" data-value="Slovakia" data-flag="https://flagcdn.com/sk.svg">
+                            <img class="country-flag" src="https://flagcdn.com/sk.svg" alt="Slovakia">Slovakia
+                        </div>
                     </div>
                 </div>
             </div>
@@ -383,7 +427,6 @@
   <div class="container-fluid mt-4">
     <div class="info-row">
         <div class="info-block">
-            <!-- Заменили панель на карточку -->
             <div class="card border-success">
                 <div class="card-header bg-success text-white">Information on the age and of the transaction</div>
                 <div class="card-body" id="greenBoxInfo"></div>
@@ -460,11 +503,10 @@
 
     // Обработчик выбора страны
     countryDropdown.addEventListener('click', function(e) {
-        if(e.target.classList.contains('country-item') || e.target.closest('.country-item')){
-            let targetItem = e.target.classList.contains('country-item') ? e.target : e.target.closest('.country-item');
-            const country = targetItem.getAttribute('data-value');
-            const flagSrc = targetItem.getAttribute('data-flag');
-
+        const item = e.target.classList.contains('country-item') ? e.target : e.target.closest('.country-item');
+        if(item && item.classList.contains('country-item')){
+            const country = item.getAttribute('data-value');
+            const flagSrc = item.getAttribute('data-flag');
             selectedCountryEl.innerHTML = `<img src="${flagSrc}" class="country-flag" alt="${country}"> ${country}`;
             selectedCountryValue = country;
             countryDropdown.classList.remove('open');
@@ -474,7 +516,9 @@
             selectedPaymentEl.textContent = 'Select the type of payment';
             clearInfoBoxes();
         } else {
-            countryDropdown.classList.toggle('open');
+            if (!e.target.classList.contains('country-item')) {
+                countryDropdown.classList.toggle('open');
+            }
         }
     });
 

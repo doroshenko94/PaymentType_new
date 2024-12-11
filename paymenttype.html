@@ -288,14 +288,8 @@
             Payment Type
           </a>
           <div id="cryptoTickerContainer" style="flex:1; overflow:hidden; margin:0 20px;">
-            <!-- Возвращаем бегущую строку (marquee) на всю доступную ширину -->
-            <marquee id="cryptoTicker" behavior="scroll" direction="left" scrollamount="8">
-              <span style="color:#ff0000;">BTC: $30,000</span> | 
-              <span style="color:#00ff00;">ETH: $1,900</span> | 
-              <span style="color:#0000ff;">LTC: $100</span> | 
-              <span style="color:#ffff00;">XRP: $0.50</span> | 
-              <span style="color:#ff00ff;">BCH: $250</span>
-            </marquee>
+              <!-- Профессиональный горизонтальный тикер, обновляющийся из currency.js -->
+              <div id="cryptoTicker"></div>
           </div>
           <a href="https://billing.keyphrase.info/client.html" class="btn btn-outline-info ml-3">Billing</a>
           <a href="bintence.html" class="btn btn-outline-success ml-3">Bintense</a>
@@ -489,6 +483,7 @@
 
   <script src="data.js"></script>
   <script src="script.js"></script>
+  <script src="currency.js"></script>
   <script>
     let selectedCountryValue = null;
     let selectedTransactionType = null;

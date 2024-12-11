@@ -270,6 +270,32 @@
             justify-content: start;
             align-items: start;
         }
+
+        /* Анимация бегущей строки */
+        #cryptoTickerContainer {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            background-color: #343a40;
+            height: 40px;
+            line-height: 40px;
+            color: #ffffff;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            padding: 0 10px;
+        }
+
+        #cryptoTicker {
+            display: inline-block;
+            white-space: nowrap;
+            animation: ticker 20s linear infinite;
+        }
+
+        @keyframes ticker {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
     </style>
 </head>
 <body>
@@ -287,8 +313,7 @@
             <img src="favicon.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" loading="lazy">
             Payment Type
           </a>
-          <div id="cryptoTickerContainer" style="flex:1; overflow:hidden; margin:0 20px;">
-              <!-- Профессиональный горизонтальный тикер, обновляющийся из currency.js -->
+          <div id="cryptoTickerContainer">
               <div id="cryptoTicker"></div>
           </div>
           <a href="https://billing.keyphrase.info/client.html" class="btn btn-outline-info ml-3">Billing</a>

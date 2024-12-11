@@ -123,7 +123,6 @@
             cursor: pointer;
         }
 
-        /* Стили для кастомных дропдаунов (страны и типы платежей) */
         .custom-dropdown {
             position: relative;
             display: inline-block;
@@ -148,7 +147,7 @@
             border-radius: 5px;
             margin-top: 5px;
             padding: 10px;
-            z-index: 9999; /* Повышаем z-index для предотвращения перекрытия */
+            z-index: 9999;
             width: 100%;
         }
 
@@ -156,7 +155,6 @@
             display: block;
         }
 
-        /* Сетка для стран */
         .country-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -182,7 +180,6 @@
             margin-right: 5px;
         }
 
-        /* Сетка для типов платежей (динамически генерируем) */
         .payment-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -202,7 +199,6 @@
             opacity: 0.8;
         }
 
-        /* Раскрасим ряды по приоритетам */
         .payment-item.green-priority {
             background-color: #d4edda;
         }
@@ -213,7 +209,6 @@
             background-color: #f8d7da;
         }
 
-        /* Блоки с информацией в одну линию */
         .info-row {
             display: flex;
             justify-content: space-between;
@@ -234,6 +229,16 @@
                 flex-wrap: wrap;
             }
         }
+
+        .active {
+            background-color: #28a745 !important;
+            color: #fff !important;
+        }
+
+        .d-none {
+            display: none !important;
+        }
+
     </style>
 </head>
 <body>
@@ -325,7 +330,7 @@
     </div>
 </div>
 
-<!-- Блоки информации в линию -->
+<!-- Блоки информации -->
 <div class="container-fluid mt-4">
     <div class="info-row">
         <div class="info-block">
@@ -367,7 +372,7 @@
     </div>
 
     <!-- Text Block -->
-    <div id="textContainer"></div>
+    <div id="textContainer" class="d-none"></div>
 </div>
 
 <!-- Footer -->
@@ -377,7 +382,7 @@
   </div>
 </footer>
 <script>
-    // Функция для скрытия сплэш-картинки и отображения основного контента
+    // Функция для скрытия сплэш-картинки
     function hideSplash() {
         var splash = document.getElementById("splash");
         var mainContent = document.getElementById("main-content");
@@ -387,12 +392,12 @@
         mainContent.style.opacity = 1;
     }
 
-    // Вызвать функцию hideSplash через 3.5 секунды
+    // Скрываем через 3.5 секунды
     setTimeout(hideSplash, 3500);
 </script>
 
 <script>
-    // Скрипт для тикара крипты
+    // Скрипт для крипто-тicker
     var isMouseDown = false;
     var startX;
     var scrollLeft;
@@ -429,16 +434,12 @@
     });
 </script>
 
-<!-- Основной скрипт, который использует companyOptions и companyInfo -->
+<script src="data.js"></script>
+<script src="script.js"></script>
 <script>
-    // Предполагается, что data.js экспортирует companyOptions, companyInfo в глобальную область (или через type=module).
-    // Если через module экспорт, нужно импортировать.
-    // Но по условию у пользователя data.js просто объявляет глобальные переменные.
-    // Убедитесь, что data.js объявляет companyOptions и companyInfo без export. 
-    // В таком случае они будут доступны глобально.
-
-    let selectedCountry = null;
+    let selectedCountryValue = null;
     let selectedTransactionType = null;
+    let selectedCompany = null;
 
     const countryDropdown = document.getElementById('countryDropdown');
     const selectedCountryEl = document.getElementById('selectedCountry');
@@ -447,10 +448,13 @@
         if(e.target.classList.contains('country-item')){
             const country = e.target.getAttribute('data-value');
             selectedCountryEl.textContent = country;
-            selectedCountry = country;
+            selectedCountryValue = country;
             countryDropdown.classList.remove('open');
-            // После выбора страны сбросим Payment
-            populatePaymentOptions();
+            selectedTransactionType = null;
+            selectedCompany = null;
+            document.getElementById('paymentGrid').innerHTML = '';
+            document.getElementById('selectedPayment').textContent = 'Select the type of payment';
+            clearInfoBoxes();
         } else {
             countryDropdown.classList.toggle('open');
         }
@@ -465,6 +469,8 @@
     const transactionButtons = document.querySelectorAll('#transactionToggle button');
     transactionButtons.forEach(btn => {
         btn.addEventListener('click', function(){
+            transactionButtons.forEach(b=>b.classList.remove('active'));
+            this.classList.add('active');
             selectedTransactionType = this.getAttribute('data-value');
             populatePaymentOptions();
         });
@@ -480,7 +486,8 @@
             const paymentType = e.target.getAttribute('data-value');
             selectedPaymentEl.textContent = paymentType;
             paymentDropdown.classList.remove('open');
-            showCompanyInfo(paymentType);
+            selectedCompany = paymentType;
+            showCompanyInfo(selectedCompany);
         } else {
             paymentDropdown.classList.toggle('open');
         }
@@ -495,14 +502,21 @@
     function populatePaymentOptions() {
         paymentGrid.innerHTML = '';
         selectedPaymentEl.textContent = "Select the type of payment";
-        if(!selectedCountry || !selectedTransactionType) {
+        if(!selectedCountryValue || !selectedTransactionType) {
             return;
         }
 
-        const companies = companyOptions[selectedCountry];
+        const companies = companyOptions[selectedCountryValue];
         if(!companies) return;
 
-        companies.forEach((comp, i) => {
+        // Фильтруем компании, чтобы показывать только те, которые есть в companyInfo для выбранной транзакции
+        const filteredCompanies = companies.filter(comp => {
+            return companyInfo[selectedCountryValue]
+                && companyInfo[selectedCountryValue][selectedTransactionType]
+                && companyInfo[selectedCountryValue][selectedTransactionType][comp];
+        });
+
+        filteredCompanies.forEach((comp, i) => {
             let className = '';
             if(i < 3) className = 'green-priority';
             else if(i < 6) className = 'yellow-priority';
@@ -516,39 +530,83 @@
         });
     }
 
+    function clearInfoBoxes() {
+        document.getElementById('greenBoxInfo').textContent = '';
+        document.getElementById('yellowBoxCompanyInfo').textContent = '';
+        document.getElementById('redBoxCompanyInfo').textContent = '';
+        document.getElementById('textContainer').textContent = '';
+        document.getElementById('textContainer').className = 'd-none';
+        document.getElementById('paymentImages').innerHTML = '';
+        document.getElementById('pdfFiles').innerHTML = '';
+    }
+
     function showCompanyInfo(company) {
-        if(!selectedCountry || !selectedTransactionType || !companyInfo[selectedCountry] || !companyInfo[selectedCountry][selectedTransactionType] || !companyInfo[selectedCountry][selectedTransactionType][company]) {
-            document.getElementById('greenBoxInfo').textContent = '';
-            document.getElementById('yellowBoxCompanyInfo').textContent = '';
-            document.getElementById('redBoxCompanyInfo').textContent = '';
+        if (!selectedCountryValue || !selectedTransactionType || 
+            !companyInfo[selectedCountryValue] || 
+            !companyInfo[selectedCountryValue][selectedTransactionType] || 
+            !companyInfo[selectedCountryValue][selectedTransactionType][company]) {
+            clearInfoBoxes();
             return;
         }
 
-        const info = companyInfo[selectedCountry][selectedTransactionType][company];
+        const info = companyInfo[selectedCountryValue][selectedTransactionType][company];
         document.getElementById('greenBoxInfo').textContent = info.greenBoxInfo || '';
         document.getElementById('yellowBoxCompanyInfo').textContent = info.yellowBoxInfo || '';
         document.getElementById('redBoxCompanyInfo').textContent = info.redBoxInfo || '';
-    }
 
-    var modal = document.getElementById("imageModal");
-    var modalImg = document.getElementById("modalImage");
-    var closeBtn = document.getElementsByClassName("close")[0];
+        let imagesForCompany;
+        if (imagesData[selectedCountryValue] && imagesData[selectedCountryValue][company]) {
+            imagesForCompany = imagesData[selectedCountryValue][company];
+        } else {
+            imagesForCompany = imagesData[company];
+        }
 
-    if(closeBtn) {
-        closeBtn.onclick = function() {
-          modal.style.display = "none";
+        const pdfsForCompany = pdfsData[company];
+        const textForCompany = textData[company];
+
+        if (textForCompany) {
+            displayText(textForCompany);
+            const textContainer = document.getElementById("textContainer");
+            textContainer.classList.remove("d-none");
+            textContainer.classList.add("mt-3", "p-3", "bg-light");
+            const paragraphElement = textContainer.querySelector("p");
+            if (paragraphElement) {
+                paragraphElement.classList.add("text-warning");
+            }
+        } else {
+            const textContainer = document.getElementById("textContainer");
+            textContainer.textContent = "";
+            textContainer.className = "d-none";
+        }
+
+        if (imagesForCompany) {
+            displayImages(imagesForCompany);
+        } else {
+            const imageContainer = document.getElementById("paymentImages");
+            imageContainer.innerHTML = "";
+        }
+
+        const pdfContainer = document.getElementById("pdfFiles");
+        pdfContainer.innerHTML = "";
+
+        if (pdfsForCompany) {
+            displayPDFLinks(pdfsForCompany);
         }
     }
 
-    window.onclick = function(event) {
-      if (event.target == modal) {
+    // Закрытие модалки
+    document.querySelector(".close").addEventListener("click", function () {
+        const modal = document.getElementById("imageModal");
         modal.style.display = "none";
-      }
-    }
+    });
+
+    window.addEventListener('click', function(e) {
+        const modal = document.getElementById("imageModal");
+        if(e.target == modal) {
+            modal.style.display = "none";
+        }
+    });
+
 </script>
-<script type="module" src="data.js"></script>
-<script src="data.js"></script>
-<script src="currency.js"></script>
-<script src="script.js"></script>
 </body>
 </html>
